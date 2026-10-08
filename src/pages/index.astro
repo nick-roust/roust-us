@@ -1,0 +1,12 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import SectionCard from '../components/SectionCard.astro';
+---
+<SiteLayout title="roust.us" description="A personal website for projects, developer tools and labs.">
+  <p>A personal website organized around projects, developer tools and labs.</p>
+  <div class="cards">
+    <SectionCard href="/projects" title="Projects" description="Project pages, starting with PaymentGate." />
+    <SectionCard href="/tools" title="Developer Tools" description="A home for developer tools, starting with the BIK directory." />
+    <SectionCard href="/labs" title="Labs" description="Pages for Fake Bank and Fake Shop." />
+  </div>
+</SiteLayout>

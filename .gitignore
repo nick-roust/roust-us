@@ -1,0 +1,11 @@
+node_modules/
+.astro/
+dist/
+# Хранить исходные банковские файлы локально; не добавлять XML и ZIP в Git.
+*.xml
+*.zip
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store

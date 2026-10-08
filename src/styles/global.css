@@ -1,0 +1,29 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #17212b;
+  background: #f6f7f9;
+  line-height: 1.6;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: #174e91; text-underline-offset: 0.2em; }
+a:hover { text-decoration-thickness: 0.15em; }
+a:focus-visible { outline: 3px solid #174e91; outline-offset: 4px; }
+.site-header, main, footer { max-width: 68rem; margin: auto; padding: 1.5rem; }
+.site-header { display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: center; border-bottom: 1px solid #c5ced8; }
+.brand { font-size: 1.25rem; font-weight: 700; }
+nav { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; }
+nav a { padding: 0.25rem 0; }
+nav a[aria-current="page"] { font-weight: 700; }
+main { min-height: 65vh; padding-block: 3rem; }
+h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.2; margin-top: 0; }
+h2 { font-size: 1.35rem; line-height: 1.3; }
+p { max-width: 65ch; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: 1rem; margin-top: 2rem; }
+.card { background: #fff; border: 1px solid #c5ced8; border-radius: 0.5rem; padding: 1.5rem; }
+.card h2 { margin-top: 0; }
+.card p { margin-bottom: 0; }
+footer { border-top: 1px solid #c5ced8; color: #43515e; font-size: 0.9rem; }
+.skip-link { position: absolute; top: 0.5rem; left: 1rem; padding: 0.5rem 1rem; background: #fff; transform: translateY(-200%); }
+.skip-link:focus { transform: translateY(0); }

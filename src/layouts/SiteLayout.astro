@@ -1,0 +1,31 @@
+---
+import Navigation from '../components/Navigation.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+}
+const { title, description } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title} · roust.us</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="/">roust.us</a>
+      <Navigation />
+    </header>
+    <main id="main" tabindex="-1">
+      <h1>{title}</h1>
+      <slot />
+    </main>
+    <footer>roust.us · Projects, Developer Tools and Labs</footer>
+  </body>
+</html>
