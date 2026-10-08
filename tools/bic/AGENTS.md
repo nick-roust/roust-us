@@ -12,9 +12,9 @@ These rules apply to this workspace and any ED807 code or data work it governs. 
 
 ## Current authorized scope
 
-- Documentation and the minimal `/bik` status page only. Do not implement an ED807 converter, parser pipeline, search index or publication job in this foundation task.
+- BIC-I1 authorizes the offline Python/lxml converter and unittest coverage under ADR-BIC-003. Local XML/ZIP input and private staging output only. Do not implement acquisition, release promotion, update workflows, search UI or publication without a separate task.
 - Do not invent JSON Schema or create placeholder JSON/fixtures that resemble valid banking data.
-- `docs/data-model.md` records questions, not an approved schema. Obtain verified source research and an explicit later implementation task before defining output contracts.
+- ADR-BIC-002 approves contract v1.0.0. Preserve its source-order mapping and consult ADR-BIC-003 for the approved diagnostic policy. Historical research proposals do not override those ADRs.
 - Do not claim records are valid, current or complete without a defined, evidenced validation process.
 
 ## Source preservation and future implementation

@@ -1,0 +1,2 @@
+# CPython 3.14, Linux x86_64, glibc >= 2.26; хеш wheel проверен по PyPI.
+lxml==6.0.2 --hash=sha256:98a5e1660dc7de2200b00d53fa00bcd3c35a3608c305d45a7bbcaf29fa16e83d

@@ -1,8 +1,8 @@
 # BIC-R7 — Public ED807 JSON contract proposal
 
-Status: **PROPOSED — pending Human Architect review. NOT APPROVED.**
+Status: **Contract v1.0 approved with clarifications in ADR-BIC-002 on 2026-10-08.**
 
-Design date: 2026-10-08. This document proposes a public contract, not a JSON Schema, converter, production dataset or publication. [ADR-BIC-001](architecture-decisions.md#adr-bic-001--data-acquisition--update-strategy) approves the acquisition/update strategy; it does not approve this contract.
+Design date: 2026-10-08. This document retains the original BIC-R7 proposal and research. [ADR-BIC-002](architecture-decisions.md#adr-bic-002--public-ed807-json-contract) is authoritative for the approved decisions and clarifications. PROPOSED and DECISION REQUIRED labels below describe the original review state; subsequent ADR-BIC-003 records the implemented offline subset and diagnostic policy. The original research created no converter or dataset; the current offline converter is documented in [the README](../README.md). No JSON Schema or public release is created. Legal review is mandatory before public release.
 
 ## Evidence and goals
 
@@ -382,4 +382,4 @@ Consumers must reject unsupported format/major versions, ignore unfamiliar optio
 
 Verified on 2026-10-08: original XML/ZIP hashes match SHA256SUMS, and the manifest matches its committed bytes. All four JSON excerpts parse and their displayed source values, account occurrences, zero-child arrays and leading-zero UID match the XML. The XML revalidated against the fingerprint-checked official 2026.09.0 XSD set. `git diff --check` passed. `pnpm run build` passed with zero errors, warnings or hints and generated all nine static pages.
 
-Only documentation is changed: this proposal, the architecture-decisions record and the previously prepared acquisition research included so its references are available in Git. No standalone banking JSON, JSON Schema, converter code, dependency, website route or external repository is changed. No source or derived dataset is placed in public/ or dist/. The contract remains **PROPOSED / pending review**, not APPROVED.
+The original BIC-R7 delivery changed documentation only. No standalone banking JSON, JSON Schema, converter code, dependency, website route or external repository was changed; no source or derived dataset was placed in public/ or dist/. Subsequently, the Human Architect approved contract v1.0 with clarifications in ADR-BIC-002. Approval does not authorize implementation or public release in this documentation task.
