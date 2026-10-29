@@ -5,10 +5,44 @@ import SocialProfiles from '../components/SocialProfiles.astro';
 <SiteLayout title="I build systems." description="Independent engineering projects, notes, and work in progress." isHome={true} showPageTitle={false}>
   <div class="home-page">
     <section class="hero" aria-labelledby="hero-title">
-      <div class="hero__grid" aria-hidden="true"></div>
+      <picture class="hero__media" aria-hidden="true">
+        <source
+          media="(max-width: 680px)"
+          type="image/avif"
+          srcset="/images/hero-mountains-mobile-390.avif 390w, /images/hero-mountains-mobile-530.avif 530w"
+          sizes="100vw"
+        />
+        <source
+          media="(max-width: 680px)"
+          type="image/webp"
+          srcset="/images/hero-mountains-mobile-390.webp 390w, /images/hero-mountains-mobile-530.webp 530w"
+          sizes="100vw"
+        />
+        <source
+          type="image/avif"
+          srcset="/images/hero-mountains-desktop-960.avif 960w, /images/hero-mountains-desktop-1938.avif 1938w"
+          sizes="100vw"
+        />
+        <source
+          type="image/webp"
+          srcset="/images/hero-mountains-desktop-960.webp 960w, /images/hero-mountains-desktop-1938.webp 1938w"
+          sizes="100vw"
+        />
+        <img
+          class="hero__image"
+          src="/images/hero-mountains-desktop-1938.webp"
+          srcset="/images/hero-mountains-desktop-960.webp 960w, /images/hero-mountains-desktop-1938.webp 1938w"
+          sizes="100vw"
+          width="1938"
+          height="812"
+          alt=""
+          fetchpriority="high"
+          decoding="async"
+        />
+      </picture>
       <div class="container hero__inner">
         <p class="eyebrow hero__eyebrow">Independent engineering</p>
-        <h1 id="hero-title">I build <span>systems.</span></h1>
+        <h1 id="hero-title">I build systems.</h1>
         <p class="hero__descriptor">Fintech · Software Architecture · AI-Assisted Engineering</p>
         <a class="text-link hero__link" href="#systems">Explore systems <span aria-hidden="true">↓</span></a>
         <div class="hero__index" aria-hidden="true"><span>ROUST CSE</span><span>01 / 04</span></div>
