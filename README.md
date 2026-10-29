@@ -30,11 +30,15 @@ Existing routes remain available while navigation changes: `/about`, `/projects/
 
 ## Themes and assets
 
-The site supports Light, Dark, and System themes. System follows `prefers-color-scheme`; an explicit choice is stored in `localStorage`. The theme selector uses native buttons and the site remains statically generated.
+The header is permanently dark and shows the ROUST wordmark, centered primary navigation, GitHub identity status, and a single icon button that toggles Light/Dark. Before a manual choice, the page follows `prefers-color-scheme` and responds to operating-system changes. A manual choice is stored in `localStorage` and takes precedence until site storage is cleared.
 
 `brand/master/` contains the original ROUST CSE SVG masters. Copies used by the site are under `public/brand/`; `roust-name-white.svg` changes only the source wordmark fill, preserving its path geometry. Original approved photographs remain under `brand/photography/`. Optimized WebP derivatives are served from `public/images/`; the originals are unchanged.
 
 `design/references/` contains the four approved visual references. They are design guidance, not factual evidence. Do not reuse mockup copy, metrics, URLs, API examples, technology lists, or service claims without verification.
+
+### Favicon assets
+
+`public/favicon.svg`, `public/favicon.ico`, `public/apple-touch-icon.png`, `public/icon-192.png`, and `public/icon-512.png` are generated from the unchanged `brand/master/roust-monogram-color.svg` source. To regenerate them and the non-public size review, run `node scripts/generate-favicons.mjs` with Inkscape 1.4.3 and ImageMagick 7.1.2 or later installed. The ICO contains 16, 32, and 48 px images. Review the actual small-size renders in `design/references/favicon-production-review.png`; visual acceptance remains separate.
 
 ## Content and data boundaries
 
