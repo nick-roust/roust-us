@@ -1,0 +1,21 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+---
+<SiteLayout title="Journal" description="Engineering notes and articles." showPageTitle={false}>
+  <section class="page-hero" aria-labelledby="journal-page-title">
+    <div class="container page-hero__inner">
+      <p class="eyebrow">Journal</p>
+      <h1 id="journal-page-title">Engineering notes.</h1>
+      <p>Articles and publication links will appear here when they are confirmed.</p>
+    </div>
+  </section>
+  <section class="page-content container" aria-label="Journal entries">
+    <div class="pending-panel">
+      <span class="pending-panel__mark" aria-hidden="true">—</span>
+      <div>
+        <h2>No verified publications yet</h2>
+        <p>This page will list published work with its original title, language, date, and source link.</p>
+      </div>
+    </div>
+  </section>
+</SiteLayout>

@@ -1,0 +1,22 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+---
+<SiteLayout title="Building PaymentGate" description="Notes on the work around PaymentGate, shared as details are verified." showPageTitle={false}>
+  <section class="page-hero" aria-labelledby="paymentgate-page-title">
+    <div class="container page-hero__inner">
+      <p class="eyebrow">Long-term project</p>
+      <h1 id="paymentgate-page-title">Building PaymentGate.</h1>
+      <p>Project updates will be shared here when the details are confirmed.</p>
+    </div>
+  </section>
+  <section class="page-content container">
+    <div class="pending-panel">
+      <span class="pending-panel__mark" aria-hidden="true">—</span>
+      <div>
+        <h2>Project details are being prepared</h2>
+        <p>This page will distinguish verified work from plans. It does not make claims about product readiness, architecture, security, or service availability.</p>
+      </div>
+    </div>
+    <a class="page-backlink" href="/projects">← Back to Systems / Projects</a>
+  </section>
+</SiteLayout>

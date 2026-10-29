@@ -2,9 +2,13 @@
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import SectionCard from '../../components/SectionCard.astro';
 ---
-<SiteLayout title="Labs" description="Lab pages on roust.us.">
-  <div class="cards">
-    <SectionCard href="/labs/fake-bank" title="Fake Bank" description="Lab overview to be added." />
-    <SectionCard href="/labs/fake-shop" title="Fake Shop" description="Lab overview to be added." />
+<SiteLayout title="Labs" description="Legacy project routes retained while the site is reorganized.">
+  <div class="legacy-content">
+    <p>This route is kept available for existing links. Project facts and public service links are added only after verification.</p>
+    <div class="cards">
+      <SectionCard href="/labs/fake-bank" title="Fake Bank" description="Project details are being verified." />
+      <SectionCard href="/labs/fake-shop" title="Fake Shop" description="Project details are being verified." />
+    </div>
+    <p><a class="page-backlink" href="/projects">← Systems / Projects</a></p>
   </div>
 </SiteLayout>

@@ -1,31 +1,86 @@
 ---
 import Navigation from '../components/Navigation.astro';
+import ThemeControl from '../components/ThemeControl.astro';
 import '../styles/global.css';
 
 interface Props {
   title: string;
   description: string;
+  isHome?: boolean;
+  showPageTitle?: boolean;
 }
-const { title, description } = Astro.props;
+
+const { title, description, isHome = false, showPageTitle = true } = Astro.props;
 ---
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="system">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <title>{title} · roust.us</title>
+    <meta name="theme-color" content="#101b26" />
+    <title>{title} · ROUST.US</title>
+    <script is:inline>
+      (() => {
+        const root = document.documentElement;
+        let mode = 'system';
+        try {
+          mode = localStorage.getItem('roust-theme') || 'system';
+        } catch {}
+        if (!['system', 'light', 'dark'].includes(mode)) mode = 'system';
+        root.dataset.theme = mode;
+      })();
+    </script>
   </head>
-  <body>
+  <body class:list={[isHome && 'home-shell']}>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <a class="brand" href="/">roust.us</a>
-      <Navigation />
+      <div class="site-header__inner">
+        <a class="brand" href="/" aria-label="ROUST.US home">
+          <img class="brand__mark" src="/brand/roust-monogram-color.svg" alt="" width="48" height="48" />
+          <img class="brand__wordmark brand__wordmark--black" src="/brand/roust-name-black.svg" alt="" width="128" height="18" />
+          <img class="brand__wordmark brand__wordmark--white" src="/brand/roust-name-white.svg" alt="" width="128" height="18" />
+        </a>
+        <div class="site-header__tools">
+          <Navigation />
+          <ThemeControl />
+        </div>
+      </div>
     </header>
-    <main id="main" tabindex="-1">
-      <h1>{title}</h1>
+
+    <main id="main" tabindex="-1" class:list={['site-main', isHome && 'site-main--home']}>
+      {showPageTitle && <h1 class="page-title container">{title}</h1>}
       <slot />
     </main>
-    <footer>roust.us · Projects, Developer Tools and Labs</footer>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <a class="footer-brand" href="/">ROUST.US</a>
+        <p>Independent engineering projects and notes.</p>
+        <a href="#main">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+
+    <script>
+      const themeButtons = [...document.querySelectorAll<HTMLButtonElement>('[data-theme-choice]')];
+      const themeRoot = document.documentElement;
+      themeRoot.classList.add('js');
+
+      function selectTheme(mode: string) {
+        if (!['system', 'light', 'dark'].includes(mode)) return;
+        themeRoot.dataset.theme = mode;
+        try {
+          localStorage.setItem('roust-theme', mode);
+        } catch {}
+        themeButtons.forEach((button) => {
+          button.setAttribute('aria-pressed', String(button.dataset.themeChoice === mode));
+        });
+      }
+
+      selectTheme(themeRoot.dataset.theme || 'system');
+      themeButtons.forEach((button) => {
+        button.addEventListener('click', () => selectTheme(button.dataset.themeChoice || 'system'));
+      });
+    </script>
   </body>
 </html>

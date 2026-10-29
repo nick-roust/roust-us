@@ -4,9 +4,11 @@
 
 - This is a TypeScript Astro website with explicit static output, Astro components and plain CSS.
 - `src/pages/` owns file-based routes. `src/layouts/SiteLayout.astro` owns the document shell; `src/components/` owns shared UI; `src/styles/global.css` owns shared styles.
-- The three main sections are Projects (`/projects`), Developer Tools (`/tools`) and Labs (`/labs`). `/about` is a separate informational page.
+- The launch MVP has four primary functions: Home (`/`), Systems / Projects (`/projects`), Journal (`/journal`) and Building PaymentGate (`/building-paymentgate`). Contact is available from the Home page at `/#contact`.
+- Keep existing routes (`/about`, `/projects/paymentgate`, `/tools`, `/bik`, `/labs`, `/labs/fake-bank`, `/labs/fake-shop`) available while navigation changes are reviewed. They are not primary navigation sections. Do not remove the BIK page or its research workspace as part of the site redesign.
 - The BIK page is `/bik`; its research workspace is `tools/bic/`. Keep this deliberate naming distinction.
 - `public/` contains only assets intentionally safe for public distribution. Everything there is copied to the build.
+- `brand/master/` and `brand/photography/` retain approved source assets unchanged. Put only reviewed, intentional site assets and derivatives in `public/`; do not modify the geometry of logo masters.
 - `data/ed807/` contains preserved source inputs and checksums. It is outside the public asset and application import paths.
 - `dist/`, `.astro/` and `node_modules/` are generated and ignored. Never store source files in `dist/`.
 

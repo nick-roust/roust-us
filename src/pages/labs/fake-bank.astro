@@ -1,7 +1,43 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
+
+const sections = [
+  { id: 'context', number: '01', title: 'Context', text: 'The project context is being checked against its source repository.' },
+  { id: 'problem', number: '02', title: 'Problem', text: 'The problem statement will be published after it is verified.' },
+  { id: 'architecture', number: '03', title: 'Architecture', text: 'Architecture and integration details are not published until they are confirmed.' },
+  { id: 'implementation', number: '04', title: 'Implementation', text: 'Technologies, API examples, and setup instructions are pending review.' },
+  { id: 'verification', number: '05', title: 'Verification', text: 'No test counts or performance figures are published without supporting evidence.' },
+  { id: 'status', number: '06', title: 'Status', text: 'Project status and any demo availability will be added when independently verified.' },
+];
 ---
-<SiteLayout title="Fake Bank" description="Fake Bank lab page on roust.us.">
-  <p>This page is reserved for Fake Bank. A verified lab description and links will be added when supplied.</p>
-  <p><a href="/labs">All labs</a></p>
+<SiteLayout title="Fake Bank" description="Fake Bank project information is being verified." showPageTitle={false}>
+  <section class="page-hero fake-bank-hero" aria-labelledby="fake-bank-title">
+    <div class="container page-hero__inner">
+      <p class="eyebrow">Systems / Project detail</p>
+      <h1 id="fake-bank-title">Fake Bank</h1>
+      <p>Project information is under review. No API, performance figures, or demo links are presented here.</p>
+      <a class="page-backlink" href="/projects">← All systems</a>
+    </div>
+  </section>
+  <section class="page-content container">
+    <div class="project-detail">
+      <aside class="project-detail__sidebar">
+        <p>On this page</p>
+        <ul>
+          {sections.map((section) => <li><a href={`#${section.id}`}>{section.title}</a></li>)}
+        </ul>
+      </aside>
+      <div class="project-detail__sections">
+        {sections.map((section) => (
+          <section class="project-detail__section" id={section.id} aria-labelledby={`${section.id}-title`}>
+            <span>{section.number}</span>
+            <div>
+              <h2 id={`${section.id}-title`}>{section.title}</h2>
+              <p>{section.text}</p>
+            </div>
+          </section>
+        ))}
+      </div>
+    </div>
+  </section>
 </SiteLayout>

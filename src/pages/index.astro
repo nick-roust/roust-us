@@ -1,12 +1,107 @@
 ---
 import SiteLayout from '../layouts/SiteLayout.astro';
-import SectionCard from '../components/SectionCard.astro';
+import SocialProfiles from '../components/SocialProfiles.astro';
 ---
-<SiteLayout title="roust.us" description="A personal website for projects, developer tools and labs.">
-  <p>A personal website organized around projects, developer tools and labs.</p>
-  <div class="cards">
-    <SectionCard href="/projects" title="Projects" description="Project pages, starting with PaymentGate." />
-    <SectionCard href="/tools" title="Developer Tools" description="A home for developer tools, starting with the BIK directory." />
-    <SectionCard href="/labs" title="Labs" description="Pages for Fake Bank and Fake Shop." />
+<SiteLayout title="I build systems." description="Independent engineering projects, notes, and work in progress." isHome={true} showPageTitle={false}>
+  <div class="home-page">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="eyebrow hero__eyebrow">Independent engineering</p>
+        <h1 id="hero-title">I build <span>systems.</span></h1>
+        <p class="hero__descriptor">Fintech · Software Architecture · AI-Assisted Engineering</p>
+        <a class="text-link hero__link" href="#systems">Explore systems <span aria-hidden="true">↓</span></a>
+        <div class="hero__index" aria-hidden="true"><span>ROUST CSE</span><span>01 / 04</span></div>
+      </div>
+    </section>
+
+    <section class="intro-section section-wrap" aria-labelledby="intro-title">
+      <div class="container intro-section__grid">
+        <p class="section-index"><span>01</span><span>Approach</span></p>
+        <div class="intro-section__copy">
+          <h2 id="intro-title">Start with the system around the problem.</h2>
+          <p>People, constraints, interfaces, and trade-offs shape good engineering decisions. This site collects independent projects and notes as they are verified.</p>
+        </div>
+        <div class="process-line" aria-label="Problem, constraints, design, implementation, verification">
+          <span>Problem</span><i aria-hidden="true"></i><span>Constraints</span><i aria-hidden="true"></i><span>Design</span><i aria-hidden="true"></i><span>Build</span><i aria-hidden="true"></i><span>Verify</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="systems-section section-wrap" id="systems" aria-labelledby="systems-title">
+      <div class="container">
+        <p class="section-index"><span>02</span><span>Featured system</span></p>
+        <div class="feature-project">
+          <div class="feature-project__copy">
+            <p class="eyebrow">Independent project</p>
+            <h2 id="systems-title">Fake Bank</h2>
+            <p>Project details are being checked against the source repository before publication.</p>
+            <span class="status-label"><span aria-hidden="true"></span>Details under review</span>
+            <a class="button-link" href="/labs/fake-bank">Open project page <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="feature-project__visual" aria-hidden="true">
+            <span class="feature-project__number">SYSTEM / 01</span>
+            <img src="/brand/roust-monogram-color.svg" alt="" width="168" height="168" loading="lazy" />
+            <span class="feature-project__caption">Verified details<br />will appear here.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="journal-section section-wrap" aria-labelledby="journal-title">
+      <div class="container journal-section__grid">
+        <p class="section-index"><span>03</span><span>Journal</span></p>
+        <div>
+          <p class="eyebrow">Engineering notes</p>
+          <h2 id="journal-title">Stories from systems in progress.</h2>
+          <p>Published articles and their source links will be listed after they are verified.</p>
+          <a class="text-link" href="/journal">Visit the journal <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="journal-section__mark" aria-hidden="true"><span>NOTES</span><span>03</span></div>
+      </div>
+    </section>
+
+    <section class="paymentgate-section section-wrap" aria-labelledby="paymentgate-title">
+      <div class="container paymentgate-section__grid">
+        <p class="section-index"><span>04</span><span>Building PaymentGate</span></p>
+        <div class="paymentgate-section__copy">
+          <p class="eyebrow">Work in progress</p>
+          <h2 id="paymentgate-title">Building PaymentGate.</h2>
+          <p>Public project information is being prepared from verified facts. This page does not make claims about readiness, architecture, or security.</p>
+          <a class="button-link button-link--quiet" href="/building-paymentgate">About this work <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="paymentgate-section__image">
+          <img
+            src="/images/nikolay-at-work-640.webp"
+            srcset="/images/nikolay-at-work-640.webp 640w, /images/nikolay-at-work-1200.webp 1200w"
+            sizes="(max-width: 700px) 100vw, 48vw"
+            width="1527"
+            height="1438"
+            alt="A person at a desk working at two monitors."
+            loading="lazy"
+            decoding="async"
+          />
+          <span class="image-caption">At work</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-section__grid">
+        <p class="section-index"><span>05</span><span>Contact</span></p>
+        <div class="contact-section__main">
+          <div>
+            <p class="eyebrow">Professional identity</p>
+            <h2 id="contact-title">Let’s build something.</h2>
+            <p>Contact details and public profile links will be added after they are confirmed.</p>
+          </div>
+          <div class="contact-section__identity">
+            <img src="/images/ava-github-128.webp" srcset="/images/ava-github-128.webp 128w, /images/ava-github-256.webp 256w" sizes="64px" width="128" height="128" alt="" loading="lazy" decoding="async" />
+            <span>Profile links pending verification</span>
+          </div>
+          <SocialProfiles />
+        </div>
+      </div>
+    </section>
   </div>
 </SiteLayout>
