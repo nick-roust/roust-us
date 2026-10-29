@@ -1,6 +1,6 @@
 # PF-005 approved visual asset handoff
 
-**Status:** BINARY UPLOAD PENDING. This manifest does not mean the six assets are committed.
+**Status:** SIX ORIGINAL BINARY ASSETS COMMITTED AND VERIFIED. All six Git blob SHA-1 identifiers match the original conversation files byte-for-byte; sizes and SHA-256 values below also match. Verified on 2026-10-29 in branch `assets/pf005-approved-visuals` at commit `95f147fed8472ccc711cb998c45d02d3d89b3876`.
 
 **Founder approvals:** Homepage Light/Dark and Fake Bank System Detail Light/Dark; author-at-work photo and compact GitHub avatar. Source files were supplied in the ROUST.US conversation.
 
@@ -15,11 +15,9 @@
 
 ## Instructions for Codex intake
 
-1. Obtain the six original files from the Founder-provided handoff ZIP; extract into the exact paths above in this asset branch. Do not regenerate or recompress the originals.
-2. Verify all six SHA-256 hashes and sizes; if any differ, stop and report.
-3. Commit the six binaries in this branch, then open a review PR. Keep this branch asset-only.
-4. Verify the four visual references and the two photos are available to Codex via actual Git paths.
-5. Update the governance specification's temporary `sandbox:` links to permanent GitHub paths after binaries are committed.
-6. Only after governance/asset review and Codex read-only intake proceed with PF-005 implementation in a separate branch.
+1. The six original binaries are already committed at the paths above; do not regenerate or recompress the originals.
+2. Before implementation, Codex must verify all six files, SHA-256 hashes and sizes from Git and confirm the approved design references are readable.
+3. Update governance specification references to stable Git paths.
+4. Perform read-only Codex intake and report missing inputs/risks before any PF-005 implementation on a separate branch.
 
 The mockups are visual references, **not factual evidence** for sample text, URLs, test numbers or capabilities. The approved ROUST CSE master SVGs are separate authoritative assets.
