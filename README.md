@@ -30,7 +30,7 @@ Existing routes remain available while navigation changes: `/about`, `/projects/
 
 ## Themes and assets
 
-The header is permanently dark and shows the ROUST wordmark, centered primary navigation, GitHub identity status, and a single icon button that toggles Light/Dark. Before a manual choice, the page follows `prefers-color-scheme` and responds to operating-system changes. A manual choice is stored in `localStorage` and takes precedence until site storage is cleared.
+The header is permanently dark and shows the ROUST wordmark, centered primary navigation, a link to the confirmed GitHub profile, and a single icon button that toggles Light/Dark. Before a manual choice, the page follows `prefers-color-scheme` and responds to operating-system changes. A manual choice is stored in `localStorage` and takes precedence until site storage is cleared.
 
 `brand/master/` contains the original ROUST CSE SVG masters. Copies used by the site are under `public/brand/`; `roust-name-white.svg` changes only the source wordmark fill, preserving its path geometry. Original approved photographs remain under `brand/photography/`. Optimized WebP derivatives are served from `public/images/`; the originals are unchanged.
 
