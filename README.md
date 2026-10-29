@@ -38,7 +38,7 @@ The header is permanently dark and shows the ROUST wordmark, centered primary na
 
 ### Favicon assets
 
-`public/favicon.svg`, `public/favicon.ico`, `public/apple-touch-icon.png`, `public/icon-192.png`, and `public/icon-512.png` are generated from the unchanged `brand/master/roust-monogram-color.svg` source. To regenerate them and the non-public size review, run `node scripts/generate-favicons.mjs` with Inkscape 1.4.3 and ImageMagick 7.1.2 or later installed. The ICO contains 16, 32, and 48 px images. Review the actual small-size renders in `design/references/favicon-production-review.png`; visual acceptance remains separate.
+`public/favicon.svg`, `public/favicon.ico`, `public/apple-touch-icon.png`, `public/icon-192.png`, and `public/icon-512.png` are generated from the unchanged `brand/master/roust-monogram-icon.svg` Core Dark source. To regenerate them and the non-public size review, run `node scripts/generate-favicons.mjs` with Inkscape 1.4.3 and ImageMagick 7.1.2 or later installed. The ICO contains 16, 32, and 48 px images. Review exact rasters and light/dark nearest-neighbor previews under `design/references/favicon-core-dark-*.png` and `favicon-production-review.png`.
 
 ## Content and data boundaries
 

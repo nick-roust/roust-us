@@ -4,7 +4,7 @@ import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 
 const root = resolve(import.meta.dirname, '..');
-const master = join(root, 'brand/master/roust-monogram-color.svg');
+const master = join(root, 'brand/master/roust-monogram-icon.svg');
 const publicDir = join(root, 'public');
 const reviewDir = join(root, 'design/references');
 const temporaryDir = mkdtempSync(join(tmpdir(), 'roust-favicon-'));
@@ -32,19 +32,31 @@ try {
   copyFileSync(join(temporaryDir, 'icon-192.png'), join(publicDir, 'icon-192.png'));
   copyFileSync(join(temporaryDir, 'icon-512.png'), join(publicDir, 'icon-512.png'));
 
+  const reviewPanels = [];
+  for (const surface of [
+    { name: 'light', background: '#f3f2ee', foreground: '#15212b' },
+    { name: 'dark', background: '#0b1219', foreground: '#edf2f4' },
+  ]) {
+    for (const [size, zoom] of [[16, 24], [32, 12], [48, 8]]) {
+      const output = join(temporaryDir, `review-${surface.name}-${size}.png`);
+      const native = join(temporaryDir, `icon-${size}.png`);
+      copyFileSync(native, join(reviewDir, `favicon-core-dark-${size}.png`));
+      execFileSync('magick', [
+        '-size', '480x460', `xc:${surface.background}`,
+        '(', native, '-filter', 'point', '-resize', '384x384', ')',
+        '-gravity', 'center', '-geometry', '+0+18', '-composite',
+        '-gravity', 'north', '-font', 'DejaVu-Sans', '-pointsize', '18',
+        '-fill', surface.foreground, '-annotate', '+0+12', `${size}x${size} px · ${zoom}x nearest-neighbor`,
+        output,
+      ], { stdio: 'inherit' });
+      reviewPanels.push(output);
+    }
+  }
+
   execFileSync('magick', [
-    'montage',
-    '-filter', 'point',
-    '-label', '16 px', join(temporaryDir, 'icon-16.png'),
-    '-label', '32 px', join(temporaryDir, 'icon-32.png'),
-    '-label', '48 px', join(temporaryDir, 'icon-48.png'),
-    '-background', '#f3f2ee',
-    '-fill', '#15212b',
-    '-font', 'DejaVu-Sans',
-    '-pointsize', '18',
-    '-gravity', 'center',
-    '-tile', '3x1',
-    '-geometry', '128x128+28+20',
+    'montage', ...reviewPanels,
+    '-tile', '3x2',
+    '-geometry', '+0+0',
     join(reviewDir, 'favicon-production-review.png'),
   ], { stdio: 'inherit' });
 } finally {
