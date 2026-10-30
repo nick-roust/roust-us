@@ -45,6 +45,10 @@ These are full-page Playwright screenshots showing Building, Professional Identi
 
 On Desktop, the lower edges of the Follow the progress CTA and the status panel align to within 1 CSS pixel. Mobile layout remains unchanged.
 
+## Status panel typography alignment
+
+The Focus / Stage / Goal labels share a common top baseline, and all three values share a common baseline directly below the labels. The panel dimensions, position, dividers, and mobile layout are unchanged.
+
 ## Review checks
 
 - Counter is in the left text column and dynamically reports days, estimated hours, and date in `Europe/Moscow`.
@@ -55,4 +59,4 @@ On Desktop, the lower edges of the Follow the progress CTA and the status panel 
 - Theme behavior, keyboard disclosure, Contact content and copyright were regression-checked.
 - Dynamic counter on 31 Oct 2026 reports 184 days / 2,410 estimated hours; static no-JavaScript fallback remains the approved 183 / 2,400 baseline dated 30 Oct 2026.
 
-Astro check and production build passed. Playwright checks passed for Desktop/Mobile, Light/Dark, widths 961–1440px, counter date, panel layout and final bottom-edge alignment, theme toggle, keyboard disclosure, no overflow, Contact content, and Footer centering.
+Astro check and production build passed. Playwright checks passed for Desktop/Mobile, Light/Dark, widths 961–1440px, counter date, panel layout and final bottom-edge alignment, status label/value baselines, theme toggle, keyboard disclosure, no overflow, Contact content, and Footer centering.
