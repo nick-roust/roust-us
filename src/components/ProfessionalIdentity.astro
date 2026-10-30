@@ -1,29 +1,15 @@
 ---
 import SocialProfiles from './SocialProfiles.astro';
 ---
-<section class="contact-section section-wrap" id="contact" aria-labelledby="contact-title">
-  <div class="container contact-section__grid">
-    <p class="section-index"><span>Contact</span></p>
-    <div class="contact-section__main">
-      <div>
-        <p class="eyebrow">Professional identity</p>
-        <h2 id="contact-title">Let’s build something.</h2>
-      </div>
-      <figure class="contact-section__identity">
-        <img
-          src="/images/nikolay-at-work-640.webp"
-          srcset="/images/nikolay-at-work-640.webp 640w, /images/nikolay-at-work-1200.webp 1200w"
-          sizes="(max-width: 680px) 100vw, 34vw"
-          width="1527"
-          height="1438"
-          alt="Nick Roust working at a desk with two monitors."
-          loading="lazy"
-          decoding="async"
-        />
-      </figure>
-      <div class="contact-section__channels">
+<section class="contact-section" id="contact" aria-labelledby="contact-title">
+  <div class="container contact-section__layout">
+    <div class="contact-section__copy">
+      <p class="eyebrow">Contact</p>
+      <h2 id="contact-title">Let's build something.</h2>
+      <p class="contact-section__invite">Open for collaboration, consulting and new projects.</p>
+    </div>
+    <div class="contact-section__channels">
         <SocialProfiles />
-      </div>
     </div>
   </div>
 </section>

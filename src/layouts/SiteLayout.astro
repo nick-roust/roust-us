@@ -12,6 +12,7 @@ interface Props {
 }
 
 const { title, description, isHome = false, showPageTitle = true } = Astro.props;
+const currentYear = new Date().getFullYear();
 ---
 <!doctype html>
 <html lang="en" data-theme="system">
@@ -67,8 +68,7 @@ const { title, description, isHome = false, showPageTitle = true } = Astro.props
 
     <footer class="site-footer">
       <div class="container site-footer__inner">
-        <a class="footer-brand" href="/">ROUST.US</a>
-        <p>Independent engineering projects and notes.</p>
+        <p>© {currentYear} ROUST.US</p>
         <a href="#main">Back to top <span aria-hidden="true">↑</span></a>
       </div>
     </footer>
