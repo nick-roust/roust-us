@@ -213,16 +213,21 @@ html:not(.js) .theme-toggle { display: none; }
 .image-caption { position: absolute; right: 0; bottom: 0; padding: 0.45rem 0.7rem; background: rgba(11,18,25,.78); color: #fff; font-size: 0.68rem; }
 
 .contact-section { padding-block: clamp(3rem, 5.5vw, 4.5rem); background: #101b26; color: #f6f8fa; }
-.contact-section__layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: clamp(2rem, 5vw, 5rem); }
+.contact-section__layout { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); align-items: center; gap: clamp(2rem, 5vw, 5rem); }
 .contact-section .eyebrow { margin-bottom: 0.8rem; color: #80dafa; }
 .contact-section h2 { max-width: 18ch; margin: 0 0 0.65rem; color: #fff; font-size: clamp(2.1rem, 3.7vw, 3.2rem); font-weight: 560; letter-spacing: -0.055em; line-height: 1.05; }
 .contact-section__invite { margin: 0; color: rgba(255,255,255,.78); }
 .contact-section__channels { min-width: 0; padding-left: clamp(1.5rem, 3vw, 3rem); border-left: 1px solid rgba(255,255,255,.2); }
-.profile-list { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0.6rem; margin: 0; padding: 0; list-style: none; }
-.profile-list__item { display: flex; min-width: 0; align-items: center; gap: 0.45rem; color: rgba(255,255,255,.9); }
-.profile-list__icon { display: grid; width: 1.5rem; height: 1.5rem; flex: 0 0 auto; place-items: center; }
-.profile-list__icon svg { display: block; width: 1.2rem; height: 1.2rem; fill: currentColor; }
-.profile-list__name { font-size: 0.82rem; font-weight: 600; overflow-wrap: anywhere; }
+.profile-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(0.8rem, 1.8vw, 1.5rem); margin: 0; padding: 0; list-style: none; }
+.profile-list__item { min-width: 0; }
+.profile-list__link { display: flex; min-width: 0; align-items: flex-start; gap: 0.7rem; color: rgba(255,255,255,.9); text-decoration: none; }
+.profile-list__link:hover { color: #fff; }
+.profile-list__link:focus-visible { outline: 2px solid #80dafa; outline-offset: 5px; }
+.profile-list__icon { display: grid; width: 1.6rem; height: 1.6rem; flex: 0 0 auto; place-items: center; }
+.profile-list__icon svg { display: block; width: 1.45rem; height: 1.45rem; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.profile-list__copy { display: grid; min-width: 0; gap: 0.2rem; }
+.profile-list__name { font-size: 0.84rem; font-weight: 600; }
+.profile-list__value { color: rgba(255,255,255,.68); font-size: 0.7rem; line-height: 1.4; overflow-wrap: anywhere; }
 .open-source-section { padding-block: clamp(4rem, 8vw, 7rem); }
 .open-source-section .journal-section__grid { align-items: start; }
 .open-source-list { display: grid; gap: 0.8rem; margin: 1.6rem 0; padding: 0; list-style: none; }
@@ -283,12 +288,14 @@ html:not(.js) .theme-toggle { display: none; }
   .process-line, .journal-section__mark { grid-column: 2; }
   .paymentgate-section__image { grid-column: 2; max-width: 42rem; }
   .feature-project { grid-template-columns: minmax(17rem, 0.9fr) minmax(0, 1.1fr); }
-  .profile-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .contact-section__layout { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
   .contact-section__channels { padding: 1.2rem 0 0; border-top: 1px solid rgba(255,255,255,.2); border-left: 0; }
 }
 @media (max-width: 680px) {
   .container, .site-header__inner { width: min(100% - 2rem, 1320px); }
+  .profile-list { gap: 0.75rem; }
+  .profile-list__link { flex-direction: column; gap: 0.45rem; }
+  .profile-list__value { font-size: 0.66rem; }
   :root[data-theme] .hero::before { background: linear-gradient(90deg, rgba(5, 13, 19, 0.82) 0%, rgba(5, 13, 19, 0.68) 52%, rgba(5, 13, 19, 0.18) 100%), linear-gradient(0deg, rgba(5, 13, 19, 0.58), rgba(5, 13, 19, 0.08) 68%), linear-gradient(180deg, rgba(5, 13, 19, 0.58), transparent 30%); }
   .site-header__inner { min-height: auto; grid-template-columns: minmax(0, 1fr) auto; gap: 0.35rem 0.5rem; padding-block: 0.7rem 0.55rem; }
   .brand__wordmark { width: 9rem; }
