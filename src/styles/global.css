@@ -150,11 +150,17 @@ html:not(.js) .theme-toggle { display: none; }
 .hero__image { display: block; object-fit: cover; object-position: center 52%; }
 .hero__inner { position: relative; z-index: 1; padding-top: 7rem; padding-bottom: 6rem; }
 .eyebrow { margin: 0 0 1rem; color: var(--muted); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.16em; line-height: 1.3; text-transform: uppercase; }
-.hero__eyebrow { color: #80dafa; }
 .hero h1 { max-width: 13ch; margin: 0 0 1.25rem; color: #fff; font-size: clamp(3.7rem, 9.5vw, 8rem); font-weight: 650; letter-spacing: -0.075em; line-height: 0.97; }
-.hero__descriptor { max-width: 42rem; margin: 0; color: rgba(255,255,255,0.9); font-size: clamp(1rem, 2vw, 1.3rem); letter-spacing: 0.015em; }
-.hero__link { display: inline-flex; gap: 0.9rem; align-items: center; margin-top: 3rem; color: #fff; }
-.hero__index { position: absolute; right: 0; bottom: 2.8rem; display: flex; gap: 1.4rem; color: rgba(255,255,255,0.54); font-size: 0.65rem; letter-spacing: 0.14em; }
+.hero__copy { max-width: 56rem; }
+.hero__author { margin: -0.55rem 0 0.35rem; color: rgba(255,255,255,0.96); font-size: clamp(1.2rem, 2.2vw, 1.55rem); font-weight: 620; line-height: 1.35; }
+.hero__descriptor { max-width: 42rem; margin: 0; color: rgba(255,255,255,0.9); font-size: clamp(1rem, 2vw, 1.3rem); font-weight: 400; letter-spacing: 0.015em; }
+.hero__statement { max-width: 34rem; margin: 2.15rem 0 0; color: rgba(255,255,255,0.96); font-size: clamp(1rem, 1.65vw, 1.2rem); line-height: 1.45; }
+.hero__link { display: inline-flex; gap: 1.2rem; align-items: center; margin-top: 2.2rem; color: #fff; }
+.hero__link span { font-size: 1.35rem; font-weight: 400; line-height: 1; }
+.hero__link:hover span { transform: translateY(0.16rem); }
+.hero__thesis { position: absolute; right: 0; bottom: 3.4rem; width: 15.5rem; padding: 0.25rem 0 0.25rem 1.1rem; border-left: 1px solid rgba(255,255,255,0.64); color: rgba(255,255,255,0.96); }
+.hero__thesis::before { position: absolute; z-index: -1; inset: -0.85rem -1rem -0.85rem -1.2rem; background: linear-gradient(90deg, rgba(5,13,19,0.4), rgba(5,13,19,0.08) 75%, transparent); content: ""; }
+.hero__thesis p { margin: 0; font-size: 0.9rem; line-height: 1.55; }
 @media (prefers-color-scheme: dark) {
   :root[data-theme="system"] .hero::before { background: linear-gradient(90deg, rgba(5, 13, 19, 0.76) 0%, rgba(5, 13, 19, 0.54) 34%, rgba(5, 13, 19, 0.08) 76%), linear-gradient(0deg, rgba(5, 13, 19, 0.44), transparent 48%), linear-gradient(180deg, rgba(5, 13, 19, 0.52), transparent 24%); }
 }
@@ -277,11 +283,14 @@ html:not(.js) .theme-toggle { display: none; }
   .header-actions { grid-column: 2; grid-row: 1; }
   .header-github, .theme-toggle { width: 2.5rem; height: 2.5rem; }
   .hero { min-height: 680px; min-height: 88svh; }
-  .hero__inner { padding-top: 14rem; padding-bottom: 6rem; }
+  .hero__inner { padding-top: 8rem; padding-bottom: 4rem; }
   .hero h1 { font-size: clamp(3.5rem, 16vw, 6rem); }
   .hero__descriptor { max-width: 28rem; }
+  .hero__statement { max-width: 27rem; margin-top: 1.4rem; font-size: 1rem; }
+  .hero__link { margin-top: 1.45rem; }
+  .hero__thesis { position: relative; right: auto; bottom: auto; width: min(17rem, 100%); margin: 1.3rem 0 0 auto; padding-left: 0.9rem; }
+  .hero__thesis p { font-size: 0.84rem; }
   .hero__image { object-position: 100% center; }
-  .hero__index { right: 0; bottom: 1.8rem; }
   .intro-section__grid, .journal-section__grid, .paymentgate-section__grid, .contact-section__grid { grid-template-columns: 1fr; gap: 1.5rem; }
   .section-index { flex-direction: row; gap: 0.7rem; }
   .process-line, .journal-section__mark, .paymentgate-section__image { grid-column: auto; }
