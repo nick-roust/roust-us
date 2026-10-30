@@ -212,15 +212,22 @@ html:not(.js) .theme-toggle { display: none; }
 .paymentgate-section__image img { display: block; width: 100%; height: auto; }
 .image-caption { position: absolute; right: 0; bottom: 0; padding: 0.45rem 0.7rem; background: rgba(11,18,25,.78); color: #fff; font-size: 0.68rem; }
 
-.contact-section { padding-block: clamp(4rem, 8vw, 7rem); background: var(--surface); }
+.contact-section { padding-block: clamp(4rem, 8vw, 7rem); background: #101b26; color: #f6f8fa; }
 .contact-section__grid { display: grid; grid-template-columns: 8rem minmax(0, 1fr); gap: clamp(1.5rem, 4vw, 4rem); }
 .contact-section__main { display: grid; grid-template-columns: minmax(0, 1fr) minmax(14rem, 0.55fr); align-items: center; gap: clamp(2rem, 5vw, 5rem); }
+.contact-section .eyebrow { color: #80dafa; }
+.contact-section h2 { color: #fff; }
+.contact-section__main > div:first-child > p:not(.eyebrow) { color: rgba(255,255,255,.76); }
+.contact-section .section-index { color: rgba(255,255,255,.66); }
+.contact-section .section-index span:first-child { color: #80dafa; }
 .contact-section__identity { grid-column: 2; grid-row: 1; margin: 0; }
 .contact-section__identity img { display: block; width: 100%; max-width: 24rem; height: auto; }
-.profile-list { display: grid; width: fit-content; margin: 1.4rem 0 0; padding: 0; list-style: none; }
-.profile-list__item a { display: inline-flex; align-items: center; gap: 0.65rem; color: var(--ink); font-weight: 650; text-decoration: none; }
-.profile-list__item a:hover { color: var(--accent-strong); }
-.profile-list__item svg { width: 1.25rem; height: 1.25rem; fill: currentColor; }
+.contact-section__channels { grid-column: 1 / -1; padding-top: 1.2rem; border-top: 1px solid rgba(255,255,255,.2); }
+.profile-list { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0.6rem; margin: 0; padding: 0; list-style: none; }
+.profile-list__item { display: flex; min-width: 0; align-items: center; gap: 0.55rem; color: rgba(255,255,255,.9); }
+.profile-list__icon { display: grid; width: 1.5rem; height: 1.5rem; flex: 0 0 auto; place-items: center; }
+.profile-list__icon svg { display: block; width: 1.2rem; height: 1.2rem; fill: currentColor; }
+.profile-list__name { font-size: 0.82rem; font-weight: 600; overflow-wrap: anywhere; }
 .open-source-section { padding-block: clamp(4rem, 8vw, 7rem); }
 .open-source-section .journal-section__grid { align-items: start; }
 .open-source-list { display: grid; gap: 0.8rem; margin: 1.6rem 0; padding: 0; list-style: none; }
