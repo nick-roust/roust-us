@@ -13,41 +13,32 @@
       <h2 id="building-title">PG27</h2>
       <p class="building-section__subheading">Building transaction infrastructure.</p>
       <p class="building-section__description">An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.</p>
+      <div class="building-counter" role="group" aria-label="PG27 development counter">
+        <div class="building-counter__line">
+          <span class="building-counter__metric">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M8 2v4M16 2v4M3 10h18" />
+              <path d="M5 4h14a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" />
+              <path d="M7 14h2m3 0h2m3 0h1M7 17h2m3 0h2" />
+            </svg>
+            <strong data-counter-days>183</strong><span>days</span>
+          </span>
+          <span class="building-counter__separator" aria-hidden="true">·</span>
+          <details class="building-counter__estimate">
+            <summary aria-label="Estimated engineering hours. Open explanation.">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 3" /></svg>
+              <strong data-counter-hours>2,400</strong><span>hrs</span>
+            </summary>
+            <p class="building-counter__explanation">Estimated engineering hours since May 1, 2026.</p>
+          </details>
+        </div>
+        <p class="building-counter__as-of" data-counter-as-of>As of 30 Oct 2026</p>
+      </div>
       <a class="building-section__link" href="/journal">Follow the progress <span aria-hidden="true">→</span></a>
     </div>
   </div>
 
   <div class="building-panel" aria-label="PG27 development status">
-    <div class="building-counter" role="group" aria-label="PG27 development counter">
-      <div class="building-counter__metric">
-        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-          <path d="M8 3v4M16 3v4M4 11h16" />
-          <path d="M6 5h12a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" />
-          <path d="M8 15h2v2H8zM14 15h2v2h-2z" />
-        </svg>
-        <span class="building-counter__value">
-          <strong data-counter-days aria-live="polite">183</strong>
-          <span>days</span>
-        </span>
-      </div>
-
-      <details class="building-counter__estimate">
-        <summary aria-label="About the estimated engineering hours">
-          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-            <circle cx="12" cy="12" r="9" />
-            <path d="M12 7v5l3 3" />
-          </svg>
-          <span class="building-counter__value">
-            <strong>~<span data-counter-hours aria-live="polite">2,400</span></strong>
-            <span>hrs</span>
-          </span>
-        </summary>
-        <p class="building-counter__explanation">Estimated engineering hours since May 1, 2026.</p>
-      </details>
-
-      <p class="building-counter__as-of" data-counter-as-of>As of 30 Oct 2026 · Europe/Moscow</p>
-    </div>
-
     <dl class="building-status">
       <div class="building-status__item">
         <dt>Focus</dt>
@@ -66,7 +57,7 @@
 </section>
 
 <script>
-  import { getDevelopmentCounter, millisecondsUntilNextProjectDay, PROJECT_TIME_ZONE } from '../scripts/building-counter.js';
+  import { getDevelopmentCounter, millisecondsUntilNextProjectDay } from '../scripts/building-counter.js';
 
   const counterSection = document.querySelector('.building-section');
   const daysValue = counterSection?.querySelector('[data-counter-days]');
@@ -78,7 +69,7 @@
       const counter = getDevelopmentCounter();
       daysValue.textContent = String(counter.days);
       hoursValue.textContent = new Intl.NumberFormat('en-US').format(counter.estimatedHours);
-      asOfValue.textContent = `As of ${counter.dateLabel} · ${PROJECT_TIME_ZONE}`;
+      asOfValue.textContent = `As of ${counter.dateLabel}`;
     };
 
     const scheduleNextProjectDay = () => {
