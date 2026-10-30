@@ -18,7 +18,7 @@ The existing homepage screenshots were captured before this change:
 - [Mobile Light](before-visual-revision-mobile-light.png) — 390 × 844 viewport
 - [Mobile Dark](before-visual-revision-mobile-dark.png) — 390 × 844 viewport
 
-## Building v2.1 and centered Footer monogram
+## Before: Building v2.1
 
 - [Desktop Light](v2-1-desktop-light.png) — 1440 × 1000 viewport
 - [Desktop Dark](v2-1-desktop-dark.png) — 1440 × 1000 viewport
@@ -27,13 +27,23 @@ The existing homepage screenshots were captured before this change:
 
 Each image is a full-page screenshot showing Building, Professional Identity pre-footer, and Footer.
 
+## After: Building v2.2 Compact Editorial Layout
+
+- [Desktop Light](v2-2-desktop-light.png) — 1440 × 1000 viewport
+- [Desktop Dark](v2-2-desktop-dark.png) — 1440 × 1000 viewport
+- [Mobile Light](v2-2-mobile-light.png) — 390 × 844 viewport
+- [Mobile Dark](v2-2-mobile-dark.png) — 390 × 844 viewport
+
+These are full-page Playwright screenshots showing Building, Professional Identity pre-footer, and Footer. Compare them with the v2.1 screenshots above.
+
 ## Review checks
 
 - Counter is in the left text column and dynamically reports days, estimated hours, and date in `Europe/Moscow`.
-- Desktop status panel overlays the road; Focus / Stage / Goal are displayed in one row with equal-height dividers.
+- Desktop status panel is 600px wide at 1440px viewport, overlays the road, and remains horizontally clear of the left text column. Focus / Stage / Goal are displayed in one row with equal-height dividers.
+- At 961–1159px the status panel flows below the text; at 1160px and wider it overlays the road. Intermediate widths were checked for overlap and horizontal overflow.
 - Mobile status panel adapts below the Building copy without horizontal overflow.
-- Footer monogram is centered, links home, and measures 72px on Desktop / 52px on Mobile.
+- Footer monogram is centered, links home, and measures 48px on Desktop / 40px on Mobile.
 - Theme behavior, keyboard disclosure, Contact content and copyright were regression-checked.
-- Static no-JavaScript counter fallback remains the approved 183 / 2,400 baseline dated 30 Oct 2026.
+- Dynamic counter on 31 Oct 2026 reports 184 days / 2,410 estimated hours; static no-JavaScript fallback remains the approved 183 / 2,400 baseline dated 30 Oct 2026.
 
-Astro check and production build passed. Playwright checks passed for Desktop/Mobile, Light/Dark, counter date, panel layout, theme toggle, keyboard disclosure, no overflow, Contact content, and Footer centering. Counter unit tests passed.
+Astro check and production build passed. Playwright checks passed for Desktop/Mobile, Light/Dark, widths 961–1440px, counter date, panel layout, theme toggle, keyboard disclosure, no overflow, Contact content, and Footer centering.
