@@ -23,6 +23,14 @@
 - Preserve existing files and Git history. Inspect Git state before changes; do not reset, rewrite history or create a replacement repository when metadata is unavailable.
 - Do not invent biography, project capabilities, external URLs or live service status. Use explicit pending-content text until verified content is supplied.
 
+## Persistent workspace and review assets
+
+- Keep active Git checkouts in persistent directories. Use `/tmp` only for temporary operations.
+- Do not keep the only copy of source files, user-provided assets, or review results in `/tmp`.
+- Store backups outside `/tmp` and verify their checksums.
+- Save visual-acceptance screenshots in `design/reviews/`.
+- Do not delete an older checkout until the replacement checkout has been verified and the Founder has separately authorized its removal.
+
 ## Boundaries
 
 - Do not modify PG27, Fake Bank or Fake Shop repositories. Pages here are website descriptions only.
