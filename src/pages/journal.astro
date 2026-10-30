@@ -1,21 +1,53 @@
 ---
 import SiteLayout from '../layouts/SiteLayout.astro';
+
+type ChronicleType = 'Milestone' | 'Engineering Note' | 'Visual Story' | 'Publication' | 'Retrospective';
+interface ChronicleEntry {
+  title: string;
+  occurredAt: string;
+  publishedAt: string;
+  type: ChronicleType;
+  project: string;
+  summary: string;
+  media?: string;
+  externalUrl?: string;
+  body?: string;
+}
+
+// Добавляйте только подтверждённые публикации; время события и дата публикации независимы.
+const entries: ChronicleEntry[] = [];
+const orderedEntries = [...entries].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 ---
-<SiteLayout title="Journal" description="Engineering notes and articles." showPageTitle={false}>
+<SiteLayout title="Journal" description="Engineering Chronicle: milestones, engineering notes, visual stories, publications, and retrospectives." showPageTitle={false}>
   <section class="page-hero" aria-labelledby="journal-page-title">
     <div class="container page-hero__inner">
       <p class="eyebrow">Journal</p>
-      <h1 id="journal-page-title">Engineering notes.</h1>
-      <p>Articles and publication links will appear here when they are confirmed.</p>
+      <h1 id="journal-page-title">Engineering Chronicle.</h1>
+      <p>A dated record of work: what happened, and when it was published.</p>
     </div>
   </section>
-  <section class="page-content container" aria-label="Journal entries">
-    <div class="pending-panel">
-      <span class="pending-panel__mark" aria-hidden="true">—</span>
-      <div>
-        <h2>No verified publications yet</h2>
-        <p>This page will list published work with its original title, language, date, and source link.</p>
+  <section class="page-content container" aria-label="Engineering Chronicle entries">
+    {orderedEntries.length > 0 ? (
+      <div class="chronicle-list">
+        {orderedEntries.map((entry) => (
+          <article class="chronicle-entry">
+            <p class="chronicle-entry__meta"><span>{entry.type}</span><span>{entry.project}</span></p>
+            <h2>{entry.externalUrl ? <a href={entry.externalUrl}>{entry.title}</a> : entry.title}</h2>
+            <p class="chronicle-entry__dates"><span>Occurred <time datetime={entry.occurredAt}>{entry.occurredAt}</time></span><span>Published <time datetime={entry.publishedAt}>{entry.publishedAt}</time></span></p>
+            <p>{entry.summary}</p>
+            {entry.media && <img src={entry.media} alt="" loading="lazy" />}
+            {entry.body && <div class="chronicle-entry__body">{entry.body}</div>}
+          </article>
+        ))}
       </div>
-    </div>
+    ) : (
+      <div class="pending-panel" role="status">
+        <span class="pending-panel__mark" aria-hidden="true">—</span>
+        <div>
+          <h2>No Chronicle entries yet</h2>
+          <p>Entries will be published after their content and dates have been verified.</p>
+        </div>
+      </div>
+    )}
   </section>
 </SiteLayout>

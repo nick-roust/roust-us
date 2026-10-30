@@ -1,6 +1,7 @@
 ---
 import Navigation from '../components/Navigation.astro';
 import ThemeControl from '../components/ThemeControl.astro';
+import ProfessionalIdentity from '../components/ProfessionalIdentity.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -61,6 +62,8 @@ const { title, description, isHome = false, showPageTitle = true } = Astro.props
       {showPageTitle && <h1 class="page-title container">{title}</h1>}
       <slot />
     </main>
+
+    <ProfessionalIdentity />
 
     <footer class="site-footer">
       <div class="container site-footer__inner">
