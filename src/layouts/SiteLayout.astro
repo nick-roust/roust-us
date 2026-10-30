@@ -2,6 +2,7 @@
 import Navigation from '../components/Navigation.astro';
 import ThemeControl from '../components/ThemeControl.astro';
 import ProfessionalIdentity from '../components/ProfessionalIdentity.astro';
+import SiteFooter from '../components/SiteFooter.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -12,7 +13,6 @@ interface Props {
 }
 
 const { title, description, isHome = false, showPageTitle = true } = Astro.props;
-const currentYear = new Date().getFullYear();
 ---
 <!doctype html>
 <html lang="en" data-theme="system">
@@ -66,12 +66,7 @@ const currentYear = new Date().getFullYear();
 
     <ProfessionalIdentity />
 
-    <footer class="site-footer">
-      <div class="container site-footer__inner">
-        <p>© 2006-{currentYear} ROUST.US</p>
-        <a href="#main">Back to top <span aria-hidden="true">↑</span></a>
-      </div>
-    </footer>
+    <SiteFooter />
 
     <script>
       const themeToggle = document.querySelector<HTMLButtonElement>('[data-theme-toggle]');
