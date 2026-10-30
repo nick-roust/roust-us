@@ -1,5 +1,6 @@
 ---
 import SiteLayout from '../layouts/SiteLayout.astro';
+import BuildingSection from '../components/BuildingSection.astro';
 ---
 <SiteLayout title="I build systems." description="Fintech, software architecture, and AI-assisted engineering." isHome={true} showPageTitle={false}>
   <div class="home-page">
@@ -18,26 +19,6 @@ import SiteLayout from '../layouts/SiteLayout.astro';
           <p class="hero__descriptor">Fintech · Software Architecture · AI-Assisted Engineering</p>
           <p class="hero__statement">I design, build and operate systems<br />that work in the real world.</p>
           <a class="text-link hero__link" href="#currently-building"><span aria-hidden="true">↓</span>Explore</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="systems-section section-wrap" id="currently-building" aria-labelledby="currently-building-title">
-      <div class="container">
-        <p class="section-index"><span>Currently Building</span></p>
-        <div class="feature-project">
-          <div class="feature-project__copy">
-            <p class="eyebrow">Long-term project</p>
-            <h2 id="currently-building-title">PaymentGate</h2>
-            <p>Public project information is being prepared from confirmed material.</p>
-            <span class="status-label"><span aria-hidden="true"></span>Work in progress</span>
-            <a class="button-link" href="/building-paymentgate">Building PaymentGate <span aria-hidden="true">→</span></a>
-          </div>
-          <div class="feature-project__visual" aria-hidden="true">
-            <span class="feature-project__number">CURRENTLY BUILDING</span>
-            <img src="/brand/roust-monogram-color.svg" alt="" width="168" height="168" loading="lazy" />
-            <span class="feature-project__caption">PaymentGate</span>
-          </div>
         </div>
       </div>
     </section>
@@ -71,5 +52,6 @@ import SiteLayout from '../layouts/SiteLayout.astro';
         <div class="journal-section__mark" aria-hidden="true"><span>CHRONICLE</span><span>01</span></div>
       </div>
     </section>
+    <BuildingSection />
   </div>
 </SiteLayout>

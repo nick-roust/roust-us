@@ -1,7 +1,7 @@
 ---
 const links = [
   { href: '/about', label: 'About' },
-  { href: '/building-paymentgate', label: 'Building' },
+  { href: Astro.url.pathname === '/' ? '#building' : '/#building', label: 'Building' },
   { href: '/open-source', label: 'Open Source' },
   { href: '/journal', label: 'Journal' },
   { href: '#contact', label: 'Contact' },
@@ -11,7 +11,9 @@ const currentPath = path === '/projects' || path.startsWith('/projects/') || pat
 ---
 <nav class="primary-nav" aria-label="Main navigation">
   {links.map(({ href, label }) => {
-    const current = href === '#contact' ? false : currentPath === href;
+    const current = label === 'Building'
+      ? currentPath === '/building-paymentgate'
+      : href === '#contact' ? false : currentPath === href;
     return <a href={href} aria-current={current ? 'page' : undefined}>{label}</a>;
   })}
 </nav>
