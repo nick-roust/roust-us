@@ -338,6 +338,9 @@ html:not(.js) .theme-toggle { display: none; }
   .building-section__inner { padding-block: 2.25rem 0; }
   .building-panel { position: relative; top: auto; right: auto; bottom: auto; width: min(100% - 3rem, 1320px); margin: 1.5rem auto 2.25rem; transform: none; }
 }
+@media (min-width: 1160px) {
+  .building-panel { top: auto; bottom: 2.25rem; transform: none; }
+}
 @media (max-width: 680px) {
   .container, .site-header__inner { width: min(100% - 2rem, 1320px); }
   .profile-list { gap: 0.75rem; }

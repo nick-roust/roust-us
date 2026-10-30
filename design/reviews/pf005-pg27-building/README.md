@@ -36,6 +36,15 @@ Each image is a full-page screenshot showing Building, Professional Identity pre
 
 These are full-page Playwright screenshots showing Building, Professional Identity pre-footer, and Footer. Compare them with the v2.1 screenshots above.
 
+## Final CTA / status-panel alignment
+
+- [Desktop Light](v2-2-final-align-desktop-light.png)
+- [Desktop Dark](v2-2-final-align-desktop-dark.png)
+- [Mobile Light](v2-2-final-align-mobile-light.png)
+- [Mobile Dark](v2-2-final-align-mobile-dark.png)
+
+On Desktop, the lower edges of the Follow the progress CTA and the status panel align to within 1 CSS pixel. Mobile layout remains unchanged.
+
 ## Review checks
 
 - Counter is in the left text column and dynamically reports days, estimated hours, and date in `Europe/Moscow`.
@@ -46,4 +55,4 @@ These are full-page Playwright screenshots showing Building, Professional Identi
 - Theme behavior, keyboard disclosure, Contact content and copyright were regression-checked.
 - Dynamic counter on 31 Oct 2026 reports 184 days / 2,410 estimated hours; static no-JavaScript fallback remains the approved 183 / 2,400 baseline dated 30 Oct 2026.
 
-Astro check and production build passed. Playwright checks passed for Desktop/Mobile, Light/Dark, widths 961–1440px, counter date, panel layout, theme toggle, keyboard disclosure, no overflow, Contact content, and Footer centering.
+Astro check and production build passed. Playwright checks passed for Desktop/Mobile, Light/Dark, widths 961–1440px, counter date, panel layout and final bottom-edge alignment, theme toggle, keyboard disclosure, no overflow, Contact content, and Footer centering.
