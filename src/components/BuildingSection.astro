@@ -25,13 +25,14 @@
           </span>
           <span class="building-counter__separator" aria-hidden="true">·</span>
           <details class="building-counter__estimate">
-            <summary aria-label="Estimated engineering hours. Open explanation.">
+            <summary aria-label="Estimated engineering hours. Open explanation." aria-describedby="engineering-hours-tooltip" aria-controls="engineering-hours-tooltip" aria-expanded="false">
               <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 3" /></svg>
               <strong data-counter-hours>2,400</strong><span>hrs</span>
             </summary>
-            <p class="building-counter__explanation">Estimated engineering hours since May 1, 2026.</p>
           </details>
         </div>
+        <p id="engineering-hours-tooltip" class="building-counter__explanation" role="tooltip" hidden>Estimated engineering hours since May 1, 2026.</p>
+        <noscript><p class="building-counter__explanation building-counter__explanation--fallback">Estimated engineering hours since May 1, 2026.</p></noscript>
         <p class="building-counter__as-of" data-counter-as-of>As of 30 Oct 2026</p>
       </div>
       <a class="building-section__link" href="/journal">Follow the progress <span aria-hidden="true">→</span></a>
@@ -81,5 +82,87 @@
 
     updateCounter();
     scheduleNextProjectDay();
+  }
+
+  const hoursDisclosure = counterSection?.querySelector('.building-counter__estimate') as HTMLDetailsElement | null;
+  const hoursTrigger = hoursDisclosure?.querySelector('summary') as HTMLElement | null;
+  const hoursTooltip = counterSection?.querySelector('#engineering-hours-tooltip') as HTMLElement | null;
+
+  if (hoursDisclosure && hoursTrigger && hoursTooltip) {
+    let pinned = false;
+    let hovering = false;
+    let focused = false;
+    let dismissed = false;
+    let touchActivation = false;
+    const hoverEnabled = window.matchMedia('(hover: hover) and (pointer: fine)');
+
+    const updateTooltip = () => {
+      const open = !dismissed && (pinned || hovering || focused);
+      hoursDisclosure.open = open;
+      hoursTooltip.hidden = !open;
+      hoursTrigger.setAttribute('aria-expanded', String(open));
+    };
+
+    hoursDisclosure.addEventListener('pointerenter', (event: PointerEvent) => {
+      if (hoverEnabled.matches && event.pointerType === 'mouse') {
+        hovering = true;
+        dismissed = false;
+        updateTooltip();
+      }
+    });
+    hoursDisclosure.addEventListener('pointerleave', (event: PointerEvent) => {
+      if (event.pointerType === 'mouse') {
+        hovering = false;
+        if (!pinned && !focused) dismissed = false;
+        updateTooltip();
+      }
+    });
+    hoursTrigger.addEventListener('pointerdown', (event: PointerEvent) => {
+      if (event.pointerType === 'touch') {
+        touchActivation = true;
+        hovering = false;
+        focused = false;
+      }
+    });
+    hoursTrigger.addEventListener('click', event => {
+      event.preventDefault();
+      const open = touchActivation ? !pinned : !hoursDisclosure.open;
+      if (touchActivation) focused = false;
+      touchActivation = false;
+      pinned = open;
+      dismissed = !open;
+      updateTooltip();
+    });
+    hoursTrigger.addEventListener('focus', () => {
+      if (touchActivation) return;
+      focused = true;
+      dismissed = false;
+      updateTooltip();
+    });
+    hoursTrigger.addEventListener('blur', () => {
+      focused = false;
+      if (!pinned && !hovering) dismissed = false;
+      updateTooltip();
+    });
+    document.addEventListener('pointerdown', (event: PointerEvent) => {
+      if (event.target instanceof Node && !hoursDisclosure.contains(event.target)) {
+        touchActivation = false;
+        pinned = false;
+        hovering = false;
+        focused = false;
+        dismissed = true;
+        updateTooltip();
+      }
+    });
+    document.addEventListener('keydown', (event: KeyboardEvent) => {
+      if (event.key === 'Escape' && hoursDisclosure.open) {
+        event.preventDefault();
+        pinned = false;
+        hovering = false;
+        focused = false;
+        dismissed = true;
+        updateTooltip();
+      }
+    });
   }
 </script>

@@ -58,6 +58,35 @@ The Focus / Stage / Goal labels share a common top baseline, and all three value
 
 At widths up to 960px, the status panel uses `position: static` and follows the CTA in normal document flow. The gap is 28.8px at 320–430px and 32px at 768px. Playwright verified CTA hit testing, mouse navigation, keyboard focus and Enter navigation, plus no horizontal overflow at 320, 360, 390, 430 and 768px in both themes. Desktop bottom-edge alignment and status typography baselines remain unchanged.
 
+## Issue #9 — Hours tooltip and tablet road crop
+
+### Before: tablet crop
+
+- [768px](issue9-before-tablet-768.png)
+- [820px](issue9-before-tablet-820.png)
+- [912px](issue9-before-tablet-912.png)
+- [1024px](issue9-before-tablet-1024.png)
+
+### After: tablet Building crops
+
+Each viewport was captured in Light and Dark:
+
+- 768px: [Light](issue9-after-tablet-768-light.png) · [Dark](issue9-after-tablet-768-dark.png)
+- 820px: [Light](issue9-after-tablet-820-light.png) · [Dark](issue9-after-tablet-820-dark.png)
+- 912px: [Light](issue9-after-tablet-912-light.png) · [Dark](issue9-after-tablet-912-dark.png)
+- 1024px: [Light](issue9-after-tablet-1024-light.png) · [Dark](issue9-after-tablet-1024-dark.png)
+
+Tablet-only `object-position: 85% center` reveals the road bend. The source image is unchanged; desktop (`50% 54%`) and mobile (`83% center`) crops are unchanged.
+
+### Hours tooltip states
+
+- Before: [Light open](issue9-before-tooltip-open-light.png) · [Dark open](issue9-before-tooltip-open-dark.png) · [Light closed](issue9-before-tooltip-closed-light.png) · [Dark closed](issue9-before-tooltip-closed-dark.png)
+- After: [Light open](issue9-after-tooltip-open-light.png) · [Dark open](issue9-after-tooltip-open-dark.png) · [Light closed](issue9-after-tooltip-closed-light.png) · [Dark closed](issue9-after-tooltip-closed-dark.png)
+
+The native disclosure remains keyboard accessible. Desktop hover and focus open the tooltip; touch toggles it. Escape and an outside pointer/touch close it. On mobile it is placed in normal flow between the metrics and date, so it does not cover the description or CTA.
+
+Playwright passed Desktop Light/Dark, tablet widths 768/820/912/1024 in Light/Dark, and touch widths 320/360/390/430 in Light/Dark. Checks covered tooltip bounds/content, overlap with description and CTA, aria-expanded/describedby, desktop hover/focus, mobile tap/toggle/outside/Escape, CTA visibility, no horizontal overflow, unchanged desktop panel-to-CTA alignment, and unchanged mobile image position. Astro check and static production build passed (12 routes).
+
 ## Review checks
 
 - Counter is in the left text column and dynamically reports days, estimated hours, and date in `Europe/Moscow`.
