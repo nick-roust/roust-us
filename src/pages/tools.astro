@@ -2,8 +2,11 @@
 import SiteLayout from '../layouts/SiteLayout.astro';
 import SectionCard from '../components/SectionCard.astro';
 ---
-<SiteLayout title="Developer Tools" description="Developer tools on roust.us.">
-  <div class="cards">
-    <SectionCard href="/bik" title="BIK directory" description="An ED807-based tool under research. No directory data is published yet." />
+<SiteLayout title="Developer Tools" description="Research tools retained from the previous site structure.">
+  <div class="legacy-content">
+    <p>This route remains available for existing links. BIK-ED807 research is separate from the public Systems and Journal sections.</p>
+    <div class="cards">
+      <SectionCard href="/bik" title="BIK directory research" description="ED807-based directory work is still under research; no banking records are published here." />
+    </div>
   </div>
 </SiteLayout>

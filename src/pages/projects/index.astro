@@ -1,9 +1,28 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
-import SectionCard from '../../components/SectionCard.astro';
 ---
-<SiteLayout title="Projects" description="Project pages on roust.us.">
-  <div class="cards">
-    <SectionCard href="/projects/paymentgate" title="PaymentGate" description="Project overview to be added." />
-  </div>
+<SiteLayout title="Systems" description="Independent engineering projects and systems." showPageTitle={false}>
+  <section class="page-hero" aria-labelledby="systems-page-title">
+    <div class="container page-hero__inner">
+      <p class="eyebrow">Independent work</p>
+      <h1 id="systems-page-title">Systems / Projects</h1>
+      <p>Projects are presented as their details and public evidence are verified.</p>
+    </div>
+  </section>
+  <section class="page-content container" aria-label="Featured project">
+    <div class="project-list">
+      <article class="project-card">
+        <p class="project-card__meta"><span>Featured system</span><span>Details under review</span></p>
+        <h2>Fake Bank</h2>
+        <p>Project details are being checked against the source repository. Technical claims and external links will be added after verification.</p>
+        <a class="button-link" href="/labs/fake-bank">Open project page <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="project-card">
+        <p class="project-card__meta"><span>Project</span><span>Information pending</span></p>
+        <h2>PaymentGate</h2>
+        <p>Public project information is being prepared from confirmed material.</p>
+        <a class="button-link button-link--quiet" href="/building-paymentgate">Building PaymentGate <span aria-hidden="true">→</span></a>
+      </article>
+    </div>
+  </section>
 </SiteLayout>

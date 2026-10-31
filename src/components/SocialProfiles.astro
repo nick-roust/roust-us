@@ -1,0 +1,42 @@
+---
+const channels = [
+  { label: 'Email', value: 'nick@roust.us', href: 'mailto:nick@roust.us', icon: 'mail' },
+  { label: 'GitHub', value: 'github.com/nick-roust', href: 'https://github.com/nick-roust', icon: 'github' },
+  { label: 'LinkedIn', value: 'linkedin.com/in/nick-roust', href: 'https://linkedin.com/in/nick-roust', icon: 'linkedin' },
+];
+---
+<ul class="profile-list" aria-label="Contact channels">
+  {channels.map(({ label, value, href, icon }) => (
+    <li class="profile-list__item">
+      <a class="profile-list__link" href={href}>
+        <span class="profile-list__icon" aria-hidden="true">
+          {icon === 'mail' && (
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+              <path d="M3 7l9 6l9-6" />
+              <path d="M5 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" />
+            </svg>
+          )}
+          {icon === 'github' && (
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+              <path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 19 3.77 5.07 5.07 0 0 0 18.91 0S17.73-.35 15 1.48a13.38 13.38 0 0 0-7 0C5.27-.35 4.09 0 4.09 0A5.07 5.07 0 0 0 4 3.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 8 17.13V21" transform="translate(1 1) scale(.92)" />
+            </svg>
+          )}
+          {icon === 'linkedin' && (
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M8 11v5" />
+              <path d="M8 8v.01" />
+              <path d="M12 16v-5" />
+              <path d="M16 16v-3a2 2 0 1 0-4 0" />
+              <path d="M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z" />
+            </svg>
+          )}
+        </span>
+        <span class="profile-list__copy">
+          <span class="profile-list__name">{label}</span>
+          <span class="profile-list__value">{value}</span>
+        </span>
+      </a>
+    </li>
+  ))}
+</ul>

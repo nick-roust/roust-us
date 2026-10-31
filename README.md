@@ -1,61 +1,49 @@
 # roust.us
 
-A personal website foundation built with Astro, TypeScript and plain CSS. Output is static; no frontend framework or server adapter is installed.
+A personal engineering site built with Astro, TypeScript, and plain CSS. It uses static output and has no server adapter or application backend.
 
 ## Development
 
-Requires Node.js 22.12 or later and pnpm 11.0.9 (recorded in `package.json`).
+Requires Node.js 22.12 or later and pnpm 11.0.9.
 
 ```sh
 pnpm install --frozen-lockfile
 pnpm run dev
+pnpm run check
 pnpm run build
 pnpm run preview
 ```
 
-`pnpm run build` runs `astro check` before producing `dist/`. Configuration sets the intended site URL to `https://roust.us`; deployment is not configured or performed. Astro TypeScript setup follows the [official documentation](https://docs.astro.build/en/guides/typescript/).
+`pnpm run build` runs `astro check` and generates static files in `dist/`. Hosting, DNS, TLS, and production deployment are not configured by this repository.
 
-## Routes
+## Launch MVP routes
 
 | Route | Purpose |
 | --- | --- |
-| `/` | Three-section home page |
-| `/about` | About page; biography pending |
-| `/projects` | Projects index |
-| `/projects/paymentgate` | PaymentGate page; verified content pending |
-| `/tools` | Developer Tools index |
-| `/bik` | BIK directory research status |
-| `/labs` | Labs index |
-| `/labs/fake-bank` | Fake Bank page; verified content pending |
-| `/labs/fake-shop` | Fake Shop page; verified content pending |
+| `/` | Home, featured system, journal status, Building PaymentGate, and contact status |
+| `/projects` | Systems and projects |
+| `/journal` | Verified published articles; currently empty |
+| `/building-paymentgate` | PaymentGate project status and updates |
+| `/labs/fake-bank` | Fake Bank project detail; technical content is pending verification |
 
-## Structure and boundaries
+Existing routes remain available while navigation changes: `/about`, `/projects/paymentgate`, `/tools`, `/bik`, `/labs`, and `/labs/fake-shop`. The BIK research route remains `/bik`; its workspace remains `tools/bic/`.
 
-`src/pages/` contains routes, `src/layouts/` the document shell, `src/components/` shared navigation and cards, and `src/styles/` plain CSS. `public/` is reserved for intentionally published assets. `tools/bic/` contains ED807 research documentation; the public route remains `/bik`.
+## Themes and assets
 
-`data/ed807/` holds original XML and ZIP files, outside the public tree. No converter, output schema or banking-data JSON has been created. The source XML is not imported by the website. PG27, Fake Bank and Fake Shop repositories are outside this task and have not been modified.
+The header is permanently dark and shows the ROUST wordmark, centered primary navigation, a link to the confirmed GitHub profile, and a single icon button that toggles Light/Dark. Before a manual choice, the page follows `prefers-color-scheme` and responds to operating-system changes. A manual choice is stored in `localStorage` and takes precedence until site storage is cleared.
 
-`dist/` is disposable build output. Both original files were moved out before the first build; SHA-256 was verified before deleting each source. Check them with:
+`brand/master/` contains the original ROUST CSE SVG masters. Copies used by the site are under `public/brand/`; `roust-name-white.svg` changes only the source wordmark fill, preserving its path geometry. Original approved photographs remain under `brand/photography/`. Optimized WebP derivatives are served from `public/images/`; the originals are unchanged.
 
-```sh
-cd data/ed807
-sha256sum -c SHA256SUMS
-```
+`design/references/` contains the four approved visual references. They are design guidance, not factual evidence. Do not reuse mockup copy, metrics, URLs, API examples, technology lists, or service claims without verification.
 
-See [source preservation](tools/bic/docs/source-research.md) for original paths and hashes, [data-model questions](tools/bic/docs/data-model.md), and [architecture decisions](tools/bic/docs/architecture-decisions.md).
+### Favicon assets
 
-## Git inspection limitation
+`public/favicon.svg`, `public/favicon.ico`, `public/apple-touch-icon.png`, `public/icon-192.png`, and `public/icon-512.png` are generated from the unchanged `brand/master/roust-monogram-icon.svg` Core Dark source. To regenerate them and the non-public size review, run `node scripts/generate-favicons.mjs` with Inkscape 1.4.3 and ImageMagick 7.1.2 or later installed. The ICO contains 16, 32, and 48 px images. Review exact rasters and light/dark nearest-neighbor previews under `design/references/favicon-core-dark-*.png` and `favicon-production-review.png`.
 
-During the Astro foundation task, `.git/` was empty and read-only in this environment. `git status`, `git log` and `git ls-files --error-unmatch dist/20261008_ED807_full.xml` reported that this was not a Git repository. Tracking status and existing history therefore could not be verified at that time; no Git metadata was changed during that task.
+## Content and data boundaries
 
-The subsequent authorized GitHub initialization created a repository on branch `main`, with `origin` set to `git@github.com:nick-roust/roust-us.git`. The remote was checked and contained no refs before the first push. `.gitignore` excludes XML and ZIP files, build output, generated types, dependencies and local environment files. Original banking inputs stay local; their checksum manifest and research documents are versioned. GitHub Pages, domain connection and CI are deferred to separate tasks.
+Biography, contact details, and social profile URLs are omitted until approved and verified. Project capabilities, service status, and external links are added only with evidence. Hosted tools are independent services; Fake Bank is not part of this site's runtime.
 
-## Open decisions
+Original ED807 XML and ZIP inputs stay in `data/ed807/`, outside `public/`, application imports, and generated routes. Do not publish the inputs or derived banking records. Follow `tools/bic/AGENTS.md` for ED807 work.
 
-- Verified biography, descriptions and external URLs for project/lab pages.
-- Hosting provider and deployment workflow.
-- ED807 provenance, specification/version, redistribution terms, model, validation and update policy (tracked under `tools/bic/docs/`).
-
-## Foundation verification
-
-Verified on 2026-10-08 with Node.js 24.15.0 and pnpm 11.0.9: `pnpm run build` passed with zero Astro diagnostics and generated all nine routes. `pnpm peers check` found no peer dependency issues. Generated HTML was checked for navigation, resolving local links, titles, a single page heading and the main-content skip target. Both source checksums still matched after the build, and neither source file nor any banking-data JSON appeared in `public/` or `dist/`.
+`dist/`, `.astro/`, and `node_modules/` are generated and ignored. Never store source files in `dist/`.
