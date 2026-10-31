@@ -49,6 +49,15 @@ On Desktop, the lower edges of the Follow the progress CTA and the status panel 
 
 The Focus / Stage / Goal labels share a common top baseline, and all three values share a common baseline directly below the labels. The panel dimensions, position, dividers, and mobile layout are unchanged.
 
+## Mobile flow hotfix
+
+- [Desktop Light regression check](v2-2-mobile-hotfix-desktop-light.png)
+- [Desktop Dark regression check](v2-2-mobile-hotfix-desktop-dark.png)
+- [Mobile Light, 390px](v2-2-mobile-hotfix-390-light.png)
+- [Mobile Dark, 390px](v2-2-mobile-hotfix-390-dark.png)
+
+At widths up to 960px, the status panel uses `position: static` and follows the CTA in normal document flow. The gap is 28.8px at 320–430px and 32px at 768px. Playwright verified CTA hit testing, mouse navigation, keyboard focus and Enter navigation, plus no horizontal overflow at 320, 360, 390, 430 and 768px in both themes. Desktop bottom-edge alignment and status typography baselines remain unchanged.
+
 ## Review checks
 
 - Counter is in the left text column and dynamically reports days, estimated hours, and date in `Europe/Moscow`.
@@ -59,4 +68,4 @@ The Focus / Stage / Goal labels share a common top baseline, and all three value
 - Theme behavior, keyboard disclosure, Contact content and copyright were regression-checked.
 - Dynamic counter on 31 Oct 2026 reports 184 days / 2,410 estimated hours; static no-JavaScript fallback remains the approved 183 / 2,400 baseline dated 30 Oct 2026.
 
-Astro check and production build passed. Playwright checks passed for Desktop/Mobile, Light/Dark, widths 961–1440px, counter date, panel layout and final bottom-edge alignment, status label/value baselines, theme toggle, keyboard disclosure, no overflow, Contact content, and Footer centering.
+Astro check and production build passed. Playwright checks passed for Desktop/Mobile, Light/Dark, widths 320–1440px, counter date, panel flow and final bottom-edge alignment, status label/value baselines, CTA pointer/keyboard activation, theme toggle, keyboard disclosure, no overflow, Contact content, and Footer centering.

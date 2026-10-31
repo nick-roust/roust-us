@@ -329,7 +329,7 @@ html:not(.js) .theme-toggle { display: none; }
   .building-section { min-height: 0; }
   .building-section__inner { min-height: 0; padding: 3.5rem 1.5rem 0; }
   .building-section__copy { max-width: 44rem; }
-  .building-panel { position: relative; right: auto; bottom: auto; width: min(100% - 3rem, 1320px); margin: 2rem auto 1.5rem; }
+  .building-panel { position: static; inset: auto; width: min(100% - 3rem, 1320px); margin: 2rem auto 1.5rem; transform: none; }
   .building-status { min-height: 6.5rem; }
   .contact-section__layout { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
   .contact-section__channels { padding: 1.2rem 0 0; border-top: 1px solid rgba(255,255,255,.2); border-left: 0; }
