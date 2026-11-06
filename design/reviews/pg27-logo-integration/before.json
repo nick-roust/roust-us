@@ -1,0 +1,698 @@
+[
+  {
+    "viewport": 1440,
+    "theme": "light",
+    "overflow": false,
+    "heading": {
+      "x": 52.5,
+      "y": 1769.6875,
+      "width": 608,
+      "height": 53.34375
+    },
+    "fontSize": "56.16px",
+    "lineHeight": "53.352px",
+    "textInkHeight": 43,
+    "textAscent": 42,
+    "textDescent": 1,
+    "logo": null,
+    "layout": [
+      {
+        "tag": "SECTION",
+        "class": "hero",
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 780
+      },
+      {
+        "tag": "SECTION",
+        "class": "open-source-section section-wrap",
+        "x": 0,
+        "y": 780,
+        "width": 1425,
+        "height": 428.765625
+      },
+      {
+        "tag": "SECTION",
+        "class": "journal-section section-wrap",
+        "x": 0,
+        "y": 1208.765625,
+        "width": 1425,
+        "height": 498.765625
+      },
+      {
+        "tag": "SECTION",
+        "class": "building-section",
+        "x": 0,
+        "y": 1707.53125,
+        "width": 1425,
+        "height": 470.140625
+      },
+      {
+        "tag": "DIV",
+        "class": "container building-section__inner",
+        "x": 52.5,
+        "y": 1707.53125,
+        "width": 1320,
+        "height": 470.140625
+      },
+      {
+        "tag": "DIV",
+        "class": "building-section__copy",
+        "x": 52.5,
+        "y": 1743.53125,
+        "width": 608,
+        "height": 398.140625
+      },
+      {
+        "tag": "P",
+        "class": "building-section__subheading",
+        "x": 52.5,
+        "y": 1827.828125,
+        "width": 608,
+        "height": 36.484375
+      },
+      {
+        "tag": "P",
+        "class": "building-section__description",
+        "x": 52.5,
+        "y": 1877.109375,
+        "width": 444.625,
+        "height": 104.125
+      },
+      {
+        "tag": "DIV",
+        "class": "building-counter",
+        "x": 52.5,
+        "y": 2003.625,
+        "width": 608,
+        "height": 50.859375
+      },
+      {
+        "tag": "A",
+        "class": "building-section__link",
+        "x": 52.5,
+        "y": 2093.671875,
+        "width": 193.890625,
+        "height": 48
+      },
+      {
+        "tag": "DIV",
+        "class": "building-panel",
+        "x": 765,
+        "y": 2027.671875,
+        "width": 600,
+        "height": 114
+      }
+    ],
+    "copy": [
+      "CURRENTLY BUILDING",
+      "Building transaction infrastructure.",
+      "An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.",
+      "188days·2,450hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"35:100\">Estimated engineering hours since May 1, 2026.</p>As of 04 Nov 2026",
+      "Follow the progress →",
+      "FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+    ],
+    "width": 1440
+  },
+  {
+    "viewport": 1440,
+    "theme": "dark",
+    "overflow": false,
+    "heading": {
+      "x": 52.5,
+      "y": 1769.6875,
+      "width": 608,
+      "height": 53.34375
+    },
+    "fontSize": "56.16px",
+    "lineHeight": "53.352px",
+    "textInkHeight": 43,
+    "textAscent": 42,
+    "textDescent": 1,
+    "logo": null,
+    "layout": [
+      {
+        "tag": "SECTION",
+        "class": "hero",
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 780
+      },
+      {
+        "tag": "SECTION",
+        "class": "open-source-section section-wrap",
+        "x": 0,
+        "y": 780,
+        "width": 1425,
+        "height": 428.765625
+      },
+      {
+        "tag": "SECTION",
+        "class": "journal-section section-wrap",
+        "x": 0,
+        "y": 1208.765625,
+        "width": 1425,
+        "height": 498.765625
+      },
+      {
+        "tag": "SECTION",
+        "class": "building-section",
+        "x": 0,
+        "y": 1707.53125,
+        "width": 1425,
+        "height": 470.140625
+      },
+      {
+        "tag": "DIV",
+        "class": "container building-section__inner",
+        "x": 52.5,
+        "y": 1707.53125,
+        "width": 1320,
+        "height": 470.140625
+      },
+      {
+        "tag": "DIV",
+        "class": "building-section__copy",
+        "x": 52.5,
+        "y": 1743.53125,
+        "width": 608,
+        "height": 398.140625
+      },
+      {
+        "tag": "P",
+        "class": "building-section__subheading",
+        "x": 52.5,
+        "y": 1827.828125,
+        "width": 608,
+        "height": 36.484375
+      },
+      {
+        "tag": "P",
+        "class": "building-section__description",
+        "x": 52.5,
+        "y": 1877.109375,
+        "width": 444.625,
+        "height": 104.125
+      },
+      {
+        "tag": "DIV",
+        "class": "building-counter",
+        "x": 52.5,
+        "y": 2003.625,
+        "width": 608,
+        "height": 50.859375
+      },
+      {
+        "tag": "A",
+        "class": "building-section__link",
+        "x": 52.5,
+        "y": 2093.671875,
+        "width": 193.890625,
+        "height": 48
+      },
+      {
+        "tag": "DIV",
+        "class": "building-panel",
+        "x": 765,
+        "y": 2027.671875,
+        "width": 600,
+        "height": 114
+      }
+    ],
+    "copy": [
+      "CURRENTLY BUILDING",
+      "Building transaction infrastructure.",
+      "An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.",
+      "188days·2,450hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"35:100\">Estimated engineering hours since May 1, 2026.</p>As of 04 Nov 2026",
+      "Follow the progress →",
+      "FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+    ],
+    "width": 1440
+  },
+  {
+    "viewport": 768,
+    "theme": "light",
+    "overflow": false,
+    "heading": {
+      "x": 48,
+      "y": 2146.703125,
+      "width": 657,
+      "height": 53.1875
+    },
+    "fontSize": "56px",
+    "lineHeight": "53.2px",
+    "textInkHeight": 43,
+    "textAscent": 42,
+    "textDescent": 1,
+    "logo": null,
+    "layout": [
+      {
+        "tag": "SECTION",
+        "class": "hero",
+        "x": 0,
+        "y": 0,
+        "width": 753,
+        "height": 780
+      },
+      {
+        "tag": "SECTION",
+        "class": "open-source-section section-wrap",
+        "x": 0,
+        "y": 780,
+        "width": 753,
+        "height": 624.609375
+      },
+      {
+        "tag": "SECTION",
+        "class": "journal-section section-wrap",
+        "x": 0,
+        "y": 1404.609375,
+        "width": 753,
+        "height": 659.9375
+      },
+      {
+        "tag": "SECTION",
+        "class": "building-section",
+        "x": 0,
+        "y": 2064.546875,
+        "width": 753,
+        "height": 593.578125
+      },
+      {
+        "tag": "DIV",
+        "class": "container building-section__inner",
+        "x": 24,
+        "y": 2064.546875,
+        "width": 705,
+        "height": 431.578125
+      },
+      {
+        "tag": "DIV",
+        "class": "building-section__copy",
+        "x": 48,
+        "y": 2120.546875,
+        "width": 657,
+        "height": 375.578125
+      },
+      {
+        "tag": "P",
+        "class": "building-section__subheading",
+        "x": 48,
+        "y": 2204.6875,
+        "width": 657,
+        "height": 24.953125
+      },
+      {
+        "tag": "P",
+        "class": "building-section__description",
+        "x": 48,
+        "y": 2242.4375,
+        "width": 398.265625,
+        "height": 93.25
+      },
+      {
+        "tag": "DIV",
+        "class": "building-counter",
+        "x": 48,
+        "y": 2358.078125,
+        "width": 657,
+        "height": 50.859375
+      },
+      {
+        "tag": "A",
+        "class": "building-section__link",
+        "x": 48,
+        "y": 2448.125,
+        "width": 193.890625,
+        "height": 48
+      },
+      {
+        "tag": "DIV",
+        "class": "building-panel",
+        "x": 24,
+        "y": 2528.125,
+        "width": 705,
+        "height": 106
+      }
+    ],
+    "copy": [
+      "CURRENTLY BUILDING",
+      "Building transaction infrastructure.",
+      "An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.",
+      "188days·2,450hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"35:100\">Estimated engineering hours since May 1, 2026.</p>As of 04 Nov 2026",
+      "Follow the progress →",
+      "FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+    ],
+    "width": 768
+  },
+  {
+    "viewport": 768,
+    "theme": "dark",
+    "overflow": false,
+    "heading": {
+      "x": 48,
+      "y": 2146.703125,
+      "width": 657,
+      "height": 53.1875
+    },
+    "fontSize": "56px",
+    "lineHeight": "53.2px",
+    "textInkHeight": 43,
+    "textAscent": 42,
+    "textDescent": 1,
+    "logo": null,
+    "layout": [
+      {
+        "tag": "SECTION",
+        "class": "hero",
+        "x": 0,
+        "y": 0,
+        "width": 753,
+        "height": 780
+      },
+      {
+        "tag": "SECTION",
+        "class": "open-source-section section-wrap",
+        "x": 0,
+        "y": 780,
+        "width": 753,
+        "height": 624.609375
+      },
+      {
+        "tag": "SECTION",
+        "class": "journal-section section-wrap",
+        "x": 0,
+        "y": 1404.609375,
+        "width": 753,
+        "height": 659.9375
+      },
+      {
+        "tag": "SECTION",
+        "class": "building-section",
+        "x": 0,
+        "y": 2064.546875,
+        "width": 753,
+        "height": 593.578125
+      },
+      {
+        "tag": "DIV",
+        "class": "container building-section__inner",
+        "x": 24,
+        "y": 2064.546875,
+        "width": 705,
+        "height": 431.578125
+      },
+      {
+        "tag": "DIV",
+        "class": "building-section__copy",
+        "x": 48,
+        "y": 2120.546875,
+        "width": 657,
+        "height": 375.578125
+      },
+      {
+        "tag": "P",
+        "class": "building-section__subheading",
+        "x": 48,
+        "y": 2204.6875,
+        "width": 657,
+        "height": 24.953125
+      },
+      {
+        "tag": "P",
+        "class": "building-section__description",
+        "x": 48,
+        "y": 2242.4375,
+        "width": 398.265625,
+        "height": 93.25
+      },
+      {
+        "tag": "DIV",
+        "class": "building-counter",
+        "x": 48,
+        "y": 2358.078125,
+        "width": 657,
+        "height": 50.859375
+      },
+      {
+        "tag": "A",
+        "class": "building-section__link",
+        "x": 48,
+        "y": 2448.125,
+        "width": 193.890625,
+        "height": 48
+      },
+      {
+        "tag": "DIV",
+        "class": "building-panel",
+        "x": 24,
+        "y": 2528.125,
+        "width": 705,
+        "height": 106
+      }
+    ],
+    "copy": [
+      "CURRENTLY BUILDING",
+      "Building transaction infrastructure.",
+      "An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.",
+      "188days·2,450hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"35:100\">Estimated engineering hours since May 1, 2026.</p>As of 04 Nov 2026",
+      "Follow the progress →",
+      "FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+    ],
+    "width": 768
+  },
+  {
+    "viewport": 390,
+    "theme": "light",
+    "overflow": false,
+    "heading": {
+      "x": 32,
+      "y": 3066.28125,
+      "width": 326,
+      "height": 66.6875
+    },
+    "fontSize": "70.2px",
+    "lineHeight": "66.69px",
+    "textInkHeight": 53,
+    "textAscent": 52,
+    "textDescent": 1,
+    "logo": null,
+    "layout": [
+      {
+        "tag": "SECTION",
+        "class": "hero",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 792
+      },
+      {
+        "tag": "SECTION",
+        "class": "open-source-section section-wrap",
+        "x": 0,
+        "y": 792,
+        "width": 390,
+        "height": 719.40625
+      },
+      {
+        "tag": "SECTION",
+        "class": "journal-section section-wrap",
+        "x": 0,
+        "y": 1511.40625,
+        "width": 390,
+        "height": 1480.71875
+      },
+      {
+        "tag": "SECTION",
+        "class": "building-section",
+        "x": 0,
+        "y": 2992.125,
+        "width": 390,
+        "height": 658.078125
+      },
+      {
+        "tag": "DIV",
+        "class": "container building-section__inner",
+        "x": 16,
+        "y": 2992.125,
+        "width": 358,
+        "height": 477.125
+      },
+      {
+        "tag": "DIV",
+        "class": "building-section__copy",
+        "x": 32,
+        "y": 3040.125,
+        "width": 326,
+        "height": 429.125
+      },
+      {
+        "tag": "P",
+        "class": "building-section__subheading",
+        "x": 32,
+        "y": 3137.765625,
+        "width": 245.203125,
+        "height": 51.8125
+      },
+      {
+        "tag": "P",
+        "class": "building-section__description",
+        "x": 32,
+        "y": 3202.375,
+        "width": 326,
+        "height": 114.0625
+      },
+      {
+        "tag": "DIV",
+        "class": "building-counter",
+        "x": 32,
+        "y": 3336.4375,
+        "width": 326,
+        "height": 48.8125
+      },
+      {
+        "tag": "A",
+        "class": "building-section__link",
+        "x": 32,
+        "y": 3421.25,
+        "width": 193.890625,
+        "height": 48
+      },
+      {
+        "tag": "DIV",
+        "class": "building-panel",
+        "x": 16,
+        "y": 3498.046875,
+        "width": 358,
+        "height": 136.15625
+      }
+    ],
+    "copy": [
+      "CURRENTLY BUILDING",
+      "Building transaction infrastructure.",
+      "An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.",
+      "188days·2,450hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"35:100\">Estimated engineering hours since May 1, 2026.</p>As of 04 Nov 2026",
+      "Follow the progress →",
+      "FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+    ],
+    "width": 390
+  },
+  {
+    "viewport": 390,
+    "theme": "dark",
+    "overflow": false,
+    "heading": {
+      "x": 32,
+      "y": 3066.28125,
+      "width": 326,
+      "height": 66.6875
+    },
+    "fontSize": "70.2px",
+    "lineHeight": "66.69px",
+    "textInkHeight": 53,
+    "textAscent": 52,
+    "textDescent": 1,
+    "logo": null,
+    "layout": [
+      {
+        "tag": "SECTION",
+        "class": "hero",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 792
+      },
+      {
+        "tag": "SECTION",
+        "class": "open-source-section section-wrap",
+        "x": 0,
+        "y": 792,
+        "width": 390,
+        "height": 719.40625
+      },
+      {
+        "tag": "SECTION",
+        "class": "journal-section section-wrap",
+        "x": 0,
+        "y": 1511.40625,
+        "width": 390,
+        "height": 1480.71875
+      },
+      {
+        "tag": "SECTION",
+        "class": "building-section",
+        "x": 0,
+        "y": 2992.125,
+        "width": 390,
+        "height": 658.078125
+      },
+      {
+        "tag": "DIV",
+        "class": "container building-section__inner",
+        "x": 16,
+        "y": 2992.125,
+        "width": 358,
+        "height": 477.125
+      },
+      {
+        "tag": "DIV",
+        "class": "building-section__copy",
+        "x": 32,
+        "y": 3040.125,
+        "width": 326,
+        "height": 429.125
+      },
+      {
+        "tag": "P",
+        "class": "building-section__subheading",
+        "x": 32,
+        "y": 3137.765625,
+        "width": 245.203125,
+        "height": 51.8125
+      },
+      {
+        "tag": "P",
+        "class": "building-section__description",
+        "x": 32,
+        "y": 3202.375,
+        "width": 326,
+        "height": 114.0625
+      },
+      {
+        "tag": "DIV",
+        "class": "building-counter",
+        "x": 32,
+        "y": 3336.4375,
+        "width": 326,
+        "height": 48.8125
+      },
+      {
+        "tag": "A",
+        "class": "building-section__link",
+        "x": 32,
+        "y": 3421.25,
+        "width": 193.890625,
+        "height": 48
+      },
+      {
+        "tag": "DIV",
+        "class": "building-panel",
+        "x": 16,
+        "y": 3498.046875,
+        "width": 358,
+        "height": 136.15625
+      }
+    ],
+    "copy": [
+      "CURRENTLY BUILDING",
+      "Building transaction infrastructure.",
+      "An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.",
+      "188days·2,450hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"35:100\">Estimated engineering hours since May 1, 2026.</p>As of 04 Nov 2026",
+      "Follow the progress →",
+      "FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+    ],
+    "width": 390
+  }
+]

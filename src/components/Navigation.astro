@@ -1,19 +1,16 @@
 ---
-const links = [
-  { href: '/about', label: 'About' },
-  { href: Astro.url.pathname === '/' ? '#building' : '/#building', label: 'Building' },
-  { href: '/open-source', label: 'Open Source' },
-  { href: '/journal', label: 'Journal' },
-  { href: '#contact', label: 'Contact' },
-];
 const path = Astro.url.pathname.replace(/\/$/, '') || '/';
-const currentPath = path === '/projects' || path.startsWith('/projects/') || path === '/labs/fake-bank' ? '/building-paymentgate' : path;
+const isProduct = ['/labs/fake-bank', '/labs/fake-shop', '/building-paymentgate', '/projects/paymentgate', '/bik'].includes(path);
+const links = [
+  { href: '/about', label: 'About', current: path === '/about' },
+  { href: '/#building', label: 'Building', current: false },
+  { href: '/#systems', label: 'Projects', current: isProduct },
+  { href: '/journal', label: 'Journal', current: path === '/journal' || path.startsWith('/journal/') },
+  { href: '#contact', label: 'Contact', current: false },
+];
 ---
 <nav class="primary-nav" aria-label="Main navigation">
-  {links.map(({ href, label }) => {
-    const current = label === 'Building'
-      ? currentPath === '/building-paymentgate'
-      : href === '#contact' ? false : currentPath === href;
-    return <a href={href} aria-current={current ? 'page' : undefined}>{label}</a>;
-  })}
+  {links.map(({ href, label, current }) => (
+    <a href={href} aria-current={current ? 'page' : undefined}>{label}</a>
+  ))}
 </nav>

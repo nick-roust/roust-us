@@ -1,0 +1,90 @@
+[
+  {
+    "path": "fakebank-header-active.png",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "sha256": "e83df015714f21d73c2035bd83ac57c014eaebbabf514e3a41f8436b1ced0447"
+  },
+  {
+    "path": "featured-1024-dark.png",
+    "dimensions": [
+      1009,
+      266
+    ],
+    "sha256": "2af724ada36136400c19ccf73c46ac9b4b70b2355e53110a3ee5037c73bd4080"
+  },
+  {
+    "path": "featured-1440-dark.png",
+    "dimensions": [
+      1425,
+      367
+    ],
+    "sha256": "addd4c83e6946e17b20f822df0496b270c6aac970aa83638d497b5999cd3da11"
+  },
+  {
+    "path": "homepage-desktop-dark.png",
+    "dimensions": [
+      1425,
+      2658
+    ],
+    "sha256": "722369c4ca6cc492961f96c81d6d72fa8b2a812f12d9e4c8d3e1a615205ef04a"
+  },
+  {
+    "path": "homepage-desktop-light.png",
+    "dimensions": [
+      1425,
+      2658
+    ],
+    "sha256": "570462caed571399fe0765ec98c641deadbdb7a9c528db2150cd29755427e51e"
+  },
+  {
+    "path": "homepage-mobile-dark.png",
+    "dimensions": [
+      390,
+      4526
+    ],
+    "sha256": "ebfff85d1310d7da0a2b61593cf4d154affc85c8375ffde5d421adfdd6a67c95"
+  },
+  {
+    "path": "homepage-mobile-light.png",
+    "dimensions": [
+      390,
+      4526
+    ],
+    "sha256": "f09ac7256fe50480a819712f1ae50b39f380019efd3e901399217691049e137f"
+  },
+  {
+    "path": "homepage-tablet-dark.png",
+    "dimensions": [
+      753,
+      3058
+    ],
+    "sha256": "b4d97ae238f9a55185a25a502146a8b5accad28ad71d42cc7db415865a7c5153"
+  },
+  {
+    "path": "homepage-tablet-light.png",
+    "dimensions": [
+      753,
+      3058
+    ],
+    "sha256": "933129ba445cb0be31f07e918d48f0de140712d73706d7ee43c4970ef9039b78"
+  },
+  {
+    "path": "homepage-wide-dark.jpg",
+    "dimensions": [
+      1905,
+      2674
+    ],
+    "sha256": "cf2825a0038896af0f0fa11b052913bdd390c824fe8f6daa512c83da12801f6f"
+  },
+  {
+    "path": "journal-header-active.png",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "sha256": "de1fac05125b0bb80658cbb76f03a27ed79f16c3007bdb4cac6275622af84425"
+  }
+]

@@ -1,0 +1,1832 @@
+[
+  {
+    "width": 390,
+    "theme": "light",
+    "state": {
+      "journal": {
+        "x": 0,
+        "width": 390,
+        "height": 1480.71875,
+        "top": 1988.5625,
+        "bottom": 3469.28125,
+        "paddingTop": 32,
+        "paddingBottom": 32,
+        "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+      },
+      "stories": [
+        {
+          "width": 358,
+          "image": {
+            "x": 16,
+            "width": 358,
+            "height": 198.875,
+            "top": 2229.0625,
+            "bottom": 2427.9375
+          },
+          "title": {
+            "x": 16,
+            "width": 358,
+            "height": 54.75,
+            "top": 2457.125,
+            "bottom": 2511.875,
+            "font": "23.2px",
+            "text": "When Code Stopped Being the Main Thing"
+          },
+          "date": {
+            "x": 16,
+            "width": 358,
+            "height": 16.84375,
+            "top": 2519.875,
+            "bottom": 2536.71875
+          },
+          "summary": {
+            "x": 16,
+            "width": 358,
+            "height": 42.21875,
+            "top": 2544.71875,
+            "bottom": 2586.9375
+          },
+          "imageTitleGap": 29.1875,
+          "titleDateGap": 8,
+          "dateSummaryGap": 8
+        },
+        {
+          "width": 358,
+          "image": {
+            "x": 16,
+            "width": 358,
+            "height": 198.875,
+            "top": 2618.9375,
+            "bottom": 2817.8125
+          },
+          "title": {
+            "x": 16,
+            "width": 358,
+            "height": 54.75,
+            "top": 2847,
+            "bottom": 2901.75,
+            "font": "23.2px",
+            "text": "I Didn't Want AI to Design My System for Me"
+          },
+          "date": {
+            "x": 16,
+            "width": 358,
+            "height": 16.84375,
+            "top": 2909.75,
+            "bottom": 2926.59375
+          },
+          "summary": {
+            "x": 16,
+            "width": 358,
+            "height": 63.328125,
+            "top": 2934.59375,
+            "bottom": 2997.921875
+          },
+          "imageTitleGap": 29.1875,
+          "titleDateGap": 8,
+          "dateSummaryGap": 8
+        },
+        {
+          "width": 358,
+          "image": {
+            "x": 16,
+            "width": 358,
+            "height": 198.875,
+            "top": 3029.921875,
+            "bottom": 3228.796875
+          },
+          "title": {
+            "x": 16,
+            "width": 358,
+            "height": 82.125,
+            "top": 3257.984375,
+            "bottom": 3340.109375,
+            "font": "23.2px",
+            "text": "We Built All the Pieces. Then We Had to Make Them Work Together."
+          },
+          "date": {
+            "x": 16,
+            "width": 358,
+            "height": 16.84375,
+            "top": 3348.109375,
+            "bottom": 3364.953125
+          },
+          "summary": {
+            "x": 16,
+            "width": 358,
+            "height": 63.328125,
+            "top": 3372.953125,
+            "bottom": 3436.28125
+          },
+          "imageTitleGap": 29.1875,
+          "titleDateGap": 8,
+          "dateSummaryGap": 8
+        }
+      ],
+      "other": [
+        {
+          "class": "hero",
+          "x": 0,
+          "width": 390,
+          "height": 792,
+          "top": 0,
+          "bottom": 792,
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "class": "systems-overview section-wrap",
+          "x": 0,
+          "width": 390,
+          "height": 635.515625,
+          "top": 792,
+          "bottom": 1427.515625,
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "class": "featured-fakebank section-wrap",
+          "x": 0,
+          "width": 390,
+          "height": 561.046875,
+          "top": 1427.515625,
+          "bottom": 1988.5625,
+          "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+        },
+        {
+          "class": "building-section",
+          "x": 0,
+          "width": 390,
+          "height": 658.078125,
+          "top": 3469.28125,
+          "bottom": 4127.359375,
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "class": "contact-section",
+          "x": 0,
+          "width": 390,
+          "height": 317.5625,
+          "top": 4127.359375,
+          "bottom": 4444.921875,
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "class": "site-footer",
+          "x": 0,
+          "width": 390,
+          "height": 81,
+          "top": 4444.921875,
+          "bottom": 4525.921875,
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "width": 390,
+    "theme": "dark",
+    "state": {
+      "journal": {
+        "x": 0,
+        "width": 390,
+        "height": 1480.71875,
+        "top": 1988.5625,
+        "bottom": 3469.28125,
+        "paddingTop": 32,
+        "paddingBottom": 32,
+        "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+      },
+      "stories": [
+        {
+          "width": 358,
+          "image": {
+            "x": 16,
+            "width": 358,
+            "height": 198.875,
+            "top": 2229.0625,
+            "bottom": 2427.9375
+          },
+          "title": {
+            "x": 16,
+            "width": 358,
+            "height": 54.75,
+            "top": 2457.125,
+            "bottom": 2511.875,
+            "font": "23.2px",
+            "text": "When Code Stopped Being the Main Thing"
+          },
+          "date": {
+            "x": 16,
+            "width": 358,
+            "height": 16.84375,
+            "top": 2519.875,
+            "bottom": 2536.71875
+          },
+          "summary": {
+            "x": 16,
+            "width": 358,
+            "height": 42.21875,
+            "top": 2544.71875,
+            "bottom": 2586.9375
+          },
+          "imageTitleGap": 29.1875,
+          "titleDateGap": 8,
+          "dateSummaryGap": 8
+        },
+        {
+          "width": 358,
+          "image": {
+            "x": 16,
+            "width": 358,
+            "height": 198.875,
+            "top": 2618.9375,
+            "bottom": 2817.8125
+          },
+          "title": {
+            "x": 16,
+            "width": 358,
+            "height": 54.75,
+            "top": 2847,
+            "bottom": 2901.75,
+            "font": "23.2px",
+            "text": "I Didn't Want AI to Design My System for Me"
+          },
+          "date": {
+            "x": 16,
+            "width": 358,
+            "height": 16.84375,
+            "top": 2909.75,
+            "bottom": 2926.59375
+          },
+          "summary": {
+            "x": 16,
+            "width": 358,
+            "height": 63.328125,
+            "top": 2934.59375,
+            "bottom": 2997.921875
+          },
+          "imageTitleGap": 29.1875,
+          "titleDateGap": 8,
+          "dateSummaryGap": 8
+        },
+        {
+          "width": 358,
+          "image": {
+            "x": 16,
+            "width": 358,
+            "height": 198.875,
+            "top": 3029.921875,
+            "bottom": 3228.796875
+          },
+          "title": {
+            "x": 16,
+            "width": 358,
+            "height": 82.125,
+            "top": 3257.984375,
+            "bottom": 3340.109375,
+            "font": "23.2px",
+            "text": "We Built All the Pieces. Then We Had to Make Them Work Together."
+          },
+          "date": {
+            "x": 16,
+            "width": 358,
+            "height": 16.84375,
+            "top": 3348.109375,
+            "bottom": 3364.953125
+          },
+          "summary": {
+            "x": 16,
+            "width": 358,
+            "height": 63.328125,
+            "top": 3372.953125,
+            "bottom": 3436.28125
+          },
+          "imageTitleGap": 29.1875,
+          "titleDateGap": 8,
+          "dateSummaryGap": 8
+        }
+      ],
+      "other": [
+        {
+          "class": "hero",
+          "x": 0,
+          "width": 390,
+          "height": 792,
+          "top": 0,
+          "bottom": 792,
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "class": "systems-overview section-wrap",
+          "x": 0,
+          "width": 390,
+          "height": 635.515625,
+          "top": 792,
+          "bottom": 1427.515625,
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "class": "featured-fakebank section-wrap",
+          "x": 0,
+          "width": 390,
+          "height": 561.046875,
+          "top": 1427.515625,
+          "bottom": 1988.5625,
+          "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+        },
+        {
+          "class": "building-section",
+          "x": 0,
+          "width": 390,
+          "height": 658.078125,
+          "top": 3469.28125,
+          "bottom": 4127.359375,
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "class": "contact-section",
+          "x": 0,
+          "width": 390,
+          "height": 317.5625,
+          "top": 4127.359375,
+          "bottom": 4444.921875,
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "class": "site-footer",
+          "x": 0,
+          "width": 390,
+          "height": 81,
+          "top": 4444.921875,
+          "bottom": 4525.921875,
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "width": 768,
+    "theme": "light",
+    "state": {
+      "journal": {
+        "x": 0,
+        "width": 753,
+        "height": 659.9375,
+        "top": 1441.234375,
+        "bottom": 2101.171875,
+        "paddingTop": 40,
+        "paddingBottom": 40,
+        "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+      },
+      "stories": [
+        {
+          "width": 224.328125,
+          "image": {
+            "x": 24,
+            "width": 224.328125,
+            "height": 141.96875,
+            "top": 1689.734375,
+            "bottom": 1831.703125
+          },
+          "title": {
+            "x": 24,
+            "width": 224.328125,
+            "height": 43.4375,
+            "top": 1860.890625,
+            "bottom": 1904.328125,
+            "font": "18.4px",
+            "text": "When Code Stopped Being the Main Thing"
+          },
+          "date": {
+            "x": 24,
+            "width": 224.328125,
+            "height": 33.6875,
+            "top": 1912.328125,
+            "bottom": 1946.015625
+          },
+          "summary": {
+            "x": 24,
+            "width": 224.328125,
+            "height": 63.328125,
+            "top": 1954.015625,
+            "bottom": 2017.34375
+          },
+          "imageTitleGap": 29.1875,
+          "titleDateGap": 8,
+          "dateSummaryGap": 8
+        },
+        {
+          "width": 224.328125,
+          "image": {
+            "x": 264.328125,
+            "width": 224.328125,
+            "height": 141.96875,
+            "top": 1689.734375,
+            "bottom": 1831.703125
+          },
+          "title": {
+            "x": 264.328125,
+            "width": 224.328125,
+            "height": 43.4375,
+            "top": 1860.890625,
+            "bottom": 1904.328125,
+            "font": "18.4px",
+            "text": "I Didn't Want AI to Design My System for Me"
+          },
+          "date": {
+            "x": 264.328125,
+            "width": 224.328125,
+            "height": 33.6875,
+            "top": 1912.328125,
+            "bottom": 1946.015625
+          },
+          "summary": {
+            "x": 264.328125,
+            "width": 224.328125,
+            "height": 84.4375,
+            "top": 1954.015625,
+            "bottom": 2038.453125
+          },
+          "imageTitleGap": 29.1875,
+          "titleDateGap": 8,
+          "dateSummaryGap": 8
+        },
+        {
+          "width": 224.328125,
+          "image": {
+            "x": 504.65625,
+            "width": 224.328125,
+            "height": 141.96875,
+            "top": 1689.734375,
+            "bottom": 1831.703125
+          },
+          "title": {
+            "x": 504.65625,
+            "width": 224.328125,
+            "height": 65.15625,
+            "top": 1860.890625,
+            "bottom": 1926.046875,
+            "font": "18.4px",
+            "text": "We Built All the Pieces. Then We Had to Make Them Work Together."
+          },
+          "date": {
+            "x": 504.65625,
+            "width": 224.328125,
+            "height": 33.6875,
+            "top": 1934.046875,
+            "bottom": 1967.734375
+          },
+          "summary": {
+            "x": 504.65625,
+            "width": 224.328125,
+            "height": 84.4375,
+            "top": 1975.734375,
+            "bottom": 2060.171875
+          },
+          "imageTitleGap": 29.1875,
+          "titleDateGap": 8,
+          "dateSummaryGap": 8
+        }
+      ],
+      "other": [
+        {
+          "class": "hero",
+          "x": 0,
+          "width": 753,
+          "height": 780,
+          "top": 0,
+          "bottom": 780,
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "class": "systems-overview section-wrap",
+          "x": 0,
+          "width": 753,
+          "height": 371.34375,
+          "top": 780,
+          "bottom": 1151.34375,
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "class": "featured-fakebank section-wrap",
+          "x": 0,
+          "width": 753,
+          "height": 289.890625,
+          "top": 1151.34375,
+          "bottom": 1441.234375,
+          "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+        },
+        {
+          "class": "building-section",
+          "x": 0,
+          "width": 753,
+          "height": 593.578125,
+          "top": 2101.171875,
+          "bottom": 2694.75,
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "class": "contact-section",
+          "x": 0,
+          "width": 753,
+          "height": 262.09375,
+          "top": 2694.75,
+          "bottom": 2956.84375,
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "class": "site-footer",
+          "x": 0,
+          "width": 753,
+          "height": 101,
+          "top": 2956.84375,
+          "bottom": 3057.84375,
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "width": 768,
+    "theme": "dark",
+    "state": {
+      "journal": {
+        "x": 0,
+        "width": 753,
+        "height": 659.9375,
+        "top": 1441.234375,
+        "bottom": 2101.171875,
+        "paddingTop": 40,
+        "paddingBottom": 40,
+        "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+      },
+      "stories": [
+        {
+          "width": 224.328125,
+          "image": {
+            "x": 24,
+            "width": 224.328125,
+            "height": 141.96875,
+            "top": 1689.734375,
+            "bottom": 1831.703125
+          },
+          "title": {
+            "x": 24,
+            "width": 224.328125,
+            "height": 43.4375,
+            "top": 1860.890625,
+            "bottom": 1904.328125,
+            "font": "18.4px",
+            "text": "When Code Stopped Being the Main Thing"
+          },
+          "date": {
+            "x": 24,
+            "width": 224.328125,
+            "height": 33.6875,
+            "top": 1912.328125,
+            "bottom": 1946.015625
+          },
+          "summary": {
+            "x": 24,
+            "width": 224.328125,
+            "height": 63.328125,
+            "top": 1954.015625,
+            "bottom": 2017.34375
+          },
+          "imageTitleGap": 29.1875,
+          "titleDateGap": 8,
+          "dateSummaryGap": 8
+        },
+        {
+          "width": 224.328125,
+          "image": {
+            "x": 264.328125,
+            "width": 224.328125,
+            "height": 141.96875,
+            "top": 1689.734375,
+            "bottom": 1831.703125
+          },
+          "title": {
+            "x": 264.328125,
+            "width": 224.328125,
+            "height": 43.4375,
+            "top": 1860.890625,
+            "bottom": 1904.328125,
+            "font": "18.4px",
+            "text": "I Didn't Want AI to Design My System for Me"
+          },
+          "date": {
+            "x": 264.328125,
+            "width": 224.328125,
+            "height": 33.6875,
+            "top": 1912.328125,
+            "bottom": 1946.015625
+          },
+          "summary": {
+            "x": 264.328125,
+            "width": 224.328125,
+            "height": 84.4375,
+            "top": 1954.015625,
+            "bottom": 2038.453125
+          },
+          "imageTitleGap": 29.1875,
+          "titleDateGap": 8,
+          "dateSummaryGap": 8
+        },
+        {
+          "width": 224.328125,
+          "image": {
+            "x": 504.65625,
+            "width": 224.328125,
+            "height": 141.96875,
+            "top": 1689.734375,
+            "bottom": 1831.703125
+          },
+          "title": {
+            "x": 504.65625,
+            "width": 224.328125,
+            "height": 65.15625,
+            "top": 1860.890625,
+            "bottom": 1926.046875,
+            "font": "18.4px",
+            "text": "We Built All the Pieces. Then We Had to Make Them Work Together."
+          },
+          "date": {
+            "x": 504.65625,
+            "width": 224.328125,
+            "height": 33.6875,
+            "top": 1934.046875,
+            "bottom": 1967.734375
+          },
+          "summary": {
+            "x": 504.65625,
+            "width": 224.328125,
+            "height": 84.4375,
+            "top": 1975.734375,
+            "bottom": 2060.171875
+          },
+          "imageTitleGap": 29.1875,
+          "titleDateGap": 8,
+          "dateSummaryGap": 8
+        }
+      ],
+      "other": [
+        {
+          "class": "hero",
+          "x": 0,
+          "width": 753,
+          "height": 780,
+          "top": 0,
+          "bottom": 780,
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "class": "systems-overview section-wrap",
+          "x": 0,
+          "width": 753,
+          "height": 371.34375,
+          "top": 780,
+          "bottom": 1151.34375,
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "class": "featured-fakebank section-wrap",
+          "x": 0,
+          "width": 753,
+          "height": 289.890625,
+          "top": 1151.34375,
+          "bottom": 1441.234375,
+          "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+        },
+        {
+          "class": "building-section",
+          "x": 0,
+          "width": 753,
+          "height": 593.578125,
+          "top": 2101.171875,
+          "bottom": 2694.75,
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "class": "contact-section",
+          "x": 0,
+          "width": 753,
+          "height": 262.09375,
+          "top": 2694.75,
+          "bottom": 2956.84375,
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "class": "site-footer",
+          "x": 0,
+          "width": 753,
+          "height": 101,
+          "top": 2956.84375,
+          "bottom": 3057.84375,
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "width": 1024,
+    "theme": "light",
+    "state": {
+      "journal": {
+        "x": 0,
+        "width": 1009,
+        "height": 547.640625,
+        "top": 1295.015625,
+        "bottom": 1842.65625,
+        "paddingTop": 76,
+        "paddingBottom": 84,
+        "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+      },
+      "stories": [
+        {
+          "width": 218.3125,
+          "image": {
+            "x": 298.03125,
+            "width": 218.3125,
+            "height": 138.171875,
+            "top": 1371.015625,
+            "bottom": 1509.1875
+          },
+          "title": {
+            "x": 298.03125,
+            "width": 218.3125,
+            "height": 43.4375,
+            "top": 1546.375,
+            "bottom": 1589.8125,
+            "font": "18.4px",
+            "text": "When Code Stopped Being the Main Thing"
+          },
+          "date": {
+            "x": 298.03125,
+            "width": 218.3125,
+            "height": 33.6875,
+            "top": 1601.8125,
+            "bottom": 1635.5
+          },
+          "summary": {
+            "x": 298.03125,
+            "width": 218.3125,
+            "height": 63.328125,
+            "top": 1651.5,
+            "bottom": 1714.828125
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        },
+        {
+          "width": 218.328125,
+          "image": {
+            "x": 532.34375,
+            "width": 218.328125,
+            "height": 138.171875,
+            "top": 1371.015625,
+            "bottom": 1509.1875
+          },
+          "title": {
+            "x": 532.34375,
+            "width": 218.328125,
+            "height": 43.4375,
+            "top": 1546.375,
+            "bottom": 1589.8125,
+            "font": "18.4px",
+            "text": "I Didn't Want AI to Design My System for Me"
+          },
+          "date": {
+            "x": 532.34375,
+            "width": 218.328125,
+            "height": 33.6875,
+            "top": 1601.8125,
+            "bottom": 1635.5
+          },
+          "summary": {
+            "x": 532.34375,
+            "width": 218.328125,
+            "height": 84.4375,
+            "top": 1651.5,
+            "bottom": 1735.9375
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        },
+        {
+          "width": 218.328125,
+          "image": {
+            "x": 766.671875,
+            "width": 218.328125,
+            "height": 138.171875,
+            "top": 1371.015625,
+            "bottom": 1509.1875
+          },
+          "title": {
+            "x": 766.671875,
+            "width": 218.328125,
+            "height": 65.15625,
+            "top": 1546.375,
+            "bottom": 1611.53125,
+            "font": "18.4px",
+            "text": "We Built All the Pieces. Then We Had to Make Them Work Together."
+          },
+          "date": {
+            "x": 766.671875,
+            "width": 218.328125,
+            "height": 33.6875,
+            "top": 1623.53125,
+            "bottom": 1657.21875
+          },
+          "summary": {
+            "x": 766.671875,
+            "width": 218.328125,
+            "height": 84.4375,
+            "top": 1673.21875,
+            "bottom": 1757.65625
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        }
+      ],
+      "other": [
+        {
+          "class": "hero",
+          "x": 0,
+          "width": 1009,
+          "height": 780,
+          "top": 0,
+          "bottom": 780,
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "class": "systems-overview section-wrap",
+          "x": 0,
+          "width": 1009,
+          "height": 248.5625,
+          "top": 780,
+          "bottom": 1028.5625,
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "class": "featured-fakebank section-wrap",
+          "x": 0,
+          "width": 1009,
+          "height": 266.453125,
+          "top": 1028.5625,
+          "bottom": 1295.015625,
+          "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+        },
+        {
+          "class": "building-section",
+          "x": 0,
+          "width": 1009,
+          "height": 588.875,
+          "top": 1842.65625,
+          "bottom": 2431.53125,
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "class": "contact-section",
+          "x": 0,
+          "width": 1009,
+          "height": 198.734375,
+          "top": 2431.53125,
+          "bottom": 2630.265625,
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "class": "site-footer",
+          "x": 0,
+          "width": 1009,
+          "height": 101,
+          "top": 2630.265625,
+          "bottom": 2731.265625,
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "width": 1024,
+    "theme": "dark",
+    "state": {
+      "journal": {
+        "x": 0,
+        "width": 1009,
+        "height": 547.640625,
+        "top": 1295.015625,
+        "bottom": 1842.65625,
+        "paddingTop": 76,
+        "paddingBottom": 84,
+        "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+      },
+      "stories": [
+        {
+          "width": 218.3125,
+          "image": {
+            "x": 298.03125,
+            "width": 218.3125,
+            "height": 138.171875,
+            "top": 1371.015625,
+            "bottom": 1509.1875
+          },
+          "title": {
+            "x": 298.03125,
+            "width": 218.3125,
+            "height": 43.4375,
+            "top": 1546.375,
+            "bottom": 1589.8125,
+            "font": "18.4px",
+            "text": "When Code Stopped Being the Main Thing"
+          },
+          "date": {
+            "x": 298.03125,
+            "width": 218.3125,
+            "height": 33.6875,
+            "top": 1601.8125,
+            "bottom": 1635.5
+          },
+          "summary": {
+            "x": 298.03125,
+            "width": 218.3125,
+            "height": 63.328125,
+            "top": 1651.5,
+            "bottom": 1714.828125
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        },
+        {
+          "width": 218.328125,
+          "image": {
+            "x": 532.34375,
+            "width": 218.328125,
+            "height": 138.171875,
+            "top": 1371.015625,
+            "bottom": 1509.1875
+          },
+          "title": {
+            "x": 532.34375,
+            "width": 218.328125,
+            "height": 43.4375,
+            "top": 1546.375,
+            "bottom": 1589.8125,
+            "font": "18.4px",
+            "text": "I Didn't Want AI to Design My System for Me"
+          },
+          "date": {
+            "x": 532.34375,
+            "width": 218.328125,
+            "height": 33.6875,
+            "top": 1601.8125,
+            "bottom": 1635.5
+          },
+          "summary": {
+            "x": 532.34375,
+            "width": 218.328125,
+            "height": 84.4375,
+            "top": 1651.5,
+            "bottom": 1735.9375
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        },
+        {
+          "width": 218.328125,
+          "image": {
+            "x": 766.671875,
+            "width": 218.328125,
+            "height": 138.171875,
+            "top": 1371.015625,
+            "bottom": 1509.1875
+          },
+          "title": {
+            "x": 766.671875,
+            "width": 218.328125,
+            "height": 65.15625,
+            "top": 1546.375,
+            "bottom": 1611.53125,
+            "font": "18.4px",
+            "text": "We Built All the Pieces. Then We Had to Make Them Work Together."
+          },
+          "date": {
+            "x": 766.671875,
+            "width": 218.328125,
+            "height": 33.6875,
+            "top": 1623.53125,
+            "bottom": 1657.21875
+          },
+          "summary": {
+            "x": 766.671875,
+            "width": 218.328125,
+            "height": 84.4375,
+            "top": 1673.21875,
+            "bottom": 1757.65625
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        }
+      ],
+      "other": [
+        {
+          "class": "hero",
+          "x": 0,
+          "width": 1009,
+          "height": 780,
+          "top": 0,
+          "bottom": 780,
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "class": "systems-overview section-wrap",
+          "x": 0,
+          "width": 1009,
+          "height": 248.5625,
+          "top": 780,
+          "bottom": 1028.5625,
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "class": "featured-fakebank section-wrap",
+          "x": 0,
+          "width": 1009,
+          "height": 266.453125,
+          "top": 1028.5625,
+          "bottom": 1295.015625,
+          "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+        },
+        {
+          "class": "building-section",
+          "x": 0,
+          "width": 1009,
+          "height": 588.875,
+          "top": 1842.65625,
+          "bottom": 2431.53125,
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "class": "contact-section",
+          "x": 0,
+          "width": 1009,
+          "height": 198.734375,
+          "top": 2431.53125,
+          "bottom": 2630.265625,
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "class": "site-footer",
+          "x": 0,
+          "width": 1009,
+          "height": 101,
+          "top": 2630.265625,
+          "bottom": 2731.265625,
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "width": 1440,
+    "theme": "light",
+    "state": {
+      "journal": {
+        "x": 0,
+        "width": 1425,
+        "height": 582.765625,
+        "top": 1375.359375,
+        "bottom": 1958.125,
+        "paddingTop": 76,
+        "paddingBottom": 84,
+        "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+      },
+      "stories": [
+        {
+          "width": 299.796875,
+          "image": {
+            "x": 429.890625,
+            "width": 299.796875,
+            "height": 189.734375,
+            "top": 1451.359375,
+            "bottom": 1641.09375
+          },
+          "title": {
+            "x": 429.890625,
+            "width": 299.796875,
+            "height": 57.78125,
+            "top": 1678.28125,
+            "bottom": 1736.0625,
+            "font": "24.48px",
+            "text": "When Code Stopped Being the Main Thing"
+          },
+          "date": {
+            "x": 429.890625,
+            "width": 299.796875,
+            "height": 16.84375,
+            "top": 1748.0625,
+            "bottom": 1764.90625
+          },
+          "summary": {
+            "x": 429.890625,
+            "width": 299.796875,
+            "height": 63.328125,
+            "top": 1780.90625,
+            "bottom": 1844.234375
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        },
+        {
+          "width": 299.8125,
+          "image": {
+            "x": 751.28125,
+            "width": 299.8125,
+            "height": 189.75,
+            "top": 1451.359375,
+            "bottom": 1641.109375
+          },
+          "title": {
+            "x": 751.28125,
+            "width": 299.8125,
+            "height": 57.78125,
+            "top": 1678.296875,
+            "bottom": 1736.078125,
+            "font": "24.48px",
+            "text": "I Didn't Want AI to Design My System for Me"
+          },
+          "date": {
+            "x": 751.28125,
+            "width": 299.8125,
+            "height": 16.84375,
+            "top": 1748.078125,
+            "bottom": 1764.921875
+          },
+          "summary": {
+            "x": 751.28125,
+            "width": 299.8125,
+            "height": 63.328125,
+            "top": 1780.921875,
+            "bottom": 1844.25
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        },
+        {
+          "width": 299.796875,
+          "image": {
+            "x": 1072.6875,
+            "width": 299.796875,
+            "height": 189.734375,
+            "top": 1451.359375,
+            "bottom": 1641.09375
+          },
+          "title": {
+            "x": 1072.6875,
+            "width": 299.796875,
+            "height": 86.671875,
+            "top": 1678.28125,
+            "bottom": 1764.953125,
+            "font": "24.48px",
+            "text": "We Built All the Pieces. Then We Had to Make Them Work Together."
+          },
+          "date": {
+            "x": 1072.6875,
+            "width": 299.796875,
+            "height": 16.84375,
+            "top": 1776.953125,
+            "bottom": 1793.796875
+          },
+          "summary": {
+            "x": 1072.6875,
+            "width": 299.796875,
+            "height": 63.328125,
+            "top": 1809.796875,
+            "bottom": 1873.125
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        }
+      ],
+      "other": [
+        {
+          "class": "hero",
+          "x": 0,
+          "width": 1425,
+          "height": 780,
+          "top": 0,
+          "bottom": 780,
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "class": "systems-overview section-wrap",
+          "x": 0,
+          "width": 1425,
+          "height": 228.171875,
+          "top": 780,
+          "bottom": 1008.171875,
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "class": "featured-fakebank section-wrap",
+          "x": 0,
+          "width": 1425,
+          "height": 367.1875,
+          "top": 1008.171875,
+          "bottom": 1375.359375,
+          "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+        },
+        {
+          "class": "building-section",
+          "x": 0,
+          "width": 1425,
+          "height": 470.140625,
+          "top": 1958.125,
+          "bottom": 2428.265625,
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "class": "contact-section",
+          "x": 0,
+          "width": 1425,
+          "height": 212.703125,
+          "top": 2428.265625,
+          "bottom": 2640.96875,
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "class": "site-footer",
+          "x": 0,
+          "width": 1425,
+          "height": 101,
+          "top": 2640.96875,
+          "bottom": 2741.96875,
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "width": 1440,
+    "theme": "dark",
+    "state": {
+      "journal": {
+        "x": 0,
+        "width": 1425,
+        "height": 582.765625,
+        "top": 1375.359375,
+        "bottom": 1958.125,
+        "paddingTop": 76,
+        "paddingBottom": 84,
+        "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+      },
+      "stories": [
+        {
+          "width": 299.796875,
+          "image": {
+            "x": 429.890625,
+            "width": 299.796875,
+            "height": 189.734375,
+            "top": 1451.359375,
+            "bottom": 1641.09375
+          },
+          "title": {
+            "x": 429.890625,
+            "width": 299.796875,
+            "height": 57.78125,
+            "top": 1678.28125,
+            "bottom": 1736.0625,
+            "font": "24.48px",
+            "text": "When Code Stopped Being the Main Thing"
+          },
+          "date": {
+            "x": 429.890625,
+            "width": 299.796875,
+            "height": 16.84375,
+            "top": 1748.0625,
+            "bottom": 1764.90625
+          },
+          "summary": {
+            "x": 429.890625,
+            "width": 299.796875,
+            "height": 63.328125,
+            "top": 1780.90625,
+            "bottom": 1844.234375
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        },
+        {
+          "width": 299.8125,
+          "image": {
+            "x": 751.28125,
+            "width": 299.8125,
+            "height": 189.75,
+            "top": 1451.359375,
+            "bottom": 1641.109375
+          },
+          "title": {
+            "x": 751.28125,
+            "width": 299.8125,
+            "height": 57.78125,
+            "top": 1678.296875,
+            "bottom": 1736.078125,
+            "font": "24.48px",
+            "text": "I Didn't Want AI to Design My System for Me"
+          },
+          "date": {
+            "x": 751.28125,
+            "width": 299.8125,
+            "height": 16.84375,
+            "top": 1748.078125,
+            "bottom": 1764.921875
+          },
+          "summary": {
+            "x": 751.28125,
+            "width": 299.8125,
+            "height": 63.328125,
+            "top": 1780.921875,
+            "bottom": 1844.25
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        },
+        {
+          "width": 299.796875,
+          "image": {
+            "x": 1072.6875,
+            "width": 299.796875,
+            "height": 189.734375,
+            "top": 1451.359375,
+            "bottom": 1641.09375
+          },
+          "title": {
+            "x": 1072.6875,
+            "width": 299.796875,
+            "height": 86.671875,
+            "top": 1678.28125,
+            "bottom": 1764.953125,
+            "font": "24.48px",
+            "text": "We Built All the Pieces. Then We Had to Make Them Work Together."
+          },
+          "date": {
+            "x": 1072.6875,
+            "width": 299.796875,
+            "height": 16.84375,
+            "top": 1776.953125,
+            "bottom": 1793.796875
+          },
+          "summary": {
+            "x": 1072.6875,
+            "width": 299.796875,
+            "height": 63.328125,
+            "top": 1809.796875,
+            "bottom": 1873.125
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        }
+      ],
+      "other": [
+        {
+          "class": "hero",
+          "x": 0,
+          "width": 1425,
+          "height": 780,
+          "top": 0,
+          "bottom": 780,
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "class": "systems-overview section-wrap",
+          "x": 0,
+          "width": 1425,
+          "height": 228.171875,
+          "top": 780,
+          "bottom": 1008.171875,
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "class": "featured-fakebank section-wrap",
+          "x": 0,
+          "width": 1425,
+          "height": 367.1875,
+          "top": 1008.171875,
+          "bottom": 1375.359375,
+          "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+        },
+        {
+          "class": "building-section",
+          "x": 0,
+          "width": 1425,
+          "height": 470.140625,
+          "top": 1958.125,
+          "bottom": 2428.265625,
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "class": "contact-section",
+          "x": 0,
+          "width": 1425,
+          "height": 212.703125,
+          "top": 2428.265625,
+          "bottom": 2640.96875,
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "class": "site-footer",
+          "x": 0,
+          "width": 1425,
+          "height": 101,
+          "top": 2640.96875,
+          "bottom": 2741.96875,
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "width": 1920,
+    "theme": "light",
+    "state": {
+      "journal": {
+        "x": 0,
+        "width": 1905,
+        "height": 582.515625,
+        "top": 1376.171875,
+        "bottom": 1958.6875,
+        "paddingTop": 76,
+        "paddingBottom": 84,
+        "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+      },
+      "stories": [
+        {
+          "width": 297.671875,
+          "image": {
+            "x": 674.671875,
+            "width": 297.671875,
+            "height": 188.390625,
+            "top": 1452.171875,
+            "bottom": 1640.5625
+          },
+          "title": {
+            "x": 674.671875,
+            "width": 297.671875,
+            "height": 58.515625,
+            "top": 1677.75,
+            "bottom": 1736.265625,
+            "font": "24.8px",
+            "text": "When Code Stopped Being the Main Thing"
+          },
+          "date": {
+            "x": 674.671875,
+            "width": 297.671875,
+            "height": 16.84375,
+            "top": 1748.265625,
+            "bottom": 1765.109375
+          },
+          "summary": {
+            "x": 674.671875,
+            "width": 297.671875,
+            "height": 63.328125,
+            "top": 1781.109375,
+            "bottom": 1844.4375
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        },
+        {
+          "width": 297.671875,
+          "image": {
+            "x": 994.734375,
+            "width": 297.671875,
+            "height": 188.390625,
+            "top": 1452.171875,
+            "bottom": 1640.5625
+          },
+          "title": {
+            "x": 994.734375,
+            "width": 297.671875,
+            "height": 58.515625,
+            "top": 1677.75,
+            "bottom": 1736.265625,
+            "font": "24.8px",
+            "text": "I Didn't Want AI to Design My System for Me"
+          },
+          "date": {
+            "x": 994.734375,
+            "width": 297.671875,
+            "height": 16.84375,
+            "top": 1748.265625,
+            "bottom": 1765.109375
+          },
+          "summary": {
+            "x": 994.734375,
+            "width": 297.671875,
+            "height": 63.328125,
+            "top": 1781.109375,
+            "bottom": 1844.4375
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        },
+        {
+          "width": 297.6875,
+          "image": {
+            "x": 1314.796875,
+            "width": 297.6875,
+            "height": 188.40625,
+            "top": 1452.171875,
+            "bottom": 1640.578125
+          },
+          "title": {
+            "x": 1314.796875,
+            "width": 297.6875,
+            "height": 87.75,
+            "top": 1677.765625,
+            "bottom": 1765.515625,
+            "font": "24.8px",
+            "text": "We Built All the Pieces. Then We Had to Make Them Work Together."
+          },
+          "date": {
+            "x": 1314.796875,
+            "width": 297.6875,
+            "height": 16.84375,
+            "top": 1777.515625,
+            "bottom": 1794.359375
+          },
+          "summary": {
+            "x": 1314.796875,
+            "width": 297.6875,
+            "height": 63.328125,
+            "top": 1810.359375,
+            "bottom": 1873.6875
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        }
+      ],
+      "other": [
+        {
+          "class": "hero",
+          "x": 0,
+          "width": 1905,
+          "height": 780,
+          "top": 0,
+          "bottom": 780,
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "class": "systems-overview section-wrap",
+          "x": 0,
+          "width": 1905,
+          "height": 228.171875,
+          "top": 780,
+          "bottom": 1008.171875,
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "class": "featured-fakebank section-wrap",
+          "x": 0,
+          "width": 1905,
+          "height": 368,
+          "top": 1008.171875,
+          "bottom": 1376.171875,
+          "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+        },
+        {
+          "class": "building-section",
+          "x": 0,
+          "width": 1905,
+          "height": 485.1875,
+          "top": 1958.6875,
+          "bottom": 2443.875,
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "class": "contact-section",
+          "x": 0,
+          "width": 1905,
+          "height": 212.703125,
+          "top": 2443.875,
+          "bottom": 2656.578125,
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "class": "site-footer",
+          "x": 0,
+          "width": 1905,
+          "height": 101,
+          "top": 2656.578125,
+          "bottom": 2757.578125,
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "width": 1920,
+    "theme": "dark",
+    "state": {
+      "journal": {
+        "x": 0,
+        "width": 1905,
+        "height": 582.515625,
+        "top": 1376.171875,
+        "bottom": 1958.6875,
+        "paddingTop": 76,
+        "paddingBottom": 84,
+        "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+      },
+      "stories": [
+        {
+          "width": 297.671875,
+          "image": {
+            "x": 674.671875,
+            "width": 297.671875,
+            "height": 188.390625,
+            "top": 1452.171875,
+            "bottom": 1640.5625
+          },
+          "title": {
+            "x": 674.671875,
+            "width": 297.671875,
+            "height": 58.515625,
+            "top": 1677.75,
+            "bottom": 1736.265625,
+            "font": "24.8px",
+            "text": "When Code Stopped Being the Main Thing"
+          },
+          "date": {
+            "x": 674.671875,
+            "width": 297.671875,
+            "height": 16.84375,
+            "top": 1748.265625,
+            "bottom": 1765.109375
+          },
+          "summary": {
+            "x": 674.671875,
+            "width": 297.671875,
+            "height": 63.328125,
+            "top": 1781.109375,
+            "bottom": 1844.4375
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        },
+        {
+          "width": 297.671875,
+          "image": {
+            "x": 994.734375,
+            "width": 297.671875,
+            "height": 188.390625,
+            "top": 1452.171875,
+            "bottom": 1640.5625
+          },
+          "title": {
+            "x": 994.734375,
+            "width": 297.671875,
+            "height": 58.515625,
+            "top": 1677.75,
+            "bottom": 1736.265625,
+            "font": "24.8px",
+            "text": "I Didn't Want AI to Design My System for Me"
+          },
+          "date": {
+            "x": 994.734375,
+            "width": 297.671875,
+            "height": 16.84375,
+            "top": 1748.265625,
+            "bottom": 1765.109375
+          },
+          "summary": {
+            "x": 994.734375,
+            "width": 297.671875,
+            "height": 63.328125,
+            "top": 1781.109375,
+            "bottom": 1844.4375
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        },
+        {
+          "width": 297.6875,
+          "image": {
+            "x": 1314.796875,
+            "width": 297.6875,
+            "height": 188.40625,
+            "top": 1452.171875,
+            "bottom": 1640.578125
+          },
+          "title": {
+            "x": 1314.796875,
+            "width": 297.6875,
+            "height": 87.75,
+            "top": 1677.765625,
+            "bottom": 1765.515625,
+            "font": "24.8px",
+            "text": "We Built All the Pieces. Then We Had to Make Them Work Together."
+          },
+          "date": {
+            "x": 1314.796875,
+            "width": 297.6875,
+            "height": 16.84375,
+            "top": 1777.515625,
+            "bottom": 1794.359375
+          },
+          "summary": {
+            "x": 1314.796875,
+            "width": 297.6875,
+            "height": 63.328125,
+            "top": 1810.359375,
+            "bottom": 1873.6875
+          },
+          "imageTitleGap": 37.1875,
+          "titleDateGap": 12,
+          "dateSummaryGap": 16
+        }
+      ],
+      "other": [
+        {
+          "class": "hero",
+          "x": 0,
+          "width": 1905,
+          "height": 780,
+          "top": 0,
+          "bottom": 780,
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "class": "systems-overview section-wrap",
+          "x": 0,
+          "width": 1905,
+          "height": 228.171875,
+          "top": 780,
+          "bottom": 1008.171875,
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "class": "featured-fakebank section-wrap",
+          "x": 0,
+          "width": 1905,
+          "height": 368,
+          "top": 1008.171875,
+          "bottom": 1376.171875,
+          "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+        },
+        {
+          "class": "building-section",
+          "x": 0,
+          "width": 1905,
+          "height": 485.1875,
+          "top": 1958.6875,
+          "bottom": 2443.875,
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "class": "contact-section",
+          "x": 0,
+          "width": 1905,
+          "height": 212.703125,
+          "top": 2443.875,
+          "bottom": 2656.578125,
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "class": "site-footer",
+          "x": 0,
+          "width": 1905,
+          "height": 101,
+          "top": 2656.578125,
+          "bottom": 2757.578125,
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ],
+      "overflow": false
+    }
+  }
+]

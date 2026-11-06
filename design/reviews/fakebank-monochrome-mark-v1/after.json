@@ -1,0 +1,1612 @@
+[
+  {
+    "width": 390,
+    "theme": "light",
+    "state": {
+      "section": {
+        "x": 0,
+        "y": 1427.515625,
+        "width": 390,
+        "height": 561.046875,
+        "right": 390,
+        "bottom": 1988.5625
+      },
+      "copy": {
+        "x": 0,
+        "y": 1427.515625,
+        "width": 390,
+        "height": 272.046875,
+        "right": 390,
+        "bottom": 1699.5625
+      },
+      "heading": {
+        "x": 24,
+        "y": 1486.484375,
+        "width": 217.03125,
+        "height": 31.921875,
+        "right": 241.03125,
+        "bottom": 1518.40625,
+        "text": "FAKE BANK",
+        "font": "30.4px",
+        "line": "31.92px",
+        "color": "rgb(21, 33, 43)",
+        "textWidth": 163.03125,
+        "textHeight": 36,
+        "textX": 78,
+        "available": 342
+      },
+      "description": {
+        "x": 24,
+        "y": 1534.40625,
+        "width": 308.65625,
+        "height": 40.3125,
+        "right": 332.65625,
+        "bottom": 1574.71875
+      },
+      "label": {
+        "x": 24,
+        "y": 1459.515625,
+        "width": 120.90625,
+        "height": 14.96875,
+        "right": 144.90625,
+        "bottom": 1474.484375
+      },
+      "stack": {
+        "x": 24,
+        "y": 1594.71875,
+        "width": 284.9375,
+        "height": 16.84375,
+        "right": 308.9375,
+        "bottom": 1611.5625
+      },
+      "cta": {
+        "x": 24,
+        "y": 1631.5625,
+        "width": 143.640625,
+        "height": 36,
+        "right": 167.640625,
+        "bottom": 1667.5625
+      },
+      "image": {
+        "x": 0,
+        "y": 1699.5625,
+        "width": 390,
+        "height": 288,
+        "right": 390,
+        "bottom": 1987.5625
+      },
+      "mark": {
+        "x": 24,
+        "y": 1488,
+        "width": 42,
+        "height": 28.875,
+        "right": 66,
+        "bottom": 1516.875,
+        "color": "rgb(21, 33, 43)",
+        "hidden": "true",
+        "paths": [
+          {
+            "fill": "rgb(21, 33, 43)",
+            "d": "m61.5 76.5v7h31v-7z"
+          },
+          {
+            "fill": "rgb(21, 33, 43)",
+            "d": "m38.553 44.07-4.4824 5.377 17.463 14.553-17.463 14.553 4.4824 5.377 23.914-19.93z"
+          }
+        ]
+      },
+      "overflow": false,
+      "other": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 792,
+          "right": 390,
+          "bottom": 792,
+          "class": "hero",
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "x": 0,
+          "y": 792,
+          "width": 390,
+          "height": 635.515625,
+          "right": 390,
+          "bottom": 1427.515625,
+          "class": "systems-overview section-wrap",
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "x": 0,
+          "y": 1988.5625,
+          "width": 390,
+          "height": 1356.875,
+          "right": 390,
+          "bottom": 3345.4375,
+          "class": "journal-section section-wrap",
+          "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+        },
+        {
+          "x": 0,
+          "y": 3345.4375,
+          "width": 390,
+          "height": 658.078125,
+          "right": 390,
+          "bottom": 4003.515625,
+          "class": "building-section",
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "x": 0,
+          "y": 4003.515625,
+          "width": 390,
+          "height": 317.5625,
+          "right": 390,
+          "bottom": 4321.078125,
+          "class": "contact-section",
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "x": 0,
+          "y": 4321.078125,
+          "width": 390,
+          "height": 81,
+          "right": 390,
+          "bottom": 4402.078125,
+          "class": "site-footer",
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ]
+    }
+  },
+  {
+    "width": 390,
+    "theme": "dark",
+    "state": {
+      "section": {
+        "x": 0,
+        "y": 1427.515625,
+        "width": 390,
+        "height": 561.046875,
+        "right": 390,
+        "bottom": 1988.5625
+      },
+      "copy": {
+        "x": 0,
+        "y": 1427.515625,
+        "width": 390,
+        "height": 272.046875,
+        "right": 390,
+        "bottom": 1699.5625
+      },
+      "heading": {
+        "x": 24,
+        "y": 1486.484375,
+        "width": 217.03125,
+        "height": 31.921875,
+        "right": 241.03125,
+        "bottom": 1518.40625,
+        "text": "FAKE BANK",
+        "font": "30.4px",
+        "line": "31.92px",
+        "color": "rgb(237, 242, 244)",
+        "textWidth": 163.03125,
+        "textHeight": 36,
+        "textX": 78,
+        "available": 342
+      },
+      "description": {
+        "x": 24,
+        "y": 1534.40625,
+        "width": 308.65625,
+        "height": 40.3125,
+        "right": 332.65625,
+        "bottom": 1574.71875
+      },
+      "label": {
+        "x": 24,
+        "y": 1459.515625,
+        "width": 120.90625,
+        "height": 14.96875,
+        "right": 144.90625,
+        "bottom": 1474.484375
+      },
+      "stack": {
+        "x": 24,
+        "y": 1594.71875,
+        "width": 284.9375,
+        "height": 16.84375,
+        "right": 308.9375,
+        "bottom": 1611.5625
+      },
+      "cta": {
+        "x": 24,
+        "y": 1631.5625,
+        "width": 143.640625,
+        "height": 36,
+        "right": 167.640625,
+        "bottom": 1667.5625
+      },
+      "image": {
+        "x": 0,
+        "y": 1699.5625,
+        "width": 390,
+        "height": 288,
+        "right": 390,
+        "bottom": 1987.5625
+      },
+      "mark": {
+        "x": 24,
+        "y": 1488,
+        "width": 42,
+        "height": 28.875,
+        "right": 66,
+        "bottom": 1516.875,
+        "color": "rgb(237, 242, 244)",
+        "hidden": "true",
+        "paths": [
+          {
+            "fill": "rgb(237, 242, 244)",
+            "d": "m61.5 76.5v7h31v-7z"
+          },
+          {
+            "fill": "rgb(237, 242, 244)",
+            "d": "m38.553 44.07-4.4824 5.377 17.463 14.553-17.463 14.553 4.4824 5.377 23.914-19.93z"
+          }
+        ]
+      },
+      "overflow": false,
+      "other": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 792,
+          "right": 390,
+          "bottom": 792,
+          "class": "hero",
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "x": 0,
+          "y": 792,
+          "width": 390,
+          "height": 635.515625,
+          "right": 390,
+          "bottom": 1427.515625,
+          "class": "systems-overview section-wrap",
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "x": 0,
+          "y": 1988.5625,
+          "width": 390,
+          "height": 1356.875,
+          "right": 390,
+          "bottom": 3345.4375,
+          "class": "journal-section section-wrap",
+          "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+        },
+        {
+          "x": 0,
+          "y": 3345.4375,
+          "width": 390,
+          "height": 658.078125,
+          "right": 390,
+          "bottom": 4003.515625,
+          "class": "building-section",
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "x": 0,
+          "y": 4003.515625,
+          "width": 390,
+          "height": 317.5625,
+          "right": 390,
+          "bottom": 4321.078125,
+          "class": "contact-section",
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "x": 0,
+          "y": 4321.078125,
+          "width": 390,
+          "height": 81,
+          "right": 390,
+          "bottom": 4402.078125,
+          "class": "site-footer",
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ]
+    }
+  },
+  {
+    "width": 768,
+    "theme": "light",
+    "state": {
+      "section": {
+        "x": 0,
+        "y": 1151.34375,
+        "width": 753,
+        "height": 289.890625,
+        "right": 753,
+        "bottom": 1441.234375
+      },
+      "copy": {
+        "x": 0,
+        "y": 1151.34375,
+        "width": 323.78125,
+        "height": 288.890625,
+        "right": 323.78125,
+        "bottom": 1440.234375
+      },
+      "heading": {
+        "x": 82.9375,
+        "y": 1206.3125,
+        "width": 208.1875,
+        "height": 31.921875,
+        "right": 291.125,
+        "bottom": 1238.234375,
+        "text": "FAKE BANK",
+        "font": "30.4px",
+        "line": "31.92px",
+        "color": "rgb(21, 33, 43)",
+        "textWidth": 163.03125,
+        "textHeight": 36,
+        "textX": 128.09375,
+        "available": 209.05599999999998
+      },
+      "description": {
+        "x": 82.9375,
+        "y": 1254.234375,
+        "width": 208.84375,
+        "height": 40.3125,
+        "right": 291.78125,
+        "bottom": 1294.546875
+      },
+      "label": {
+        "x": 82.9375,
+        "y": 1179.34375,
+        "width": 120.90625,
+        "height": 14.96875,
+        "right": 203.84375,
+        "bottom": 1194.3125
+      },
+      "stack": {
+        "x": 82.9375,
+        "y": 1314.546875,
+        "width": 208.84375,
+        "height": 41.6875,
+        "right": 291.78125,
+        "bottom": 1356.234375
+      },
+      "cta": {
+        "x": 82.9375,
+        "y": 1376.234375,
+        "width": 143.640625,
+        "height": 36,
+        "right": 226.578125,
+        "bottom": 1412.234375
+      },
+      "image": {
+        "x": 323.78125,
+        "y": 1151.34375,
+        "width": 429.21875,
+        "height": 288.890625,
+        "right": 753,
+        "bottom": 1440.234375
+      },
+      "mark": {
+        "x": 82.9375,
+        "y": 1210.875,
+        "width": 33.15625,
+        "height": 22.796875,
+        "right": 116.09375,
+        "bottom": 1233.671875,
+        "color": "rgb(21, 33, 43)",
+        "hidden": "true",
+        "paths": [
+          {
+            "fill": "rgb(21, 33, 43)",
+            "d": "m61.5 76.5v7h31v-7z"
+          },
+          {
+            "fill": "rgb(21, 33, 43)",
+            "d": "m38.553 44.07-4.4824 5.377 17.463 14.553-17.463 14.553 4.4824 5.377 23.914-19.93z"
+          }
+        ]
+      },
+      "overflow": false,
+      "other": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 753,
+          "height": 780,
+          "right": 753,
+          "bottom": 780,
+          "class": "hero",
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "x": 0,
+          "y": 780,
+          "width": 753,
+          "height": 371.34375,
+          "right": 753,
+          "bottom": 1151.34375,
+          "class": "systems-overview section-wrap",
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "x": 0,
+          "y": 1441.234375,
+          "width": 753,
+          "height": 627.625,
+          "right": 753,
+          "bottom": 2068.859375,
+          "class": "journal-section section-wrap",
+          "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+        },
+        {
+          "x": 0,
+          "y": 2068.859375,
+          "width": 753,
+          "height": 593.578125,
+          "right": 753,
+          "bottom": 2662.4375,
+          "class": "building-section",
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "x": 0,
+          "y": 2662.4375,
+          "width": 753,
+          "height": 262.09375,
+          "right": 753,
+          "bottom": 2924.53125,
+          "class": "contact-section",
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "x": 0,
+          "y": 2924.53125,
+          "width": 753,
+          "height": 101,
+          "right": 753,
+          "bottom": 3025.53125,
+          "class": "site-footer",
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ]
+    }
+  },
+  {
+    "width": 768,
+    "theme": "dark",
+    "state": {
+      "section": {
+        "x": 0,
+        "y": 1151.34375,
+        "width": 753,
+        "height": 289.890625,
+        "right": 753,
+        "bottom": 1441.234375
+      },
+      "copy": {
+        "x": 0,
+        "y": 1151.34375,
+        "width": 323.78125,
+        "height": 288.890625,
+        "right": 323.78125,
+        "bottom": 1440.234375
+      },
+      "heading": {
+        "x": 82.9375,
+        "y": 1206.3125,
+        "width": 208.1875,
+        "height": 31.921875,
+        "right": 291.125,
+        "bottom": 1238.234375,
+        "text": "FAKE BANK",
+        "font": "30.4px",
+        "line": "31.92px",
+        "color": "rgb(237, 242, 244)",
+        "textWidth": 163.03125,
+        "textHeight": 36,
+        "textX": 128.09375,
+        "available": 209.05599999999998
+      },
+      "description": {
+        "x": 82.9375,
+        "y": 1254.234375,
+        "width": 208.84375,
+        "height": 40.3125,
+        "right": 291.78125,
+        "bottom": 1294.546875
+      },
+      "label": {
+        "x": 82.9375,
+        "y": 1179.34375,
+        "width": 120.90625,
+        "height": 14.96875,
+        "right": 203.84375,
+        "bottom": 1194.3125
+      },
+      "stack": {
+        "x": 82.9375,
+        "y": 1314.546875,
+        "width": 208.84375,
+        "height": 41.6875,
+        "right": 291.78125,
+        "bottom": 1356.234375
+      },
+      "cta": {
+        "x": 82.9375,
+        "y": 1376.234375,
+        "width": 143.640625,
+        "height": 36,
+        "right": 226.578125,
+        "bottom": 1412.234375
+      },
+      "image": {
+        "x": 323.78125,
+        "y": 1151.34375,
+        "width": 429.21875,
+        "height": 288.890625,
+        "right": 753,
+        "bottom": 1440.234375
+      },
+      "mark": {
+        "x": 82.9375,
+        "y": 1210.875,
+        "width": 33.15625,
+        "height": 22.796875,
+        "right": 116.09375,
+        "bottom": 1233.671875,
+        "color": "rgb(237, 242, 244)",
+        "hidden": "true",
+        "paths": [
+          {
+            "fill": "rgb(237, 242, 244)",
+            "d": "m61.5 76.5v7h31v-7z"
+          },
+          {
+            "fill": "rgb(237, 242, 244)",
+            "d": "m38.553 44.07-4.4824 5.377 17.463 14.553-17.463 14.553 4.4824 5.377 23.914-19.93z"
+          }
+        ]
+      },
+      "overflow": false,
+      "other": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 753,
+          "height": 780,
+          "right": 753,
+          "bottom": 780,
+          "class": "hero",
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "x": 0,
+          "y": 780,
+          "width": 753,
+          "height": 371.34375,
+          "right": 753,
+          "bottom": 1151.34375,
+          "class": "systems-overview section-wrap",
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "x": 0,
+          "y": 1441.234375,
+          "width": 753,
+          "height": 627.625,
+          "right": 753,
+          "bottom": 2068.859375,
+          "class": "journal-section section-wrap",
+          "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+        },
+        {
+          "x": 0,
+          "y": 2068.859375,
+          "width": 753,
+          "height": 593.578125,
+          "right": 753,
+          "bottom": 2662.4375,
+          "class": "building-section",
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "x": 0,
+          "y": 2662.4375,
+          "width": 753,
+          "height": 262.09375,
+          "right": 753,
+          "bottom": 2924.53125,
+          "class": "contact-section",
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "x": 0,
+          "y": 2924.53125,
+          "width": 753,
+          "height": 101,
+          "right": 753,
+          "bottom": 3025.53125,
+          "class": "site-footer",
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ]
+    }
+  },
+  {
+    "width": 1024,
+    "theme": "light",
+    "state": {
+      "section": {
+        "x": 0,
+        "y": 1028.5625,
+        "width": 1009,
+        "height": 266.453125,
+        "right": 1009,
+        "bottom": 1295.015625
+      },
+      "copy": {
+        "x": 0,
+        "y": 1028.5625,
+        "width": 433.859375,
+        "height": 265.453125,
+        "right": 433.859375,
+        "bottom": 1294.015625
+      },
+      "heading": {
+        "x": 110.578125,
+        "y": 1083.53125,
+        "width": 226.09375,
+        "height": 33.328125,
+        "right": 336.671875,
+        "bottom": 1116.859375,
+        "text": "FAKE BANK",
+        "font": "31.744px",
+        "line": "33.3312px",
+        "color": "rgb(21, 33, 43)",
+        "textWidth": 170.234375,
+        "textHeight": 39,
+        "textX": 166.4375,
+        "available": 291.408
+      },
+      "description": {
+        "x": 110.578125,
+        "y": 1132.859375,
+        "width": 291.28125,
+        "height": 40.3125,
+        "right": 401.859375,
+        "bottom": 1173.171875
+      },
+      "label": {
+        "x": 110.578125,
+        "y": 1056.5625,
+        "width": 120.90625,
+        "height": 14.96875,
+        "right": 231.484375,
+        "bottom": 1071.53125
+      },
+      "stack": {
+        "x": 110.578125,
+        "y": 1193.171875,
+        "width": 284.9375,
+        "height": 16.84375,
+        "right": 395.515625,
+        "bottom": 1210.015625
+      },
+      "cta": {
+        "x": 110.578125,
+        "y": 1230.015625,
+        "width": 143.640625,
+        "height": 36,
+        "right": 254.21875,
+        "bottom": 1266.015625
+      },
+      "image": {
+        "x": 433.859375,
+        "y": 1028.5625,
+        "width": 575.140625,
+        "height": 265.453125,
+        "right": 1009,
+        "bottom": 1294.015625
+      },
+      "mark": {
+        "x": 110.578125,
+        "y": 1085.109375,
+        "width": 43.859375,
+        "height": 30.15625,
+        "right": 154.4375,
+        "bottom": 1115.265625,
+        "color": "rgb(21, 33, 43)",
+        "hidden": "true",
+        "paths": [
+          {
+            "fill": "rgb(21, 33, 43)",
+            "d": "m61.5 76.5v7h31v-7z"
+          },
+          {
+            "fill": "rgb(21, 33, 43)",
+            "d": "m38.553 44.07-4.4824 5.377 17.463 14.553-17.463 14.553 4.4824 5.377 23.914-19.93z"
+          }
+        ]
+      },
+      "overflow": false,
+      "other": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1009,
+          "height": 780,
+          "right": 1009,
+          "bottom": 780,
+          "class": "hero",
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "x": 0,
+          "y": 780,
+          "width": 1009,
+          "height": 248.5625,
+          "right": 1009,
+          "bottom": 1028.5625,
+          "class": "systems-overview section-wrap",
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "x": 0,
+          "y": 1295.015625,
+          "width": 1009,
+          "height": 507.125,
+          "right": 1009,
+          "bottom": 1802.140625,
+          "class": "journal-section section-wrap",
+          "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+        },
+        {
+          "x": 0,
+          "y": 1802.140625,
+          "width": 1009,
+          "height": 588.875,
+          "right": 1009,
+          "bottom": 2391.015625,
+          "class": "building-section",
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "x": 0,
+          "y": 2391.015625,
+          "width": 1009,
+          "height": 198.734375,
+          "right": 1009,
+          "bottom": 2589.75,
+          "class": "contact-section",
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "x": 0,
+          "y": 2589.75,
+          "width": 1009,
+          "height": 101,
+          "right": 1009,
+          "bottom": 2690.75,
+          "class": "site-footer",
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ]
+    }
+  },
+  {
+    "width": 1024,
+    "theme": "dark",
+    "state": {
+      "section": {
+        "x": 0,
+        "y": 1028.5625,
+        "width": 1009,
+        "height": 266.453125,
+        "right": 1009,
+        "bottom": 1295.015625
+      },
+      "copy": {
+        "x": 0,
+        "y": 1028.5625,
+        "width": 433.859375,
+        "height": 265.453125,
+        "right": 433.859375,
+        "bottom": 1294.015625
+      },
+      "heading": {
+        "x": 110.578125,
+        "y": 1083.53125,
+        "width": 226.09375,
+        "height": 33.328125,
+        "right": 336.671875,
+        "bottom": 1116.859375,
+        "text": "FAKE BANK",
+        "font": "31.744px",
+        "line": "33.3312px",
+        "color": "rgb(237, 242, 244)",
+        "textWidth": 170.234375,
+        "textHeight": 39,
+        "textX": 166.4375,
+        "available": 291.408
+      },
+      "description": {
+        "x": 110.578125,
+        "y": 1132.859375,
+        "width": 291.28125,
+        "height": 40.3125,
+        "right": 401.859375,
+        "bottom": 1173.171875
+      },
+      "label": {
+        "x": 110.578125,
+        "y": 1056.5625,
+        "width": 120.90625,
+        "height": 14.96875,
+        "right": 231.484375,
+        "bottom": 1071.53125
+      },
+      "stack": {
+        "x": 110.578125,
+        "y": 1193.171875,
+        "width": 284.9375,
+        "height": 16.84375,
+        "right": 395.515625,
+        "bottom": 1210.015625
+      },
+      "cta": {
+        "x": 110.578125,
+        "y": 1230.015625,
+        "width": 143.640625,
+        "height": 36,
+        "right": 254.21875,
+        "bottom": 1266.015625
+      },
+      "image": {
+        "x": 433.859375,
+        "y": 1028.5625,
+        "width": 575.140625,
+        "height": 265.453125,
+        "right": 1009,
+        "bottom": 1294.015625
+      },
+      "mark": {
+        "x": 110.578125,
+        "y": 1085.109375,
+        "width": 43.859375,
+        "height": 30.15625,
+        "right": 154.4375,
+        "bottom": 1115.265625,
+        "color": "rgb(237, 242, 244)",
+        "hidden": "true",
+        "paths": [
+          {
+            "fill": "rgb(237, 242, 244)",
+            "d": "m61.5 76.5v7h31v-7z"
+          },
+          {
+            "fill": "rgb(237, 242, 244)",
+            "d": "m38.553 44.07-4.4824 5.377 17.463 14.553-17.463 14.553 4.4824 5.377 23.914-19.93z"
+          }
+        ]
+      },
+      "overflow": false,
+      "other": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1009,
+          "height": 780,
+          "right": 1009,
+          "bottom": 780,
+          "class": "hero",
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "x": 0,
+          "y": 780,
+          "width": 1009,
+          "height": 248.5625,
+          "right": 1009,
+          "bottom": 1028.5625,
+          "class": "systems-overview section-wrap",
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "x": 0,
+          "y": 1295.015625,
+          "width": 1009,
+          "height": 507.125,
+          "right": 1009,
+          "bottom": 1802.140625,
+          "class": "journal-section section-wrap",
+          "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+        },
+        {
+          "x": 0,
+          "y": 1802.140625,
+          "width": 1009,
+          "height": 588.875,
+          "right": 1009,
+          "bottom": 2391.015625,
+          "class": "building-section",
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "x": 0,
+          "y": 2391.015625,
+          "width": 1009,
+          "height": 198.734375,
+          "right": 1009,
+          "bottom": 2589.75,
+          "class": "contact-section",
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "x": 0,
+          "y": 2589.75,
+          "width": 1009,
+          "height": 101,
+          "right": 1009,
+          "bottom": 2690.75,
+          "class": "site-footer",
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ]
+    }
+  },
+  {
+    "width": 1440,
+    "theme": "light",
+    "state": {
+      "section": {
+        "x": 0,
+        "y": 1008.171875,
+        "width": 1425,
+        "height": 367.1875,
+        "right": 1425,
+        "bottom": 1375.359375
+      },
+      "copy": {
+        "x": 0,
+        "y": 1008.171875,
+        "width": 612.75,
+        "height": 366.1875,
+        "right": 612.75,
+        "bottom": 1374.359375
+      },
+      "heading": {
+        "x": 155.515625,
+        "y": 1109.171875,
+        "width": 284.234375,
+        "height": 42,
+        "right": 439.75,
+        "bottom": 1151.171875,
+        "text": "FAKE BANK",
+        "font": "40px",
+        "line": "42px",
+        "color": "rgb(21, 33, 43)",
+        "textWidth": 214.578125,
+        "textHeight": 49,
+        "textX": 225.171875,
+        "available": 425.48
+      },
+      "description": {
+        "x": 155.515625,
+        "y": 1167.171875,
+        "width": 308.65625,
+        "height": 40.3125,
+        "right": 464.171875,
+        "bottom": 1207.484375
+      },
+      "label": {
+        "x": 155.515625,
+        "y": 1082.203125,
+        "width": 120.90625,
+        "height": 14.96875,
+        "right": 276.421875,
+        "bottom": 1097.171875
+      },
+      "stack": {
+        "x": 155.515625,
+        "y": 1227.484375,
+        "width": 284.9375,
+        "height": 16.84375,
+        "right": 440.453125,
+        "bottom": 1244.328125
+      },
+      "cta": {
+        "x": 155.515625,
+        "y": 1264.328125,
+        "width": 143.640625,
+        "height": 36,
+        "right": 299.15625,
+        "bottom": 1300.328125
+      },
+      "image": {
+        "x": 612.75,
+        "y": 1008.171875,
+        "width": 812.25,
+        "height": 366.1875,
+        "right": 1425,
+        "bottom": 1374.359375
+      },
+      "mark": {
+        "x": 155.515625,
+        "y": 1111.171875,
+        "width": 55.265625,
+        "height": 38,
+        "right": 210.78125,
+        "bottom": 1149.171875,
+        "color": "rgb(21, 33, 43)",
+        "hidden": "true",
+        "paths": [
+          {
+            "fill": "rgb(21, 33, 43)",
+            "d": "m61.5 76.5v7h31v-7z"
+          },
+          {
+            "fill": "rgb(21, 33, 43)",
+            "d": "m38.553 44.07-4.4824 5.377 17.463 14.553-17.463 14.553 4.4824 5.377 23.914-19.93z"
+          }
+        ]
+      },
+      "overflow": false,
+      "other": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1425,
+          "height": 780,
+          "right": 1425,
+          "bottom": 780,
+          "class": "hero",
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "x": 0,
+          "y": 780,
+          "width": 1425,
+          "height": 228.171875,
+          "right": 1425,
+          "bottom": 1008.171875,
+          "class": "systems-overview section-wrap",
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "x": 0,
+          "y": 1375.359375,
+          "width": 1425,
+          "height": 517.015625,
+          "right": 1425,
+          "bottom": 1892.375,
+          "class": "journal-section section-wrap",
+          "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+        },
+        {
+          "x": 0,
+          "y": 1892.375,
+          "width": 1425,
+          "height": 470.140625,
+          "right": 1425,
+          "bottom": 2362.515625,
+          "class": "building-section",
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "x": 0,
+          "y": 2362.515625,
+          "width": 1425,
+          "height": 212.703125,
+          "right": 1425,
+          "bottom": 2575.21875,
+          "class": "contact-section",
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "x": 0,
+          "y": 2575.21875,
+          "width": 1425,
+          "height": 101,
+          "right": 1425,
+          "bottom": 2676.21875,
+          "class": "site-footer",
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ]
+    }
+  },
+  {
+    "width": 1440,
+    "theme": "dark",
+    "state": {
+      "section": {
+        "x": 0,
+        "y": 1008.171875,
+        "width": 1425,
+        "height": 367.1875,
+        "right": 1425,
+        "bottom": 1375.359375
+      },
+      "copy": {
+        "x": 0,
+        "y": 1008.171875,
+        "width": 612.75,
+        "height": 366.1875,
+        "right": 612.75,
+        "bottom": 1374.359375
+      },
+      "heading": {
+        "x": 155.515625,
+        "y": 1109.171875,
+        "width": 284.234375,
+        "height": 42,
+        "right": 439.75,
+        "bottom": 1151.171875,
+        "text": "FAKE BANK",
+        "font": "40px",
+        "line": "42px",
+        "color": "rgb(237, 242, 244)",
+        "textWidth": 214.578125,
+        "textHeight": 49,
+        "textX": 225.171875,
+        "available": 425.48
+      },
+      "description": {
+        "x": 155.515625,
+        "y": 1167.171875,
+        "width": 308.65625,
+        "height": 40.3125,
+        "right": 464.171875,
+        "bottom": 1207.484375
+      },
+      "label": {
+        "x": 155.515625,
+        "y": 1082.203125,
+        "width": 120.90625,
+        "height": 14.96875,
+        "right": 276.421875,
+        "bottom": 1097.171875
+      },
+      "stack": {
+        "x": 155.515625,
+        "y": 1227.484375,
+        "width": 284.9375,
+        "height": 16.84375,
+        "right": 440.453125,
+        "bottom": 1244.328125
+      },
+      "cta": {
+        "x": 155.515625,
+        "y": 1264.328125,
+        "width": 143.640625,
+        "height": 36,
+        "right": 299.15625,
+        "bottom": 1300.328125
+      },
+      "image": {
+        "x": 612.75,
+        "y": 1008.171875,
+        "width": 812.25,
+        "height": 366.1875,
+        "right": 1425,
+        "bottom": 1374.359375
+      },
+      "mark": {
+        "x": 155.515625,
+        "y": 1111.171875,
+        "width": 55.265625,
+        "height": 38,
+        "right": 210.78125,
+        "bottom": 1149.171875,
+        "color": "rgb(237, 242, 244)",
+        "hidden": "true",
+        "paths": [
+          {
+            "fill": "rgb(237, 242, 244)",
+            "d": "m61.5 76.5v7h31v-7z"
+          },
+          {
+            "fill": "rgb(237, 242, 244)",
+            "d": "m38.553 44.07-4.4824 5.377 17.463 14.553-17.463 14.553 4.4824 5.377 23.914-19.93z"
+          }
+        ]
+      },
+      "overflow": false,
+      "other": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1425,
+          "height": 780,
+          "right": 1425,
+          "bottom": 780,
+          "class": "hero",
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "x": 0,
+          "y": 780,
+          "width": 1425,
+          "height": 228.171875,
+          "right": 1425,
+          "bottom": 1008.171875,
+          "class": "systems-overview section-wrap",
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "x": 0,
+          "y": 1375.359375,
+          "width": 1425,
+          "height": 517.015625,
+          "right": 1425,
+          "bottom": 1892.375,
+          "class": "journal-section section-wrap",
+          "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+        },
+        {
+          "x": 0,
+          "y": 1892.375,
+          "width": 1425,
+          "height": 470.140625,
+          "right": 1425,
+          "bottom": 2362.515625,
+          "class": "building-section",
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "x": 0,
+          "y": 2362.515625,
+          "width": 1425,
+          "height": 212.703125,
+          "right": 1425,
+          "bottom": 2575.21875,
+          "class": "contact-section",
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "x": 0,
+          "y": 2575.21875,
+          "width": 1425,
+          "height": 101,
+          "right": 1425,
+          "bottom": 2676.21875,
+          "class": "site-footer",
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ]
+    }
+  },
+  {
+    "width": 1920,
+    "theme": "light",
+    "state": {
+      "section": {
+        "x": 0,
+        "y": 1008.171875,
+        "width": 1905,
+        "height": 368,
+        "right": 1905,
+        "bottom": 1376.171875
+      },
+      "copy": {
+        "x": 0,
+        "y": 1008.171875,
+        "width": 819.140625,
+        "height": 367,
+        "right": 819.140625,
+        "bottom": 1375.171875
+      },
+      "heading": {
+        "x": 352,
+        "y": 1109.578125,
+        "width": 285.84375,
+        "height": 42,
+        "right": 637.84375,
+        "bottom": 1151.578125,
+        "text": "FAKE BANK",
+        "font": "40px",
+        "line": "42px",
+        "color": "rgb(21, 33, 43)",
+        "textWidth": 214.578125,
+        "textHeight": 49,
+        "textX": 423.265625,
+        "available": 435
+      },
+      "description": {
+        "x": 352,
+        "y": 1167.578125,
+        "width": 308.65625,
+        "height": 40.3125,
+        "right": 660.65625,
+        "bottom": 1207.890625
+      },
+      "label": {
+        "x": 352,
+        "y": 1082.609375,
+        "width": 120.90625,
+        "height": 14.96875,
+        "right": 472.90625,
+        "bottom": 1097.578125
+      },
+      "stack": {
+        "x": 352,
+        "y": 1227.890625,
+        "width": 284.9375,
+        "height": 16.84375,
+        "right": 636.9375,
+        "bottom": 1244.734375
+      },
+      "cta": {
+        "x": 352,
+        "y": 1264.734375,
+        "width": 143.640625,
+        "height": 36,
+        "right": 495.640625,
+        "bottom": 1300.734375
+      },
+      "image": {
+        "x": 819.140625,
+        "y": 1008.171875,
+        "width": 1085.859375,
+        "height": 367,
+        "right": 1905,
+        "bottom": 1375.171875
+      },
+      "mark": {
+        "x": 352,
+        "y": 1111.578125,
+        "width": 55.265625,
+        "height": 38,
+        "right": 407.265625,
+        "bottom": 1149.578125,
+        "color": "rgb(21, 33, 43)",
+        "hidden": "true",
+        "paths": [
+          {
+            "fill": "rgb(21, 33, 43)",
+            "d": "m61.5 76.5v7h31v-7z"
+          },
+          {
+            "fill": "rgb(21, 33, 43)",
+            "d": "m38.553 44.07-4.4824 5.377 17.463 14.553-17.463 14.553 4.4824 5.377 23.914-19.93z"
+          }
+        ]
+      },
+      "overflow": false,
+      "other": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1905,
+          "height": 780,
+          "right": 1905,
+          "bottom": 780,
+          "class": "hero",
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "x": 0,
+          "y": 780,
+          "width": 1905,
+          "height": 228.171875,
+          "right": 1905,
+          "bottom": 1008.171875,
+          "class": "systems-overview section-wrap",
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "x": 0,
+          "y": 1376.171875,
+          "width": 1905,
+          "height": 515.3125,
+          "right": 1905,
+          "bottom": 1891.484375,
+          "class": "journal-section section-wrap",
+          "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+        },
+        {
+          "x": 0,
+          "y": 1891.484375,
+          "width": 1905,
+          "height": 485.1875,
+          "right": 1905,
+          "bottom": 2376.671875,
+          "class": "building-section",
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "x": 0,
+          "y": 2376.671875,
+          "width": 1905,
+          "height": 212.703125,
+          "right": 1905,
+          "bottom": 2589.375,
+          "class": "contact-section",
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "x": 0,
+          "y": 2589.375,
+          "width": 1905,
+          "height": 101,
+          "right": 1905,
+          "bottom": 2690.375,
+          "class": "site-footer",
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ]
+    }
+  },
+  {
+    "width": 1920,
+    "theme": "dark",
+    "state": {
+      "section": {
+        "x": 0,
+        "y": 1008.171875,
+        "width": 1905,
+        "height": 368,
+        "right": 1905,
+        "bottom": 1376.171875
+      },
+      "copy": {
+        "x": 0,
+        "y": 1008.171875,
+        "width": 819.140625,
+        "height": 367,
+        "right": 819.140625,
+        "bottom": 1375.171875
+      },
+      "heading": {
+        "x": 352,
+        "y": 1109.578125,
+        "width": 285.84375,
+        "height": 42,
+        "right": 637.84375,
+        "bottom": 1151.578125,
+        "text": "FAKE BANK",
+        "font": "40px",
+        "line": "42px",
+        "color": "rgb(237, 242, 244)",
+        "textWidth": 214.578125,
+        "textHeight": 49,
+        "textX": 423.265625,
+        "available": 435
+      },
+      "description": {
+        "x": 352,
+        "y": 1167.578125,
+        "width": 308.65625,
+        "height": 40.3125,
+        "right": 660.65625,
+        "bottom": 1207.890625
+      },
+      "label": {
+        "x": 352,
+        "y": 1082.609375,
+        "width": 120.90625,
+        "height": 14.96875,
+        "right": 472.90625,
+        "bottom": 1097.578125
+      },
+      "stack": {
+        "x": 352,
+        "y": 1227.890625,
+        "width": 284.9375,
+        "height": 16.84375,
+        "right": 636.9375,
+        "bottom": 1244.734375
+      },
+      "cta": {
+        "x": 352,
+        "y": 1264.734375,
+        "width": 143.640625,
+        "height": 36,
+        "right": 495.640625,
+        "bottom": 1300.734375
+      },
+      "image": {
+        "x": 819.140625,
+        "y": 1008.171875,
+        "width": 1085.859375,
+        "height": 367,
+        "right": 1905,
+        "bottom": 1375.171875
+      },
+      "mark": {
+        "x": 352,
+        "y": 1111.578125,
+        "width": 55.265625,
+        "height": 38,
+        "right": 407.265625,
+        "bottom": 1149.578125,
+        "color": "rgb(237, 242, 244)",
+        "hidden": "true",
+        "paths": [
+          {
+            "fill": "rgb(237, 242, 244)",
+            "d": "m61.5 76.5v7h31v-7z"
+          },
+          {
+            "fill": "rgb(237, 242, 244)",
+            "d": "m38.553 44.07-4.4824 5.377 17.463 14.553-17.463 14.553 4.4824 5.377 23.914-19.93z"
+          }
+        ]
+      },
+      "overflow": false,
+      "other": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1905,
+          "height": 780,
+          "right": 1905,
+          "bottom": 780,
+          "class": "hero",
+          "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+        },
+        {
+          "x": 0,
+          "y": 780,
+          "width": 1905,
+          "height": 228.171875,
+          "right": 1905,
+          "bottom": 1008.171875,
+          "class": "systems-overview section-wrap",
+          "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+        },
+        {
+          "x": 0,
+          "y": 1376.171875,
+          "width": 1905,
+          "height": 515.3125,
+          "right": 1905,
+          "bottom": 1891.484375,
+          "class": "journal-section section-wrap",
+          "text": "Engineering ChronicleWork, asit happens.A record of milestones, engineering notes, visual stories, publications and retrospectives.Visit the chronicle →When Code Stopped Being the Main ThingMAR — JUN 2026 · RetrospectiveAn AI experiment changed how I valued architecture—and what I wanted to build next.I Didn't Want AI to Design My System for MeMAY — OCT 2026 · RetrospectiveI used definitions and versioned configurations to keep fast implementation aligned with the architecture.We Built All the Pieces. Then We Had to Make Them Work Together.AUG — OCT 2026 · RetrospectiveWe had the components. Integration work made one complete sale through the FakeBank simulator possible."
+        },
+        {
+          "x": 0,
+          "y": 1891.484375,
+          "width": 1905,
+          "height": 485.1875,
+          "right": 1905,
+          "bottom": 2376.671875,
+          "class": "building-section",
+          "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+        },
+        {
+          "x": 0,
+          "y": 2376.671875,
+          "width": 1905,
+          "height": 212.703125,
+          "right": 1905,
+          "bottom": 2589.375,
+          "class": "contact-section",
+          "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+        },
+        {
+          "x": 0,
+          "y": 2589.375,
+          "width": 1905,
+          "height": 101,
+          "right": 1905,
+          "bottom": 2690.375,
+          "class": "site-footer",
+          "text": "© 2006-2026 ROUST.USBack to top ↑"
+        }
+      ]
+    }
+  }
+]

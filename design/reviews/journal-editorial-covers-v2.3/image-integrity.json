@@ -1,0 +1,14 @@
+[
+  {
+    "path": "public/images/journal/scenario-road.webp",
+    "sha256": "484a304b21832ea1b5960ae659713f7ab364c84f72b9e78acc9dcfb76a1625ce"
+  },
+  {
+    "path": "public/images/journal/platform-node-bridge.webp",
+    "sha256": "57199b353289e68e1b985c525c6957630905edb866b4399245cf2ec56a3de500"
+  },
+  {
+    "path": "public/images/journal/first-payment-tunnel.webp",
+    "sha256": "eba47f5eb3e7f20cca0d9e299c70d304b6ddb5f275c0f1c7079b23ef23a4b2b3"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "changed": [
+    "src/pages/index.astro"
+  ],
+  "added": [
+    "design/references/fake-terminal-mark.svg"
+  ],
+  "removed": []
+}

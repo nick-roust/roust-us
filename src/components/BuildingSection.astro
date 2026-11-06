@@ -10,7 +10,9 @@
   <div class="container building-section__inner">
     <div class="building-section__copy">
       <p class="eyebrow">CURRENTLY BUILDING</p>
-      <h2 id="building-title">PG27</h2>
+      <h2 id="building-title" class="building-title" aria-label="PG27">
+        <img class="building-title__logo" src="/brand/pg27.svg" width="256" height="59" alt="" aria-hidden="true" />
+      </h2>
       <p class="building-section__subheading">Building transaction infrastructure.</p>
       <p class="building-section__description">An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.</p>
       <div class="building-counter" role="group" aria-label="PG27 development counter">
@@ -27,7 +29,7 @@
           <details class="building-counter__estimate">
             <summary aria-label="Estimated engineering hours. Open explanation." aria-describedby="engineering-hours-tooltip" aria-controls="engineering-hours-tooltip" aria-expanded="false">
               <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 3" /></svg>
-              <strong data-counter-hours>2,400</strong><span>hrs</span>
+              <strong data-counter-hours>2400</strong><span>hrs</span>
             </summary>
           </details>
         </div>
@@ -69,7 +71,7 @@
     const updateCounter = () => {
       const counter = getDevelopmentCounter();
       daysValue.textContent = String(counter.days);
-      hoursValue.textContent = new Intl.NumberFormat('en-US').format(counter.estimatedHours);
+      hoursValue.textContent = String(counter.estimatedHours);
       asOfValue.textContent = `As of ${counter.dateLabel}`;
     };
 

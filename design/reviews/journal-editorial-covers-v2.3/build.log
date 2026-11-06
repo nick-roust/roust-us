@@ -1,0 +1,41 @@
+$ astro check && astro build
+07:58:48 [content] Syncing content
+07:58:48 [content] Synced content
+07:58:48 [types] Generated 288ms
+07:58:48 [check] Getting diagnostics for Astro files in /home/nickk/roust-us...
+Result (44 files):
+- 0 errors
+- 0 warnings
+- 0 hints
+
+07:58:51 [content] Syncing content
+07:58:51 [content] Synced content
+07:58:51 [types] Generated 271ms
+07:58:51 [build] output: "static"
+07:58:51 [build] mode: "static"
+07:58:51 [build] directory: /home/nickk/roust-us/dist/
+07:58:51 [build] Collecting build info...
+07:58:51 [build] ✓ Completed in 294ms.
+07:58:51 [build] Building static entrypoints...
+07:58:51 [vite] ✓ built in 210ms
+07:58:51 [vite] ✓ built in 19ms
+07:58:51 [build] Rearranging server assets...
+
+ generating static routes
+07:58:51   ├─ /about/index.html (+6ms)
+07:58:51   ├─ /bik/index.html (+1ms)
+07:58:51   ├─ /building-paymentgate/index.html (+1ms)
+07:58:51   ├─ /journal/index.html (+1ms)
+07:58:51   ├─ /labs/fake-bank/index.html (+2ms)
+07:58:51   ├─ /labs/fake-shop/index.html (+1ms)
+07:58:51   ├─ /labs/index.html (+1ms)
+07:58:51   ├─ /open-source/index.html (+1ms)
+07:58:51   ├─ /projects/paymentgate/index.html (+1ms)
+07:58:51   ├─ /projects/index.html (+1ms)
+07:58:51   ├─ /tools/index.html (+1ms)
+07:58:51   ├─ /index.html (+1ms)
+07:58:51 ✓ Completed in 33ms.
+
+07:58:51 [build] ✓ Completed in 285ms.
+07:58:51 [build] 12 page(s) built in 581ms
+07:58:51 [build] Complete!

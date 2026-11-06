@@ -1,0 +1,28 @@
+[
+  {
+    "width": 1009,
+    "x": 0,
+    "y": 1028.5625,
+    "height": 266.453125,
+    "scale": 1,
+    "imageWidth": 575.140625,
+    "imageRight": 1009,
+    "viewportWidth": 1009,
+    "copyWidth": 433.859375,
+    "sectionBorder": "0px 0px 1px",
+    "shadow": "none"
+  },
+  {
+    "width": 1425,
+    "x": 0,
+    "y": 1008.171875,
+    "height": 367.1875,
+    "scale": 1,
+    "imageWidth": 812.25,
+    "imageRight": 1425,
+    "viewportWidth": 1425,
+    "copyWidth": 612.75,
+    "sectionBorder": "0px 0px 1px",
+    "shadow": "none"
+  }
+]
