@@ -1,0 +1,1220 @@
+{
+  "results": [
+    {
+      "width": 390,
+      "theme": "light",
+      "state": {
+        "width": 390,
+        "theme": "light",
+        "overflow": false,
+        "h1": [
+          "FAKE BANK"
+        ],
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 97.59375,
+          "bottom": 97.59375
+        },
+        "hero": {
+          "x": 16,
+          "y": 149.9375,
+          "width": 358,
+          "height": 314.234375,
+          "bottom": 464.171875
+        },
+        "image": {
+          "src": "http://localhost:4321/images/fakebank-reflective-facade-512.avif",
+          "naturalWidth": 342,
+          "naturalHeight": 374,
+          "fit": "cover",
+          "position": "62% 50%",
+          "x": 16,
+          "y": 149.9375,
+          "width": 358,
+          "height": 314.234375,
+          "bottom": 464.171875
+        },
+        "desktopNavigation": "none",
+        "mobileNavigation": "block",
+        "mobileClosed": true,
+        "contact": true,
+        "footer": true,
+        "sectionIds": [
+          "overview",
+          "context",
+          "problem",
+          "architecture",
+          "implementation",
+          "verification",
+          "status"
+        ],
+        "badLinks": []
+      },
+      "anchors": [
+        {
+          "section": "context",
+          "top": 167.171875,
+          "headerBottom": 97.59375,
+          "navBottom": 149.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "architecture",
+          "top": 166.703125,
+          "headerBottom": 97.59375,
+          "navBottom": 149.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "implementation",
+          "top": 166.859375,
+          "headerBottom": 97.59375,
+          "navBottom": 149.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "verification",
+          "top": 166.953125,
+          "headerBottom": 97.59375,
+          "navBottom": 149.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "status",
+          "top": 167.453125,
+          "headerBottom": 97.59375,
+          "navBottom": 149.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "overview",
+          "top": 149.9375,
+          "headerBottom": 97.59375,
+          "navBottom": 149.9375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        }
+      ],
+      "focus": {
+        "tag": "A",
+        "text": "View on GitHub ↗",
+        "visible": true,
+        "outline": "solid",
+        "width": "3px"
+      },
+      "accessibility": "H1 verified"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "state": {
+        "width": 390,
+        "theme": "dark",
+        "overflow": false,
+        "h1": [
+          "FAKE BANK"
+        ],
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 97.59375,
+          "bottom": 97.59375
+        },
+        "hero": {
+          "x": 16,
+          "y": 149.9375,
+          "width": 358,
+          "height": 314.234375,
+          "bottom": 464.171875
+        },
+        "image": {
+          "src": "http://localhost:4321/images/fakebank-reflective-facade-512.avif",
+          "naturalWidth": 342,
+          "naturalHeight": 374,
+          "fit": "cover",
+          "position": "62% 50%",
+          "x": 16,
+          "y": 149.9375,
+          "width": 358,
+          "height": 314.234375,
+          "bottom": 464.171875
+        },
+        "desktopNavigation": "none",
+        "mobileNavigation": "block",
+        "mobileClosed": true,
+        "contact": true,
+        "footer": true,
+        "sectionIds": [
+          "overview",
+          "context",
+          "problem",
+          "architecture",
+          "implementation",
+          "verification",
+          "status"
+        ],
+        "badLinks": []
+      },
+      "anchors": [
+        {
+          "section": "context",
+          "top": 167.171875,
+          "headerBottom": 97.59375,
+          "navBottom": 149.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "architecture",
+          "top": 166.703125,
+          "headerBottom": 97.59375,
+          "navBottom": 149.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "implementation",
+          "top": 166.859375,
+          "headerBottom": 97.59375,
+          "navBottom": 149.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "verification",
+          "top": 166.953125,
+          "headerBottom": 97.59375,
+          "navBottom": 149.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "status",
+          "top": 167.453125,
+          "headerBottom": 97.59375,
+          "navBottom": 149.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "overview",
+          "top": 149.9375,
+          "headerBottom": 97.59375,
+          "navBottom": 149.9375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        }
+      ],
+      "focus": {
+        "tag": "A",
+        "text": "View on GitHub ↗",
+        "visible": true,
+        "outline": "solid",
+        "width": "3px"
+      },
+      "accessibility": "H1 verified"
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "state": {
+        "width": 768,
+        "theme": "light",
+        "overflow": false,
+        "h1": [
+          "FAKE BANK"
+        ],
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 753,
+          "height": 89,
+          "bottom": 89
+        },
+        "hero": {
+          "x": 24,
+          "y": 141.34375,
+          "width": 705,
+          "height": 330.640625,
+          "bottom": 471.984375
+        },
+        "image": {
+          "src": "http://localhost:4321/images/fakebank-reflective-facade-768.avif",
+          "naturalWidth": 719,
+          "naturalHeight": 787,
+          "fit": "cover",
+          "position": "50% 48%",
+          "x": 24,
+          "y": 141.34375,
+          "width": 705,
+          "height": 330.640625,
+          "bottom": 471.984375
+        },
+        "desktopNavigation": "none",
+        "mobileNavigation": "block",
+        "mobileClosed": true,
+        "contact": true,
+        "footer": true,
+        "sectionIds": [
+          "overview",
+          "context",
+          "problem",
+          "architecture",
+          "implementation",
+          "verification",
+          "status"
+        ],
+        "badLinks": []
+      },
+      "anchors": [
+        {
+          "section": "context",
+          "top": 157.984375,
+          "headerBottom": 89,
+          "navBottom": 140.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "architecture",
+          "top": 158.140625,
+          "headerBottom": 89,
+          "navBottom": 140.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "implementation",
+          "top": 158.421875,
+          "headerBottom": 89,
+          "navBottom": 140.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "verification",
+          "top": 157.609375,
+          "headerBottom": 89,
+          "navBottom": 140.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "status",
+          "top": 241.625,
+          "headerBottom": 89,
+          "navBottom": 140.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "overview",
+          "top": 141.34375,
+          "headerBottom": 89,
+          "navBottom": 141.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        }
+      ],
+      "focus": {
+        "tag": "A",
+        "text": "View on GitHub ↗",
+        "visible": true,
+        "outline": "solid",
+        "width": "3px"
+      },
+      "accessibility": "H1 verified"
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "state": {
+        "width": 768,
+        "theme": "dark",
+        "overflow": false,
+        "h1": [
+          "FAKE BANK"
+        ],
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 753,
+          "height": 89,
+          "bottom": 89
+        },
+        "hero": {
+          "x": 24,
+          "y": 141.34375,
+          "width": 705,
+          "height": 330.640625,
+          "bottom": 471.984375
+        },
+        "image": {
+          "src": "http://localhost:4321/images/fakebank-reflective-facade-768.avif",
+          "naturalWidth": 719,
+          "naturalHeight": 787,
+          "fit": "cover",
+          "position": "50% 48%",
+          "x": 24,
+          "y": 141.34375,
+          "width": 705,
+          "height": 330.640625,
+          "bottom": 471.984375
+        },
+        "desktopNavigation": "none",
+        "mobileNavigation": "block",
+        "mobileClosed": true,
+        "contact": true,
+        "footer": true,
+        "sectionIds": [
+          "overview",
+          "context",
+          "problem",
+          "architecture",
+          "implementation",
+          "verification",
+          "status"
+        ],
+        "badLinks": []
+      },
+      "anchors": [
+        {
+          "section": "context",
+          "top": 157.984375,
+          "headerBottom": 89,
+          "navBottom": 140.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "architecture",
+          "top": 158.140625,
+          "headerBottom": 89,
+          "navBottom": 140.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "implementation",
+          "top": 158.421875,
+          "headerBottom": 89,
+          "navBottom": 140.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "verification",
+          "top": 157.609375,
+          "headerBottom": 89,
+          "navBottom": 140.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "status",
+          "top": 241.625,
+          "headerBottom": 89,
+          "navBottom": 140.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        },
+        {
+          "section": "overview",
+          "top": 141.34375,
+          "headerBottom": 89,
+          "navBottom": 141.34375,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 0
+        }
+      ],
+      "focus": {
+        "tag": "A",
+        "text": "View on GitHub ↗",
+        "visible": true,
+        "outline": "solid",
+        "width": "3px"
+      },
+      "accessibility": "H1 verified"
+    },
+    {
+      "width": 1024,
+      "theme": "light",
+      "state": {
+        "width": 1024,
+        "theme": "light",
+        "overflow": false,
+        "h1": [
+          "FAKE BANK"
+        ],
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1009,
+          "height": 89,
+          "bottom": 89
+        },
+        "hero": {
+          "x": 225,
+          "y": 89,
+          "width": 760,
+          "height": 353.015625,
+          "bottom": 442.015625
+        },
+        "image": {
+          "src": "http://localhost:4321/images/fakebank-reflective-facade-768.avif",
+          "naturalWidth": 752,
+          "naturalHeight": 822,
+          "fit": "cover",
+          "position": "50% 48%",
+          "x": 225,
+          "y": 89,
+          "width": 760,
+          "height": 353.015625,
+          "bottom": 442.015625
+        },
+        "desktopNavigation": "block",
+        "mobileNavigation": "none",
+        "mobileClosed": true,
+        "contact": true,
+        "footer": true,
+        "sectionIds": [
+          "overview",
+          "context",
+          "problem",
+          "architecture",
+          "implementation",
+          "verification",
+          "status"
+        ],
+        "badLinks": []
+      },
+      "anchors": [
+        {
+          "section": "context",
+          "top": 112.015625,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "architecture",
+          "top": 112.390625,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "implementation",
+          "top": 111.671875,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "verification",
+          "top": 111.671875,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "status",
+          "top": 132.078125,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "overview",
+          "top": 89,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        }
+      ],
+      "focus": {
+        "tag": "A",
+        "text": "View on GitHub ↗",
+        "visible": true,
+        "outline": "solid",
+        "width": "3px"
+      },
+      "accessibility": "H1 verified"
+    },
+    {
+      "width": 1024,
+      "theme": "dark",
+      "state": {
+        "width": 1024,
+        "theme": "dark",
+        "overflow": false,
+        "h1": [
+          "FAKE BANK"
+        ],
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1009,
+          "height": 89,
+          "bottom": 89
+        },
+        "hero": {
+          "x": 225,
+          "y": 89,
+          "width": 760,
+          "height": 353.015625,
+          "bottom": 442.015625
+        },
+        "image": {
+          "src": "http://localhost:4321/images/fakebank-reflective-facade-768.avif",
+          "naturalWidth": 752,
+          "naturalHeight": 822,
+          "fit": "cover",
+          "position": "50% 48%",
+          "x": 225,
+          "y": 89,
+          "width": 760,
+          "height": 353.015625,
+          "bottom": 442.015625
+        },
+        "desktopNavigation": "block",
+        "mobileNavigation": "none",
+        "mobileClosed": true,
+        "contact": true,
+        "footer": true,
+        "sectionIds": [
+          "overview",
+          "context",
+          "problem",
+          "architecture",
+          "implementation",
+          "verification",
+          "status"
+        ],
+        "badLinks": []
+      },
+      "anchors": [
+        {
+          "section": "context",
+          "top": 112.015625,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "architecture",
+          "top": 112.390625,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "implementation",
+          "top": 111.671875,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "verification",
+          "top": 111.671875,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "status",
+          "top": 132.078125,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "overview",
+          "top": 89,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        }
+      ],
+      "focus": {
+        "tag": "A",
+        "text": "View on GitHub ↗",
+        "visible": true,
+        "outline": "solid",
+        "width": "3px"
+      },
+      "accessibility": "H1 verified"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "state": {
+        "width": 1440,
+        "theme": "light",
+        "overflow": false,
+        "h1": [
+          "FAKE BANK"
+        ],
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1425,
+          "height": 89,
+          "bottom": 89
+        },
+        "hero": {
+          "x": 277.5,
+          "y": 89,
+          "width": 1095,
+          "height": 389.765625,
+          "bottom": 478.765625
+        },
+        "image": {
+          "src": "http://localhost:4321/images/fakebank-reflective-facade-1199.avif",
+          "naturalWidth": 1096,
+          "naturalHeight": 1199,
+          "fit": "cover",
+          "position": "50% 48%",
+          "x": 277.5,
+          "y": 89,
+          "width": 1095,
+          "height": 389.765625,
+          "bottom": 478.765625
+        },
+        "desktopNavigation": "block",
+        "mobileNavigation": "none",
+        "mobileClosed": true,
+        "contact": true,
+        "footer": true,
+        "sectionIds": [
+          "overview",
+          "context",
+          "problem",
+          "architecture",
+          "implementation",
+          "verification",
+          "status"
+        ],
+        "badLinks": []
+      },
+      "anchors": [
+        {
+          "section": "context",
+          "top": 111.765625,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "architecture",
+          "top": 111.640625,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "implementation",
+          "top": 112.140625,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "verification",
+          "top": 112.328125,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "status",
+          "top": 287.8125,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "overview",
+          "top": 89,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        }
+      ],
+      "focus": {
+        "tag": "A",
+        "text": "View on GitHub ↗",
+        "visible": true,
+        "outline": "solid",
+        "width": "3px"
+      },
+      "accessibility": "H1 verified"
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "state": {
+        "width": 1440,
+        "theme": "dark",
+        "overflow": false,
+        "h1": [
+          "FAKE BANK"
+        ],
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1425,
+          "height": 89,
+          "bottom": 89
+        },
+        "hero": {
+          "x": 277.5,
+          "y": 89,
+          "width": 1095,
+          "height": 389.765625,
+          "bottom": 478.765625
+        },
+        "image": {
+          "src": "http://localhost:4321/images/fakebank-reflective-facade-1199.avif",
+          "naturalWidth": 1096,
+          "naturalHeight": 1199,
+          "fit": "cover",
+          "position": "50% 48%",
+          "x": 277.5,
+          "y": 89,
+          "width": 1095,
+          "height": 389.765625,
+          "bottom": 478.765625
+        },
+        "desktopNavigation": "block",
+        "mobileNavigation": "none",
+        "mobileClosed": true,
+        "contact": true,
+        "footer": true,
+        "sectionIds": [
+          "overview",
+          "context",
+          "problem",
+          "architecture",
+          "implementation",
+          "verification",
+          "status"
+        ],
+        "badLinks": []
+      },
+      "anchors": [
+        {
+          "section": "context",
+          "top": 111.765625,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "architecture",
+          "top": 111.640625,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "implementation",
+          "top": 112.140625,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "verification",
+          "top": 112.328125,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "status",
+          "top": 287.8125,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "overview",
+          "top": 89,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        }
+      ],
+      "focus": {
+        "tag": "A",
+        "text": "View on GitHub ↗",
+        "visible": true,
+        "outline": "solid",
+        "width": "3px"
+      },
+      "accessibility": "H1 verified"
+    },
+    {
+      "width": 1920,
+      "theme": "light",
+      "state": {
+        "width": 1920,
+        "theme": "light",
+        "overflow": false,
+        "h1": [
+          "FAKE BANK"
+        ],
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1905,
+          "height": 89,
+          "bottom": 89
+        },
+        "hero": {
+          "x": 517.5,
+          "y": 89,
+          "width": 1095,
+          "height": 389.765625,
+          "bottom": 478.765625
+        },
+        "image": {
+          "src": "http://localhost:4321/images/fakebank-reflective-facade-1199.avif",
+          "naturalWidth": 1096,
+          "naturalHeight": 1199,
+          "fit": "cover",
+          "position": "50% 48%",
+          "x": 517.5,
+          "y": 89,
+          "width": 1095,
+          "height": 389.765625,
+          "bottom": 478.765625
+        },
+        "desktopNavigation": "block",
+        "mobileNavigation": "none",
+        "mobileClosed": true,
+        "contact": true,
+        "footer": true,
+        "sectionIds": [
+          "overview",
+          "context",
+          "problem",
+          "architecture",
+          "implementation",
+          "verification",
+          "status"
+        ],
+        "badLinks": []
+      },
+      "anchors": [
+        {
+          "section": "context",
+          "top": 111.765625,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "architecture",
+          "top": 112.484375,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "implementation",
+          "top": 111.984375,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "verification",
+          "top": 112.171875,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "status",
+          "top": 287.734375,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "overview",
+          "top": 89,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        }
+      ],
+      "focus": {
+        "tag": "A",
+        "text": "View on GitHub ↗",
+        "visible": true,
+        "outline": "solid",
+        "width": "3px"
+      },
+      "accessibility": "H1 verified"
+    },
+    {
+      "width": 1920,
+      "theme": "dark",
+      "state": {
+        "width": 1920,
+        "theme": "dark",
+        "overflow": false,
+        "h1": [
+          "FAKE BANK"
+        ],
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1905,
+          "height": 89,
+          "bottom": 89
+        },
+        "hero": {
+          "x": 517.5,
+          "y": 89,
+          "width": 1095,
+          "height": 389.765625,
+          "bottom": 478.765625
+        },
+        "image": {
+          "src": "http://localhost:4321/images/fakebank-reflective-facade-1199.avif",
+          "naturalWidth": 1096,
+          "naturalHeight": 1199,
+          "fit": "cover",
+          "position": "50% 48%",
+          "x": 517.5,
+          "y": 89,
+          "width": 1095,
+          "height": 389.765625,
+          "bottom": 478.765625
+        },
+        "desktopNavigation": "block",
+        "mobileNavigation": "none",
+        "mobileClosed": true,
+        "contact": true,
+        "footer": true,
+        "sectionIds": [
+          "overview",
+          "context",
+          "problem",
+          "architecture",
+          "implementation",
+          "verification",
+          "status"
+        ],
+        "badLinks": []
+      },
+      "anchors": [
+        {
+          "section": "context",
+          "top": 111.765625,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "architecture",
+          "top": 112.484375,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "implementation",
+          "top": 111.984375,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "verification",
+          "top": 112.171875,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "status",
+          "top": 287.734375,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        },
+        {
+          "section": "overview",
+          "top": 89,
+          "headerBottom": 89,
+          "navBottom": 89,
+          "mobileClosed": true,
+          "current": "location",
+          "sidebarTop": 112
+        }
+      ],
+      "focus": {
+        "tag": "A",
+        "text": "View on GitHub ↗",
+        "visible": true,
+        "outline": "solid",
+        "width": "3px"
+      },
+      "accessibility": "H1 verified"
+    }
+  ],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/about/",
+      "status": 200
+    },
+    {
+      "path": "/projects/",
+      "status": 200
+    },
+    {
+      "path": "/projects/paymentgate/",
+      "status": 200
+    },
+    {
+      "path": "/building-paymentgate/",
+      "status": 200
+    },
+    {
+      "path": "/journal/",
+      "status": 200
+    },
+    {
+      "path": "/tools/",
+      "status": 200
+    },
+    {
+      "path": "/bik/",
+      "status": 200
+    },
+    {
+      "path": "/labs/",
+      "status": 200
+    },
+    {
+      "path": "/labs/fake-shop/",
+      "status": 200
+    },
+    {
+      "path": "/open-source/",
+      "status": 200
+    }
+  ]
+}

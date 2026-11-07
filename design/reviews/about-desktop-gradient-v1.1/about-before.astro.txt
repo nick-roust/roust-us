@@ -1,0 +1,83 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+
+const projects = [
+  { name: 'FakeShop', href: '/labs/fake-shop/', description: 'E-commerce simulator for realistic buyer scenarios.' },
+  { name: 'FakeBank', href: '/labs/fake-bank/', description: 'Independent payment provider simulator.' },
+  { name: 'PG27', href: '/projects/pg27/', description: 'Transaction infrastructure with independent execution nodes.' },
+  { name: 'BIK / ED807', href: '/labs/bik-ed807/', description: 'Russian banking directory converter.' },
+];
+---
+<SiteLayout title="About" description="About Nick Roust. Editorial profile awaiting Founder review." showPageTitle={false} canonicalPath="/about/">
+  <article aria-labelledby="about-title">
+    <header class="journal-index-hero about-hero">
+      <div class="journal-index-hero__image about-hero__media" aria-hidden="true">
+        <img class="about-hero__image" src="/images/about/nick-roust-motorcycle-1672.webp"
+          srcset="/images/about/nick-roust-motorcycle-640.webp 640w, /images/about/nick-roust-motorcycle-1024.webp 1024w, /images/about/nick-roust-motorcycle-1672.webp 1672w"
+          sizes="(max-width: 680px) 100vw, 69vw" width="1672" height="941" alt="" fetchpriority="high" />
+      </div>
+      <div class="container journal-index-hero__inner about-hero__copy">
+        <div class="journal-index-hero__copy">
+          <p class="eyebrow">About</p>
+          <h1 id="about-title">Nick Roust</h1>
+          <p class="about-hero__subtitle">Fintech · Software Architecture · AI-Assisted Engineering</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="about-editorial container">
+      <p class="about-editorial__notice" id="editorial-status">Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.</p>
+      <div aria-describedby="editorial-status">
+        <section aria-labelledby="perspective-title">
+          <p class="eyebrow">Perspective</p>
+          <h2 id="perspective-title">Architecture before implementation</h2>
+          <p>I approach software development through architecture, responsibility and long-term system behavior.</p>
+          <p>Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.</p>
+        </section>
+        <section aria-labelledby="practice-title">
+          <p class="eyebrow">Engineering Practice</p>
+          <h2 id="practice-title">From design to operation</h2>
+          <p>My work spans system design, implementation, integration and operation.</p>
+          <p>I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.</p>
+        </section>
+        <section aria-labelledby="ai-title">
+          <p class="eyebrow">AI-Assisted Engineering</p>
+          <h2 id="ai-title">AI as an engineering instrument</h2>
+          <p>I use AI-assisted tools as part of my engineering workflow.</p>
+          <p>They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.</p>
+        </section>
+        <section aria-labelledby="work-title">
+          <p class="eyebrow">Selected Work</p>
+          <h2 id="work-title">Systems and tools</h2>
+          <ul class="about-projects">
+            {projects.map(project => <li><a href={project.href}>{project.name}</a><p>{project.description}</p></li>)}
+          </ul>
+        </section>
+        <section aria-labelledby="chronicle-title">
+          <p class="eyebrow">Engineering Chronicle</p>
+          <h2 id="chronicle-title">Work, as it happens.</h2>
+          <p>Engineering Chronicle records the development of systems, architectural decisions, experiments and results.</p>
+          <a class="text-link" href="/journal/">Explore the Journal <span aria-hidden="true">→</span></a>
+        </section>
+      </div>
+    </div>
+  </article>
+</SiteLayout>
+
+<style>
+  .about-hero, .about-hero__copy { min-height: clamp(35rem, 44vw, 48rem); }
+  .about-hero__media .about-hero__image { object-position: right top; }
+  @media (max-width: 680px) {
+    .about-hero__media .about-hero__image { object-position: 58% top; }
+    .about-hero__copy { padding-top: calc(var(--site-header-block-size) + var(--section-block-spacing) + 4rem); }
+  }
+  .about-editorial { max-width: 72ch; padding-block: var(--section-block-spacing); }
+  .about-editorial__notice { margin: 0 0 var(--section-block-spacing); color: var(--muted); font-size: .85rem; line-height: 1.6; }
+  .about-editorial section + section { margin-top: var(--section-block-spacing); }
+  .about-editorial .eyebrow { margin-bottom: .7rem; color: var(--accent-strong); }
+  .about-editorial h2 { margin: 0 0 1rem; font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 550; letter-spacing: -.045em; line-height: 1.12; }
+  .about-editorial section p:not(.eyebrow) { color: var(--muted); font-size: 1.05rem; line-height: 1.7; }
+  .about-projects { display: grid; gap: 1.25rem; padding: 0; margin: 0; list-style: none; }
+  .about-projects a { font-weight: 600; }
+  .about-projects li p { margin: .3rem 0 0; }
+</style>

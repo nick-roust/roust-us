@@ -1,0 +1,62 @@
+[
+  {
+    "path": "public/images/pg27/controlled-flow-dam-640.webp",
+    "format": "webp",
+    "width": 640,
+    "height": 256,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 37094
+  },
+  {
+    "path": "public/images/pg27/controlled-flow-dam-640.avif",
+    "format": "heif",
+    "width": 640,
+    "height": 256,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 22219
+  },
+  {
+    "path": "public/images/pg27/controlled-flow-dam-1024.webp",
+    "format": "webp",
+    "width": 1024,
+    "height": 409,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 90074
+  },
+  {
+    "path": "public/images/pg27/controlled-flow-dam-1024.avif",
+    "format": "heif",
+    "width": 1024,
+    "height": 409,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 53259
+  },
+  {
+    "path": "public/images/pg27/controlled-flow-dam-1983.webp",
+    "format": "webp",
+    "width": 1983,
+    "height": 793,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 255576
+  },
+  {
+    "path": "public/images/pg27/controlled-flow-dam-1983.avif",
+    "format": "heif",
+    "width": 1983,
+    "height": 793,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 157298
+  }
+]

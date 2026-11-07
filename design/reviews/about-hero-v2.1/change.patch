@@ -1,0 +1,96 @@
+--- before/src/pages/about.astro
++++ after/src/pages/about.astro
+@@ -14,21 +14,29 @@
+       <div class="journal-index-hero__image about-hero__media" aria-hidden="true">
+         <img class="about-hero__image" src="/images/about/nick-roust-motorcycle-1672.webp"
+           srcset="/images/about/nick-roust-motorcycle-640.webp 640w, /images/about/nick-roust-motorcycle-1024.webp 1024w, /images/about/nick-roust-motorcycle-1672.webp 1672w"
+-          sizes="100vw" width="1672" height="941" alt="" fetchpriority="high" />
++          sizes="max(100vw, 178dvh)" width="1672" height="941" alt="" fetchpriority="high" />
+       </div>
+       <div class="container journal-index-hero__inner about-hero__copy">
+-        <div class="journal-index-hero__copy">
+-          <p class="eyebrow">About</p>
++        <div class="about-hero__text">
++          <p class="eyebrow">ABOUT</p>
+           <h1 id="about-title">Nick Roust</h1>
+-          <p class="about-hero__subtitle">Fintech · Software Architecture · AI-Assisted Engineering</p>
++          <p class="about-hero__introduction">I design and build software systems, mostly in fintech. For more than three decades I've worked across business, engineering and operations — from the first idea to systems running in production.</p>
++          <p class="about-hero__principle"><span>I enjoy complexity when</span> <span>I can understand and control it.</span></p>
++          <dl class="about-hero__experience">
++            <div><dt>30+ years</dt><dd>In business &amp; engineering</dd></div>
++            <div><dt>5+ systems</dt><dd>Built and operated</dd></div>
++          </dl>
+         </div>
+       </div>
++      <a class="about-hero__explore" href="#about-perspective" aria-label="Explore About">
++        <svg width="32" height="24" viewBox="0 0 32 24" fill="none" aria-hidden="true"><path d="m3 5 13 13L29 5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /></svg>
++      </a>
+     </header>
+ 
+     <div class="about-editorial container">
+       <p class="about-editorial__notice" id="editorial-status">Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.</p>
+       <div aria-describedby="editorial-status">
+-        <section aria-labelledby="perspective-title">
++        <section id="about-perspective" aria-labelledby="perspective-title" tabindex="-1">
+           <p class="eyebrow">Perspective</p>
+           <h2 id="perspective-title">Architecture before implementation</h2>
+           <p>I approach software development through architecture, responsibility and long-term system behavior.</p>
+@@ -65,18 +73,50 @@
+ </SiteLayout>
+ 
+ <style>
+-  .about-hero, .about-hero__copy { min-height: clamp(35rem, 44vw, 48rem); }
++  .about-hero { display: flex; flex-direction: column; min-height: 100vh; min-height: 100dvh; }
++  .about-hero__media { inset: 0; }
+   .about-hero__media .about-hero__image { object-position: right top; }
+-  @media (min-width: 681px) {
+-    .about-hero__media { inset: 0; }
+-    .about-hero__media::after { background: linear-gradient(90deg, rgba(7,19,28,.36), rgba(7,19,28,.14) 22%, transparent 42%); }
++  .about-hero__media::after { background: linear-gradient(90deg, rgba(7,19,28,.6), rgba(7,19,28,.4) 30%, transparent 50%); }
++  .about-hero__copy { flex: 1; min-height: 0; padding-top: max(calc(var(--site-header-block-size) + var(--section-block-spacing)), 18dvh); padding-bottom: 2rem; }
++  .about-hero__text { width: 45%; max-width: 43rem; }
++  .about-hero .eyebrow { margin-bottom: 1.5rem; font-size: .8rem; }
++  .about-hero h1 { margin: 0 0 1.5rem; font-size: clamp(3.5rem, 5.6vw, 6.75rem); font-weight: 600; line-height: 1; letter-spacing: -.06em; }
++  .about-hero__introduction { max-width: 54ch; margin: 0; color: #d5e0e7; font-size: clamp(1rem, 1.25vw, 1.5rem); line-height: 1.5; }
++  .about-hero__principle { max-width: 30ch; margin: clamp(1.5rem, 3vw, 2.5rem) 0 0; padding-left: 1.25rem; border-left: 4px solid #13d1fd; color: #f5f7f9; font-size: clamp(1.5rem, 2.2vw, 2.65rem); font-style: italic; font-weight: 650; line-height: 1.2; letter-spacing: -.025em; }
++  .about-hero__principle span { display: block; }
++  .about-hero__experience { display: grid; grid-template-columns: auto auto; gap: clamp(1rem, 3vw, 3rem); margin: clamp(1.75rem, 3.5vw, 3rem) 0 0; }
++  .about-hero__experience > div + div { padding-left: clamp(1rem, 3vw, 3rem); border-left: 1px solid rgba(177,215,229,.55); }
++  .about-hero__experience dt { margin-bottom: .3rem; color: #f5f7f9; font-size: clamp(1.9rem, 2.7vw, 3.25rem); font-weight: 650; letter-spacing: -.045em; line-height: 1.1; white-space: nowrap; }
++  .about-hero__experience dd { margin: 0; color: #bdcfd9; font-size: clamp(.85rem, 1.25vw, 1.4rem); line-height: 1.4; }
++  .about-hero__explore { display: flex; flex: 0 0 44px; align-items: center; justify-content: center; width: 44px; min-height: 44px; margin: 0 auto 1.25rem; color: #13d1fd; }
++  #about-perspective { scroll-margin-top: calc(var(--site-header-block-size) + 1.5rem); }
++  #about-perspective:focus-visible { outline: 3px solid var(--accent); outline-offset: 8px; }
++  @media (min-width: 1200px) {
++    .about-hero__copy { width: 92%; }
+   }
+-  @media (min-width: 1800px) {
+-    .about-hero__media::after { background: linear-gradient(90deg, rgba(7,19,28,.5), rgba(7,19,28,.45) 36%, transparent 50%); }
++  @media (min-width: 681px) and (max-width: 1199px) {
++    .about-hero__media .about-hero__image { object-position: 57% top; }
++    .about-hero__text { width: 45%; }
++    .about-hero__experience { gap: 1rem; }
++    .about-hero__experience > div + div { padding-left: 1rem; }
+   }
+   @media (max-width: 680px) {
+-    .about-hero__media .about-hero__image { object-position: 58% top; }
+-    .about-hero__copy { padding-top: calc(var(--site-header-block-size) + var(--section-block-spacing) + 4rem); }
++    .about-hero__media .about-hero__image { object-position: 56% top; }
++    .about-hero__media::after { background: linear-gradient(0deg, rgba(7,19,28,.95), rgba(7,19,28,.8) 48%, rgba(7,19,28,.25) 72%, transparent 90%), linear-gradient(90deg, rgba(7,19,28,.55), rgba(7,19,28,.2) 65%, transparent); }
++    .about-hero__copy { padding-top: max(calc(var(--site-header-block-size) + 12rem), 80vw); padding-bottom: 2rem; }
++    .about-hero__text { width: 100%; max-width: 32rem; }
++    .about-hero .eyebrow { margin-bottom: 1rem; }
++    .about-hero h1 { font-size: clamp(3rem, 13vw, 3.75rem); margin-bottom: 1.25rem; }
++    .about-hero__introduction { max-width: 38ch; font-size: 1rem; line-height: 1.55; }
++    .about-hero__principle { margin-top: 1.5rem; font-size: 1.65rem; }
++    .about-hero__experience { margin-top: 1.75rem; gap: 1rem; }
++    .about-hero__experience dt { font-size: 1.9rem; }
++    .about-hero__experience dd { font-size: .85rem; }
++    .about-hero__experience > div + div { padding-left: 1rem; }
++  }
++  @media (max-width: 359px) {
++    .about-hero__experience { grid-template-columns: 1fr; }
++    .about-hero__experience > div + div { border-left: 0; padding-left: 0; }
+   }
+   .about-editorial { max-width: 72ch; padding-block: var(--section-block-spacing); }
+   .about-editorial__notice { margin: 0 0 var(--section-block-spacing); color: var(--muted); font-size: .85rem; line-height: 1.6; }

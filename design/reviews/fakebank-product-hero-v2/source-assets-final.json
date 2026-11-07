@@ -1,0 +1,59 @@
+[
+  {
+    "path": "design/references/technologies/typescript.svg",
+    "sha256": "64c97191b147505b6aa56450253cc4fc0171735737e68e07481c0b21dbe07459",
+    "viewBox": "0 0 256 256",
+    "width": null,
+    "height": null,
+    "paint": [
+      {
+        "fill": "#fff"
+      }
+    ],
+    "founderUpdatedAfterPreflight": true
+  },
+  {
+    "path": "design/references/technologies/fastify.svg",
+    "sha256": "63624a82736f996eaf396f247a43ee46727cd4d8ccb0c68926580e0230cee425",
+    "viewBox": "0 -45.5 256 256",
+    "width": "256",
+    "height": "256",
+    "paint": [],
+    "founderUpdatedAfterPreflight": false
+  },
+  {
+    "path": "design/references/technologies/react.svg",
+    "sha256": "87e780c35c2ea97c02105e826fdb6d55afe4642e75485e1bc035bce8628c9565",
+    "viewBox": "0 0 256 256",
+    "width": "256",
+    "height": "256",
+    "paint": [],
+    "founderUpdatedAfterPreflight": false
+  },
+  {
+    "path": "design/references/technologies/postgresql.svg",
+    "sha256": "085149267193baa7c6acc24b4ea3f125ec994875b05a8ae66556e9062d8aa04e",
+    "viewBox": "0 0 256 256",
+    "width": null,
+    "height": null,
+    "paint": [
+      {
+        "fill": "#000000"
+      }
+    ],
+    "founderUpdatedAfterPreflight": false
+  },
+  {
+    "path": "design/references/technologies/docker.svg",
+    "sha256": "f30bee160ecb39217f35aaea550a62b55de038e6372a2d23ca64ba614ca31912",
+    "viewBox": "0 -5 256 256",
+    "width": "256",
+    "height": "256",
+    "paint": [
+      {
+        "fill": "#000000"
+      }
+    ],
+    "founderUpdatedAfterPreflight": false
+  }
+]

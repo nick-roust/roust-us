@@ -1,43 +1,243 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
+import ProductSidebar from '../../components/ProductSidebar.astro';
+import FakeBankMark from '../../assets/fakebank-mark-monochrome.svg';
+import TypeScriptIcon from '../../assets/technologies/typescript-outline.svg';
+import FastifyIcon from '../../assets/technologies/fastify.svg';
+import ReactIcon from '../../assets/technologies/react.svg';
+import PostgreSQLIcon from '../../assets/technologies/postgresql.svg';
+import DockerIcon from '../../assets/technologies/docker.svg';
 
-const sections = [
-  { id: 'context', number: '01', title: 'Context', text: 'The project context is being checked against its source repository.' },
-  { id: 'problem', number: '02', title: 'Problem', text: 'The problem statement will be published after it is verified.' },
-  { id: 'architecture', number: '03', title: 'Architecture', text: 'Architecture and integration details are not published until they are confirmed.' },
-  { id: 'implementation', number: '04', title: 'Implementation', text: 'Technologies, API examples, and setup instructions are pending review.' },
-  { id: 'verification', number: '05', title: 'Verification', text: 'No test counts or performance figures are published without supporting evidence.' },
-  { id: 'status', number: '06', title: 'Status', text: 'Project status and any demo availability will be added when independently verified.' },
+const technologies = [
+  { name: 'TypeScript', Icon: TypeScriptIcon, originalPaint: true, compact: true },
+  { name: 'Fastify', Icon: FastifyIcon, originalPaint: false, compact: false },
+  { name: 'React', Icon: ReactIcon, originalPaint: false, compact: true },
+  { name: 'PostgreSQL', Icon: PostgreSQLIcon, originalPaint: false, compact: true },
+  { name: 'Docker', Icon: DockerIcon, originalPaint: false, compact: true },
 ];
+
+const sections = ['Overview', 'Context', 'Architecture', 'Implementation', 'Verification', 'Status'];
+const repository = 'https://github.com/nick-roust/fake-bank';
+const request = `{
+  "merchant_id": "demo-shop",
+  "amount": 199.99,
+  "currency": "EUR",
+  "payment_method": "card",
+  "return_url": "https://merchant.example/return",
+  "webhook_url": "https://merchant.example/webhooks",
+  "scenario": "card_success"
+}`;
 ---
-<SiteLayout title="Fake Bank" description="Fake Bank project information is being verified." showPageTitle={false}>
-  <section class="page-hero fake-bank-hero" aria-labelledby="fake-bank-title">
-    <div class="container page-hero__inner">
-      <p class="eyebrow">Systems / Project detail</p>
-      <h1 id="fake-bank-title">Fake Bank</h1>
-      <p>Project information is under review. No API, performance figures, or demo links are presented here.</p>
-      <a class="page-backlink" href="/projects">← All systems</a>
-    </div>
-  </section>
-  <section class="page-content container">
-    <div class="project-detail">
-      <aside class="project-detail__sidebar">
-        <p>On this page</p>
-        <ul>
-          {sections.map((section) => <li><a href={`#${section.id}`}>{section.title}</a></li>)}
+<SiteLayout title="Fake Bank" description="An independent open-source payment provider simulator with hosted checkout, deterministic scenarios and webhooks." showPageTitle={false} canonicalPath="/labs/fake-bank/">
+  <div class="fakebank-product container">
+    <ProductSidebar activeProject="fake-bank" sections={sections.map((label) => ({ id: label.toLowerCase(), label }))} />
+    <div class="fakebank-content">
+      <section class="product-hero" id="overview" aria-labelledby="fake-bank-title">
+        <picture class="product-hero__media">
+          <source type="image/avif" srcset="/images/fakebank-reflective-facade-512.avif 512w, /images/fakebank-reflective-facade-768.avif 768w, /images/fakebank-reflective-facade-1199.avif 1199w" sizes="(min-width: 1368px) 1096px, (min-width: 1024px) calc(100vw - 272px), calc(100vw - 48px)" />
+          <source type="image/webp" srcset="/images/fakebank-reflective-facade-512.webp 512w, /images/fakebank-reflective-facade-768.webp 768w, /images/fakebank-reflective-facade-1199.webp 1199w" sizes="(min-width: 1368px) 1096px, (min-width: 1024px) calc(100vw - 272px), calc(100vw - 48px)" />
+          <img src="/images/fakebank-reflective-facade-1199.webp" width="1199" height="1312" alt="Glass facade reflecting the evening sky above a mountain landscape." fetchpriority="high" decoding="async" />
+        </picture>
+        <div class="product-hero__copy">
+          <p class="eyebrow">OPEN SOURCE · PAYMENT SIMULATOR</p>
+          <h1 id="fake-bank-title">
+            <FakeBankMark class="product-hero__mark" aria-hidden="true" focusable="false" />
+            <span class="product-hero__name">FAKE BANK</span>
+          </h1>
+          <p class="product-hero__description">An independent open-source payment provider simulator.</p>
+          <ul class="product-stack" aria-label="Technology stack">
+            {technologies.map(({ name, Icon, originalPaint, compact }) => (
+              <li class:list={{ 'product-stack__item--compact': compact }}>
+                <Icon class="product-stack__icon" width="22" height="22" fill={originalPaint ? undefined : 'currentColor'} aria-hidden="true" focusable="false" />
+                <span class="product-stack__name">{name}</span>
+              </li>
+            ))}
+          </ul>
+          <a class="product-github" href={repository}>View on GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="product-section" id="context" aria-labelledby="context-title">
+        <div class="product-section__copy">
+          <p class="eyebrow">Context</p>
+          <h2 id="context-title">Why Fake Bank exists</h2>
+          <p>Payment integrations need a provider on the other side of the transaction. Fake Bank supplies that boundary in a controlled local environment: a payment API, a buyer-facing checkout and events sent back to the merchant.</p>
+        </div>
+        <div class="context-panel">
+          <div><h3>Simulated payments</h3><p>Exercise payment flows without moving real money.</p></div>
+          <div><h3>Explicit scenarios</h3><p>Select success, failure and timing behavior.</p></div>
+          <div><h3>Independent by design</h3><p>Connect a merchant application through the provider contract.</p></div>
+        </div>
+      </section>
+
+      <section class="product-section" id="problem" aria-labelledby="problem-title">
+        <div class="product-section__copy">
+          <p class="eyebrow">Problem</p>
+          <h2 id="problem-title">What needs to be solved</h2>
+          <p>A successful checkout is only part of an integration. Delayed results, declined payments, missing events and duplicate deliveries all affect merchant state. A controlled simulator makes these paths repeatable during development.</p>
+        </div>
+        <ul class="scenario-list">
+          <li>Payment lifecycle transitions</li>
+          <li>Hosted checkout and card simulation</li>
+          <li>Delayed and duplicate webhook scenarios</li>
+          <li>Timeout and provider-error behavior</li>
+          <li>A local, inspectable provider boundary</li>
         </ul>
-      </aside>
-      <div class="project-detail__sections">
-        {sections.map((section) => (
-          <section class="project-detail__section" id={section.id} aria-labelledby={`${section.id}-title`}>
-            <span>{section.number}</span>
-            <div>
-              <h2 id={`${section.id}-title`}>{section.title}</h2>
-              <p>{section.text}</p>
-            </div>
-          </section>
-        ))}
-      </div>
+      </section>
+
+      <section class="product-section" id="architecture" aria-labelledby="architecture-title">
+        <div class="product-section__copy">
+          <p class="eyebrow">Architecture</p>
+          <h2 id="architecture-title">System design</h2>
+          <p>The merchant owns its orders and business logic. Fake Bank owns simulated provider payments, checkout state, scenario execution and webhook delivery attempts. PostgreSQL stores provider records and events.</p>
+          <a href={`${repository}/blob/main/docs/ARCHITECTURE.md`}>Read the architecture <span aria-hidden="true">→</span></a>
+        </div>
+        <figure class="architecture-diagram" aria-labelledby="architecture-caption">
+          <div class="architecture-diagram__flow">
+            <div class="diagram-node">Merchant<br /><small>Application</small></div>
+            <div class="diagram-exchange"><span>API →</span><span>← Webhooks</span></div>
+            <div class="diagram-provider"><strong>FAKE BANK</strong><div class="diagram-node">Payment API</div><div class="diagram-node">Hosted Checkout</div><div class="diagram-node">Scenarios / Webhooks</div></div>
+            <span class="diagram-arrow" aria-hidden="true">↔</span>
+            <div class="diagram-node">PostgreSQL<br /><small>Provider state</small></div>
+          </div>
+          <figcaption id="architecture-caption">Buyer → Hosted Checkout → Payment API.<br />Provider events return to the merchant webhook URL.</figcaption>
+        </figure>
+      </section>
+
+      <section class="product-section" id="implementation" aria-labelledby="implementation-title">
+        <div class="product-section__copy">
+          <p class="eyebrow">Implementation</p>
+          <h2 id="implementation-title">Key components</h2>
+          <p>A TypeScript API built with Fastify serves the payment contract. React provides hosted checkout. Named scenarios control outcomes; PostgreSQL records payments and webhook attempts. Docker Compose supports local execution.</p>
+          <div class="product-links"><a href={`${repository}/blob/main/openapi/openapi.yaml`}>API contract <span aria-hidden="true">→</span></a><a href={`${repository}#quick-start`}>Local setup <span aria-hidden="true">→</span></a></div>
+        </div>
+        <figure class="code-panel">
+          <figcaption><span>POST /v1/payments</span><span>JSON</span></figcaption>
+          <pre tabindex="0" aria-label="Example payment creation request"><code>{request}</code></pre>
+          <p>Illustrative request. Example URLs are placeholders.</p>
+        </figure>
+      </section>
+
+      <section class="product-section" id="verification" aria-labelledby="verification-title">
+        <div class="product-section__copy">
+          <p class="eyebrow">Verification</p>
+          <h2 id="verification-title">Testing and validation</h2>
+          <p>The repository contains automated checks for payment routes, lifecycle behavior, scenario outcomes and webhook delivery. These checks define expected behavior; they do not establish production readiness.</p>
+          <p class="verification-note">Runtime acceptance has not been rerun for this page. Published verification results remain pending.</p>
+        </div>
+        <div class="verification-panel">
+          <h3>Repository evidence <span>Source review</span></h3>
+          <ul><li>Payment creation and input validation</li><li>Checkout confirmation and lifecycle transitions</li><li>Scenario and webhook behavior</li><li>OpenAPI and migration validation scripts</li><li>Reference merchant integration</li></ul>
+          <p>Test definitions present · Runtime results pending</p>
+        </div>
+      </section>
+
+      <section class="product-section" id="status" aria-labelledby="status-title">
+        <div class="product-section__copy">
+          <p class="eyebrow">Status</p>
+          <h2 id="status-title">Current status</h2>
+          <p>Fake Bank is available as an open-source simulator for local development and integration work. The repository includes setup instructions, API documentation and a reference merchant. Public hosted-demo availability has not been verified.</p>
+        </div>
+        <div class="status-panel">
+          <h3>Independent provider simulator</h3>
+          <dl><div><dt>Runtime</dt><dd>Local development</dd></div><div><dt>Repository</dt><dd><a href={repository}>nick-roust/fake-bank</a></dd></div><div><dt>License</dt><dd>Apache-2.0</dd></div></dl>
+        </div>
+      </section>
     </div>
-  </section>
+  </div>
 </SiteLayout>
+
+
+
+<style>
+  :global(html:has(.fakebank-product)) { scroll-padding-top: var(--site-header-block-size); }
+  :global(body:has(.fakebank-product) .site-header) { position: sticky; top: 0; background: var(--surface); }
+  .fakebank-product { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 24px; }
+  .fakebank-content { min-width: 0; border-inline-start: 1px solid var(--line); }
+  .product-hero { position: relative; isolation: isolate; overflow: hidden; background: #101820; color: white; scroll-margin-top: 24px; }
+  .product-hero__media, .product-hero__media img { position: absolute; z-index: -2; inset: 0; width: 100%; height: 100%; }
+  .product-hero__media img { display: block; object-fit: cover; object-position: center 48%; }
+  .product-hero::before { position: absolute; z-index: -1; inset: 0; content: ''; background: linear-gradient(90deg, rgba(5, 13, 19, .9), rgba(5, 13, 19, .46) 50%, rgba(5, 13, 19, .04) 85%), linear-gradient(0deg, rgba(5, 13, 19, .4), transparent 48%); }
+  .product-hero__copy { padding: var(--section-block-spacing) clamp(24px, 3vw, 48px); }
+  .product-hero .eyebrow { color: #80dafa; margin-bottom: 12px; }
+  .product-hero h1 { margin-bottom: 12px; font-size: clamp(2.5rem, 4.5vw, 4rem); font-weight: 650; letter-spacing: -.045em; line-height: 1.05; }
+  .product-hero h1 { display: flex; align-items: center; gap: clamp(10px, 1.2vw, 16px); white-space: nowrap; }
+  .product-hero__mark { display: block; width: auto; height: .72em; flex: 0 0 auto; }
+  .product-stack li { position: relative; display: inline-flex; align-items: center; height: 1.55em; padding-inline-start: 28px; }
+  .product-stack__icon { position: absolute; left: 0; top: calc(50% - 11px); width: 22px; height: 22px; }
+  .product-hero__description { max-width: 29ch; margin-bottom: 28px; font-size: clamp(1.1rem, 1.7vw, 1.5rem); line-height: 1.4; }
+  .product-stack { display: flex; flex-wrap: wrap; gap: 8px 20px; padding: 0; margin: 0 0 32px; list-style: none; font-size: .75rem; font-weight: 600; }
+  .product-github { display: inline-flex; align-items: center; gap: 24px; border: 1px solid #c6d1d8; padding: 10px 16px; border-radius: 3px; font-size: .8rem; text-decoration: none; }
+  .product-section { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: 32px; padding: var(--section-block-spacing) clamp(24px, 3vw, 48px); border-top: 1px solid var(--line); scroll-margin-top: 24px; }
+  .product-section__copy { min-width: 0; }
+  .product-section .eyebrow { margin-bottom: 10px; font-weight: 500; }
+  .product-section h2 { margin-bottom: 14px; font-size: clamp(1.5rem, 2vw, 2rem); font-weight: 620; letter-spacing: -.035em; line-height: 1.2; }
+  .product-section p { margin-bottom: 16px; color: var(--muted); font-size: .9rem; line-height: 1.6; }
+  .product-section p:last-child { margin-bottom: 0; }
+  .product-section a { font-size: .8rem; }
+  .context-panel, .status-panel { padding: 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 4px; }
+  .context-panel { display: grid; gap: 18px; }
+  .context-panel h3 { margin: 0 0 3px; font-size: .85rem; font-weight: 600; }
+  .context-panel p { font-size: .78rem; }
+  .scenario-list { border-inline-start: 1px solid var(--line); list-style: none; padding: 4px 0 4px 24px; margin: 0; font-size: .85rem; color: var(--muted); }
+  .scenario-list li { position: relative; padding-inline-start: 20px; margin-block: 10px; }
+  .scenario-list li::before { content: '—'; position: absolute; left: 0; color: var(--accent); }
+  .architecture-diagram { margin: 0; min-width: 0; }
+  .architecture-diagram__flow { display: grid; grid-template-columns: minmax(0, .85fr) auto minmax(0, 1.3fr) auto minmax(0, .85fr); align-items: center; gap: 7px; font-size: .75rem; text-align: center; }
+  .diagram-node { padding: 12px 6px; border: 1px solid var(--line); background: var(--surface); border-radius: 3px; overflow-wrap: anywhere; }
+  .diagram-node small { color: var(--muted); font-size: .65rem; }
+  .diagram-exchange { display: grid; gap: 16px; font-size: .6rem; color: var(--muted); }
+  .diagram-provider { border: 1px dashed var(--muted); border-radius: 3px; padding: 9px 6px; display: grid; gap: 6px; }
+  .diagram-provider strong { font-size: .65rem; margin-bottom: 3px; }
+  .diagram-provider .diagram-node { padding: 9px 5px; border-color: var(--accent); background: var(--accent-soft); }
+  .diagram-arrow { color: var(--muted); }
+  .architecture-diagram figcaption { margin-top: 12px; color: var(--muted); font-size: .7rem; line-height: 1.5; }
+  .product-links { display: flex; flex-wrap: wrap; gap: 16px; }
+  .code-panel { min-width: 0; margin: 0; border: 1px solid var(--line); border-radius: 4px; background: #101a23; color: #e6edf2; }
+  .code-panel figcaption { display: flex; justify-content: space-between; gap: 12px; padding: 12px 16px; border-bottom: 1px solid #273640; font-size: .7rem; }
+  .code-panel figcaption span:last-child { color: #a5b0b8; }
+  .code-panel pre { margin: 0; padding: 16px; overflow: auto; font-size: .65rem; line-height: 1.7; tab-size: 2; }
+  .code-panel pre:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+  .code-panel p { padding: 0 16px 12px; color: #a5b0b8; font-size: .65rem; }
+  .verification-panel { border: 1px solid var(--line); border-radius: 4px; background: var(--surface); }
+  .verification-panel h3 { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; padding: 12px 16px; margin: 0; border-bottom: 1px solid var(--line); font-size: .75rem; font-weight: 600; }
+  .verification-panel h3 span { color: var(--muted); font-weight: 400; }
+  .verification-panel ul { margin: 16px; padding-inline-start: 16px; font-size: .75rem; line-height: 1.8; }
+  .verification-panel li::marker { color: var(--accent); }
+  .verification-panel p { padding: 0 16px 16px; font-size: .7rem; }
+  .product-section .verification-note { font-size: .78rem; }
+  .status-panel h3 { margin: 0 0 12px; font-size: .85rem; font-weight: 600; }
+  .status-panel dl { margin: 0; font-size: .75rem; }
+  .status-panel dl div { display: grid; grid-template-columns: .8fr 1.2fr; gap: 12px; padding-block: 10px; border-top: 1px solid var(--line); }
+  .status-panel dd { margin: 0; color: var(--muted); overflow-wrap: anywhere; }
+  .status-panel a { font-size: inherit; }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    #architecture { grid-template-columns: minmax(0, 1fr); }
+    .architecture-diagram { width: 100%; max-width: 600px; }
+  }
+  @media (min-width: 1024px) and (max-width: 1199px) {
+    .fakebank-product { grid-template-columns: 176px minmax(0, 1fr); }
+    .product-section { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  }
+  @media (max-width: 1023px) {
+    .fakebank-product { display: block; }
+    .fakebank-content { border-inline-start: 0; }
+    .product-hero, .product-section { scroll-margin-top: 70px; }
+    .product-section { gap: 24px; }
+  }
+  @media (max-width: 767px) {
+    .product-section { grid-template-columns: minmax(0, 1fr); gap: 24px; padding-inline: 0; }
+    .product-hero__copy { padding: 40px 24px; }
+    .product-hero__media img { object-position: 62% center; }
+    .product-hero::before { background: linear-gradient(90deg, rgba(5, 13, 19, .9), rgba(5, 13, 19, .46) 70%, rgba(5, 13, 19, .15)); }
+    .product-hero__description { max-width: 24ch; }
+    .product-hero h1 { font-size: clamp(2rem, 8vw, 3rem); }
+    .product-stack { gap: 8px 14px; margin-bottom: 24px; }
+    .product-stack__item--compact .product-stack__name { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+    .context-panel, .status-panel { padding: 20px; }
+    .architecture-diagram__flow { grid-template-columns: minmax(0, 1fr) auto minmax(0, 1.5fr); }
+    .diagram-arrow { grid-column: 3; }
+    .architecture-diagram__flow > .diagram-node:last-child { grid-column: 3; }
+    .code-panel pre { font-size: .65rem; }
+  }
+</style>

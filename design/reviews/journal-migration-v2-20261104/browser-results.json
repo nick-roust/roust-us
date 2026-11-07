@@ -1,0 +1,927 @@
+{
+  "base": "http://localhost:4321",
+  "browser": "Standalone headless Chromium; Browser plugin bootstrap unavailable",
+  "checks": [
+    {
+      "width": 1440,
+      "theme": "light",
+      "path": "/",
+      "overflow": false,
+      "h1": [
+        "I build systems."
+      ],
+      "brokenImages": [],
+      "home": [
+        "when-code-stopped-being-the-main-thing",
+        "registry-and-configuration-authority",
+        "we-built-all-the-pieces"
+      ],
+      "index": [],
+      "columns": 3,
+      "paragraphs": 0,
+      "sections": 0,
+      "bodyH1": 0,
+      "hero": null,
+      "heading": null,
+      "body": null,
+      "background": "rgb(243, 242, 238)"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "path": "/journal/",
+      "overflow": false,
+      "h1": [
+        "Work, asit happens."
+      ],
+      "brokenImages": [],
+      "home": [],
+      "index": [
+        "307-hours-for-one-invoice",
+        "registry-and-configuration-authority",
+        "we-built-all-the-pieces",
+        "platform-node-integration",
+        "when-code-stopped-being-the-main-thing"
+      ],
+      "columns": null,
+      "paragraphs": 0,
+      "sections": 0,
+      "bodyH1": 0,
+      "hero": null,
+      "heading": null,
+      "body": null,
+      "background": "rgb(243, 242, 238)"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "path": "/journal/when-code-stopped-being-the-main-thing/",
+      "overflow": false,
+      "h1": [
+        "When Code Stopped Being the Main Thing"
+      ],
+      "brokenImages": [],
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 65,
+      "sections": 6,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 544,
+        "width": 1425,
+        "height": 544
+      },
+      "heading": {
+        "top": 251.015625,
+        "bottom": 391.078125,
+        "width": 852.28125,
+        "height": 140.0625
+      },
+      "body": {
+        "top": 544,
+        "bottom": 6092.140625,
+        "width": 1024,
+        "height": 5548.140625
+      },
+      "background": "rgb(243, 242, 238)"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "path": "/journal/registry-and-configuration-authority/",
+      "overflow": false,
+      "h1": [
+        "I Didn't Want AI to Design My System for Me"
+      ],
+      "brokenImages": [],
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 56,
+      "sections": 7,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 544,
+        "width": 1425,
+        "height": 544
+      },
+      "heading": {
+        "top": 251.015625,
+        "bottom": 391.078125,
+        "width": 852.28125,
+        "height": 140.0625
+      },
+      "body": {
+        "top": 544,
+        "bottom": 6017.640625,
+        "width": 1024,
+        "height": 5473.640625
+      },
+      "background": "rgb(243, 242, 238)"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "path": "/journal/platform-node-integration/",
+      "overflow": false,
+      "h1": [
+        "We Built the Protocol. Then We Had to Learn How to Build the System Together"
+      ],
+      "brokenImages": [],
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 63,
+      "sections": 7,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 571.140625,
+        "width": 1425,
+        "height": 571.140625
+      },
+      "heading": {
+        "top": 251.015625,
+        "bottom": 461.109375,
+        "width": 852.28125,
+        "height": 210.09375
+      },
+      "body": {
+        "top": 571.140625,
+        "bottom": 6406.421875,
+        "width": 1024,
+        "height": 5835.28125
+      },
+      "background": "rgb(243, 242, 238)"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "path": "/journal/we-built-all-the-pieces/",
+      "overflow": false,
+      "h1": [
+        "We Built All the Pieces. Then We Had to Make Them Work Together."
+      ],
+      "brokenImages": [],
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 58,
+      "sections": 7,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 571.140625,
+        "width": 1425,
+        "height": 571.140625
+      },
+      "heading": {
+        "top": 251.015625,
+        "bottom": 461.109375,
+        "width": 852.28125,
+        "height": 210.09375
+      },
+      "body": {
+        "top": 571.140625,
+        "bottom": 5726.9375,
+        "width": 1024,
+        "height": 5155.796875
+      },
+      "background": "rgb(243, 242, 238)"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "path": "/journal/307-hours-for-one-invoice/",
+      "overflow": false,
+      "h1": [
+        "307 Hours for One Invoice"
+      ],
+      "brokenImages": [],
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 107,
+      "sections": 8,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 544,
+        "width": 1425,
+        "height": 544
+      },
+      "heading": {
+        "top": 251.015625,
+        "bottom": 321.046875,
+        "width": 852.28125,
+        "height": 70.03125
+      },
+      "body": {
+        "top": 544,
+        "bottom": 8323.203125,
+        "width": 1024,
+        "height": 7779.203125
+      },
+      "background": "rgb(243, 242, 238)"
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "path": "/",
+      "overflow": false,
+      "h1": [
+        "I build systems."
+      ],
+      "brokenImages": [],
+      "home": [
+        "when-code-stopped-being-the-main-thing",
+        "registry-and-configuration-authority",
+        "we-built-all-the-pieces"
+      ],
+      "index": [],
+      "columns": 3,
+      "paragraphs": 0,
+      "sections": 0,
+      "bodyH1": 0,
+      "hero": null,
+      "heading": null,
+      "body": null,
+      "background": "rgb(11, 18, 25)"
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "path": "/journal/",
+      "overflow": false,
+      "h1": [
+        "Work, asit happens."
+      ],
+      "brokenImages": [],
+      "home": [],
+      "index": [
+        "307-hours-for-one-invoice",
+        "registry-and-configuration-authority",
+        "we-built-all-the-pieces",
+        "platform-node-integration",
+        "when-code-stopped-being-the-main-thing"
+      ],
+      "columns": null,
+      "paragraphs": 0,
+      "sections": 0,
+      "bodyH1": 0,
+      "hero": null,
+      "heading": null,
+      "body": null,
+      "background": "rgb(11, 18, 25)"
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "path": "/journal/when-code-stopped-being-the-main-thing/",
+      "overflow": false,
+      "h1": [
+        "When Code Stopped Being the Main Thing"
+      ],
+      "brokenImages": [],
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 65,
+      "sections": 6,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 544,
+        "width": 1425,
+        "height": 544
+      },
+      "heading": {
+        "top": 251.015625,
+        "bottom": 391.078125,
+        "width": 852.28125,
+        "height": 140.0625
+      },
+      "body": {
+        "top": 544,
+        "bottom": 6092.140625,
+        "width": 1024,
+        "height": 5548.140625
+      },
+      "background": "rgb(11, 18, 25)"
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "path": "/journal/registry-and-configuration-authority/",
+      "overflow": false,
+      "h1": [
+        "I Didn't Want AI to Design My System for Me"
+      ],
+      "brokenImages": [],
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 56,
+      "sections": 7,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 544,
+        "width": 1425,
+        "height": 544
+      },
+      "heading": {
+        "top": 251.015625,
+        "bottom": 391.078125,
+        "width": 852.28125,
+        "height": 140.0625
+      },
+      "body": {
+        "top": 544,
+        "bottom": 6017.640625,
+        "width": 1024,
+        "height": 5473.640625
+      },
+      "background": "rgb(11, 18, 25)"
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "path": "/journal/platform-node-integration/",
+      "overflow": false,
+      "h1": [
+        "We Built the Protocol. Then We Had to Learn How to Build the System Together"
+      ],
+      "brokenImages": [],
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 63,
+      "sections": 7,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 571.140625,
+        "width": 1425,
+        "height": 571.140625
+      },
+      "heading": {
+        "top": 251.015625,
+        "bottom": 461.109375,
+        "width": 852.28125,
+        "height": 210.09375
+      },
+      "body": {
+        "top": 571.140625,
+        "bottom": 6406.421875,
+        "width": 1024,
+        "height": 5835.28125
+      },
+      "background": "rgb(11, 18, 25)"
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "path": "/journal/we-built-all-the-pieces/",
+      "overflow": false,
+      "h1": [
+        "We Built All the Pieces. Then We Had to Make Them Work Together."
+      ],
+      "brokenImages": [],
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 58,
+      "sections": 7,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 571.140625,
+        "width": 1425,
+        "height": 571.140625
+      },
+      "heading": {
+        "top": 251.015625,
+        "bottom": 461.109375,
+        "width": 852.28125,
+        "height": 210.09375
+      },
+      "body": {
+        "top": 571.140625,
+        "bottom": 5726.9375,
+        "width": 1024,
+        "height": 5155.796875
+      },
+      "background": "rgb(11, 18, 25)"
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "path": "/journal/307-hours-for-one-invoice/",
+      "overflow": false,
+      "h1": [
+        "307 Hours for One Invoice"
+      ],
+      "brokenImages": [],
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 107,
+      "sections": 8,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 544,
+        "width": 1425,
+        "height": 544
+      },
+      "heading": {
+        "top": 251.015625,
+        "bottom": 321.046875,
+        "width": 852.28125,
+        "height": 70.03125
+      },
+      "body": {
+        "top": 544,
+        "bottom": 8323.203125,
+        "width": 1024,
+        "height": 7779.203125
+      },
+      "background": "rgb(11, 18, 25)"
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "path": "/",
+      "overflow": false,
+      "h1": [
+        "I build systems."
+      ],
+      "brokenImages": [],
+      "journalImagesLoaded": true,
+      "home": [
+        "when-code-stopped-being-the-main-thing",
+        "registry-and-configuration-authority",
+        "we-built-all-the-pieces"
+      ],
+      "index": [],
+      "columns": 1,
+      "paragraphs": 0,
+      "sections": 0,
+      "bodyH1": 0,
+      "hero": null,
+      "heading": null,
+      "body": null,
+      "background": "rgb(243, 242, 238)"
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "path": "/journal/",
+      "overflow": false,
+      "h1": [
+        "Work, asit happens."
+      ],
+      "brokenImages": [],
+      "journalImagesLoaded": true,
+      "home": [],
+      "index": [
+        "307-hours-for-one-invoice",
+        "registry-and-configuration-authority",
+        "we-built-all-the-pieces",
+        "platform-node-integration",
+        "when-code-stopped-being-the-main-thing"
+      ],
+      "columns": null,
+      "paragraphs": 0,
+      "sections": 0,
+      "bodyH1": 0,
+      "hero": null,
+      "heading": null,
+      "body": null,
+      "background": "rgb(243, 242, 238)"
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "path": "/journal/when-code-stopped-being-the-main-thing/",
+      "overflow": false,
+      "h1": [
+        "When Code Stopped Being the Main Thing"
+      ],
+      "brokenImages": [],
+      "journalImagesLoaded": true,
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 65,
+      "sections": 6,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 512,
+        "width": 375,
+        "height": 512
+      },
+      "heading": {
+        "top": 221.625,
+        "bottom": 366.1875,
+        "width": 343,
+        "height": 144.5625
+      },
+      "body": {
+        "top": 512,
+        "bottom": 8830.15625,
+        "width": 343,
+        "height": 8318.15625
+      },
+      "background": "rgb(243, 242, 238)"
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "path": "/journal/registry-and-configuration-authority/",
+      "overflow": false,
+      "h1": [
+        "I Didn't Want AI to Design My System for Me"
+      ],
+      "brokenImages": [],
+      "journalImagesLoaded": true,
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 56,
+      "sections": 7,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 512,
+        "width": 375,
+        "height": 512
+      },
+      "heading": {
+        "top": 221.625,
+        "bottom": 366.1875,
+        "width": 343,
+        "height": 144.5625
+      },
+      "body": {
+        "top": 512,
+        "bottom": 9118.796875,
+        "width": 343,
+        "height": 8606.796875
+      },
+      "background": "rgb(243, 242, 238)"
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "path": "/journal/platform-node-integration/",
+      "overflow": false,
+      "h1": [
+        "We Built the Protocol. Then We Had to Learn How to Build the System Together"
+      ],
+      "brokenImages": [],
+      "journalImagesLoaded": true,
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 63,
+      "sections": 7,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 588.78125,
+        "width": 375,
+        "height": 588.78125
+      },
+      "heading": {
+        "top": 221.625,
+        "bottom": 510.75,
+        "width": 343,
+        "height": 289.125
+      },
+      "body": {
+        "top": 588.78125,
+        "bottom": 9742.578125,
+        "width": 343,
+        "height": 9153.796875
+      },
+      "background": "rgb(243, 242, 238)"
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "path": "/journal/we-built-all-the-pieces/",
+      "overflow": false,
+      "h1": [
+        "We Built All the Pieces. Then We Had to Make Them Work Together."
+      ],
+      "brokenImages": [],
+      "journalImagesLoaded": true,
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 58,
+      "sections": 7,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 540.59375,
+        "width": 375,
+        "height": 540.59375
+      },
+      "heading": {
+        "top": 221.625,
+        "bottom": 462.5625,
+        "width": 343,
+        "height": 240.9375
+      },
+      "body": {
+        "top": 540.59375,
+        "bottom": 8391.890625,
+        "width": 343,
+        "height": 7851.296875
+      },
+      "background": "rgb(243, 242, 238)"
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "path": "/journal/307-hours-for-one-invoice/",
+      "overflow": false,
+      "h1": [
+        "307 Hours for One Invoice"
+      ],
+      "brokenImages": [],
+      "journalImagesLoaded": true,
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 107,
+      "sections": 8,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 512,
+        "width": 375,
+        "height": 512
+      },
+      "heading": {
+        "top": 221.625,
+        "bottom": 318,
+        "width": 343,
+        "height": 96.375
+      },
+      "body": {
+        "top": 512,
+        "bottom": 12053.6875,
+        "width": 343,
+        "height": 11541.6875
+      },
+      "background": "rgb(243, 242, 238)"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "path": "/",
+      "overflow": false,
+      "h1": [
+        "I build systems."
+      ],
+      "brokenImages": [],
+      "journalImagesLoaded": true,
+      "home": [
+        "when-code-stopped-being-the-main-thing",
+        "registry-and-configuration-authority",
+        "we-built-all-the-pieces"
+      ],
+      "index": [],
+      "columns": 1,
+      "paragraphs": 0,
+      "sections": 0,
+      "bodyH1": 0,
+      "hero": null,
+      "heading": null,
+      "body": null,
+      "background": "rgb(11, 18, 25)"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "path": "/journal/",
+      "overflow": false,
+      "h1": [
+        "Work, asit happens."
+      ],
+      "brokenImages": [],
+      "journalImagesLoaded": true,
+      "home": [],
+      "index": [
+        "307-hours-for-one-invoice",
+        "registry-and-configuration-authority",
+        "we-built-all-the-pieces",
+        "platform-node-integration",
+        "when-code-stopped-being-the-main-thing"
+      ],
+      "columns": null,
+      "paragraphs": 0,
+      "sections": 0,
+      "bodyH1": 0,
+      "hero": null,
+      "heading": null,
+      "body": null,
+      "background": "rgb(11, 18, 25)"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "path": "/journal/when-code-stopped-being-the-main-thing/",
+      "overflow": false,
+      "h1": [
+        "When Code Stopped Being the Main Thing"
+      ],
+      "brokenImages": [],
+      "journalImagesLoaded": true,
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 65,
+      "sections": 6,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 512,
+        "width": 375,
+        "height": 512
+      },
+      "heading": {
+        "top": 221.625,
+        "bottom": 366.1875,
+        "width": 343,
+        "height": 144.5625
+      },
+      "body": {
+        "top": 512,
+        "bottom": 8830.15625,
+        "width": 343,
+        "height": 8318.15625
+      },
+      "background": "rgb(11, 18, 25)"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "path": "/journal/registry-and-configuration-authority/",
+      "overflow": false,
+      "h1": [
+        "I Didn't Want AI to Design My System for Me"
+      ],
+      "brokenImages": [],
+      "journalImagesLoaded": true,
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 56,
+      "sections": 7,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 512,
+        "width": 375,
+        "height": 512
+      },
+      "heading": {
+        "top": 221.625,
+        "bottom": 366.1875,
+        "width": 343,
+        "height": 144.5625
+      },
+      "body": {
+        "top": 512,
+        "bottom": 9118.796875,
+        "width": 343,
+        "height": 8606.796875
+      },
+      "background": "rgb(11, 18, 25)"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "path": "/journal/platform-node-integration/",
+      "overflow": false,
+      "h1": [
+        "We Built the Protocol. Then We Had to Learn How to Build the System Together"
+      ],
+      "brokenImages": [],
+      "journalImagesLoaded": true,
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 63,
+      "sections": 7,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 588.78125,
+        "width": 375,
+        "height": 588.78125
+      },
+      "heading": {
+        "top": 221.625,
+        "bottom": 510.75,
+        "width": 343,
+        "height": 289.125
+      },
+      "body": {
+        "top": 588.78125,
+        "bottom": 9742.578125,
+        "width": 343,
+        "height": 9153.796875
+      },
+      "background": "rgb(11, 18, 25)"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "path": "/journal/we-built-all-the-pieces/",
+      "overflow": false,
+      "h1": [
+        "We Built All the Pieces. Then We Had to Make Them Work Together."
+      ],
+      "brokenImages": [],
+      "journalImagesLoaded": true,
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 58,
+      "sections": 7,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 540.59375,
+        "width": 375,
+        "height": 540.59375
+      },
+      "heading": {
+        "top": 221.625,
+        "bottom": 462.5625,
+        "width": 343,
+        "height": 240.9375
+      },
+      "body": {
+        "top": 540.59375,
+        "bottom": 8391.890625,
+        "width": 343,
+        "height": 7851.296875
+      },
+      "background": "rgb(11, 18, 25)"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "path": "/journal/307-hours-for-one-invoice/",
+      "overflow": false,
+      "h1": [
+        "307 Hours for One Invoice"
+      ],
+      "brokenImages": [],
+      "journalImagesLoaded": true,
+      "home": [],
+      "index": [],
+      "columns": null,
+      "paragraphs": 107,
+      "sections": 8,
+      "bodyH1": 0,
+      "hero": {
+        "top": 0,
+        "bottom": 512,
+        "width": 375,
+        "height": 512
+      },
+      "heading": {
+        "top": 221.625,
+        "bottom": 318,
+        "width": 343,
+        "height": 96.375
+      },
+      "body": {
+        "top": 512,
+        "bottom": 12053.6875,
+        "width": 343,
+        "height": 11541.6875
+      },
+      "background": "rgb(11, 18, 25)"
+    }
+  ],
+  "skipLink": {
+    "href": "#main",
+    "outline": "solid"
+  },
+  "cardKeyboardFocus": "visible",
+  "themeToggle": "changes rendered theme",
+  "status": "PASS"
+}

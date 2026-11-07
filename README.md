@@ -21,12 +21,14 @@ pnpm run preview
 | Route | Purpose |
 | --- | --- |
 | `/` | Home, featured system, journal status, Building PaymentGate, and contact status |
-| `/projects` | Systems and projects |
+| `/#systems` | Homepage project portfolio |
+| `/projects` | Static compatibility redirect to `/#systems` |
 | `/journal` | Verified published articles; currently empty |
-| `/building-paymentgate` | PaymentGate project status and updates |
-| `/labs/fake-bank` | Fake Bank project detail; technical content is pending verification |
+| `/projects/pg27/` | Existing PG27 status content and Product Sidebar |
+| `/labs/bik-ed807/` | Existing BIK research status and Product Sidebar |
+| `/labs/fake-bank/` | Fake Bank project detail; technical content is pending verification |
 
-Existing routes remain available while navigation changes: `/about`, `/projects/paymentgate`, `/tools`, `/bik`, `/labs`, and `/labs/fake-shop`. The BIK research route remains `/bik`; its workspace remains `tools/bic/`.
+Canonical product routes are `/labs/fake-shop/`, `/labs/fake-bank/`, `/projects/pg27/` and `/labs/bik-ed807/`. Legacy `/building-paymentgate/` and `/projects/paymentgate/` redirect to PG27; `/bik/` redirects to BIK / ED807. In static output these are zero-delay HTML redirects with fallback links, rather than host-level HTTP 301 rules. The research workspace remains `tools/bic/`. Other retained routes include `/about`, `/tools` and `/labs`.
 
 ## Themes and assets
 

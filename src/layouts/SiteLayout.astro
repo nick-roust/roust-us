@@ -10,9 +10,10 @@ interface Props {
   description: string;
   isHome?: boolean;
   showPageTitle?: boolean;
+  canonicalPath?: string;
 }
 
-const { title, description, isHome = false, showPageTitle = true } = Astro.props;
+const { title, description, isHome = false, showPageTitle = true, canonicalPath } = Astro.props;
 ---
 <!doctype html>
 <html lang="en" data-theme="system">
@@ -20,6 +21,7 @@ const { title, description, isHome = false, showPageTitle = true } = Astro.props
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    {canonicalPath && <link rel="canonical" href={new URL(canonicalPath, Astro.site)} />}
     <meta name="theme-color" content="#101b26" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 32x32 48x48" />

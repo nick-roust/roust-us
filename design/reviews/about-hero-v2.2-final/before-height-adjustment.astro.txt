@@ -1,0 +1,141 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+
+const projects = [
+  { name: 'FakeShop', href: '/labs/fake-shop/', description: 'E-commerce simulator for realistic buyer scenarios.' },
+  { name: 'FakeBank', href: '/labs/fake-bank/', description: 'Independent payment provider simulator.' },
+  { name: 'PG27', href: '/projects/pg27/', description: 'Transaction infrastructure with independent execution nodes.' },
+  { name: 'BIK / ED807', href: '/labs/bik-ed807/', description: 'Russian banking directory converter.' },
+];
+---
+<SiteLayout title="About" description="About Nick Roust. Editorial profile awaiting Founder review." showPageTitle={false} canonicalPath="/about/">
+  <article aria-labelledby="about-title">
+    <header class="journal-index-hero about-hero">
+      <div class="journal-index-hero__image about-hero__media" aria-hidden="true">
+        <img class="about-hero__image" src="/images/about/nick-roust-motorcycle-1672.webp"
+          srcset="/images/about/nick-roust-motorcycle-640.webp 640w, /images/about/nick-roust-motorcycle-1024.webp 1024w, /images/about/nick-roust-motorcycle-1672.webp 1672w"
+          sizes="max(100vw, 178dvh)" width="1672" height="941" alt="" fetchpriority="high" />
+      </div>
+      <div class="container journal-index-hero__inner about-hero__copy">
+        <div class="about-hero__text">
+          <p class="eyebrow">ABOUT</p>
+          <h1 id="about-title">Nick Roust</h1>
+          <p class="about-hero__introduction">I design and build software systems, mostly in fintech. For more than three decades I've worked across business, engineering and operations — from the first idea to systems running in production.</p>
+          <p class="about-hero__principle"><span>I enjoy complexity when</span> <span>I can understand and control it.</span></p>
+          <dl class="about-hero__experience">
+            <div><dt>30+ years</dt><dd>In business &amp; engineering</dd></div>
+            <div><dt>5+ systems</dt><dd>Built and operated</dd></div>
+          </dl>
+        </div>
+      </div>
+    </header>
+
+    <div class="about-editorial container">
+      <p class="about-editorial__notice" id="editorial-status">Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.</p>
+      <div aria-describedby="editorial-status">
+        <section id="about-perspective" aria-labelledby="perspective-title" tabindex="-1">
+          <p class="eyebrow">Perspective</p>
+          <h2 id="perspective-title">Architecture before implementation</h2>
+          <p>I approach software development through architecture, responsibility and long-term system behavior.</p>
+          <p>Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.</p>
+        </section>
+        <section aria-labelledby="practice-title">
+          <p class="eyebrow">Engineering Practice</p>
+          <h2 id="practice-title">From design to operation</h2>
+          <p>My work spans system design, implementation, integration and operation.</p>
+          <p>I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.</p>
+        </section>
+        <section aria-labelledby="ai-title">
+          <p class="eyebrow">AI-Assisted Engineering</p>
+          <h2 id="ai-title">AI as an engineering instrument</h2>
+          <p>I use AI-assisted tools as part of my engineering workflow.</p>
+          <p>They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.</p>
+        </section>
+        <section aria-labelledby="work-title">
+          <p class="eyebrow">Selected Work</p>
+          <h2 id="work-title">Systems and tools</h2>
+          <ul class="about-projects">
+            {projects.map(project => <li><a href={project.href}>{project.name}</a><p>{project.description}</p></li>)}
+          </ul>
+        </section>
+        <section aria-labelledby="chronicle-title">
+          <p class="eyebrow">Engineering Chronicle</p>
+          <h2 id="chronicle-title">Work, as it happens.</h2>
+          <p>Engineering Chronicle records the development of systems, architectural decisions, experiments and results.</p>
+          <a class="text-link" href="/journal/">Explore the Journal <span aria-hidden="true">→</span></a>
+        </section>
+      </div>
+    </div>
+  </article>
+</SiteLayout>
+
+<style>
+  .about-hero { display: flex; flex-direction: column; min-height: 100vh; min-height: 100dvh; }
+  .about-hero__media { inset: 0; }
+  .about-hero__media .about-hero__image { object-position: right top; }
+  .about-hero__media::after { background: linear-gradient(90deg, rgba(7,19,28,.6), rgba(7,19,28,.4) 30%, transparent 50%); }
+  .about-hero__copy { flex: 1; min-height: 0; padding-top: max(calc(var(--site-header-block-size) + var(--section-block-spacing)), 18dvh); padding-bottom: 2rem; }
+  .about-hero__text { width: 45%; max-width: 43rem; }
+  .about-hero .eyebrow { margin-bottom: 1.5rem; font-size: .8rem; }
+  .about-hero h1 { margin: 0 0 1.5rem; font-size: clamp(3.5rem, 5.6vw, 6.75rem); font-weight: 600; line-height: 1; letter-spacing: -.06em; }
+  .about-hero__introduction { max-width: 54ch; margin: 0; color: #d5e0e7; font-size: clamp(1rem, 1.25vw, 1.5rem); line-height: 1.5; }
+  .about-hero__principle { max-width: 30ch; margin: clamp(1.5rem, 3vw, 2.5rem) 0 0; padding-left: 1.25rem; border-left: 4px solid #13d1fd; color: #f5f7f9; font-size: clamp(1.5rem, 2.2vw, 2.65rem); font-style: italic; font-weight: 650; line-height: 1.2; letter-spacing: -.025em; }
+  .about-hero__principle span { display: block; }
+  .about-hero__experience { display: grid; grid-template-columns: auto auto; gap: clamp(1rem, 3vw, 3rem); margin: clamp(1.75rem, 3.5vw, 3rem) 0 0; }
+  .about-hero__experience > div + div { padding-left: clamp(1rem, 3vw, 3rem); border-left: 1px solid rgba(177,215,229,.55); }
+  .about-hero__experience dt { margin-bottom: .3rem; color: #f5f7f9; font-size: clamp(1.9rem, 2.7vw, 3.25rem); font-weight: 650; letter-spacing: -.045em; line-height: 1.1; white-space: nowrap; }
+  .about-hero__experience dd { margin: 0; color: #bdcfd9; font-size: clamp(.85rem, 1.25vw, 1.4rem); line-height: 1.4; }
+  #about-perspective { scroll-margin-top: calc(var(--site-header-block-size) + 1.5rem); }
+  #about-perspective:focus-visible { outline: 3px solid var(--accent); outline-offset: 8px; }
+  @media (min-width: 681px) {
+    .about-hero__media .about-hero__image { object-position: center top; }
+    .about-hero__text { width: 520px; max-width: 100%; }
+    .about-hero h1 { font-size: clamp(3.5rem, 5.6vw, 5.5rem); }
+    .about-hero__introduction { font-size: clamp(1rem, 1.25vw, 1.125rem); }
+    .about-hero__principle { font-size: clamp(1.5rem, 2.2vw, 2rem); }
+    .about-hero__experience { gap: 1rem; }
+    .about-hero__experience > div + div { padding-left: 1rem; }
+    .about-hero__experience dt { font-size: clamp(1.9rem, 2.7vw, 2.5rem); }
+    .about-hero__experience dd { font-size: clamp(.85rem, 1.25vw, 1rem); }
+  }
+  @media (min-width: 1101px) and (max-width: 1439px) {
+    .about-hero__text { width: min(480px, calc(50vw - 100px)); }
+  }
+  @media (min-width: 1101px) and (max-width: 1199px) {
+    .about-hero__copy { padding-top: clamp(calc(var(--site-header-block-size) + var(--section-block-spacing)), calc(440px + (1100px - 100vw) * 4), 440px); }
+  }
+  @media (min-width: 681px) and (max-width: 1100px), (min-width: 681px) and (max-aspect-ratio: 6/5) {
+    .about-hero__media { inset: 0 0 auto; height: clamp(32rem, 58vw, 42rem); }
+    .about-hero__media .about-hero__image { object-position: 56% top; }
+    .about-hero__media::after { background: linear-gradient(0deg, #07131c, rgba(7,19,28,.9) 10%, rgba(7,19,28,.2) 45%, transparent 70%); }
+    .about-hero__copy { padding-top: clamp(21rem, 40vw, 28rem); }
+    .about-hero__text { width: min(100%, 520px); }
+  }
+  @media (max-width: 680px) {
+    .about-hero__media .about-hero__image { object-position: 56% top; }
+    .about-hero__media::after { background: linear-gradient(0deg, rgba(7,19,28,.95), rgba(7,19,28,.8) 48%, rgba(7,19,28,.25) 72%, transparent 90%), linear-gradient(90deg, rgba(7,19,28,.55), rgba(7,19,28,.2) 65%, transparent); }
+    .about-hero__copy { padding-top: max(calc(var(--site-header-block-size) + 12rem), 80vw); padding-bottom: 2rem; }
+    .about-hero__text { width: 100%; max-width: 32rem; }
+    .about-hero .eyebrow { margin-bottom: 1rem; }
+    .about-hero h1 { font-size: clamp(3rem, 13vw, 3.75rem); margin-bottom: 1.25rem; }
+    .about-hero__introduction { max-width: 38ch; font-size: 1rem; line-height: 1.55; }
+    .about-hero__principle { margin-top: 1.5rem; font-size: 1.65rem; }
+    .about-hero__experience { margin-top: 1.75rem; gap: 1rem; }
+    .about-hero__experience dt { font-size: 1.9rem; }
+    .about-hero__experience dd { font-size: .85rem; }
+    .about-hero__experience > div + div { padding-left: 1rem; }
+  }
+  @media (max-width: 359px) {
+    .about-hero__experience { grid-template-columns: 1fr; }
+    .about-hero__experience > div + div { border-left: 0; padding-left: 0; }
+  }
+  .about-editorial { max-width: 72ch; padding-block: var(--section-block-spacing); }
+  .about-editorial__notice { margin: 0 0 var(--section-block-spacing); color: var(--muted); font-size: .85rem; line-height: 1.6; }
+  .about-editorial section + section { margin-top: var(--section-block-spacing); }
+  .about-editorial .eyebrow { margin-bottom: .7rem; color: var(--accent-strong); }
+  .about-editorial h2 { margin: 0 0 1rem; font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 550; letter-spacing: -.045em; line-height: 1.12; }
+  .about-editorial section p:not(.eyebrow) { color: var(--muted); font-size: 1.05rem; line-height: 1.7; }
+  .about-projects { display: grid; gap: 1.25rem; padding: 0; margin: 0; list-style: none; }
+  .about-projects a { font-weight: 600; }
+  .about-projects li p { margin: .3rem 0 0; }
+</style>

@@ -1,0 +1,18 @@
+{
+  "changed": [
+    "src/pages/projects/pg27.astro"
+  ],
+  "added": [
+    "public/images/pg27/revised-world-analytics-1024.avif",
+    "public/images/pg27/revised-world-analytics-1024.webp",
+    "public/images/pg27/revised-world-analytics-1649.avif",
+    "public/images/pg27/revised-world-analytics-1649.webp",
+    "public/images/pg27/revised-world-analytics-640.avif",
+    "public/images/pg27/revised-world-analytics-640.webp"
+  ],
+  "removed": [],
+  "statusContentUnchanged": true,
+  "wordmarkMatchesMaster": true,
+  "sourceAssetsUnchanged": true,
+  "otherExistingWorkUnchanged": true
+}

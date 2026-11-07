@@ -1,0 +1,22 @@
+{
+  "changed": [
+    "src/pages/projects/pg27.astro"
+  ],
+  "added": [
+    "public/images/pg27/controlled-flow-dam-1024.avif",
+    "public/images/pg27/controlled-flow-dam-1024.webp",
+    "public/images/pg27/controlled-flow-dam-1983.avif",
+    "public/images/pg27/controlled-flow-dam-1983.webp",
+    "public/images/pg27/controlled-flow-dam-640.avif",
+    "public/images/pg27/controlled-flow-dam-640.webp"
+  ],
+  "removed": [],
+  "heroTextAndWordmarkMarkupUnchanged": true,
+  "contentBelowHeroUnchanged": true,
+  "canonicalAndMetadataUnchanged": true,
+  "masterAndPublicWordmarkIdentical": true,
+  "sourceAssetsUnchanged": true,
+  "previousControlRoomAssetsUnchanged": true,
+  "otherExistingWorkUnchanged": true,
+  "optimizedAssetsIncludedInStaticOutput": true
+}

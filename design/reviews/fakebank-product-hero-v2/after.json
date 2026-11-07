@@ -1,0 +1,2182 @@
+[
+  {
+    "width": 390,
+    "theme": "light",
+    "state": {
+      "hero": {
+        "x": 16,
+        "y": 149.9375,
+        "width": 358,
+        "height": 314.234375,
+        "right": 374,
+        "bottom": 464.171875
+      },
+      "title": {
+        "x": 40,
+        "y": 216.90625,
+        "width": 310,
+        "height": 33.59375,
+        "right": 350,
+        "bottom": 250.5,
+        "text": "FAKE BANK",
+        "font": "32px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "copy": {
+        "x": 16,
+        "y": 149.9375,
+        "width": 358,
+        "height": 314.234375,
+        "right": 374,
+        "bottom": 464.171875
+      },
+      "eyebrow": {
+        "x": 40,
+        "y": 189.9375,
+        "width": 310,
+        "height": 14.96875,
+        "right": 350,
+        "bottom": 204.90625,
+        "text": "OPEN SOURCE · PAYMENT SIMULATOR",
+        "color": "rgb(128, 218, 250)"
+      },
+      "description": {
+        "x": 40,
+        "y": 262.5,
+        "width": 266.375,
+        "height": 49.25,
+        "right": 306.375,
+        "bottom": 311.75,
+        "text": "An independent open-source payment provider simulator."
+      },
+      "cta": {
+        "x": 40,
+        "y": 382.34375,
+        "width": 161.75,
+        "height": 41.828125,
+        "right": 201.75,
+        "bottom": 424.171875,
+        "text": "View on GitHub ↗",
+        "href": "https://github.com/nick-roust/fake-bank"
+      },
+      "image": {
+        "x": 16,
+        "y": 149.9375,
+        "width": 358,
+        "height": 314.234375,
+        "right": 374,
+        "bottom": 464.171875,
+        "src": "/images/fakebank-reflective-facade-1199.webp",
+        "position": "62% 50%",
+        "fit": "cover"
+      },
+      "overlay": "linear-gradient(90deg, rgba(5, 13, 19, 0.9), rgba(5, 13, 19, 0.46) 70%, rgba(5, 13, 19, 0.15))",
+      "stack": {
+        "x": 40,
+        "y": 339.75,
+        "width": 310,
+        "height": 18.59375,
+        "right": 350,
+        "bottom": 358.34375,
+        "items": [
+          {
+            "text": "TypeScript",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": false
+          },
+          {
+            "text": "Fastify",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "React",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": false
+          },
+          {
+            "text": "PostgreSQL",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": false
+          },
+          {
+            "text": "Docker",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": false
+          }
+        ]
+      },
+      "outside": [
+        {
+          "html": "<header class=\"site-header\"><div class=\"site-header__inner\"><a class=\"brand\" href=\"/\" aria-label=\"ROUST.US home\"><img class=\"brand__wordmark brand__wordmark--light\" src=\"/brand/roust-name-black.svg\" alt=\"\" width=\"180\" height=\"24\"><img class=\"brand__wordmark brand__wordmark--dark\" src=\"/brand/roust-name-white.svg\" alt=\"\" width=\"180\" height=\"24\"></a><nav class=\"primary-nav\" aria-label=\"Main navigation\"><a href=\"/about\">About</a><a href=\"/#building\">Building</a><a href=\"/#systems\" aria-current=\"page\">Projects</a><a href=\"/journal\">Journal</a><a href=\"#contact\">Contact</a></nav><div class=\"header-actions\"><a class=\"header-github\" href=\"https://github.com/nick-roust\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"GitHub\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M12 .75a11.25 11.25 0 0 0-3.56 21.92c.56.1.77-.24.77-.54v-2.1c-3.14.68-3.8-1.33-3.8-1.33-.51-1.3-1.25-1.64-1.25-1.64-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.66 1.23 3.31.94.1-.73.4-1.23.72-1.51-2.51-.29-5.15-1.26-5.15-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .95-.3 3.1 1.16a10.8 10.8 0 0 1 5.64 0c2.15-1.46 3.1-1.16 3.1-1.16.62 1.57.23 2.73.11 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.65 5.3-5.17 5.59.41.36.77 1.05.77 2.12v3.15c0 .3.2.65.78.54A11.25 11.25 0 0 0 12 .75Z\"></path></svg></a><button class=\"theme-toggle\" type=\"button\" data-theme-toggle=\"\" aria-label=\"Switch to dark theme\"><svg data-theme-icon=\"sun\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"></circle><path d=\"M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42\"></path></svg><svg data-theme-icon=\"moon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6.5 6.5 0 0 0 8.268 8.268c.344-.215.825-.003.803.401\"></path></svg></button></div></div></header>",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 97.59375,
+          "right": 390,
+          "bottom": 97.59375
+        },
+        {
+          "html": "<aside class=\"product-navigation product-navigation--desktop\"><nav aria-label=\"Product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></aside>",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "html": "<details class=\"product-navigation product-navigation--compact\"><summary>FAKE BANK <span>Product navigation</span></summary><nav aria-label=\"Mobile product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></details>",
+          "x": 16,
+          "y": 97.59375,
+          "width": 358,
+          "height": 52.34375,
+          "right": 374,
+          "bottom": 149.9375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"context\" aria-labelledby=\"context-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Context</p><h2 id=\"context-title\">Why Fake Bank exists</h2><p>Payment integrations need a provider on the other side of the transaction. Fake Bank supplies that boundary in a controlled local environment: a payment API, a buyer-facing checkout and events sent back to the merchant.</p></div><div class=\"context-panel\"><div><h3>Simulated payments</h3><p>Exercise payment flows without moving real money.</p></div><div><h3>Explicit scenarios</h3><p>Select success, failure and timing behavior.</p></div><div><h3>Independent by design</h3><p>Connect a merchant application through the provider contract.</p></div></div></section>",
+          "x": 16,
+          "y": 464.171875,
+          "width": 358,
+          "height": 510.140625,
+          "right": 374,
+          "bottom": 974.3125
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"problem\" aria-labelledby=\"problem-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Problem</p><h2 id=\"problem-title\">What needs to be solved</h2><p>A successful checkout is only part of an integration. Delayed results, declined payments, missing events and duplicate deliveries all affect merchant state. A controlled simulator makes these paths repeatable during development.</p></div><ul class=\"scenario-list\"><li>Payment lifecycle transitions</li><li>Hosted checkout and card simulation</li><li>Delayed and duplicate webhook scenarios</li><li>Timeout and provider-error behavior</li><li>A local, inspectable provider boundary</li></ul></section>",
+          "x": 16,
+          "y": 974.3125,
+          "width": 358,
+          "height": 453.390625,
+          "right": 374,
+          "bottom": 1427.703125
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"architecture\" aria-labelledby=\"architecture-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Architecture</p><h2 id=\"architecture-title\">System design</h2><p>The merchant owns its orders and business logic. Fake Bank owns simulated provider payments, checkout state, scenario execution and webhook delivery attempts. PostgreSQL stores provider records and events.</p><a href=\"https://github.com/nick-roust/fake-bank/blob/main/docs/ARCHITECTURE.md\">Read the architecture <span aria-hidden=\"true\">→</span></a></div><figure class=\"architecture-diagram\" aria-labelledby=\"architecture-caption\"><div class=\"architecture-diagram__flow\"><div class=\"diagram-node\">Merchant<br><small>Application</small></div><div class=\"diagram-exchange\"><span>API →</span><span>← Webhooks</span></div><div class=\"diagram-provider\"><strong>FAKE BANK</strong><div class=\"diagram-node\">Payment API</div><div class=\"diagram-node\">Hosted Checkout</div><div class=\"diagram-node\">Scenarios / Webhooks</div></div><span class=\"diagram-arrow\" aria-hidden=\"true\">↔</span><div class=\"diagram-node\">PostgreSQL<br><small>Provider state</small></div></div><figcaption id=\"architecture-caption\">Buyer → Hosted Checkout → Payment API.<br>Provider events return to the merchant webhook URL.</figcaption></figure></section>",
+          "x": 16,
+          "y": 1427.703125,
+          "width": 358,
+          "height": 635.15625,
+          "right": 374,
+          "bottom": 2062.859375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"implementation\" aria-labelledby=\"implementation-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Implementation</p><h2 id=\"implementation-title\">Key components</h2><p>A TypeScript API built with Fastify serves the payment contract. React provides hosted checkout. Named scenarios control outcomes; PostgreSQL records payments and webhook attempts. Docker Compose supports local execution.</p><div class=\"product-links\"><a href=\"https://github.com/nick-roust/fake-bank/blob/main/openapi/openapi.yaml\">API contract <span aria-hidden=\"true\">→</span></a><a href=\"https://github.com/nick-roust/fake-bank#quick-start\">Local setup <span aria-hidden=\"true\">→</span></a></div></div><figure class=\"code-panel\"><figcaption><span>POST /v1/payments</span><span>JSON</span></figcaption><pre tabindex=\"0\" aria-label=\"Example payment creation request\"><code>{\n  \"merchant_id\": \"demo-shop\",\n  \"amount\": 199.99,\n  \"currency\": \"EUR\",\n  \"payment_method\": \"card\",\n  \"return_url\": \"https://merchant.example/return\",\n  \"webhook_url\": \"https://merchant.example/webhooks\",\n  \"scenario\": \"card_success\"\n}</code></pre><p>Illustrative request. Example URLs are placeholders.</p></figure></section>",
+          "x": 16,
+          "y": 2062.859375,
+          "width": 358,
+          "height": 580.09375,
+          "right": 374,
+          "bottom": 2642.953125
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"verification\" aria-labelledby=\"verification-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Verification</p><h2 id=\"verification-title\">Testing and validation</h2><p>The repository contains automated checks for payment routes, lifecycle behavior, scenario outcomes and webhook delivery. These checks define expected behavior; they do not establish production readiness.</p><p class=\"verification-note\">Runtime acceptance has not been rerun for this page. Published verification results remain pending.</p></div><div class=\"verification-panel\"><h3>Repository evidence <span>Source review</span></h3><ul><li>Payment creation and input validation</li><li>Checkout confirmation and lifecycle transitions</li><li>Scenario and webhook behavior</li><li>OpenAPI and migration validation scripts</li><li>Reference merchant integration</li></ul><p>Test definitions present · Runtime results pending</p></div></section>",
+          "x": 16,
+          "y": 2642.953125,
+          "width": 358,
+          "height": 555.5,
+          "right": 374,
+          "bottom": 3198.453125
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"status\" aria-labelledby=\"status-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Status</p><h2 id=\"status-title\">Current status</h2><p>Fake Bank is available as an open-source simulator for local development and integration work. The repository includes setup instructions, API documentation and a reference merchant. Public hosted-demo availability has not been verified.</p></div><div class=\"status-panel\"><h3>Independent provider simulator</h3><dl><div><dt>Runtime</dt><dd>Local development</dd></div><div><dt>Repository</dt><dd><a href=\"https://github.com/nick-roust/fake-bank\">nick-roust/fake-bank</a></dd></div><div><dt>License</dt><dd>Apache-2.0</dd></div></dl></div></section>",
+          "x": 16,
+          "y": 3198.453125,
+          "width": 358,
+          "height": 473.921875,
+          "right": 374,
+          "bottom": 3672.375
+        },
+        {
+          "html": "<section class=\"contact-section\" id=\"contact\" aria-labelledby=\"contact-title\"><div class=\"container contact-section__layout\"><div class=\"contact-section__copy\"><p class=\"eyebrow\">Contact</p><h2 id=\"contact-title\">Let's build something.</h2><p class=\"contact-section__invite\">Open for collaboration, consulting and new projects.</p></div><div class=\"contact-section__channels\"><ul class=\"profile-list\" aria-label=\"Contact channels\"><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"mailto:nick@roust.us\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M3 7l9 6l9-6\"></path><path d=\"M5 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">Email</span><span class=\"profile-list__value\">nick@roust.us</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://github.com/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 19 3.77 5.07 5.07 0 0 0 18.91 0S17.73-.35 15 1.48a13.38 13.38 0 0 0-7 0C5.27-.35 4.09 0 4.09 0A5.07 5.07 0 0 0 4 3.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 8 17.13V21\" transform=\"translate(1 1) scale(.92)\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">GitHub</span><span class=\"profile-list__value\">github.com/nick-roust</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://linkedin.com/in/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M8 11v5\"></path><path d=\"M8 8v.01\"></path><path d=\"M12 16v-5\"></path><path d=\"M16 16v-3a2 2 0 1 0-4 0\"></path><path d=\"M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">LinkedIn</span><span class=\"profile-list__value\">linkedin.com/in/nick-roust</span></span></a></li></ul></div></div></section>",
+          "x": 0,
+          "y": 3672.375,
+          "width": 390,
+          "height": 317.5625,
+          "right": 390,
+          "bottom": 3989.9375
+        },
+        {
+          "html": "<footer class=\"site-footer\"><div class=\"container site-footer__inner\"><p>© 2006-2026 ROUST.US</p><a class=\"site-footer__brand\" href=\"/\" aria-label=\"ROUST.US home\"><img src=\"/brand/roust-monogram-muted.svg\" alt=\"\" width=\"48\" height=\"48\"></a><a class=\"site-footer__top\" href=\"#main\">Back to top <span aria-hidden=\"true\">↑</span></a></div></footer>",
+          "x": 0,
+          "y": 3989.9375,
+          "width": 390,
+          "height": 81,
+          "right": 390,
+          "bottom": 4070.9375
+        }
+      ],
+      "layoutShift": 0,
+      "overflow": false,
+      "h1Count": 1
+    }
+  },
+  {
+    "width": 390,
+    "theme": "dark",
+    "state": {
+      "hero": {
+        "x": 16,
+        "y": 149.9375,
+        "width": 358,
+        "height": 314.234375,
+        "right": 374,
+        "bottom": 464.171875
+      },
+      "title": {
+        "x": 40,
+        "y": 216.90625,
+        "width": 310,
+        "height": 33.59375,
+        "right": 350,
+        "bottom": 250.5,
+        "text": "FAKE BANK",
+        "font": "32px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "copy": {
+        "x": 16,
+        "y": 149.9375,
+        "width": 358,
+        "height": 314.234375,
+        "right": 374,
+        "bottom": 464.171875
+      },
+      "eyebrow": {
+        "x": 40,
+        "y": 189.9375,
+        "width": 310,
+        "height": 14.96875,
+        "right": 350,
+        "bottom": 204.90625,
+        "text": "OPEN SOURCE · PAYMENT SIMULATOR",
+        "color": "rgb(128, 218, 250)"
+      },
+      "description": {
+        "x": 40,
+        "y": 262.5,
+        "width": 266.375,
+        "height": 49.25,
+        "right": 306.375,
+        "bottom": 311.75,
+        "text": "An independent open-source payment provider simulator."
+      },
+      "cta": {
+        "x": 40,
+        "y": 382.34375,
+        "width": 161.75,
+        "height": 41.828125,
+        "right": 201.75,
+        "bottom": 424.171875,
+        "text": "View on GitHub ↗",
+        "href": "https://github.com/nick-roust/fake-bank"
+      },
+      "image": {
+        "x": 16,
+        "y": 149.9375,
+        "width": 358,
+        "height": 314.234375,
+        "right": 374,
+        "bottom": 464.171875,
+        "src": "/images/fakebank-reflective-facade-1199.webp",
+        "position": "62% 50%",
+        "fit": "cover"
+      },
+      "overlay": "linear-gradient(90deg, rgba(5, 13, 19, 0.9), rgba(5, 13, 19, 0.46) 70%, rgba(5, 13, 19, 0.15))",
+      "stack": {
+        "x": 40,
+        "y": 339.75,
+        "width": 310,
+        "height": 18.59375,
+        "right": 350,
+        "bottom": 358.34375,
+        "items": [
+          {
+            "text": "TypeScript",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": false
+          },
+          {
+            "text": "Fastify",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "React",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": false
+          },
+          {
+            "text": "PostgreSQL",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": false
+          },
+          {
+            "text": "Docker",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": false
+          }
+        ]
+      },
+      "outside": [
+        {
+          "html": "<header class=\"site-header\"><div class=\"site-header__inner\"><a class=\"brand\" href=\"/\" aria-label=\"ROUST.US home\"><img class=\"brand__wordmark brand__wordmark--light\" src=\"/brand/roust-name-black.svg\" alt=\"\" width=\"180\" height=\"24\"><img class=\"brand__wordmark brand__wordmark--dark\" src=\"/brand/roust-name-white.svg\" alt=\"\" width=\"180\" height=\"24\"></a><nav class=\"primary-nav\" aria-label=\"Main navigation\"><a href=\"/about\">About</a><a href=\"/#building\">Building</a><a href=\"/#systems\" aria-current=\"page\">Projects</a><a href=\"/journal\">Journal</a><a href=\"#contact\">Contact</a></nav><div class=\"header-actions\"><a class=\"header-github\" href=\"https://github.com/nick-roust\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"GitHub\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M12 .75a11.25 11.25 0 0 0-3.56 21.92c.56.1.77-.24.77-.54v-2.1c-3.14.68-3.8-1.33-3.8-1.33-.51-1.3-1.25-1.64-1.25-1.64-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.66 1.23 3.31.94.1-.73.4-1.23.72-1.51-2.51-.29-5.15-1.26-5.15-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .95-.3 3.1 1.16a10.8 10.8 0 0 1 5.64 0c2.15-1.46 3.1-1.16 3.1-1.16.62 1.57.23 2.73.11 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.65 5.3-5.17 5.59.41.36.77 1.05.77 2.12v3.15c0 .3.2.65.78.54A11.25 11.25 0 0 0 12 .75Z\"></path></svg></a><button class=\"theme-toggle\" type=\"button\" data-theme-toggle=\"\" aria-label=\"Switch to dark theme\"><svg data-theme-icon=\"sun\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"></circle><path d=\"M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42\"></path></svg><svg data-theme-icon=\"moon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6.5 6.5 0 0 0 8.268 8.268c.344-.215.825-.003.803.401\"></path></svg></button></div></div></header>",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 97.59375,
+          "right": 390,
+          "bottom": 97.59375
+        },
+        {
+          "html": "<aside class=\"product-navigation product-navigation--desktop\"><nav aria-label=\"Product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></aside>",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "html": "<details class=\"product-navigation product-navigation--compact\"><summary>FAKE BANK <span>Product navigation</span></summary><nav aria-label=\"Mobile product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></details>",
+          "x": 16,
+          "y": 97.59375,
+          "width": 358,
+          "height": 52.34375,
+          "right": 374,
+          "bottom": 149.9375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"context\" aria-labelledby=\"context-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Context</p><h2 id=\"context-title\">Why Fake Bank exists</h2><p>Payment integrations need a provider on the other side of the transaction. Fake Bank supplies that boundary in a controlled local environment: a payment API, a buyer-facing checkout and events sent back to the merchant.</p></div><div class=\"context-panel\"><div><h3>Simulated payments</h3><p>Exercise payment flows without moving real money.</p></div><div><h3>Explicit scenarios</h3><p>Select success, failure and timing behavior.</p></div><div><h3>Independent by design</h3><p>Connect a merchant application through the provider contract.</p></div></div></section>",
+          "x": 16,
+          "y": 464.171875,
+          "width": 358,
+          "height": 510.140625,
+          "right": 374,
+          "bottom": 974.3125
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"problem\" aria-labelledby=\"problem-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Problem</p><h2 id=\"problem-title\">What needs to be solved</h2><p>A successful checkout is only part of an integration. Delayed results, declined payments, missing events and duplicate deliveries all affect merchant state. A controlled simulator makes these paths repeatable during development.</p></div><ul class=\"scenario-list\"><li>Payment lifecycle transitions</li><li>Hosted checkout and card simulation</li><li>Delayed and duplicate webhook scenarios</li><li>Timeout and provider-error behavior</li><li>A local, inspectable provider boundary</li></ul></section>",
+          "x": 16,
+          "y": 974.3125,
+          "width": 358,
+          "height": 453.390625,
+          "right": 374,
+          "bottom": 1427.703125
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"architecture\" aria-labelledby=\"architecture-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Architecture</p><h2 id=\"architecture-title\">System design</h2><p>The merchant owns its orders and business logic. Fake Bank owns simulated provider payments, checkout state, scenario execution and webhook delivery attempts. PostgreSQL stores provider records and events.</p><a href=\"https://github.com/nick-roust/fake-bank/blob/main/docs/ARCHITECTURE.md\">Read the architecture <span aria-hidden=\"true\">→</span></a></div><figure class=\"architecture-diagram\" aria-labelledby=\"architecture-caption\"><div class=\"architecture-diagram__flow\"><div class=\"diagram-node\">Merchant<br><small>Application</small></div><div class=\"diagram-exchange\"><span>API →</span><span>← Webhooks</span></div><div class=\"diagram-provider\"><strong>FAKE BANK</strong><div class=\"diagram-node\">Payment API</div><div class=\"diagram-node\">Hosted Checkout</div><div class=\"diagram-node\">Scenarios / Webhooks</div></div><span class=\"diagram-arrow\" aria-hidden=\"true\">↔</span><div class=\"diagram-node\">PostgreSQL<br><small>Provider state</small></div></div><figcaption id=\"architecture-caption\">Buyer → Hosted Checkout → Payment API.<br>Provider events return to the merchant webhook URL.</figcaption></figure></section>",
+          "x": 16,
+          "y": 1427.703125,
+          "width": 358,
+          "height": 635.15625,
+          "right": 374,
+          "bottom": 2062.859375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"implementation\" aria-labelledby=\"implementation-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Implementation</p><h2 id=\"implementation-title\">Key components</h2><p>A TypeScript API built with Fastify serves the payment contract. React provides hosted checkout. Named scenarios control outcomes; PostgreSQL records payments and webhook attempts. Docker Compose supports local execution.</p><div class=\"product-links\"><a href=\"https://github.com/nick-roust/fake-bank/blob/main/openapi/openapi.yaml\">API contract <span aria-hidden=\"true\">→</span></a><a href=\"https://github.com/nick-roust/fake-bank#quick-start\">Local setup <span aria-hidden=\"true\">→</span></a></div></div><figure class=\"code-panel\"><figcaption><span>POST /v1/payments</span><span>JSON</span></figcaption><pre tabindex=\"0\" aria-label=\"Example payment creation request\"><code>{\n  \"merchant_id\": \"demo-shop\",\n  \"amount\": 199.99,\n  \"currency\": \"EUR\",\n  \"payment_method\": \"card\",\n  \"return_url\": \"https://merchant.example/return\",\n  \"webhook_url\": \"https://merchant.example/webhooks\",\n  \"scenario\": \"card_success\"\n}</code></pre><p>Illustrative request. Example URLs are placeholders.</p></figure></section>",
+          "x": 16,
+          "y": 2062.859375,
+          "width": 358,
+          "height": 580.09375,
+          "right": 374,
+          "bottom": 2642.953125
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"verification\" aria-labelledby=\"verification-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Verification</p><h2 id=\"verification-title\">Testing and validation</h2><p>The repository contains automated checks for payment routes, lifecycle behavior, scenario outcomes and webhook delivery. These checks define expected behavior; they do not establish production readiness.</p><p class=\"verification-note\">Runtime acceptance has not been rerun for this page. Published verification results remain pending.</p></div><div class=\"verification-panel\"><h3>Repository evidence <span>Source review</span></h3><ul><li>Payment creation and input validation</li><li>Checkout confirmation and lifecycle transitions</li><li>Scenario and webhook behavior</li><li>OpenAPI and migration validation scripts</li><li>Reference merchant integration</li></ul><p>Test definitions present · Runtime results pending</p></div></section>",
+          "x": 16,
+          "y": 2642.953125,
+          "width": 358,
+          "height": 555.5,
+          "right": 374,
+          "bottom": 3198.453125
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"status\" aria-labelledby=\"status-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Status</p><h2 id=\"status-title\">Current status</h2><p>Fake Bank is available as an open-source simulator for local development and integration work. The repository includes setup instructions, API documentation and a reference merchant. Public hosted-demo availability has not been verified.</p></div><div class=\"status-panel\"><h3>Independent provider simulator</h3><dl><div><dt>Runtime</dt><dd>Local development</dd></div><div><dt>Repository</dt><dd><a href=\"https://github.com/nick-roust/fake-bank\">nick-roust/fake-bank</a></dd></div><div><dt>License</dt><dd>Apache-2.0</dd></div></dl></div></section>",
+          "x": 16,
+          "y": 3198.453125,
+          "width": 358,
+          "height": 473.921875,
+          "right": 374,
+          "bottom": 3672.375
+        },
+        {
+          "html": "<section class=\"contact-section\" id=\"contact\" aria-labelledby=\"contact-title\"><div class=\"container contact-section__layout\"><div class=\"contact-section__copy\"><p class=\"eyebrow\">Contact</p><h2 id=\"contact-title\">Let's build something.</h2><p class=\"contact-section__invite\">Open for collaboration, consulting and new projects.</p></div><div class=\"contact-section__channels\"><ul class=\"profile-list\" aria-label=\"Contact channels\"><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"mailto:nick@roust.us\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M3 7l9 6l9-6\"></path><path d=\"M5 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">Email</span><span class=\"profile-list__value\">nick@roust.us</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://github.com/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 19 3.77 5.07 5.07 0 0 0 18.91 0S17.73-.35 15 1.48a13.38 13.38 0 0 0-7 0C5.27-.35 4.09 0 4.09 0A5.07 5.07 0 0 0 4 3.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 8 17.13V21\" transform=\"translate(1 1) scale(.92)\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">GitHub</span><span class=\"profile-list__value\">github.com/nick-roust</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://linkedin.com/in/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M8 11v5\"></path><path d=\"M8 8v.01\"></path><path d=\"M12 16v-5\"></path><path d=\"M16 16v-3a2 2 0 1 0-4 0\"></path><path d=\"M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">LinkedIn</span><span class=\"profile-list__value\">linkedin.com/in/nick-roust</span></span></a></li></ul></div></div></section>",
+          "x": 0,
+          "y": 3672.375,
+          "width": 390,
+          "height": 317.5625,
+          "right": 390,
+          "bottom": 3989.9375
+        },
+        {
+          "html": "<footer class=\"site-footer\"><div class=\"container site-footer__inner\"><p>© 2006-2026 ROUST.US</p><a class=\"site-footer__brand\" href=\"/\" aria-label=\"ROUST.US home\"><img src=\"/brand/roust-monogram-muted.svg\" alt=\"\" width=\"48\" height=\"48\"></a><a class=\"site-footer__top\" href=\"#main\">Back to top <span aria-hidden=\"true\">↑</span></a></div></footer>",
+          "x": 0,
+          "y": 3989.9375,
+          "width": 390,
+          "height": 81,
+          "right": 390,
+          "bottom": 4070.9375
+        }
+      ],
+      "layoutShift": 0,
+      "overflow": false,
+      "h1Count": 1
+    }
+  },
+  {
+    "width": 768,
+    "theme": "light",
+    "state": {
+      "hero": {
+        "x": 24,
+        "y": 141.34375,
+        "width": 705,
+        "height": 330.640625,
+        "right": 729,
+        "bottom": 471.984375
+      },
+      "title": {
+        "x": 48,
+        "y": 208.3125,
+        "width": 657,
+        "height": 42,
+        "right": 705,
+        "bottom": 250.3125,
+        "text": "FAKE BANK",
+        "font": "40px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "copy": {
+        "x": 24,
+        "y": 141.34375,
+        "width": 705,
+        "height": 330.640625,
+        "right": 729,
+        "bottom": 471.984375
+      },
+      "eyebrow": {
+        "x": 48,
+        "y": 181.34375,
+        "width": 528.03125,
+        "height": 14.96875,
+        "right": 576.03125,
+        "bottom": 196.3125,
+        "text": "OPEN SOURCE · PAYMENT SIMULATOR",
+        "color": "rgb(128, 218, 250)"
+      },
+      "description": {
+        "x": 48,
+        "y": 262.3125,
+        "width": 321.875,
+        "height": 49.25,
+        "right": 369.875,
+        "bottom": 311.5625,
+        "text": "An independent open-source payment provider simulator."
+      },
+      "cta": {
+        "x": 48,
+        "y": 390.15625,
+        "width": 161.75,
+        "height": 41.828125,
+        "right": 209.75,
+        "bottom": 431.984375,
+        "text": "View on GitHub ↗",
+        "href": "https://github.com/nick-roust/fake-bank"
+      },
+      "image": {
+        "x": 24,
+        "y": 141.34375,
+        "width": 705,
+        "height": 330.640625,
+        "right": 729,
+        "bottom": 471.984375,
+        "src": "/images/fakebank-reflective-facade-1199.webp",
+        "position": "50% 48%",
+        "fit": "cover"
+      },
+      "overlay": "linear-gradient(90deg, rgba(5, 13, 19, 0.9), rgba(5, 13, 19, 0.46) 50%, rgba(5, 13, 19, 0.04) 85%), linear-gradient(0deg, rgba(5, 13, 19, 0.4), rgba(0, 0, 0, 0) 48%)",
+      "stack": {
+        "x": 48,
+        "y": 339.5625,
+        "width": 657,
+        "height": 18.59375,
+        "right": 705,
+        "bottom": 358.15625,
+        "items": [
+          {
+            "text": "TypeScript",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "Fastify",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "React",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "PostgreSQL",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "Docker",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          }
+        ]
+      },
+      "outside": [
+        {
+          "html": "<header class=\"site-header\"><div class=\"site-header__inner\"><a class=\"brand\" href=\"/\" aria-label=\"ROUST.US home\"><img class=\"brand__wordmark brand__wordmark--light\" src=\"/brand/roust-name-black.svg\" alt=\"\" width=\"180\" height=\"24\"><img class=\"brand__wordmark brand__wordmark--dark\" src=\"/brand/roust-name-white.svg\" alt=\"\" width=\"180\" height=\"24\"></a><nav class=\"primary-nav\" aria-label=\"Main navigation\"><a href=\"/about\">About</a><a href=\"/#building\">Building</a><a href=\"/#systems\" aria-current=\"page\">Projects</a><a href=\"/journal\">Journal</a><a href=\"#contact\">Contact</a></nav><div class=\"header-actions\"><a class=\"header-github\" href=\"https://github.com/nick-roust\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"GitHub\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M12 .75a11.25 11.25 0 0 0-3.56 21.92c.56.1.77-.24.77-.54v-2.1c-3.14.68-3.8-1.33-3.8-1.33-.51-1.3-1.25-1.64-1.25-1.64-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.66 1.23 3.31.94.1-.73.4-1.23.72-1.51-2.51-.29-5.15-1.26-5.15-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .95-.3 3.1 1.16a10.8 10.8 0 0 1 5.64 0c2.15-1.46 3.1-1.16 3.1-1.16.62 1.57.23 2.73.11 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.65 5.3-5.17 5.59.41.36.77 1.05.77 2.12v3.15c0 .3.2.65.78.54A11.25 11.25 0 0 0 12 .75Z\"></path></svg></a><button class=\"theme-toggle\" type=\"button\" data-theme-toggle=\"\" aria-label=\"Switch to dark theme\"><svg data-theme-icon=\"sun\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"></circle><path d=\"M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42\"></path></svg><svg data-theme-icon=\"moon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6.5 6.5 0 0 0 8.268 8.268c.344-.215.825-.003.803.401\"></path></svg></button></div></div></header>",
+          "x": 0,
+          "y": 0,
+          "width": 753,
+          "height": 89,
+          "right": 753,
+          "bottom": 89
+        },
+        {
+          "html": "<aside class=\"product-navigation product-navigation--desktop\"><nav aria-label=\"Product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></aside>",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "html": "<details class=\"product-navigation product-navigation--compact\"><summary>FAKE BANK <span>Product navigation</span></summary><nav aria-label=\"Mobile product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></details>",
+          "x": 24,
+          "y": 89,
+          "width": 705,
+          "height": 52.34375,
+          "right": 729,
+          "bottom": 141.34375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"context\" aria-labelledby=\"context-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Context</p><h2 id=\"context-title\">Why Fake Bank exists</h2><p>Payment integrations need a provider on the other side of the transaction. Fake Bank supplies that boundary in a controlled local environment: a payment API, a buyer-facing checkout and events sent back to the merchant.</p></div><div class=\"context-panel\"><div><h3>Simulated payments</h3><p>Exercise payment flows without moving real money.</p></div><div><h3>Explicit scenarios</h3><p>Select success, failure and timing behavior.</p></div><div><h3>Independent by design</h3><p>Connect a merchant application through the provider contract.</p></div></div></section>",
+          "x": 24,
+          "y": 471.984375,
+          "width": 705,
+          "height": 339.03125,
+          "right": 729,
+          "bottom": 811.015625
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"problem\" aria-labelledby=\"problem-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Problem</p><h2 id=\"problem-title\">What needs to be solved</h2><p>A successful checkout is only part of an integration. Delayed results, declined payments, missing events and duplicate deliveries all affect merchant state. A controlled simulator makes these paths repeatable during development.</p></div><ul class=\"scenario-list\"><li>Payment lifecycle transitions</li><li>Hosted checkout and card simulation</li><li>Delayed and duplicate webhook scenarios</li><li>Timeout and provider-error behavior</li><li>A local, inspectable provider boundary</li></ul></section>",
+          "x": 24,
+          "y": 811.015625,
+          "width": 705,
+          "height": 295.125,
+          "right": 729,
+          "bottom": 1106.140625
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"architecture\" aria-labelledby=\"architecture-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Architecture</p><h2 id=\"architecture-title\">System design</h2><p>The merchant owns its orders and business logic. Fake Bank owns simulated provider payments, checkout state, scenario execution and webhook delivery attempts. PostgreSQL stores provider records and events.</p><a href=\"https://github.com/nick-roust/fake-bank/blob/main/docs/ARCHITECTURE.md\">Read the architecture <span aria-hidden=\"true\">→</span></a></div><figure class=\"architecture-diagram\" aria-labelledby=\"architecture-caption\"><div class=\"architecture-diagram__flow\"><div class=\"diagram-node\">Merchant<br><small>Application</small></div><div class=\"diagram-exchange\"><span>API →</span><span>← Webhooks</span></div><div class=\"diagram-provider\"><strong>FAKE BANK</strong><div class=\"diagram-node\">Payment API</div><div class=\"diagram-node\">Hosted Checkout</div><div class=\"diagram-node\">Scenarios / Webhooks</div></div><span class=\"diagram-arrow\" aria-hidden=\"true\">↔</span><div class=\"diagram-node\">PostgreSQL<br><small>Provider state</small></div></div><figcaption id=\"architecture-caption\">Buyer → Hosted Checkout → Payment API.<br>Provider events return to the merchant webhook URL.</figcaption></figure></section>",
+          "x": 24,
+          "y": 1106.140625,
+          "width": 705,
+          "height": 509.28125,
+          "right": 729,
+          "bottom": 1615.421875
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"implementation\" aria-labelledby=\"implementation-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Implementation</p><h2 id=\"implementation-title\">Key components</h2><p>A TypeScript API built with Fastify serves the payment contract. React provides hosted checkout. Named scenarios control outcomes; PostgreSQL records payments and webhook attempts. Docker Compose supports local execution.</p><div class=\"product-links\"><a href=\"https://github.com/nick-roust/fake-bank/blob/main/openapi/openapi.yaml\">API contract <span aria-hidden=\"true\">→</span></a><a href=\"https://github.com/nick-roust/fake-bank#quick-start\">Local setup <span aria-hidden=\"true\">→</span></a></div></div><figure class=\"code-panel\"><figcaption><span>POST /v1/payments</span><span>JSON</span></figcaption><pre tabindex=\"0\" aria-label=\"Example payment creation request\"><code>{\n  \"merchant_id\": \"demo-shop\",\n  \"amount\": 199.99,\n  \"currency\": \"EUR\",\n  \"payment_method\": \"card\",\n  \"return_url\": \"https://merchant.example/return\",\n  \"webhook_url\": \"https://merchant.example/webhooks\",\n  \"scenario\": \"card_success\"\n}</code></pre><p>Illustrative request. Example URLs are placeholders.</p></figure></section>",
+          "x": 24,
+          "y": 1615.421875,
+          "width": 705,
+          "height": 360.1875,
+          "right": 729,
+          "bottom": 1975.609375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"verification\" aria-labelledby=\"verification-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Verification</p><h2 id=\"verification-title\">Testing and validation</h2><p>The repository contains automated checks for payment routes, lifecycle behavior, scenario outcomes and webhook delivery. These checks define expected behavior; they do not establish production readiness.</p><p class=\"verification-note\">Runtime acceptance has not been rerun for this page. Published verification results remain pending.</p></div><div class=\"verification-panel\"><h3>Repository evidence <span>Source review</span></h3><ul><li>Payment creation and input validation</li><li>Checkout confirmation and lifecycle transitions</li><li>Scenario and webhook behavior</li><li>OpenAPI and migration validation scripts</li><li>Reference merchant integration</li></ul><p>Test definitions present · Runtime results pending</p></div></section>",
+          "x": 24,
+          "y": 1975.609375,
+          "width": 705,
+          "height": 328.015625,
+          "right": 729,
+          "bottom": 2303.625
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"status\" aria-labelledby=\"status-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Status</p><h2 id=\"status-title\">Current status</h2><p>Fake Bank is available as an open-source simulator for local development and integration work. The repository includes setup instructions, API documentation and a reference merchant. Public hosted-demo availability has not been verified.</p></div><div class=\"status-panel\"><h3>Independent provider simulator</h3><dl><div><dt>Runtime</dt><dd>Local development</dd></div><div><dt>Repository</dt><dd><a href=\"https://github.com/nick-roust/fake-bank\">nick-roust/fake-bank</a></dd></div><div><dt>License</dt><dd>Apache-2.0</dd></div></dl></div></section>",
+          "x": 24,
+          "y": 2303.625,
+          "width": 705,
+          "height": 295.125,
+          "right": 729,
+          "bottom": 2598.75
+        },
+        {
+          "html": "<section class=\"contact-section\" id=\"contact\" aria-labelledby=\"contact-title\"><div class=\"container contact-section__layout\"><div class=\"contact-section__copy\"><p class=\"eyebrow\">Contact</p><h2 id=\"contact-title\">Let's build something.</h2><p class=\"contact-section__invite\">Open for collaboration, consulting and new projects.</p></div><div class=\"contact-section__channels\"><ul class=\"profile-list\" aria-label=\"Contact channels\"><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"mailto:nick@roust.us\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M3 7l9 6l9-6\"></path><path d=\"M5 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">Email</span><span class=\"profile-list__value\">nick@roust.us</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://github.com/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 19 3.77 5.07 5.07 0 0 0 18.91 0S17.73-.35 15 1.48a13.38 13.38 0 0 0-7 0C5.27-.35 4.09 0 4.09 0A5.07 5.07 0 0 0 4 3.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 8 17.13V21\" transform=\"translate(1 1) scale(.92)\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">GitHub</span><span class=\"profile-list__value\">github.com/nick-roust</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://linkedin.com/in/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M8 11v5\"></path><path d=\"M8 8v.01\"></path><path d=\"M12 16v-5\"></path><path d=\"M16 16v-3a2 2 0 1 0-4 0\"></path><path d=\"M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">LinkedIn</span><span class=\"profile-list__value\">linkedin.com/in/nick-roust</span></span></a></li></ul></div></div></section>",
+          "x": 0,
+          "y": 2598.75,
+          "width": 753,
+          "height": 262.09375,
+          "right": 753,
+          "bottom": 2860.84375
+        },
+        {
+          "html": "<footer class=\"site-footer\"><div class=\"container site-footer__inner\"><p>© 2006-2026 ROUST.US</p><a class=\"site-footer__brand\" href=\"/\" aria-label=\"ROUST.US home\"><img src=\"/brand/roust-monogram-muted.svg\" alt=\"\" width=\"48\" height=\"48\"></a><a class=\"site-footer__top\" href=\"#main\">Back to top <span aria-hidden=\"true\">↑</span></a></div></footer>",
+          "x": 0,
+          "y": 2860.84375,
+          "width": 753,
+          "height": 101,
+          "right": 753,
+          "bottom": 2961.84375
+        }
+      ],
+      "layoutShift": 0,
+      "overflow": false,
+      "h1Count": 1
+    }
+  },
+  {
+    "width": 768,
+    "theme": "dark",
+    "state": {
+      "hero": {
+        "x": 24,
+        "y": 141.34375,
+        "width": 705,
+        "height": 330.640625,
+        "right": 729,
+        "bottom": 471.984375
+      },
+      "title": {
+        "x": 48,
+        "y": 208.3125,
+        "width": 657,
+        "height": 42,
+        "right": 705,
+        "bottom": 250.3125,
+        "text": "FAKE BANK",
+        "font": "40px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "copy": {
+        "x": 24,
+        "y": 141.34375,
+        "width": 705,
+        "height": 330.640625,
+        "right": 729,
+        "bottom": 471.984375
+      },
+      "eyebrow": {
+        "x": 48,
+        "y": 181.34375,
+        "width": 528.03125,
+        "height": 14.96875,
+        "right": 576.03125,
+        "bottom": 196.3125,
+        "text": "OPEN SOURCE · PAYMENT SIMULATOR",
+        "color": "rgb(128, 218, 250)"
+      },
+      "description": {
+        "x": 48,
+        "y": 262.3125,
+        "width": 321.875,
+        "height": 49.25,
+        "right": 369.875,
+        "bottom": 311.5625,
+        "text": "An independent open-source payment provider simulator."
+      },
+      "cta": {
+        "x": 48,
+        "y": 390.15625,
+        "width": 161.75,
+        "height": 41.828125,
+        "right": 209.75,
+        "bottom": 431.984375,
+        "text": "View on GitHub ↗",
+        "href": "https://github.com/nick-roust/fake-bank"
+      },
+      "image": {
+        "x": 24,
+        "y": 141.34375,
+        "width": 705,
+        "height": 330.640625,
+        "right": 729,
+        "bottom": 471.984375,
+        "src": "/images/fakebank-reflective-facade-1199.webp",
+        "position": "50% 48%",
+        "fit": "cover"
+      },
+      "overlay": "linear-gradient(90deg, rgba(5, 13, 19, 0.9), rgba(5, 13, 19, 0.46) 50%, rgba(5, 13, 19, 0.04) 85%), linear-gradient(0deg, rgba(5, 13, 19, 0.4), rgba(0, 0, 0, 0) 48%)",
+      "stack": {
+        "x": 48,
+        "y": 339.5625,
+        "width": 657,
+        "height": 18.59375,
+        "right": 705,
+        "bottom": 358.15625,
+        "items": [
+          {
+            "text": "TypeScript",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "Fastify",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "React",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "PostgreSQL",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "Docker",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          }
+        ]
+      },
+      "outside": [
+        {
+          "html": "<header class=\"site-header\"><div class=\"site-header__inner\"><a class=\"brand\" href=\"/\" aria-label=\"ROUST.US home\"><img class=\"brand__wordmark brand__wordmark--light\" src=\"/brand/roust-name-black.svg\" alt=\"\" width=\"180\" height=\"24\"><img class=\"brand__wordmark brand__wordmark--dark\" src=\"/brand/roust-name-white.svg\" alt=\"\" width=\"180\" height=\"24\"></a><nav class=\"primary-nav\" aria-label=\"Main navigation\"><a href=\"/about\">About</a><a href=\"/#building\">Building</a><a href=\"/#systems\" aria-current=\"page\">Projects</a><a href=\"/journal\">Journal</a><a href=\"#contact\">Contact</a></nav><div class=\"header-actions\"><a class=\"header-github\" href=\"https://github.com/nick-roust\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"GitHub\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M12 .75a11.25 11.25 0 0 0-3.56 21.92c.56.1.77-.24.77-.54v-2.1c-3.14.68-3.8-1.33-3.8-1.33-.51-1.3-1.25-1.64-1.25-1.64-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.66 1.23 3.31.94.1-.73.4-1.23.72-1.51-2.51-.29-5.15-1.26-5.15-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .95-.3 3.1 1.16a10.8 10.8 0 0 1 5.64 0c2.15-1.46 3.1-1.16 3.1-1.16.62 1.57.23 2.73.11 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.65 5.3-5.17 5.59.41.36.77 1.05.77 2.12v3.15c0 .3.2.65.78.54A11.25 11.25 0 0 0 12 .75Z\"></path></svg></a><button class=\"theme-toggle\" type=\"button\" data-theme-toggle=\"\" aria-label=\"Switch to dark theme\"><svg data-theme-icon=\"sun\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"></circle><path d=\"M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42\"></path></svg><svg data-theme-icon=\"moon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6.5 6.5 0 0 0 8.268 8.268c.344-.215.825-.003.803.401\"></path></svg></button></div></div></header>",
+          "x": 0,
+          "y": 0,
+          "width": 753,
+          "height": 89,
+          "right": 753,
+          "bottom": 89
+        },
+        {
+          "html": "<aside class=\"product-navigation product-navigation--desktop\"><nav aria-label=\"Product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></aside>",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "html": "<details class=\"product-navigation product-navigation--compact\"><summary>FAKE BANK <span>Product navigation</span></summary><nav aria-label=\"Mobile product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></details>",
+          "x": 24,
+          "y": 89,
+          "width": 705,
+          "height": 52.34375,
+          "right": 729,
+          "bottom": 141.34375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"context\" aria-labelledby=\"context-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Context</p><h2 id=\"context-title\">Why Fake Bank exists</h2><p>Payment integrations need a provider on the other side of the transaction. Fake Bank supplies that boundary in a controlled local environment: a payment API, a buyer-facing checkout and events sent back to the merchant.</p></div><div class=\"context-panel\"><div><h3>Simulated payments</h3><p>Exercise payment flows without moving real money.</p></div><div><h3>Explicit scenarios</h3><p>Select success, failure and timing behavior.</p></div><div><h3>Independent by design</h3><p>Connect a merchant application through the provider contract.</p></div></div></section>",
+          "x": 24,
+          "y": 471.984375,
+          "width": 705,
+          "height": 339.03125,
+          "right": 729,
+          "bottom": 811.015625
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"problem\" aria-labelledby=\"problem-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Problem</p><h2 id=\"problem-title\">What needs to be solved</h2><p>A successful checkout is only part of an integration. Delayed results, declined payments, missing events and duplicate deliveries all affect merchant state. A controlled simulator makes these paths repeatable during development.</p></div><ul class=\"scenario-list\"><li>Payment lifecycle transitions</li><li>Hosted checkout and card simulation</li><li>Delayed and duplicate webhook scenarios</li><li>Timeout and provider-error behavior</li><li>A local, inspectable provider boundary</li></ul></section>",
+          "x": 24,
+          "y": 811.015625,
+          "width": 705,
+          "height": 295.125,
+          "right": 729,
+          "bottom": 1106.140625
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"architecture\" aria-labelledby=\"architecture-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Architecture</p><h2 id=\"architecture-title\">System design</h2><p>The merchant owns its orders and business logic. Fake Bank owns simulated provider payments, checkout state, scenario execution and webhook delivery attempts. PostgreSQL stores provider records and events.</p><a href=\"https://github.com/nick-roust/fake-bank/blob/main/docs/ARCHITECTURE.md\">Read the architecture <span aria-hidden=\"true\">→</span></a></div><figure class=\"architecture-diagram\" aria-labelledby=\"architecture-caption\"><div class=\"architecture-diagram__flow\"><div class=\"diagram-node\">Merchant<br><small>Application</small></div><div class=\"diagram-exchange\"><span>API →</span><span>← Webhooks</span></div><div class=\"diagram-provider\"><strong>FAKE BANK</strong><div class=\"diagram-node\">Payment API</div><div class=\"diagram-node\">Hosted Checkout</div><div class=\"diagram-node\">Scenarios / Webhooks</div></div><span class=\"diagram-arrow\" aria-hidden=\"true\">↔</span><div class=\"diagram-node\">PostgreSQL<br><small>Provider state</small></div></div><figcaption id=\"architecture-caption\">Buyer → Hosted Checkout → Payment API.<br>Provider events return to the merchant webhook URL.</figcaption></figure></section>",
+          "x": 24,
+          "y": 1106.140625,
+          "width": 705,
+          "height": 509.28125,
+          "right": 729,
+          "bottom": 1615.421875
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"implementation\" aria-labelledby=\"implementation-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Implementation</p><h2 id=\"implementation-title\">Key components</h2><p>A TypeScript API built with Fastify serves the payment contract. React provides hosted checkout. Named scenarios control outcomes; PostgreSQL records payments and webhook attempts. Docker Compose supports local execution.</p><div class=\"product-links\"><a href=\"https://github.com/nick-roust/fake-bank/blob/main/openapi/openapi.yaml\">API contract <span aria-hidden=\"true\">→</span></a><a href=\"https://github.com/nick-roust/fake-bank#quick-start\">Local setup <span aria-hidden=\"true\">→</span></a></div></div><figure class=\"code-panel\"><figcaption><span>POST /v1/payments</span><span>JSON</span></figcaption><pre tabindex=\"0\" aria-label=\"Example payment creation request\"><code>{\n  \"merchant_id\": \"demo-shop\",\n  \"amount\": 199.99,\n  \"currency\": \"EUR\",\n  \"payment_method\": \"card\",\n  \"return_url\": \"https://merchant.example/return\",\n  \"webhook_url\": \"https://merchant.example/webhooks\",\n  \"scenario\": \"card_success\"\n}</code></pre><p>Illustrative request. Example URLs are placeholders.</p></figure></section>",
+          "x": 24,
+          "y": 1615.421875,
+          "width": 705,
+          "height": 360.1875,
+          "right": 729,
+          "bottom": 1975.609375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"verification\" aria-labelledby=\"verification-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Verification</p><h2 id=\"verification-title\">Testing and validation</h2><p>The repository contains automated checks for payment routes, lifecycle behavior, scenario outcomes and webhook delivery. These checks define expected behavior; they do not establish production readiness.</p><p class=\"verification-note\">Runtime acceptance has not been rerun for this page. Published verification results remain pending.</p></div><div class=\"verification-panel\"><h3>Repository evidence <span>Source review</span></h3><ul><li>Payment creation and input validation</li><li>Checkout confirmation and lifecycle transitions</li><li>Scenario and webhook behavior</li><li>OpenAPI and migration validation scripts</li><li>Reference merchant integration</li></ul><p>Test definitions present · Runtime results pending</p></div></section>",
+          "x": 24,
+          "y": 1975.609375,
+          "width": 705,
+          "height": 328.015625,
+          "right": 729,
+          "bottom": 2303.625
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"status\" aria-labelledby=\"status-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Status</p><h2 id=\"status-title\">Current status</h2><p>Fake Bank is available as an open-source simulator for local development and integration work. The repository includes setup instructions, API documentation and a reference merchant. Public hosted-demo availability has not been verified.</p></div><div class=\"status-panel\"><h3>Independent provider simulator</h3><dl><div><dt>Runtime</dt><dd>Local development</dd></div><div><dt>Repository</dt><dd><a href=\"https://github.com/nick-roust/fake-bank\">nick-roust/fake-bank</a></dd></div><div><dt>License</dt><dd>Apache-2.0</dd></div></dl></div></section>",
+          "x": 24,
+          "y": 2303.625,
+          "width": 705,
+          "height": 295.125,
+          "right": 729,
+          "bottom": 2598.75
+        },
+        {
+          "html": "<section class=\"contact-section\" id=\"contact\" aria-labelledby=\"contact-title\"><div class=\"container contact-section__layout\"><div class=\"contact-section__copy\"><p class=\"eyebrow\">Contact</p><h2 id=\"contact-title\">Let's build something.</h2><p class=\"contact-section__invite\">Open for collaboration, consulting and new projects.</p></div><div class=\"contact-section__channels\"><ul class=\"profile-list\" aria-label=\"Contact channels\"><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"mailto:nick@roust.us\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M3 7l9 6l9-6\"></path><path d=\"M5 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">Email</span><span class=\"profile-list__value\">nick@roust.us</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://github.com/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 19 3.77 5.07 5.07 0 0 0 18.91 0S17.73-.35 15 1.48a13.38 13.38 0 0 0-7 0C5.27-.35 4.09 0 4.09 0A5.07 5.07 0 0 0 4 3.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 8 17.13V21\" transform=\"translate(1 1) scale(.92)\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">GitHub</span><span class=\"profile-list__value\">github.com/nick-roust</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://linkedin.com/in/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M8 11v5\"></path><path d=\"M8 8v.01\"></path><path d=\"M12 16v-5\"></path><path d=\"M16 16v-3a2 2 0 1 0-4 0\"></path><path d=\"M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">LinkedIn</span><span class=\"profile-list__value\">linkedin.com/in/nick-roust</span></span></a></li></ul></div></div></section>",
+          "x": 0,
+          "y": 2598.75,
+          "width": 753,
+          "height": 262.09375,
+          "right": 753,
+          "bottom": 2860.84375
+        },
+        {
+          "html": "<footer class=\"site-footer\"><div class=\"container site-footer__inner\"><p>© 2006-2026 ROUST.US</p><a class=\"site-footer__brand\" href=\"/\" aria-label=\"ROUST.US home\"><img src=\"/brand/roust-monogram-muted.svg\" alt=\"\" width=\"48\" height=\"48\"></a><a class=\"site-footer__top\" href=\"#main\">Back to top <span aria-hidden=\"true\">↑</span></a></div></footer>",
+          "x": 0,
+          "y": 2860.84375,
+          "width": 753,
+          "height": 101,
+          "right": 753,
+          "bottom": 2961.84375
+        }
+      ],
+      "layoutShift": 0,
+      "overflow": false,
+      "h1Count": 1
+    }
+  },
+  {
+    "width": 1024,
+    "theme": "light",
+    "state": {
+      "hero": {
+        "x": 225,
+        "y": 89,
+        "width": 760,
+        "height": 353.015625,
+        "right": 985,
+        "bottom": 442.015625
+      },
+      "title": {
+        "x": 255.71875,
+        "y": 163.96875,
+        "width": 698.5625,
+        "height": 48.375,
+        "right": 954.28125,
+        "bottom": 212.34375,
+        "text": "FAKE BANK",
+        "font": "46.08px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "copy": {
+        "x": 225,
+        "y": 89,
+        "width": 760,
+        "height": 353.015625,
+        "right": 985,
+        "bottom": 442.015625
+      },
+      "eyebrow": {
+        "x": 255.71875,
+        "y": 137,
+        "width": 528.03125,
+        "height": 14.96875,
+        "right": 783.75,
+        "bottom": 151.96875,
+        "text": "OPEN SOURCE · PAYMENT SIMULATOR",
+        "color": "rgb(128, 218, 250)"
+      },
+      "description": {
+        "x": 255.71875,
+        "y": 224.34375,
+        "width": 321.875,
+        "height": 49.25,
+        "right": 577.59375,
+        "bottom": 273.59375,
+        "text": "An independent open-source payment provider simulator."
+      },
+      "cta": {
+        "x": 255.71875,
+        "y": 352.1875,
+        "width": 161.75,
+        "height": 41.828125,
+        "right": 417.46875,
+        "bottom": 394.015625,
+        "text": "View on GitHub ↗",
+        "href": "https://github.com/nick-roust/fake-bank"
+      },
+      "image": {
+        "x": 225,
+        "y": 89,
+        "width": 760,
+        "height": 353.015625,
+        "right": 985,
+        "bottom": 442.015625,
+        "src": "/images/fakebank-reflective-facade-1199.webp",
+        "position": "50% 48%",
+        "fit": "cover"
+      },
+      "overlay": "linear-gradient(90deg, rgba(5, 13, 19, 0.9), rgba(5, 13, 19, 0.46) 50%, rgba(5, 13, 19, 0.04) 85%), linear-gradient(0deg, rgba(5, 13, 19, 0.4), rgba(0, 0, 0, 0) 48%)",
+      "stack": {
+        "x": 255.71875,
+        "y": 301.59375,
+        "width": 698.5625,
+        "height": 18.59375,
+        "right": 954.28125,
+        "bottom": 320.1875,
+        "items": [
+          {
+            "text": "TypeScript",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "Fastify",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "React",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "PostgreSQL",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "Docker",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          }
+        ]
+      },
+      "outside": [
+        {
+          "html": "<header class=\"site-header\"><div class=\"site-header__inner\"><a class=\"brand\" href=\"/\" aria-label=\"ROUST.US home\"><img class=\"brand__wordmark brand__wordmark--light\" src=\"/brand/roust-name-black.svg\" alt=\"\" width=\"180\" height=\"24\"><img class=\"brand__wordmark brand__wordmark--dark\" src=\"/brand/roust-name-white.svg\" alt=\"\" width=\"180\" height=\"24\"></a><nav class=\"primary-nav\" aria-label=\"Main navigation\"><a href=\"/about\">About</a><a href=\"/#building\">Building</a><a href=\"/#systems\" aria-current=\"page\">Projects</a><a href=\"/journal\">Journal</a><a href=\"#contact\">Contact</a></nav><div class=\"header-actions\"><a class=\"header-github\" href=\"https://github.com/nick-roust\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"GitHub\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M12 .75a11.25 11.25 0 0 0-3.56 21.92c.56.1.77-.24.77-.54v-2.1c-3.14.68-3.8-1.33-3.8-1.33-.51-1.3-1.25-1.64-1.25-1.64-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.66 1.23 3.31.94.1-.73.4-1.23.72-1.51-2.51-.29-5.15-1.26-5.15-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .95-.3 3.1 1.16a10.8 10.8 0 0 1 5.64 0c2.15-1.46 3.1-1.16 3.1-1.16.62 1.57.23 2.73.11 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.65 5.3-5.17 5.59.41.36.77 1.05.77 2.12v3.15c0 .3.2.65.78.54A11.25 11.25 0 0 0 12 .75Z\"></path></svg></a><button class=\"theme-toggle\" type=\"button\" data-theme-toggle=\"\" aria-label=\"Switch to dark theme\"><svg data-theme-icon=\"sun\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"></circle><path d=\"M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42\"></path></svg><svg data-theme-icon=\"moon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6.5 6.5 0 0 0 8.268 8.268c.344-.215.825-.003.803.401\"></path></svg></button></div></div></header>",
+          "x": 0,
+          "y": 0,
+          "width": 1009,
+          "height": 89,
+          "right": 1009,
+          "bottom": 89
+        },
+        {
+          "html": "<aside class=\"product-navigation product-navigation--desktop\"><nav aria-label=\"Product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></aside>",
+          "x": 24,
+          "y": 112,
+          "width": 176,
+          "height": 464.75,
+          "right": 200,
+          "bottom": 576.75
+        },
+        {
+          "html": "<details class=\"product-navigation product-navigation--compact\"><summary>FAKE BANK <span>Product navigation</span></summary><nav aria-label=\"Mobile product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></details>",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"context\" aria-labelledby=\"context-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Context</p><h2 id=\"context-title\">Why Fake Bank exists</h2><p>Payment integrations need a provider on the other side of the transaction. Fake Bank supplies that boundary in a controlled local environment: a payment API, a buyer-facing checkout and events sent back to the merchant.</p></div><div class=\"context-panel\"><div><h3>Simulated payments</h3><p>Exercise payment flows without moving real money.</p></div><div><h3>Explicit scenarios</h3><p>Select success, failure and timing behavior.</p></div><div><h3>Independent by design</h3><p>Connect a merchant application through the provider contract.</p></div></div></section>",
+          "x": 225,
+          "y": 442.015625,
+          "width": 760,
+          "height": 484.078125,
+          "right": 985,
+          "bottom": 926.09375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"problem\" aria-labelledby=\"problem-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Problem</p><h2 id=\"problem-title\">What needs to be solved</h2><p>A successful checkout is only part of an integration. Delayed results, declined payments, missing events and duplicate deliveries all affect merchant state. A controlled simulator makes these paths repeatable during development.</p></div><ul class=\"scenario-list\"><li>Payment lifecycle transitions</li><li>Hosted checkout and card simulation</li><li>Delayed and duplicate webhook scenarios</li><li>Timeout and provider-error behavior</li><li>A local, inspectable provider boundary</li></ul></section>",
+          "x": 225,
+          "y": 926.09375,
+          "width": 760,
+          "height": 439.296875,
+          "right": 985,
+          "bottom": 1365.390625
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"architecture\" aria-labelledby=\"architecture-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Architecture</p><h2 id=\"architecture-title\">System design</h2><p>The merchant owns its orders and business logic. Fake Bank owns simulated provider payments, checkout state, scenario execution and webhook delivery attempts. PostgreSQL stores provider records and events.</p><a href=\"https://github.com/nick-roust/fake-bank/blob/main/docs/ARCHITECTURE.md\">Read the architecture <span aria-hidden=\"true\">→</span></a></div><figure class=\"architecture-diagram\" aria-labelledby=\"architecture-caption\"><div class=\"architecture-diagram__flow\"><div class=\"diagram-node\">Merchant<br><small>Application</small></div><div class=\"diagram-exchange\"><span>API →</span><span>← Webhooks</span></div><div class=\"diagram-provider\"><strong>FAKE BANK</strong><div class=\"diagram-node\">Payment API</div><div class=\"diagram-node\">Hosted Checkout</div><div class=\"diagram-node\">Scenarios / Webhooks</div></div><span class=\"diagram-arrow\" aria-hidden=\"true\">↔</span><div class=\"diagram-node\">PostgreSQL<br><small>Provider state</small></div></div><figcaption id=\"architecture-caption\">Buyer → Hosted Checkout → Payment API.<br>Provider events return to the merchant webhook URL.</figcaption></figure></section>",
+          "x": 225,
+          "y": 1365.390625,
+          "width": 760,
+          "height": 525.28125,
+          "right": 985,
+          "bottom": 1890.671875
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"implementation\" aria-labelledby=\"implementation-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Implementation</p><h2 id=\"implementation-title\">Key components</h2><p>A TypeScript API built with Fastify serves the payment contract. React provides hosted checkout. Named scenarios control outcomes; PostgreSQL records payments and webhook attempts. Docker Compose supports local execution.</p><div class=\"product-links\"><a href=\"https://github.com/nick-roust/fake-bank/blob/main/openapi/openapi.yaml\">API contract <span aria-hidden=\"true\">→</span></a><a href=\"https://github.com/nick-roust/fake-bank#quick-start\">Local setup <span aria-hidden=\"true\">→</span></a></div></div><figure class=\"code-panel\"><figcaption><span>POST /v1/payments</span><span>JSON</span></figcaption><pre tabindex=\"0\" aria-label=\"Example payment creation request\"><code>{\n  \"merchant_id\": \"demo-shop\",\n  \"amount\": 199.99,\n  \"currency\": \"EUR\",\n  \"payment_method\": \"card\",\n  \"return_url\": \"https://merchant.example/return\",\n  \"webhook_url\": \"https://merchant.example/webhooks\",\n  \"scenario\": \"card_success\"\n}</code></pre><p>Illustrative request. Example URLs are placeholders.</p></figure></section>",
+          "x": 225,
+          "y": 1890.671875,
+          "width": 760,
+          "height": 566,
+          "right": 985,
+          "bottom": 2456.671875
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"verification\" aria-labelledby=\"verification-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Verification</p><h2 id=\"verification-title\">Testing and validation</h2><p>The repository contains automated checks for payment routes, lifecycle behavior, scenario outcomes and webhook delivery. These checks define expected behavior; they do not establish production readiness.</p><p class=\"verification-note\">Runtime acceptance has not been rerun for this page. Published verification results remain pending.</p></div><div class=\"verification-panel\"><h3>Repository evidence <span>Source review</span></h3><ul><li>Payment creation and input validation</li><li>Checkout confirmation and lifecycle transitions</li><li>Scenario and webhook behavior</li><li>OpenAPI and migration validation scripts</li><li>Reference merchant integration</li></ul><p>Test definitions present · Runtime results pending</p></div></section>",
+          "x": 225,
+          "y": 2456.671875,
+          "width": 760,
+          "height": 541.40625,
+          "right": 985,
+          "bottom": 2998.078125
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"status\" aria-labelledby=\"status-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Status</p><h2 id=\"status-title\">Current status</h2><p>Fake Bank is available as an open-source simulator for local development and integration work. The repository includes setup instructions, API documentation and a reference merchant. Public hosted-demo availability has not been verified.</p></div><div class=\"status-panel\"><h3>Independent provider simulator</h3><dl><div><dt>Runtime</dt><dd>Local development</dd></div><div><dt>Repository</dt><dd><a href=\"https://github.com/nick-roust/fake-bank\">nick-roust/fake-bank</a></dd></div><div><dt>License</dt><dd>Apache-2.0</dd></div></dl></div></section>",
+          "x": 225,
+          "y": 2998.078125,
+          "width": 760,
+          "height": 467.828125,
+          "right": 985,
+          "bottom": 3465.90625
+        },
+        {
+          "html": "<section class=\"contact-section\" id=\"contact\" aria-labelledby=\"contact-title\"><div class=\"container contact-section__layout\"><div class=\"contact-section__copy\"><p class=\"eyebrow\">Contact</p><h2 id=\"contact-title\">Let's build something.</h2><p class=\"contact-section__invite\">Open for collaboration, consulting and new projects.</p></div><div class=\"contact-section__channels\"><ul class=\"profile-list\" aria-label=\"Contact channels\"><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"mailto:nick@roust.us\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M3 7l9 6l9-6\"></path><path d=\"M5 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">Email</span><span class=\"profile-list__value\">nick@roust.us</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://github.com/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 19 3.77 5.07 5.07 0 0 0 18.91 0S17.73-.35 15 1.48a13.38 13.38 0 0 0-7 0C5.27-.35 4.09 0 4.09 0A5.07 5.07 0 0 0 4 3.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 8 17.13V21\" transform=\"translate(1 1) scale(.92)\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">GitHub</span><span class=\"profile-list__value\">github.com/nick-roust</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://linkedin.com/in/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M8 11v5\"></path><path d=\"M8 8v.01\"></path><path d=\"M12 16v-5\"></path><path d=\"M16 16v-3a2 2 0 1 0-4 0\"></path><path d=\"M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">LinkedIn</span><span class=\"profile-list__value\">linkedin.com/in/nick-roust</span></span></a></li></ul></div></div></section>",
+          "x": 0,
+          "y": 3465.90625,
+          "width": 1009,
+          "height": 198.734375,
+          "right": 1009,
+          "bottom": 3664.640625
+        },
+        {
+          "html": "<footer class=\"site-footer\"><div class=\"container site-footer__inner\"><p>© 2006-2026 ROUST.US</p><a class=\"site-footer__brand\" href=\"/\" aria-label=\"ROUST.US home\"><img src=\"/brand/roust-monogram-muted.svg\" alt=\"\" width=\"48\" height=\"48\"></a><a class=\"site-footer__top\" href=\"#main\">Back to top <span aria-hidden=\"true\">↑</span></a></div></footer>",
+          "x": 0,
+          "y": 3664.640625,
+          "width": 1009,
+          "height": 101,
+          "right": 1009,
+          "bottom": 3765.640625
+        }
+      ],
+      "layoutShift": 0,
+      "overflow": false,
+      "h1Count": 1
+    }
+  },
+  {
+    "width": 1024,
+    "theme": "dark",
+    "state": {
+      "hero": {
+        "x": 225,
+        "y": 89,
+        "width": 760,
+        "height": 353.015625,
+        "right": 985,
+        "bottom": 442.015625
+      },
+      "title": {
+        "x": 255.71875,
+        "y": 163.96875,
+        "width": 698.5625,
+        "height": 48.375,
+        "right": 954.28125,
+        "bottom": 212.34375,
+        "text": "FAKE BANK",
+        "font": "46.08px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "copy": {
+        "x": 225,
+        "y": 89,
+        "width": 760,
+        "height": 353.015625,
+        "right": 985,
+        "bottom": 442.015625
+      },
+      "eyebrow": {
+        "x": 255.71875,
+        "y": 137,
+        "width": 528.03125,
+        "height": 14.96875,
+        "right": 783.75,
+        "bottom": 151.96875,
+        "text": "OPEN SOURCE · PAYMENT SIMULATOR",
+        "color": "rgb(128, 218, 250)"
+      },
+      "description": {
+        "x": 255.71875,
+        "y": 224.34375,
+        "width": 321.875,
+        "height": 49.25,
+        "right": 577.59375,
+        "bottom": 273.59375,
+        "text": "An independent open-source payment provider simulator."
+      },
+      "cta": {
+        "x": 255.71875,
+        "y": 352.1875,
+        "width": 161.75,
+        "height": 41.828125,
+        "right": 417.46875,
+        "bottom": 394.015625,
+        "text": "View on GitHub ↗",
+        "href": "https://github.com/nick-roust/fake-bank"
+      },
+      "image": {
+        "x": 225,
+        "y": 89,
+        "width": 760,
+        "height": 353.015625,
+        "right": 985,
+        "bottom": 442.015625,
+        "src": "/images/fakebank-reflective-facade-1199.webp",
+        "position": "50% 48%",
+        "fit": "cover"
+      },
+      "overlay": "linear-gradient(90deg, rgba(5, 13, 19, 0.9), rgba(5, 13, 19, 0.46) 50%, rgba(5, 13, 19, 0.04) 85%), linear-gradient(0deg, rgba(5, 13, 19, 0.4), rgba(0, 0, 0, 0) 48%)",
+      "stack": {
+        "x": 255.71875,
+        "y": 301.59375,
+        "width": 698.5625,
+        "height": 18.59375,
+        "right": 954.28125,
+        "bottom": 320.1875,
+        "items": [
+          {
+            "text": "TypeScript",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "Fastify",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "React",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "PostgreSQL",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "Docker",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          }
+        ]
+      },
+      "outside": [
+        {
+          "html": "<header class=\"site-header\"><div class=\"site-header__inner\"><a class=\"brand\" href=\"/\" aria-label=\"ROUST.US home\"><img class=\"brand__wordmark brand__wordmark--light\" src=\"/brand/roust-name-black.svg\" alt=\"\" width=\"180\" height=\"24\"><img class=\"brand__wordmark brand__wordmark--dark\" src=\"/brand/roust-name-white.svg\" alt=\"\" width=\"180\" height=\"24\"></a><nav class=\"primary-nav\" aria-label=\"Main navigation\"><a href=\"/about\">About</a><a href=\"/#building\">Building</a><a href=\"/#systems\" aria-current=\"page\">Projects</a><a href=\"/journal\">Journal</a><a href=\"#contact\">Contact</a></nav><div class=\"header-actions\"><a class=\"header-github\" href=\"https://github.com/nick-roust\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"GitHub\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M12 .75a11.25 11.25 0 0 0-3.56 21.92c.56.1.77-.24.77-.54v-2.1c-3.14.68-3.8-1.33-3.8-1.33-.51-1.3-1.25-1.64-1.25-1.64-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.66 1.23 3.31.94.1-.73.4-1.23.72-1.51-2.51-.29-5.15-1.26-5.15-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .95-.3 3.1 1.16a10.8 10.8 0 0 1 5.64 0c2.15-1.46 3.1-1.16 3.1-1.16.62 1.57.23 2.73.11 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.65 5.3-5.17 5.59.41.36.77 1.05.77 2.12v3.15c0 .3.2.65.78.54A11.25 11.25 0 0 0 12 .75Z\"></path></svg></a><button class=\"theme-toggle\" type=\"button\" data-theme-toggle=\"\" aria-label=\"Switch to dark theme\"><svg data-theme-icon=\"sun\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"></circle><path d=\"M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42\"></path></svg><svg data-theme-icon=\"moon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6.5 6.5 0 0 0 8.268 8.268c.344-.215.825-.003.803.401\"></path></svg></button></div></div></header>",
+          "x": 0,
+          "y": 0,
+          "width": 1009,
+          "height": 89,
+          "right": 1009,
+          "bottom": 89
+        },
+        {
+          "html": "<aside class=\"product-navigation product-navigation--desktop\"><nav aria-label=\"Product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></aside>",
+          "x": 24,
+          "y": 112,
+          "width": 176,
+          "height": 464.75,
+          "right": 200,
+          "bottom": 576.75
+        },
+        {
+          "html": "<details class=\"product-navigation product-navigation--compact\"><summary>FAKE BANK <span>Product navigation</span></summary><nav aria-label=\"Mobile product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></details>",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"context\" aria-labelledby=\"context-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Context</p><h2 id=\"context-title\">Why Fake Bank exists</h2><p>Payment integrations need a provider on the other side of the transaction. Fake Bank supplies that boundary in a controlled local environment: a payment API, a buyer-facing checkout and events sent back to the merchant.</p></div><div class=\"context-panel\"><div><h3>Simulated payments</h3><p>Exercise payment flows without moving real money.</p></div><div><h3>Explicit scenarios</h3><p>Select success, failure and timing behavior.</p></div><div><h3>Independent by design</h3><p>Connect a merchant application through the provider contract.</p></div></div></section>",
+          "x": 225,
+          "y": 442.015625,
+          "width": 760,
+          "height": 484.078125,
+          "right": 985,
+          "bottom": 926.09375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"problem\" aria-labelledby=\"problem-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Problem</p><h2 id=\"problem-title\">What needs to be solved</h2><p>A successful checkout is only part of an integration. Delayed results, declined payments, missing events and duplicate deliveries all affect merchant state. A controlled simulator makes these paths repeatable during development.</p></div><ul class=\"scenario-list\"><li>Payment lifecycle transitions</li><li>Hosted checkout and card simulation</li><li>Delayed and duplicate webhook scenarios</li><li>Timeout and provider-error behavior</li><li>A local, inspectable provider boundary</li></ul></section>",
+          "x": 225,
+          "y": 926.09375,
+          "width": 760,
+          "height": 439.296875,
+          "right": 985,
+          "bottom": 1365.390625
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"architecture\" aria-labelledby=\"architecture-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Architecture</p><h2 id=\"architecture-title\">System design</h2><p>The merchant owns its orders and business logic. Fake Bank owns simulated provider payments, checkout state, scenario execution and webhook delivery attempts. PostgreSQL stores provider records and events.</p><a href=\"https://github.com/nick-roust/fake-bank/blob/main/docs/ARCHITECTURE.md\">Read the architecture <span aria-hidden=\"true\">→</span></a></div><figure class=\"architecture-diagram\" aria-labelledby=\"architecture-caption\"><div class=\"architecture-diagram__flow\"><div class=\"diagram-node\">Merchant<br><small>Application</small></div><div class=\"diagram-exchange\"><span>API →</span><span>← Webhooks</span></div><div class=\"diagram-provider\"><strong>FAKE BANK</strong><div class=\"diagram-node\">Payment API</div><div class=\"diagram-node\">Hosted Checkout</div><div class=\"diagram-node\">Scenarios / Webhooks</div></div><span class=\"diagram-arrow\" aria-hidden=\"true\">↔</span><div class=\"diagram-node\">PostgreSQL<br><small>Provider state</small></div></div><figcaption id=\"architecture-caption\">Buyer → Hosted Checkout → Payment API.<br>Provider events return to the merchant webhook URL.</figcaption></figure></section>",
+          "x": 225,
+          "y": 1365.390625,
+          "width": 760,
+          "height": 525.28125,
+          "right": 985,
+          "bottom": 1890.671875
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"implementation\" aria-labelledby=\"implementation-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Implementation</p><h2 id=\"implementation-title\">Key components</h2><p>A TypeScript API built with Fastify serves the payment contract. React provides hosted checkout. Named scenarios control outcomes; PostgreSQL records payments and webhook attempts. Docker Compose supports local execution.</p><div class=\"product-links\"><a href=\"https://github.com/nick-roust/fake-bank/blob/main/openapi/openapi.yaml\">API contract <span aria-hidden=\"true\">→</span></a><a href=\"https://github.com/nick-roust/fake-bank#quick-start\">Local setup <span aria-hidden=\"true\">→</span></a></div></div><figure class=\"code-panel\"><figcaption><span>POST /v1/payments</span><span>JSON</span></figcaption><pre tabindex=\"0\" aria-label=\"Example payment creation request\"><code>{\n  \"merchant_id\": \"demo-shop\",\n  \"amount\": 199.99,\n  \"currency\": \"EUR\",\n  \"payment_method\": \"card\",\n  \"return_url\": \"https://merchant.example/return\",\n  \"webhook_url\": \"https://merchant.example/webhooks\",\n  \"scenario\": \"card_success\"\n}</code></pre><p>Illustrative request. Example URLs are placeholders.</p></figure></section>",
+          "x": 225,
+          "y": 1890.671875,
+          "width": 760,
+          "height": 566,
+          "right": 985,
+          "bottom": 2456.671875
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"verification\" aria-labelledby=\"verification-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Verification</p><h2 id=\"verification-title\">Testing and validation</h2><p>The repository contains automated checks for payment routes, lifecycle behavior, scenario outcomes and webhook delivery. These checks define expected behavior; they do not establish production readiness.</p><p class=\"verification-note\">Runtime acceptance has not been rerun for this page. Published verification results remain pending.</p></div><div class=\"verification-panel\"><h3>Repository evidence <span>Source review</span></h3><ul><li>Payment creation and input validation</li><li>Checkout confirmation and lifecycle transitions</li><li>Scenario and webhook behavior</li><li>OpenAPI and migration validation scripts</li><li>Reference merchant integration</li></ul><p>Test definitions present · Runtime results pending</p></div></section>",
+          "x": 225,
+          "y": 2456.671875,
+          "width": 760,
+          "height": 541.40625,
+          "right": 985,
+          "bottom": 2998.078125
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"status\" aria-labelledby=\"status-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Status</p><h2 id=\"status-title\">Current status</h2><p>Fake Bank is available as an open-source simulator for local development and integration work. The repository includes setup instructions, API documentation and a reference merchant. Public hosted-demo availability has not been verified.</p></div><div class=\"status-panel\"><h3>Independent provider simulator</h3><dl><div><dt>Runtime</dt><dd>Local development</dd></div><div><dt>Repository</dt><dd><a href=\"https://github.com/nick-roust/fake-bank\">nick-roust/fake-bank</a></dd></div><div><dt>License</dt><dd>Apache-2.0</dd></div></dl></div></section>",
+          "x": 225,
+          "y": 2998.078125,
+          "width": 760,
+          "height": 467.828125,
+          "right": 985,
+          "bottom": 3465.90625
+        },
+        {
+          "html": "<section class=\"contact-section\" id=\"contact\" aria-labelledby=\"contact-title\"><div class=\"container contact-section__layout\"><div class=\"contact-section__copy\"><p class=\"eyebrow\">Contact</p><h2 id=\"contact-title\">Let's build something.</h2><p class=\"contact-section__invite\">Open for collaboration, consulting and new projects.</p></div><div class=\"contact-section__channels\"><ul class=\"profile-list\" aria-label=\"Contact channels\"><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"mailto:nick@roust.us\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M3 7l9 6l9-6\"></path><path d=\"M5 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">Email</span><span class=\"profile-list__value\">nick@roust.us</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://github.com/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 19 3.77 5.07 5.07 0 0 0 18.91 0S17.73-.35 15 1.48a13.38 13.38 0 0 0-7 0C5.27-.35 4.09 0 4.09 0A5.07 5.07 0 0 0 4 3.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 8 17.13V21\" transform=\"translate(1 1) scale(.92)\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">GitHub</span><span class=\"profile-list__value\">github.com/nick-roust</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://linkedin.com/in/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M8 11v5\"></path><path d=\"M8 8v.01\"></path><path d=\"M12 16v-5\"></path><path d=\"M16 16v-3a2 2 0 1 0-4 0\"></path><path d=\"M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">LinkedIn</span><span class=\"profile-list__value\">linkedin.com/in/nick-roust</span></span></a></li></ul></div></div></section>",
+          "x": 0,
+          "y": 3465.90625,
+          "width": 1009,
+          "height": 198.734375,
+          "right": 1009,
+          "bottom": 3664.640625
+        },
+        {
+          "html": "<footer class=\"site-footer\"><div class=\"container site-footer__inner\"><p>© 2006-2026 ROUST.US</p><a class=\"site-footer__brand\" href=\"/\" aria-label=\"ROUST.US home\"><img src=\"/brand/roust-monogram-muted.svg\" alt=\"\" width=\"48\" height=\"48\"></a><a class=\"site-footer__top\" href=\"#main\">Back to top <span aria-hidden=\"true\">↑</span></a></div></footer>",
+          "x": 0,
+          "y": 3664.640625,
+          "width": 1009,
+          "height": 101,
+          "right": 1009,
+          "bottom": 3765.640625
+        }
+      ],
+      "layoutShift": 0,
+      "overflow": false,
+      "h1Count": 1
+    }
+  },
+  {
+    "width": 1440,
+    "theme": "light",
+    "state": {
+      "hero": {
+        "x": 277.5,
+        "y": 89,
+        "width": 1095,
+        "height": 389.765625,
+        "right": 1372.5,
+        "bottom": 478.765625
+      },
+      "title": {
+        "x": 320.6875,
+        "y": 163.96875,
+        "width": 1008.625,
+        "height": 67.1875,
+        "right": 1329.3125,
+        "bottom": 231.15625,
+        "text": "FAKE BANK",
+        "font": "64px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "copy": {
+        "x": 277.5,
+        "y": 89,
+        "width": 1095,
+        "height": 389.765625,
+        "right": 1372.5,
+        "bottom": 478.765625
+      },
+      "eyebrow": {
+        "x": 320.6875,
+        "y": 137,
+        "width": 528.03125,
+        "height": 14.96875,
+        "right": 848.71875,
+        "bottom": 151.96875,
+        "text": "OPEN SOURCE · PAYMENT SIMULATOR",
+        "color": "rgb(128, 218, 250)"
+      },
+      "description": {
+        "x": 320.6875,
+        "y": 243.15625,
+        "width": 439.078125,
+        "height": 67.1875,
+        "right": 759.765625,
+        "bottom": 310.34375,
+        "text": "An independent open-source payment provider simulator."
+      },
+      "cta": {
+        "x": 320.6875,
+        "y": 388.9375,
+        "width": 161.75,
+        "height": 41.828125,
+        "right": 482.4375,
+        "bottom": 430.765625,
+        "text": "View on GitHub ↗",
+        "href": "https://github.com/nick-roust/fake-bank"
+      },
+      "image": {
+        "x": 277.5,
+        "y": 89,
+        "width": 1095,
+        "height": 389.765625,
+        "right": 1372.5,
+        "bottom": 478.765625,
+        "src": "/images/fakebank-reflective-facade-1199.webp",
+        "position": "50% 48%",
+        "fit": "cover"
+      },
+      "overlay": "linear-gradient(90deg, rgba(5, 13, 19, 0.9), rgba(5, 13, 19, 0.46) 50%, rgba(5, 13, 19, 0.04) 85%), linear-gradient(0deg, rgba(5, 13, 19, 0.4), rgba(0, 0, 0, 0) 48%)",
+      "stack": {
+        "x": 320.6875,
+        "y": 338.34375,
+        "width": 1008.625,
+        "height": 18.59375,
+        "right": 1329.3125,
+        "bottom": 356.9375,
+        "items": [
+          {
+            "text": "TypeScript",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "Fastify",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "React",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "PostgreSQL",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "Docker",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          }
+        ]
+      },
+      "outside": [
+        {
+          "html": "<header class=\"site-header\"><div class=\"site-header__inner\"><a class=\"brand\" href=\"/\" aria-label=\"ROUST.US home\"><img class=\"brand__wordmark brand__wordmark--light\" src=\"/brand/roust-name-black.svg\" alt=\"\" width=\"180\" height=\"24\"><img class=\"brand__wordmark brand__wordmark--dark\" src=\"/brand/roust-name-white.svg\" alt=\"\" width=\"180\" height=\"24\"></a><nav class=\"primary-nav\" aria-label=\"Main navigation\"><a href=\"/about\">About</a><a href=\"/#building\">Building</a><a href=\"/#systems\" aria-current=\"page\">Projects</a><a href=\"/journal\">Journal</a><a href=\"#contact\">Contact</a></nav><div class=\"header-actions\"><a class=\"header-github\" href=\"https://github.com/nick-roust\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"GitHub\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M12 .75a11.25 11.25 0 0 0-3.56 21.92c.56.1.77-.24.77-.54v-2.1c-3.14.68-3.8-1.33-3.8-1.33-.51-1.3-1.25-1.64-1.25-1.64-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.66 1.23 3.31.94.1-.73.4-1.23.72-1.51-2.51-.29-5.15-1.26-5.15-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .95-.3 3.1 1.16a10.8 10.8 0 0 1 5.64 0c2.15-1.46 3.1-1.16 3.1-1.16.62 1.57.23 2.73.11 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.65 5.3-5.17 5.59.41.36.77 1.05.77 2.12v3.15c0 .3.2.65.78.54A11.25 11.25 0 0 0 12 .75Z\"></path></svg></a><button class=\"theme-toggle\" type=\"button\" data-theme-toggle=\"\" aria-label=\"Switch to dark theme\"><svg data-theme-icon=\"sun\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"></circle><path d=\"M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42\"></path></svg><svg data-theme-icon=\"moon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6.5 6.5 0 0 0 8.268 8.268c.344-.215.825-.003.803.401\"></path></svg></button></div></div></header>",
+          "x": 0,
+          "y": 0,
+          "width": 1425,
+          "height": 89,
+          "right": 1425,
+          "bottom": 89
+        },
+        {
+          "html": "<aside class=\"product-navigation product-navigation--desktop\"><nav aria-label=\"Product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></aside>",
+          "x": 52.5,
+          "y": 112,
+          "width": 200,
+          "height": 464.75,
+          "right": 252.5,
+          "bottom": 576.75
+        },
+        {
+          "html": "<details class=\"product-navigation product-navigation--compact\"><summary>FAKE BANK <span>Product navigation</span></summary><nav aria-label=\"Mobile product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></details>",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"context\" aria-labelledby=\"context-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Context</p><h2 id=\"context-title\">Why Fake Bank exists</h2><p>Payment integrations need a provider on the other side of the transaction. Fake Bank supplies that boundary in a controlled local environment: a payment API, a buyer-facing checkout and events sent back to the merchant.</p></div><div class=\"context-panel\"><div><h3>Simulated payments</h3><p>Exercise payment flows without moving real money.</p></div><div><h3>Explicit scenarios</h3><p>Select success, failure and timing behavior.</p></div><div><h3>Independent by design</h3><p>Connect a merchant application through the provider contract.</p></div></div></section>",
+          "x": 277.5,
+          "y": 478.765625,
+          "width": 1095,
+          "height": 315.09375,
+          "right": 1372.5,
+          "bottom": 793.859375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"problem\" aria-labelledby=\"problem-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Problem</p><h2 id=\"problem-title\">What needs to be solved</h2><p>A successful checkout is only part of an integration. Delayed results, declined payments, missing events and duplicate deliveries all affect merchant state. A controlled simulator makes these paths repeatable during development.</p></div><ul class=\"scenario-list\"><li>Payment lifecycle transitions</li><li>Hosted checkout and card simulation</li><li>Delayed and duplicate webhook scenarios</li><li>Timeout and provider-error behavior</li><li>A local, inspectable provider boundary</li></ul></section>",
+          "x": 277.5,
+          "y": 793.859375,
+          "width": 1095,
+          "height": 270.78125,
+          "right": 1372.5,
+          "bottom": 1064.640625
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"architecture\" aria-labelledby=\"architecture-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Architecture</p><h2 id=\"architecture-title\">System design</h2><p>The merchant owns its orders and business logic. Fake Bank owns simulated provider payments, checkout state, scenario execution and webhook delivery attempts. PostgreSQL stores provider records and events.</p><a href=\"https://github.com/nick-roust/fake-bank/blob/main/docs/ARCHITECTURE.md\">Read the architecture <span aria-hidden=\"true\">→</span></a></div><figure class=\"architecture-diagram\" aria-labelledby=\"architecture-caption\"><div class=\"architecture-diagram__flow\"><div class=\"diagram-node\">Merchant<br><small>Application</small></div><div class=\"diagram-exchange\"><span>API →</span><span>← Webhooks</span></div><div class=\"diagram-provider\"><strong>FAKE BANK</strong><div class=\"diagram-node\">Payment API</div><div class=\"diagram-node\">Hosted Checkout</div><div class=\"diagram-node\">Scenarios / Webhooks</div></div><span class=\"diagram-arrow\" aria-hidden=\"true\">↔</span><div class=\"diagram-node\">PostgreSQL<br><small>Provider state</small></div></div><figcaption id=\"architecture-caption\">Buyer → Hosted Checkout → Payment API.<br>Provider events return to the merchant webhook URL.</figcaption></figure></section>",
+          "x": 277.5,
+          "y": 1064.640625,
+          "width": 1095,
+          "height": 315.5,
+          "right": 1372.5,
+          "bottom": 1380.140625
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"implementation\" aria-labelledby=\"implementation-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Implementation</p><h2 id=\"implementation-title\">Key components</h2><p>A TypeScript API built with Fastify serves the payment contract. React provides hosted checkout. Named scenarios control outcomes; PostgreSQL records payments and webhook attempts. Docker Compose supports local execution.</p><div class=\"product-links\"><a href=\"https://github.com/nick-roust/fake-bank/blob/main/openapi/openapi.yaml\">API contract <span aria-hidden=\"true\">→</span></a><a href=\"https://github.com/nick-roust/fake-bank#quick-start\">Local setup <span aria-hidden=\"true\">→</span></a></div></div><figure class=\"code-panel\"><figcaption><span>POST /v1/payments</span><span>JSON</span></figcaption><pre tabindex=\"0\" aria-label=\"Example payment creation request\"><code>{\n  \"merchant_id\": \"demo-shop\",\n  \"amount\": 199.99,\n  \"currency\": \"EUR\",\n  \"payment_method\": \"card\",\n  \"return_url\": \"https://merchant.example/return\",\n  \"webhook_url\": \"https://merchant.example/webhooks\",\n  \"scenario\": \"card_success\"\n}</code></pre><p>Illustrative request. Example URLs are placeholders.</p></figure></section>",
+          "x": 277.5,
+          "y": 1380.140625,
+          "width": 1095,
+          "height": 361.1875,
+          "right": 1372.5,
+          "bottom": 1741.328125
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"verification\" aria-labelledby=\"verification-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Verification</p><h2 id=\"verification-title\">Testing and validation</h2><p>The repository contains automated checks for payment routes, lifecycle behavior, scenario outcomes and webhook delivery. These checks define expected behavior; they do not establish production readiness.</p><p class=\"verification-note\">Runtime acceptance has not been rerun for this page. Published verification results remain pending.</p></div><div class=\"verification-panel\"><h3>Repository evidence <span>Source review</span></h3><ul><li>Payment creation and input validation</li><li>Checkout confirmation and lifecycle transitions</li><li>Scenario and webhook behavior</li><li>OpenAPI and migration validation scripts</li><li>Reference merchant integration</li></ul><p>Test definitions present · Runtime results pending</p></div></section>",
+          "x": 277.5,
+          "y": 1741.328125,
+          "width": 1095,
+          "height": 316.484375,
+          "right": 1372.5,
+          "bottom": 2057.8125
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"status\" aria-labelledby=\"status-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Status</p><h2 id=\"status-title\">Current status</h2><p>Fake Bank is available as an open-source simulator for local development and integration work. The repository includes setup instructions, API documentation and a reference merchant. Public hosted-demo availability has not been verified.</p></div><div class=\"status-panel\"><h3>Independent provider simulator</h3><dl><div><dt>Runtime</dt><dd>Local development</dd></div><div><dt>Repository</dt><dd><a href=\"https://github.com/nick-roust/fake-bank\">nick-roust/fake-bank</a></dd></div><div><dt>License</dt><dd>Apache-2.0</dd></div></dl></div></section>",
+          "x": 277.5,
+          "y": 2057.8125,
+          "width": 1095,
+          "height": 298.84375,
+          "right": 1372.5,
+          "bottom": 2356.65625
+        },
+        {
+          "html": "<section class=\"contact-section\" id=\"contact\" aria-labelledby=\"contact-title\"><div class=\"container contact-section__layout\"><div class=\"contact-section__copy\"><p class=\"eyebrow\">Contact</p><h2 id=\"contact-title\">Let's build something.</h2><p class=\"contact-section__invite\">Open for collaboration, consulting and new projects.</p></div><div class=\"contact-section__channels\"><ul class=\"profile-list\" aria-label=\"Contact channels\"><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"mailto:nick@roust.us\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M3 7l9 6l9-6\"></path><path d=\"M5 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">Email</span><span class=\"profile-list__value\">nick@roust.us</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://github.com/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 19 3.77 5.07 5.07 0 0 0 18.91 0S17.73-.35 15 1.48a13.38 13.38 0 0 0-7 0C5.27-.35 4.09 0 4.09 0A5.07 5.07 0 0 0 4 3.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 8 17.13V21\" transform=\"translate(1 1) scale(.92)\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">GitHub</span><span class=\"profile-list__value\">github.com/nick-roust</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://linkedin.com/in/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M8 11v5\"></path><path d=\"M8 8v.01\"></path><path d=\"M12 16v-5\"></path><path d=\"M16 16v-3a2 2 0 1 0-4 0\"></path><path d=\"M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">LinkedIn</span><span class=\"profile-list__value\">linkedin.com/in/nick-roust</span></span></a></li></ul></div></div></section>",
+          "x": 0,
+          "y": 2356.65625,
+          "width": 1425,
+          "height": 212.703125,
+          "right": 1425,
+          "bottom": 2569.359375
+        },
+        {
+          "html": "<footer class=\"site-footer\"><div class=\"container site-footer__inner\"><p>© 2006-2026 ROUST.US</p><a class=\"site-footer__brand\" href=\"/\" aria-label=\"ROUST.US home\"><img src=\"/brand/roust-monogram-muted.svg\" alt=\"\" width=\"48\" height=\"48\"></a><a class=\"site-footer__top\" href=\"#main\">Back to top <span aria-hidden=\"true\">↑</span></a></div></footer>",
+          "x": 0,
+          "y": 2569.359375,
+          "width": 1425,
+          "height": 101,
+          "right": 1425,
+          "bottom": 2670.359375
+        }
+      ],
+      "layoutShift": 0,
+      "overflow": false,
+      "h1Count": 1
+    }
+  },
+  {
+    "width": 1440,
+    "theme": "dark",
+    "state": {
+      "hero": {
+        "x": 277.5,
+        "y": 89,
+        "width": 1095,
+        "height": 389.765625,
+        "right": 1372.5,
+        "bottom": 478.765625
+      },
+      "title": {
+        "x": 320.6875,
+        "y": 163.96875,
+        "width": 1008.625,
+        "height": 67.1875,
+        "right": 1329.3125,
+        "bottom": 231.15625,
+        "text": "FAKE BANK",
+        "font": "64px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "copy": {
+        "x": 277.5,
+        "y": 89,
+        "width": 1095,
+        "height": 389.765625,
+        "right": 1372.5,
+        "bottom": 478.765625
+      },
+      "eyebrow": {
+        "x": 320.6875,
+        "y": 137,
+        "width": 528.03125,
+        "height": 14.96875,
+        "right": 848.71875,
+        "bottom": 151.96875,
+        "text": "OPEN SOURCE · PAYMENT SIMULATOR",
+        "color": "rgb(128, 218, 250)"
+      },
+      "description": {
+        "x": 320.6875,
+        "y": 243.15625,
+        "width": 439.078125,
+        "height": 67.1875,
+        "right": 759.765625,
+        "bottom": 310.34375,
+        "text": "An independent open-source payment provider simulator."
+      },
+      "cta": {
+        "x": 320.6875,
+        "y": 388.9375,
+        "width": 161.75,
+        "height": 41.828125,
+        "right": 482.4375,
+        "bottom": 430.765625,
+        "text": "View on GitHub ↗",
+        "href": "https://github.com/nick-roust/fake-bank"
+      },
+      "image": {
+        "x": 277.5,
+        "y": 89,
+        "width": 1095,
+        "height": 389.765625,
+        "right": 1372.5,
+        "bottom": 478.765625,
+        "src": "/images/fakebank-reflective-facade-1199.webp",
+        "position": "50% 48%",
+        "fit": "cover"
+      },
+      "overlay": "linear-gradient(90deg, rgba(5, 13, 19, 0.9), rgba(5, 13, 19, 0.46) 50%, rgba(5, 13, 19, 0.04) 85%), linear-gradient(0deg, rgba(5, 13, 19, 0.4), rgba(0, 0, 0, 0) 48%)",
+      "stack": {
+        "x": 320.6875,
+        "y": 338.34375,
+        "width": 1008.625,
+        "height": 18.59375,
+        "right": 1329.3125,
+        "bottom": 356.9375,
+        "items": [
+          {
+            "text": "TypeScript",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "Fastify",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "React",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "PostgreSQL",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "Docker",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          }
+        ]
+      },
+      "outside": [
+        {
+          "html": "<header class=\"site-header\"><div class=\"site-header__inner\"><a class=\"brand\" href=\"/\" aria-label=\"ROUST.US home\"><img class=\"brand__wordmark brand__wordmark--light\" src=\"/brand/roust-name-black.svg\" alt=\"\" width=\"180\" height=\"24\"><img class=\"brand__wordmark brand__wordmark--dark\" src=\"/brand/roust-name-white.svg\" alt=\"\" width=\"180\" height=\"24\"></a><nav class=\"primary-nav\" aria-label=\"Main navigation\"><a href=\"/about\">About</a><a href=\"/#building\">Building</a><a href=\"/#systems\" aria-current=\"page\">Projects</a><a href=\"/journal\">Journal</a><a href=\"#contact\">Contact</a></nav><div class=\"header-actions\"><a class=\"header-github\" href=\"https://github.com/nick-roust\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"GitHub\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M12 .75a11.25 11.25 0 0 0-3.56 21.92c.56.1.77-.24.77-.54v-2.1c-3.14.68-3.8-1.33-3.8-1.33-.51-1.3-1.25-1.64-1.25-1.64-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.66 1.23 3.31.94.1-.73.4-1.23.72-1.51-2.51-.29-5.15-1.26-5.15-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .95-.3 3.1 1.16a10.8 10.8 0 0 1 5.64 0c2.15-1.46 3.1-1.16 3.1-1.16.62 1.57.23 2.73.11 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.65 5.3-5.17 5.59.41.36.77 1.05.77 2.12v3.15c0 .3.2.65.78.54A11.25 11.25 0 0 0 12 .75Z\"></path></svg></a><button class=\"theme-toggle\" type=\"button\" data-theme-toggle=\"\" aria-label=\"Switch to dark theme\"><svg data-theme-icon=\"sun\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"></circle><path d=\"M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42\"></path></svg><svg data-theme-icon=\"moon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6.5 6.5 0 0 0 8.268 8.268c.344-.215.825-.003.803.401\"></path></svg></button></div></div></header>",
+          "x": 0,
+          "y": 0,
+          "width": 1425,
+          "height": 89,
+          "right": 1425,
+          "bottom": 89
+        },
+        {
+          "html": "<aside class=\"product-navigation product-navigation--desktop\"><nav aria-label=\"Product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></aside>",
+          "x": 52.5,
+          "y": 112,
+          "width": 200,
+          "height": 464.75,
+          "right": 252.5,
+          "bottom": 576.75
+        },
+        {
+          "html": "<details class=\"product-navigation product-navigation--compact\"><summary>FAKE BANK <span>Product navigation</span></summary><nav aria-label=\"Mobile product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></details>",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"context\" aria-labelledby=\"context-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Context</p><h2 id=\"context-title\">Why Fake Bank exists</h2><p>Payment integrations need a provider on the other side of the transaction. Fake Bank supplies that boundary in a controlled local environment: a payment API, a buyer-facing checkout and events sent back to the merchant.</p></div><div class=\"context-panel\"><div><h3>Simulated payments</h3><p>Exercise payment flows without moving real money.</p></div><div><h3>Explicit scenarios</h3><p>Select success, failure and timing behavior.</p></div><div><h3>Independent by design</h3><p>Connect a merchant application through the provider contract.</p></div></div></section>",
+          "x": 277.5,
+          "y": 478.765625,
+          "width": 1095,
+          "height": 315.09375,
+          "right": 1372.5,
+          "bottom": 793.859375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"problem\" aria-labelledby=\"problem-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Problem</p><h2 id=\"problem-title\">What needs to be solved</h2><p>A successful checkout is only part of an integration. Delayed results, declined payments, missing events and duplicate deliveries all affect merchant state. A controlled simulator makes these paths repeatable during development.</p></div><ul class=\"scenario-list\"><li>Payment lifecycle transitions</li><li>Hosted checkout and card simulation</li><li>Delayed and duplicate webhook scenarios</li><li>Timeout and provider-error behavior</li><li>A local, inspectable provider boundary</li></ul></section>",
+          "x": 277.5,
+          "y": 793.859375,
+          "width": 1095,
+          "height": 270.78125,
+          "right": 1372.5,
+          "bottom": 1064.640625
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"architecture\" aria-labelledby=\"architecture-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Architecture</p><h2 id=\"architecture-title\">System design</h2><p>The merchant owns its orders and business logic. Fake Bank owns simulated provider payments, checkout state, scenario execution and webhook delivery attempts. PostgreSQL stores provider records and events.</p><a href=\"https://github.com/nick-roust/fake-bank/blob/main/docs/ARCHITECTURE.md\">Read the architecture <span aria-hidden=\"true\">→</span></a></div><figure class=\"architecture-diagram\" aria-labelledby=\"architecture-caption\"><div class=\"architecture-diagram__flow\"><div class=\"diagram-node\">Merchant<br><small>Application</small></div><div class=\"diagram-exchange\"><span>API →</span><span>← Webhooks</span></div><div class=\"diagram-provider\"><strong>FAKE BANK</strong><div class=\"diagram-node\">Payment API</div><div class=\"diagram-node\">Hosted Checkout</div><div class=\"diagram-node\">Scenarios / Webhooks</div></div><span class=\"diagram-arrow\" aria-hidden=\"true\">↔</span><div class=\"diagram-node\">PostgreSQL<br><small>Provider state</small></div></div><figcaption id=\"architecture-caption\">Buyer → Hosted Checkout → Payment API.<br>Provider events return to the merchant webhook URL.</figcaption></figure></section>",
+          "x": 277.5,
+          "y": 1064.640625,
+          "width": 1095,
+          "height": 315.5,
+          "right": 1372.5,
+          "bottom": 1380.140625
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"implementation\" aria-labelledby=\"implementation-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Implementation</p><h2 id=\"implementation-title\">Key components</h2><p>A TypeScript API built with Fastify serves the payment contract. React provides hosted checkout. Named scenarios control outcomes; PostgreSQL records payments and webhook attempts. Docker Compose supports local execution.</p><div class=\"product-links\"><a href=\"https://github.com/nick-roust/fake-bank/blob/main/openapi/openapi.yaml\">API contract <span aria-hidden=\"true\">→</span></a><a href=\"https://github.com/nick-roust/fake-bank#quick-start\">Local setup <span aria-hidden=\"true\">→</span></a></div></div><figure class=\"code-panel\"><figcaption><span>POST /v1/payments</span><span>JSON</span></figcaption><pre tabindex=\"0\" aria-label=\"Example payment creation request\"><code>{\n  \"merchant_id\": \"demo-shop\",\n  \"amount\": 199.99,\n  \"currency\": \"EUR\",\n  \"payment_method\": \"card\",\n  \"return_url\": \"https://merchant.example/return\",\n  \"webhook_url\": \"https://merchant.example/webhooks\",\n  \"scenario\": \"card_success\"\n}</code></pre><p>Illustrative request. Example URLs are placeholders.</p></figure></section>",
+          "x": 277.5,
+          "y": 1380.140625,
+          "width": 1095,
+          "height": 361.1875,
+          "right": 1372.5,
+          "bottom": 1741.328125
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"verification\" aria-labelledby=\"verification-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Verification</p><h2 id=\"verification-title\">Testing and validation</h2><p>The repository contains automated checks for payment routes, lifecycle behavior, scenario outcomes and webhook delivery. These checks define expected behavior; they do not establish production readiness.</p><p class=\"verification-note\">Runtime acceptance has not been rerun for this page. Published verification results remain pending.</p></div><div class=\"verification-panel\"><h3>Repository evidence <span>Source review</span></h3><ul><li>Payment creation and input validation</li><li>Checkout confirmation and lifecycle transitions</li><li>Scenario and webhook behavior</li><li>OpenAPI and migration validation scripts</li><li>Reference merchant integration</li></ul><p>Test definitions present · Runtime results pending</p></div></section>",
+          "x": 277.5,
+          "y": 1741.328125,
+          "width": 1095,
+          "height": 316.484375,
+          "right": 1372.5,
+          "bottom": 2057.8125
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"status\" aria-labelledby=\"status-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Status</p><h2 id=\"status-title\">Current status</h2><p>Fake Bank is available as an open-source simulator for local development and integration work. The repository includes setup instructions, API documentation and a reference merchant. Public hosted-demo availability has not been verified.</p></div><div class=\"status-panel\"><h3>Independent provider simulator</h3><dl><div><dt>Runtime</dt><dd>Local development</dd></div><div><dt>Repository</dt><dd><a href=\"https://github.com/nick-roust/fake-bank\">nick-roust/fake-bank</a></dd></div><div><dt>License</dt><dd>Apache-2.0</dd></div></dl></div></section>",
+          "x": 277.5,
+          "y": 2057.8125,
+          "width": 1095,
+          "height": 298.84375,
+          "right": 1372.5,
+          "bottom": 2356.65625
+        },
+        {
+          "html": "<section class=\"contact-section\" id=\"contact\" aria-labelledby=\"contact-title\"><div class=\"container contact-section__layout\"><div class=\"contact-section__copy\"><p class=\"eyebrow\">Contact</p><h2 id=\"contact-title\">Let's build something.</h2><p class=\"contact-section__invite\">Open for collaboration, consulting and new projects.</p></div><div class=\"contact-section__channels\"><ul class=\"profile-list\" aria-label=\"Contact channels\"><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"mailto:nick@roust.us\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M3 7l9 6l9-6\"></path><path d=\"M5 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">Email</span><span class=\"profile-list__value\">nick@roust.us</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://github.com/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 19 3.77 5.07 5.07 0 0 0 18.91 0S17.73-.35 15 1.48a13.38 13.38 0 0 0-7 0C5.27-.35 4.09 0 4.09 0A5.07 5.07 0 0 0 4 3.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 8 17.13V21\" transform=\"translate(1 1) scale(.92)\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">GitHub</span><span class=\"profile-list__value\">github.com/nick-roust</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://linkedin.com/in/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M8 11v5\"></path><path d=\"M8 8v.01\"></path><path d=\"M12 16v-5\"></path><path d=\"M16 16v-3a2 2 0 1 0-4 0\"></path><path d=\"M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">LinkedIn</span><span class=\"profile-list__value\">linkedin.com/in/nick-roust</span></span></a></li></ul></div></div></section>",
+          "x": 0,
+          "y": 2356.65625,
+          "width": 1425,
+          "height": 212.703125,
+          "right": 1425,
+          "bottom": 2569.359375
+        },
+        {
+          "html": "<footer class=\"site-footer\"><div class=\"container site-footer__inner\"><p>© 2006-2026 ROUST.US</p><a class=\"site-footer__brand\" href=\"/\" aria-label=\"ROUST.US home\"><img src=\"/brand/roust-monogram-muted.svg\" alt=\"\" width=\"48\" height=\"48\"></a><a class=\"site-footer__top\" href=\"#main\">Back to top <span aria-hidden=\"true\">↑</span></a></div></footer>",
+          "x": 0,
+          "y": 2569.359375,
+          "width": 1425,
+          "height": 101,
+          "right": 1425,
+          "bottom": 2670.359375
+        }
+      ],
+      "layoutShift": 0,
+      "overflow": false,
+      "h1Count": 1
+    }
+  },
+  {
+    "width": 1920,
+    "theme": "light",
+    "state": {
+      "hero": {
+        "x": 517.5,
+        "y": 89,
+        "width": 1095,
+        "height": 389.765625,
+        "right": 1612.5,
+        "bottom": 478.765625
+      },
+      "title": {
+        "x": 565.5,
+        "y": 163.96875,
+        "width": 999,
+        "height": 67.1875,
+        "right": 1564.5,
+        "bottom": 231.15625,
+        "text": "FAKE BANK",
+        "font": "64px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "copy": {
+        "x": 517.5,
+        "y": 89,
+        "width": 1095,
+        "height": 389.765625,
+        "right": 1612.5,
+        "bottom": 478.765625
+      },
+      "eyebrow": {
+        "x": 565.5,
+        "y": 137,
+        "width": 528.03125,
+        "height": 14.96875,
+        "right": 1093.53125,
+        "bottom": 151.96875,
+        "text": "OPEN SOURCE · PAYMENT SIMULATOR",
+        "color": "rgb(128, 218, 250)"
+      },
+      "description": {
+        "x": 565.5,
+        "y": 243.15625,
+        "width": 439.078125,
+        "height": 67.1875,
+        "right": 1004.578125,
+        "bottom": 310.34375,
+        "text": "An independent open-source payment provider simulator."
+      },
+      "cta": {
+        "x": 565.5,
+        "y": 388.9375,
+        "width": 161.75,
+        "height": 41.828125,
+        "right": 727.25,
+        "bottom": 430.765625,
+        "text": "View on GitHub ↗",
+        "href": "https://github.com/nick-roust/fake-bank"
+      },
+      "image": {
+        "x": 517.5,
+        "y": 89,
+        "width": 1095,
+        "height": 389.765625,
+        "right": 1612.5,
+        "bottom": 478.765625,
+        "src": "/images/fakebank-reflective-facade-1199.webp",
+        "position": "50% 48%",
+        "fit": "cover"
+      },
+      "overlay": "linear-gradient(90deg, rgba(5, 13, 19, 0.9), rgba(5, 13, 19, 0.46) 50%, rgba(5, 13, 19, 0.04) 85%), linear-gradient(0deg, rgba(5, 13, 19, 0.4), rgba(0, 0, 0, 0) 48%)",
+      "stack": {
+        "x": 565.5,
+        "y": 338.34375,
+        "width": 999,
+        "height": 18.59375,
+        "right": 1564.5,
+        "bottom": 356.9375,
+        "items": [
+          {
+            "text": "TypeScript",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "Fastify",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "React",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "PostgreSQL",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "Docker",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          }
+        ]
+      },
+      "outside": [
+        {
+          "html": "<header class=\"site-header\"><div class=\"site-header__inner\"><a class=\"brand\" href=\"/\" aria-label=\"ROUST.US home\"><img class=\"brand__wordmark brand__wordmark--light\" src=\"/brand/roust-name-black.svg\" alt=\"\" width=\"180\" height=\"24\"><img class=\"brand__wordmark brand__wordmark--dark\" src=\"/brand/roust-name-white.svg\" alt=\"\" width=\"180\" height=\"24\"></a><nav class=\"primary-nav\" aria-label=\"Main navigation\"><a href=\"/about\">About</a><a href=\"/#building\">Building</a><a href=\"/#systems\" aria-current=\"page\">Projects</a><a href=\"/journal\">Journal</a><a href=\"#contact\">Contact</a></nav><div class=\"header-actions\"><a class=\"header-github\" href=\"https://github.com/nick-roust\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"GitHub\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M12 .75a11.25 11.25 0 0 0-3.56 21.92c.56.1.77-.24.77-.54v-2.1c-3.14.68-3.8-1.33-3.8-1.33-.51-1.3-1.25-1.64-1.25-1.64-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.66 1.23 3.31.94.1-.73.4-1.23.72-1.51-2.51-.29-5.15-1.26-5.15-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .95-.3 3.1 1.16a10.8 10.8 0 0 1 5.64 0c2.15-1.46 3.1-1.16 3.1-1.16.62 1.57.23 2.73.11 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.65 5.3-5.17 5.59.41.36.77 1.05.77 2.12v3.15c0 .3.2.65.78.54A11.25 11.25 0 0 0 12 .75Z\"></path></svg></a><button class=\"theme-toggle\" type=\"button\" data-theme-toggle=\"\" aria-label=\"Switch to dark theme\"><svg data-theme-icon=\"sun\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"></circle><path d=\"M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42\"></path></svg><svg data-theme-icon=\"moon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6.5 6.5 0 0 0 8.268 8.268c.344-.215.825-.003.803.401\"></path></svg></button></div></div></header>",
+          "x": 0,
+          "y": 0,
+          "width": 1905,
+          "height": 89,
+          "right": 1905,
+          "bottom": 89
+        },
+        {
+          "html": "<aside class=\"product-navigation product-navigation--desktop\"><nav aria-label=\"Product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></aside>",
+          "x": 292.5,
+          "y": 112,
+          "width": 200,
+          "height": 464.75,
+          "right": 492.5,
+          "bottom": 576.75
+        },
+        {
+          "html": "<details class=\"product-navigation product-navigation--compact\"><summary>FAKE BANK <span>Product navigation</span></summary><nav aria-label=\"Mobile product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></details>",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"context\" aria-labelledby=\"context-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Context</p><h2 id=\"context-title\">Why Fake Bank exists</h2><p>Payment integrations need a provider on the other side of the transaction. Fake Bank supplies that boundary in a controlled local environment: a payment API, a buyer-facing checkout and events sent back to the merchant.</p></div><div class=\"context-panel\"><div><h3>Simulated payments</h3><p>Exercise payment flows without moving real money.</p></div><div><h3>Explicit scenarios</h3><p>Select success, failure and timing behavior.</p></div><div><h3>Independent by design</h3><p>Connect a merchant application through the provider contract.</p></div></div></section>",
+          "x": 517.5,
+          "y": 478.765625,
+          "width": 1095,
+          "height": 315.09375,
+          "right": 1612.5,
+          "bottom": 793.859375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"problem\" aria-labelledby=\"problem-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Problem</p><h2 id=\"problem-title\">What needs to be solved</h2><p>A successful checkout is only part of an integration. Delayed results, declined payments, missing events and duplicate deliveries all affect merchant state. A controlled simulator makes these paths repeatable during development.</p></div><ul class=\"scenario-list\"><li>Payment lifecycle transitions</li><li>Hosted checkout and card simulation</li><li>Delayed and duplicate webhook scenarios</li><li>Timeout and provider-error behavior</li><li>A local, inspectable provider boundary</li></ul></section>",
+          "x": 517.5,
+          "y": 793.859375,
+          "width": 1095,
+          "height": 274.625,
+          "right": 1612.5,
+          "bottom": 1068.484375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"architecture\" aria-labelledby=\"architecture-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Architecture</p><h2 id=\"architecture-title\">System design</h2><p>The merchant owns its orders and business logic. Fake Bank owns simulated provider payments, checkout state, scenario execution and webhook delivery attempts. PostgreSQL stores provider records and events.</p><a href=\"https://github.com/nick-roust/fake-bank/blob/main/docs/ARCHITECTURE.md\">Read the architecture <span aria-hidden=\"true\">→</span></a></div><figure class=\"architecture-diagram\" aria-labelledby=\"architecture-caption\"><div class=\"architecture-diagram__flow\"><div class=\"diagram-node\">Merchant<br><small>Application</small></div><div class=\"diagram-exchange\"><span>API →</span><span>← Webhooks</span></div><div class=\"diagram-provider\"><strong>FAKE BANK</strong><div class=\"diagram-node\">Payment API</div><div class=\"diagram-node\">Hosted Checkout</div><div class=\"diagram-node\">Scenarios / Webhooks</div></div><span class=\"diagram-arrow\" aria-hidden=\"true\">↔</span><div class=\"diagram-node\">PostgreSQL<br><small>Provider state</small></div></div><figcaption id=\"architecture-caption\">Buyer → Hosted Checkout → Payment API.<br>Provider events return to the merchant webhook URL.</figcaption></figure></section>",
+          "x": 517.5,
+          "y": 1068.484375,
+          "width": 1095,
+          "height": 315.5,
+          "right": 1612.5,
+          "bottom": 1383.984375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"implementation\" aria-labelledby=\"implementation-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Implementation</p><h2 id=\"implementation-title\">Key components</h2><p>A TypeScript API built with Fastify serves the payment contract. React provides hosted checkout. Named scenarios control outcomes; PostgreSQL records payments and webhook attempts. Docker Compose supports local execution.</p><div class=\"product-links\"><a href=\"https://github.com/nick-roust/fake-bank/blob/main/openapi/openapi.yaml\">API contract <span aria-hidden=\"true\">→</span></a><a href=\"https://github.com/nick-roust/fake-bank#quick-start\">Local setup <span aria-hidden=\"true\">→</span></a></div></div><figure class=\"code-panel\"><figcaption><span>POST /v1/payments</span><span>JSON</span></figcaption><pre tabindex=\"0\" aria-label=\"Example payment creation request\"><code>{\n  \"merchant_id\": \"demo-shop\",\n  \"amount\": 199.99,\n  \"currency\": \"EUR\",\n  \"payment_method\": \"card\",\n  \"return_url\": \"https://merchant.example/return\",\n  \"webhook_url\": \"https://merchant.example/webhooks\",\n  \"scenario\": \"card_success\"\n}</code></pre><p>Illustrative request. Example URLs are placeholders.</p></figure></section>",
+          "x": 517.5,
+          "y": 1383.984375,
+          "width": 1095,
+          "height": 361.1875,
+          "right": 1612.5,
+          "bottom": 1745.171875
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"verification\" aria-labelledby=\"verification-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Verification</p><h2 id=\"verification-title\">Testing and validation</h2><p>The repository contains automated checks for payment routes, lifecycle behavior, scenario outcomes and webhook delivery. These checks define expected behavior; they do not establish production readiness.</p><p class=\"verification-note\">Runtime acceptance has not been rerun for this page. Published verification results remain pending.</p></div><div class=\"verification-panel\"><h3>Repository evidence <span>Source review</span></h3><ul><li>Payment creation and input validation</li><li>Checkout confirmation and lifecycle transitions</li><li>Scenario and webhook behavior</li><li>OpenAPI and migration validation scripts</li><li>Reference merchant integration</li></ul><p>Test definitions present · Runtime results pending</p></div></section>",
+          "x": 517.5,
+          "y": 1745.171875,
+          "width": 1095,
+          "height": 330.5625,
+          "right": 1612.5,
+          "bottom": 2075.734375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"status\" aria-labelledby=\"status-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Status</p><h2 id=\"status-title\">Current status</h2><p>Fake Bank is available as an open-source simulator for local development and integration work. The repository includes setup instructions, API documentation and a reference merchant. Public hosted-demo availability has not been verified.</p></div><div class=\"status-panel\"><h3>Independent provider simulator</h3><dl><div><dt>Runtime</dt><dd>Local development</dd></div><div><dt>Repository</dt><dd><a href=\"https://github.com/nick-roust/fake-bank\">nick-roust/fake-bank</a></dd></div><div><dt>License</dt><dd>Apache-2.0</dd></div></dl></div></section>",
+          "x": 517.5,
+          "y": 2075.734375,
+          "width": 1095,
+          "height": 298.84375,
+          "right": 1612.5,
+          "bottom": 2374.578125
+        },
+        {
+          "html": "<section class=\"contact-section\" id=\"contact\" aria-labelledby=\"contact-title\"><div class=\"container contact-section__layout\"><div class=\"contact-section__copy\"><p class=\"eyebrow\">Contact</p><h2 id=\"contact-title\">Let's build something.</h2><p class=\"contact-section__invite\">Open for collaboration, consulting and new projects.</p></div><div class=\"contact-section__channels\"><ul class=\"profile-list\" aria-label=\"Contact channels\"><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"mailto:nick@roust.us\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M3 7l9 6l9-6\"></path><path d=\"M5 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">Email</span><span class=\"profile-list__value\">nick@roust.us</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://github.com/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 19 3.77 5.07 5.07 0 0 0 18.91 0S17.73-.35 15 1.48a13.38 13.38 0 0 0-7 0C5.27-.35 4.09 0 4.09 0A5.07 5.07 0 0 0 4 3.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 8 17.13V21\" transform=\"translate(1 1) scale(.92)\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">GitHub</span><span class=\"profile-list__value\">github.com/nick-roust</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://linkedin.com/in/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M8 11v5\"></path><path d=\"M8 8v.01\"></path><path d=\"M12 16v-5\"></path><path d=\"M16 16v-3a2 2 0 1 0-4 0\"></path><path d=\"M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">LinkedIn</span><span class=\"profile-list__value\">linkedin.com/in/nick-roust</span></span></a></li></ul></div></div></section>",
+          "x": 0,
+          "y": 2374.578125,
+          "width": 1905,
+          "height": 212.703125,
+          "right": 1905,
+          "bottom": 2587.28125
+        },
+        {
+          "html": "<footer class=\"site-footer\"><div class=\"container site-footer__inner\"><p>© 2006-2026 ROUST.US</p><a class=\"site-footer__brand\" href=\"/\" aria-label=\"ROUST.US home\"><img src=\"/brand/roust-monogram-muted.svg\" alt=\"\" width=\"48\" height=\"48\"></a><a class=\"site-footer__top\" href=\"#main\">Back to top <span aria-hidden=\"true\">↑</span></a></div></footer>",
+          "x": 0,
+          "y": 2587.28125,
+          "width": 1905,
+          "height": 101,
+          "right": 1905,
+          "bottom": 2688.28125
+        }
+      ],
+      "layoutShift": 0,
+      "overflow": false,
+      "h1Count": 1
+    }
+  },
+  {
+    "width": 1920,
+    "theme": "dark",
+    "state": {
+      "hero": {
+        "x": 517.5,
+        "y": 89,
+        "width": 1095,
+        "height": 389.765625,
+        "right": 1612.5,
+        "bottom": 478.765625
+      },
+      "title": {
+        "x": 565.5,
+        "y": 163.96875,
+        "width": 999,
+        "height": 67.1875,
+        "right": 1564.5,
+        "bottom": 231.15625,
+        "text": "FAKE BANK",
+        "font": "64px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "copy": {
+        "x": 517.5,
+        "y": 89,
+        "width": 1095,
+        "height": 389.765625,
+        "right": 1612.5,
+        "bottom": 478.765625
+      },
+      "eyebrow": {
+        "x": 565.5,
+        "y": 137,
+        "width": 528.03125,
+        "height": 14.96875,
+        "right": 1093.53125,
+        "bottom": 151.96875,
+        "text": "OPEN SOURCE · PAYMENT SIMULATOR",
+        "color": "rgb(128, 218, 250)"
+      },
+      "description": {
+        "x": 565.5,
+        "y": 243.15625,
+        "width": 439.078125,
+        "height": 67.1875,
+        "right": 1004.578125,
+        "bottom": 310.34375,
+        "text": "An independent open-source payment provider simulator."
+      },
+      "cta": {
+        "x": 565.5,
+        "y": 388.9375,
+        "width": 161.75,
+        "height": 41.828125,
+        "right": 727.25,
+        "bottom": 430.765625,
+        "text": "View on GitHub ↗",
+        "href": "https://github.com/nick-roust/fake-bank"
+      },
+      "image": {
+        "x": 517.5,
+        "y": 89,
+        "width": 1095,
+        "height": 389.765625,
+        "right": 1612.5,
+        "bottom": 478.765625,
+        "src": "/images/fakebank-reflective-facade-1199.webp",
+        "position": "50% 48%",
+        "fit": "cover"
+      },
+      "overlay": "linear-gradient(90deg, rgba(5, 13, 19, 0.9), rgba(5, 13, 19, 0.46) 50%, rgba(5, 13, 19, 0.04) 85%), linear-gradient(0deg, rgba(5, 13, 19, 0.4), rgba(0, 0, 0, 0) 48%)",
+      "stack": {
+        "x": 565.5,
+        "y": 338.34375,
+        "width": 999,
+        "height": 18.59375,
+        "right": 1564.5,
+        "bottom": 356.9375,
+        "items": [
+          {
+            "text": "TypeScript",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "Fastify",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "React",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "PostgreSQL",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          },
+          {
+            "text": "Docker",
+            "height": 18.59375,
+            "svg": true,
+            "labelVisible": true
+          }
+        ]
+      },
+      "outside": [
+        {
+          "html": "<header class=\"site-header\"><div class=\"site-header__inner\"><a class=\"brand\" href=\"/\" aria-label=\"ROUST.US home\"><img class=\"brand__wordmark brand__wordmark--light\" src=\"/brand/roust-name-black.svg\" alt=\"\" width=\"180\" height=\"24\"><img class=\"brand__wordmark brand__wordmark--dark\" src=\"/brand/roust-name-white.svg\" alt=\"\" width=\"180\" height=\"24\"></a><nav class=\"primary-nav\" aria-label=\"Main navigation\"><a href=\"/about\">About</a><a href=\"/#building\">Building</a><a href=\"/#systems\" aria-current=\"page\">Projects</a><a href=\"/journal\">Journal</a><a href=\"#contact\">Contact</a></nav><div class=\"header-actions\"><a class=\"header-github\" href=\"https://github.com/nick-roust\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"GitHub\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M12 .75a11.25 11.25 0 0 0-3.56 21.92c.56.1.77-.24.77-.54v-2.1c-3.14.68-3.8-1.33-3.8-1.33-.51-1.3-1.25-1.64-1.25-1.64-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.66 1.23 3.31.94.1-.73.4-1.23.72-1.51-2.51-.29-5.15-1.26-5.15-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .95-.3 3.1 1.16a10.8 10.8 0 0 1 5.64 0c2.15-1.46 3.1-1.16 3.1-1.16.62 1.57.23 2.73.11 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.65 5.3-5.17 5.59.41.36.77 1.05.77 2.12v3.15c0 .3.2.65.78.54A11.25 11.25 0 0 0 12 .75Z\"></path></svg></a><button class=\"theme-toggle\" type=\"button\" data-theme-toggle=\"\" aria-label=\"Switch to dark theme\"><svg data-theme-icon=\"sun\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"></circle><path d=\"M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42\"></path></svg><svg data-theme-icon=\"moon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6.5 6.5 0 0 0 8.268 8.268c.344-.215.825-.003.803.401\"></path></svg></button></div></div></header>",
+          "x": 0,
+          "y": 0,
+          "width": 1905,
+          "height": 89,
+          "right": 1905,
+          "bottom": 89
+        },
+        {
+          "html": "<aside class=\"product-navigation product-navigation--desktop\"><nav aria-label=\"Product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></aside>",
+          "x": 292.5,
+          "y": 112,
+          "width": 200,
+          "height": 464.75,
+          "right": 492.5,
+          "bottom": 576.75
+        },
+        {
+          "html": "<details class=\"product-navigation product-navigation--compact\"><summary>FAKE BANK <span>Product navigation</span></summary><nav aria-label=\"Mobile product navigation\"><p class=\"product-navigation__name\">FAKE BANK</p><ul class=\"product-navigation__sections\"><li><a data-section-link=\"\" href=\"#overview\" aria-current=\"location\">Overview</a></li><li><a data-section-link=\"\" href=\"#context\">Context</a></li><li><a data-section-link=\"\" href=\"#architecture\">Architecture</a></li><li><a data-section-link=\"\" href=\"#implementation\">Implementation</a></li><li><a data-section-link=\"\" href=\"#verification\">Verification</a></li><li><a data-section-link=\"\" href=\"#status\">Status</a></li></ul><ul class=\"product-navigation__products\"><li><a href=\"/labs/fake-shop\">FAKE SHOP</a></li><li><a href=\"/building-paymentgate\">PG27</a></li><li><a href=\"/bik\">BIK / ED807</a></li></ul></nav></details>",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"context\" aria-labelledby=\"context-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Context</p><h2 id=\"context-title\">Why Fake Bank exists</h2><p>Payment integrations need a provider on the other side of the transaction. Fake Bank supplies that boundary in a controlled local environment: a payment API, a buyer-facing checkout and events sent back to the merchant.</p></div><div class=\"context-panel\"><div><h3>Simulated payments</h3><p>Exercise payment flows without moving real money.</p></div><div><h3>Explicit scenarios</h3><p>Select success, failure and timing behavior.</p></div><div><h3>Independent by design</h3><p>Connect a merchant application through the provider contract.</p></div></div></section>",
+          "x": 517.5,
+          "y": 478.765625,
+          "width": 1095,
+          "height": 315.09375,
+          "right": 1612.5,
+          "bottom": 793.859375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"problem\" aria-labelledby=\"problem-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Problem</p><h2 id=\"problem-title\">What needs to be solved</h2><p>A successful checkout is only part of an integration. Delayed results, declined payments, missing events and duplicate deliveries all affect merchant state. A controlled simulator makes these paths repeatable during development.</p></div><ul class=\"scenario-list\"><li>Payment lifecycle transitions</li><li>Hosted checkout and card simulation</li><li>Delayed and duplicate webhook scenarios</li><li>Timeout and provider-error behavior</li><li>A local, inspectable provider boundary</li></ul></section>",
+          "x": 517.5,
+          "y": 793.859375,
+          "width": 1095,
+          "height": 274.625,
+          "right": 1612.5,
+          "bottom": 1068.484375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"architecture\" aria-labelledby=\"architecture-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Architecture</p><h2 id=\"architecture-title\">System design</h2><p>The merchant owns its orders and business logic. Fake Bank owns simulated provider payments, checkout state, scenario execution and webhook delivery attempts. PostgreSQL stores provider records and events.</p><a href=\"https://github.com/nick-roust/fake-bank/blob/main/docs/ARCHITECTURE.md\">Read the architecture <span aria-hidden=\"true\">→</span></a></div><figure class=\"architecture-diagram\" aria-labelledby=\"architecture-caption\"><div class=\"architecture-diagram__flow\"><div class=\"diagram-node\">Merchant<br><small>Application</small></div><div class=\"diagram-exchange\"><span>API →</span><span>← Webhooks</span></div><div class=\"diagram-provider\"><strong>FAKE BANK</strong><div class=\"diagram-node\">Payment API</div><div class=\"diagram-node\">Hosted Checkout</div><div class=\"diagram-node\">Scenarios / Webhooks</div></div><span class=\"diagram-arrow\" aria-hidden=\"true\">↔</span><div class=\"diagram-node\">PostgreSQL<br><small>Provider state</small></div></div><figcaption id=\"architecture-caption\">Buyer → Hosted Checkout → Payment API.<br>Provider events return to the merchant webhook URL.</figcaption></figure></section>",
+          "x": 517.5,
+          "y": 1068.484375,
+          "width": 1095,
+          "height": 315.5,
+          "right": 1612.5,
+          "bottom": 1383.984375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"implementation\" aria-labelledby=\"implementation-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Implementation</p><h2 id=\"implementation-title\">Key components</h2><p>A TypeScript API built with Fastify serves the payment contract. React provides hosted checkout. Named scenarios control outcomes; PostgreSQL records payments and webhook attempts. Docker Compose supports local execution.</p><div class=\"product-links\"><a href=\"https://github.com/nick-roust/fake-bank/blob/main/openapi/openapi.yaml\">API contract <span aria-hidden=\"true\">→</span></a><a href=\"https://github.com/nick-roust/fake-bank#quick-start\">Local setup <span aria-hidden=\"true\">→</span></a></div></div><figure class=\"code-panel\"><figcaption><span>POST /v1/payments</span><span>JSON</span></figcaption><pre tabindex=\"0\" aria-label=\"Example payment creation request\"><code>{\n  \"merchant_id\": \"demo-shop\",\n  \"amount\": 199.99,\n  \"currency\": \"EUR\",\n  \"payment_method\": \"card\",\n  \"return_url\": \"https://merchant.example/return\",\n  \"webhook_url\": \"https://merchant.example/webhooks\",\n  \"scenario\": \"card_success\"\n}</code></pre><p>Illustrative request. Example URLs are placeholders.</p></figure></section>",
+          "x": 517.5,
+          "y": 1383.984375,
+          "width": 1095,
+          "height": 361.1875,
+          "right": 1612.5,
+          "bottom": 1745.171875
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"verification\" aria-labelledby=\"verification-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Verification</p><h2 id=\"verification-title\">Testing and validation</h2><p>The repository contains automated checks for payment routes, lifecycle behavior, scenario outcomes and webhook delivery. These checks define expected behavior; they do not establish production readiness.</p><p class=\"verification-note\">Runtime acceptance has not been rerun for this page. Published verification results remain pending.</p></div><div class=\"verification-panel\"><h3>Repository evidence <span>Source review</span></h3><ul><li>Payment creation and input validation</li><li>Checkout confirmation and lifecycle transitions</li><li>Scenario and webhook behavior</li><li>OpenAPI and migration validation scripts</li><li>Reference merchant integration</li></ul><p>Test definitions present · Runtime results pending</p></div></section>",
+          "x": 517.5,
+          "y": 1745.171875,
+          "width": 1095,
+          "height": 330.5625,
+          "right": 1612.5,
+          "bottom": 2075.734375
+        },
+        {
+          "html": "<section class=\"product-section\" id=\"status\" aria-labelledby=\"status-title\"><div class=\"product-section__copy\"><p class=\"eyebrow\">Status</p><h2 id=\"status-title\">Current status</h2><p>Fake Bank is available as an open-source simulator for local development and integration work. The repository includes setup instructions, API documentation and a reference merchant. Public hosted-demo availability has not been verified.</p></div><div class=\"status-panel\"><h3>Independent provider simulator</h3><dl><div><dt>Runtime</dt><dd>Local development</dd></div><div><dt>Repository</dt><dd><a href=\"https://github.com/nick-roust/fake-bank\">nick-roust/fake-bank</a></dd></div><div><dt>License</dt><dd>Apache-2.0</dd></div></dl></div></section>",
+          "x": 517.5,
+          "y": 2075.734375,
+          "width": 1095,
+          "height": 298.84375,
+          "right": 1612.5,
+          "bottom": 2374.578125
+        },
+        {
+          "html": "<section class=\"contact-section\" id=\"contact\" aria-labelledby=\"contact-title\"><div class=\"container contact-section__layout\"><div class=\"contact-section__copy\"><p class=\"eyebrow\">Contact</p><h2 id=\"contact-title\">Let's build something.</h2><p class=\"contact-section__invite\">Open for collaboration, consulting and new projects.</p></div><div class=\"contact-section__channels\"><ul class=\"profile-list\" aria-label=\"Contact channels\"><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"mailto:nick@roust.us\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M3 7l9 6l9-6\"></path><path d=\"M5 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">Email</span><span class=\"profile-list__value\">nick@roust.us</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://github.com/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path d=\"M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 19 3.77 5.07 5.07 0 0 0 18.91 0S17.73-.35 15 1.48a13.38 13.38 0 0 0-7 0C5.27-.35 4.09 0 4.09 0A5.07 5.07 0 0 0 4 3.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 8 17.13V21\" transform=\"translate(1 1) scale(.92)\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">GitHub</span><span class=\"profile-list__value\">github.com/nick-roust</span></span></a></li><li class=\"profile-list__item\"><a class=\"profile-list__link\" href=\"https://linkedin.com/in/nick-roust\"><span class=\"profile-list__icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" focusable=\"false\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M8 11v5\"></path><path d=\"M8 8v.01\"></path><path d=\"M12 16v-5\"></path><path d=\"M16 16v-3a2 2 0 1 0-4 0\"></path><path d=\"M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z\"></path></svg></span><span class=\"profile-list__copy\"><span class=\"profile-list__name\">LinkedIn</span><span class=\"profile-list__value\">linkedin.com/in/nick-roust</span></span></a></li></ul></div></div></section>",
+          "x": 0,
+          "y": 2374.578125,
+          "width": 1905,
+          "height": 212.703125,
+          "right": 1905,
+          "bottom": 2587.28125
+        },
+        {
+          "html": "<footer class=\"site-footer\"><div class=\"container site-footer__inner\"><p>© 2006-2026 ROUST.US</p><a class=\"site-footer__brand\" href=\"/\" aria-label=\"ROUST.US home\"><img src=\"/brand/roust-monogram-muted.svg\" alt=\"\" width=\"48\" height=\"48\"></a><a class=\"site-footer__top\" href=\"#main\">Back to top <span aria-hidden=\"true\">↑</span></a></div></footer>",
+          "x": 0,
+          "y": 2587.28125,
+          "width": 1905,
+          "height": 101,
+          "right": 1905,
+          "bottom": 2688.28125
+        }
+      ],
+      "layoutShift": 0,
+      "overflow": false,
+      "h1Count": 1
+    }
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "canonicalPageBaseline": true,
+  "comparisonRoutesCreated": false,
+  "candidateImagesInProduction": [],
+  "temporaryPreviewMarkersInCanonicalOutput": false,
+  "staticRouteCount": 14,
+  "routes": [
+    "about/index.html",
+    "bik/index.html",
+    "building-paymentgate/index.html",
+    "index.html",
+    "journal/index.html",
+    "labs/bik-ed807/index.html",
+    "labs/fake-bank/index.html",
+    "labs/fake-shop/index.html",
+    "labs/index.html",
+    "open-source/index.html",
+    "projects/index.html",
+    "projects/paymentgate/index.html",
+    "projects/pg27/index.html",
+    "tools/index.html"
+  ]
+}

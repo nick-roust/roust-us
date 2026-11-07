@@ -8,8 +8,8 @@ import { getHomepageJournalEntries, getVisibleJournalEntries } from '../lib/jour
 const projects = [
   { title: 'FAKE SHOP', label: 'OPEN SOURCE', description: 'E-commerce simulator for realistic buyer scenarios.', href: '/labs/fake-shop/' },
   { title: 'FAKE BANK', label: 'OPEN SOURCE', description: 'Independent payment provider simulator.', href: '/labs/fake-bank/' },
-  { title: 'PG27', label: 'IN DEVELOPMENT', description: 'Transaction infrastructure with independent execution nodes.', href: '/building-paymentgate/' },
-  { title: 'BIK / ED807', label: 'Pending verification', description: 'Russian banking directory converter.', href: '/bik/' },
+  { title: 'PG27', label: 'IN DEVELOPMENT', description: 'Transaction infrastructure with independent execution nodes.', href: '/projects/pg27/' },
+  { title: 'BIK / ED807', label: 'Pending verification', description: 'Russian banking directory converter.', href: '/labs/bik-ed807/' },
 ];
 const journalCollection = await getCollection('journal');
 const journalEntries = getHomepageJournalEntries(getVisibleJournalEntries(journalCollection, import.meta.env.DEV));

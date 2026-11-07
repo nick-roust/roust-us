@@ -1,0 +1,56 @@
+[
+  {
+    "path": "public/images/fakebank-reflective-facade-1199.avif",
+    "dimensions": [
+      1199,
+      1312
+    ],
+    "bytes": 51606,
+    "sha256": "0a254b5dc98cb1cd40dd1f6aa036ee37874090b7ff3da547b6878872dc730101"
+  },
+  {
+    "path": "public/images/fakebank-reflective-facade-1199.webp",
+    "dimensions": [
+      1199,
+      1312
+    ],
+    "bytes": 121234,
+    "sha256": "4bfff2bbb2f366785ce2569f0b4d01eec5951a9f429058a7dc1a847bc987c3a1"
+  },
+  {
+    "path": "public/images/fakebank-reflective-facade-512.avif",
+    "dimensions": [
+      512,
+      560
+    ],
+    "bytes": 17325,
+    "sha256": "c90b0fafc0b63184ebaad7026b89560ac4932e794739566a73bd23a49a5d3159"
+  },
+  {
+    "path": "public/images/fakebank-reflective-facade-512.webp",
+    "dimensions": [
+      512,
+      560
+    ],
+    "bytes": 36132,
+    "sha256": "d5c2417846850716e72bfbafc4eb981f5349ef375a5cd6ac90e1fa842e563c06"
+  },
+  {
+    "path": "public/images/fakebank-reflective-facade-768.avif",
+    "dimensions": [
+      768,
+      840
+    ],
+    "bytes": 29702,
+    "sha256": "d972cf9829b8d43c31e975f9d66d740011db4f6f95aafbc4a9121da700e52d80"
+  },
+  {
+    "path": "public/images/fakebank-reflective-facade-768.webp",
+    "dimensions": [
+      768,
+      840
+    ],
+    "bytes": 67194,
+    "sha256": "3bbf223e41e8323467cb603fd5fdc085220a2ab7675aee242b4ce63835ae0ec5"
+  }
+]

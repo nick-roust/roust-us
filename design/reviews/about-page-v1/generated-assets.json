@@ -1,0 +1,32 @@
+[
+  {
+    "path": "public/images/about/nick-roust-motorcycle-640.webp",
+    "format": "webp",
+    "width": 640,
+    "height": 360,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 49082
+  },
+  {
+    "path": "public/images/about/nick-roust-motorcycle-1024.webp",
+    "format": "webp",
+    "width": 1024,
+    "height": 576,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 107758
+  },
+  {
+    "path": "public/images/about/nick-roust-motorcycle-1672.webp",
+    "format": "webp",
+    "width": 1672,
+    "height": 941,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 225976
+  }
+]

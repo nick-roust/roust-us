@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "modifiedExistingFiles": [
+    "src/content/journal/307-hours-for-one-invoice.md",
+    "src/content/journal/platform-node-integration.md"
+  ],
+  "unchangedExistingFiles": 73,
+  "articleBodiesAndNonHeroMetadata": "8/8 unchanged",
+  "sources": [
+    {
+      "path": "design/references/Грандиозный машинный зал гидроэлектростанции.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "sha256": "09fc1528cc93c8dc25b501a730efa572059fe1f30cd9b1393e01790329be3279",
+      "bytes": 2634848
+    },
+    {
+      "path": "design/references/Строительство моста на закате.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "sha256": "d93929b3f31bf906d0e4733a53171f47a06f0b9ac378d1db8898032aa7d68b0c",
+      "bytes": 2710871
+    }
+  ],
+  "assets": [
+    {
+      "path": "public/images/journal/invoice-hidden-foundation-hydroelectric-hall.webp",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "bytes": 310678,
+      "sha256": "7facb5c1a69b486acf5a0519578b5d3df0f305b886a2f022e96ce3ce9b1fcea1"
+    },
+    {
+      "path": "public/images/journal/platform-node-bridge-construction.webp",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "bytes": 340108,
+      "sha256": "d106ffd4aa76aa7ed5a46d3401a931089ddec6c87cec6a467826c7aeb79256d8"
+    }
+  ],
+  "existingThreeHeroes": "files and metadata unchanged",
+  "homepageAndGlobalCSS": "unchanged",
+  "newDependencies": 0
+}

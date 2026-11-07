@@ -1,0 +1,24 @@
+[
+  {
+    "project": "fake-shop",
+    "revision": "f6e90101440b28c3cd1e77bf8a15b81b5043ac77",
+    "license": "Apache-2.0",
+    "sources": [
+      "LICENSE",
+      "package.json"
+    ],
+    "licenseSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "workingFilesMatchRevision": true
+  },
+  {
+    "project": "fake-bank",
+    "revision": "8d4e828723b557143e8a6e3d2d14fd16968ee061",
+    "license": "Apache-2.0",
+    "sources": [
+      "LICENSE",
+      "package.json"
+    ],
+    "licenseSha256": "c78340e2227e617c0655f21e61bf64fef8054ae9ecce0430452f60c5833f72d6",
+    "workingFilesMatchRevision": true
+  }
+]

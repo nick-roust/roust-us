@@ -1,0 +1,96 @@
+---
+interface Section { id: string; label: string; }
+interface Props {
+  activeProject: 'fake-shop' | 'fake-bank' | 'pg27' | 'bik-ed807';
+  sections: Section[];
+  currentSection?: string;
+}
+const { activeProject, sections, currentSection = sections[0]?.id } = Astro.props;
+const projects = [
+  { id: 'fake-shop', label: 'FAKE SHOP', href: '/labs/fake-shop/', oss: true },
+  { id: 'fake-bank', label: 'FAKE BANK', href: '/labs/fake-bank/', oss: true },
+  { id: 'pg27', label: 'PG27', href: '/projects/pg27/', oss: false },
+  { id: 'bik-ed807', label: 'BIK / ED807', href: '/labs/bik-ed807/', oss: false },
+];
+const active = projects.find((project) => project.id === activeProject)!;
+---
+{[false, true].map((compact) => {
+  const Container = compact ? 'details' : 'aside';
+  return (
+    <Container class:list={['product-navigation', { 'product-navigation--compact': compact, 'product-navigation--desktop': !compact }]} data-product-sidebar data-default-section={currentSection}>
+      {compact && <summary>{active.label}{active.oss && <abbr class="product-navigation__oss product-navigation__oss--summary" aria-label="Open Source Software">OSS</abbr>}<span>Product navigation</span></summary>}
+      <nav aria-label={compact ? 'Mobile product navigation' : 'Product navigation'}>
+        <p class="product-navigation__name" aria-current="page"><span>{active.label}</span>{active.oss && <abbr class="product-navigation__oss" aria-label="Open Source Software">OSS</abbr>}</p>
+        <ul class="product-navigation__sections">
+          {sections.map((section) => <li><a data-product-section-link href={`#${section.id}`} aria-current={section.id === currentSection ? 'location' : undefined}>{section.label}</a></li>)}
+        </ul>
+        <ul class="product-navigation__products">
+          {projects.filter((project) => project.id !== activeProject).map((project) => <li><a href={project.href}><span>{project.label}</span>{project.oss && <abbr class="product-navigation__oss" aria-label="Open Source Software">OSS</abbr>}</a></li>)}
+        </ul>
+      </nav>
+    </Container>
+  );
+})}
+<script>
+  const sidebars = document.querySelectorAll<HTMLElement>('[data-product-sidebar]');
+  const updateSection = () => {
+    sidebars.forEach((sidebar) => {
+      const links = sidebar.querySelectorAll<HTMLAnchorElement>('[data-product-section-link]');
+      const hash = [...links].some((link) => link.hash === location.hash)
+        ? location.hash : `#${sidebar.dataset.defaultSection}`;
+      links.forEach((link) => {
+        if (link.hash === hash) link.setAttribute('aria-current', 'location');
+        else link.removeAttribute('aria-current');
+      });
+    });
+  };
+  updateSection();
+  window.addEventListener('hashchange', updateSection);
+  window.addEventListener('popstate', updateSection);
+  sidebars.forEach((sidebar) => {
+    if (!(sidebar instanceof HTMLDetailsElement)) return;
+    sidebar.querySelectorAll<HTMLAnchorElement>('a').forEach((link) => {
+      link.addEventListener('click', (event) => {
+        const target = link.getAttribute('href')?.startsWith('#') && document.getElementById(link.hash.slice(1));
+        sidebar.open = false;
+        if (target) {
+          event.preventDefault();
+          if (location.hash !== link.hash) history.pushState(null, '', link.hash);
+          updateSection();
+          requestAnimationFrame(() => {
+            target.scrollIntoView();
+            target.setAttribute('tabindex', '-1');
+            target.focus({ preventScroll: true });
+          });
+        }
+      });
+    });
+  });
+</script>
+<style>
+  .product-navigation--desktop { align-self: start; position: sticky; top: calc(var(--site-header-block-size) + 24px); padding-block: 32px; }
+  .product-navigation--compact { display: none; }
+  .product-navigation nav { font-size: .85rem; }
+  .product-navigation__name { margin-bottom: 12px; font-size: .78rem; font-weight: 700; }
+  .product-navigation ul { padding: 0; margin: 0; list-style: none; }
+  .product-navigation a { display: block; padding: 8px 12px; text-decoration: none; color: var(--muted); border-inline-start: 2px solid transparent; }
+  .product-navigation a:hover { color: var(--ink); }
+  .product-navigation a[aria-current] { color: var(--ink); border-color: var(--accent); font-weight: 650; }
+  .product-navigation .product-navigation__products { margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--line); }
+  .product-navigation__products a { color: var(--ink); font-size: .78rem; }
+  .product-navigation__name { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .product-navigation__products a { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .product-navigation__oss { color: var(--muted); font-size: .6rem; font-weight: 400; letter-spacing: .05em; text-decoration: none; }
+  .product-navigation__oss--summary { margin-inline-start: 8px; }
+  @media (max-width: 1023px) {
+    .product-navigation--desktop { display: none; }
+    .product-navigation--compact { display: block; position: sticky; z-index: 5; top: var(--site-header-block-size); background: var(--surface); border-bottom: 1px solid var(--line); }
+    .product-navigation summary { display: list-item; padding: 16px; cursor: pointer; font-size: .78rem; font-weight: 650; }
+    .product-navigation summary span { margin-inline-start: 16px; font-weight: 400; color: var(--muted); }
+    .product-navigation summary:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+    .product-navigation nav { padding: 8px 16px 16px; max-height: 55svh; overflow-y: auto; }
+    .product-navigation__name { display: none; }
+    .product-navigation__sections { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .product-navigation .product-navigation__products { margin-top: 12px; padding-top: 8px; }
+  }
+</style>

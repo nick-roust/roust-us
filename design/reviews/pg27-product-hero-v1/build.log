@@ -1,0 +1,48 @@
+$ astro check && astro build
+16:02:55 [content] Syncing content
+16:02:55 [content] Synced content
+16:02:55 [types] Generated 293ms
+16:02:55 [check] Getting diagnostics for Astro files in /home/nickk/roust-us...
+[96mdesign/reviews/about-page-v1/verify-about.mjs[0m:[93m2[0m:[93m10[0m - [93mwarning[0m[90m ts(6133): [0m'readFile' is declared but its value is never read.
+
+[7m2[0m import { readFile, writeFile } from 'node:fs/promises';
+[7m [0m [93m         ~~~~~~~~[0m
+
+Result (59 files): 
+- 0 errors
+- 0 warnings
+- 1 hint
+
+16:02:57 [content] Syncing content
+16:02:57 [content] Synced content
+16:02:57 [types] Generated 232ms
+16:02:57 [build] output: "static"
+16:02:57 [build] mode: "static"
+16:02:57 [build] directory: /home/nickk/roust-us/dist/
+16:02:57 [build] Collecting build info...
+16:02:57 [build] ✓ Completed in 253ms.
+16:02:57 [build] Building static entrypoints...
+16:02:58 [vite] ✓ built in 203ms
+16:02:58 [vite] ✓ built in 19ms
+16:02:58 [build] Rearranging server assets...
+
+ generating static routes 
+16:02:58   ├─ /about/index.html (+6ms) 
+16:02:58   ├─ /bik/index.html (+1ms) 
+16:02:58   ├─ /building-paymentgate/index.html (+1ms) 
+16:02:58   ├─ /journal/index.html (+1ms) 
+16:02:58   ├─ /labs/bik-ed807/index.html (+3ms) 
+16:02:58   ├─ /labs/fake-bank/index.html (+2ms) 
+16:02:58   ├─ /labs/fake-shop/index.html (+1ms) 
+16:02:58   ├─ /labs/index.html (+1ms) 
+16:02:58   ├─ /open-source/index.html (+1ms) 
+16:02:58   ├─ /projects/paymentgate/index.html (+1ms) 
+16:02:58   ├─ /projects/pg27/index.html (+1ms) 
+16:02:58   ├─ /projects/index.html (+1ms) 
+16:02:58   ├─ /tools/index.html (+1ms) 
+16:02:58   ├─ /index.html (+1ms) 
+16:02:58 ✓ Completed in 38ms.
+
+16:02:58 [build] ✓ Completed in 280ms.
+16:02:58 [build] 14 page(s) built in 536ms
+16:02:58 [build] Complete!

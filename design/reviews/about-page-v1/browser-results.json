@@ -1,0 +1,1323 @@
+{
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/156.0.8078.79",
+    "revision": "@a21ce95c24ce3964416f09ae1862f53f319eb4d0",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "jsVersion": "15.6.75.27"
+  },
+  "cases": [
+    {
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "sidebar": false,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 560,
+        "bottom": 560
+      },
+      "image": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 560,
+        "bottom": 560
+      },
+      "copy": {
+        "x": 16,
+        "y": 0,
+        "width": 343,
+        "height": 560,
+        "bottom": 560
+      },
+      "heading": {
+        "x": 16,
+        "y": 226.359375,
+        "width": 343,
+        "height": 57.328125,
+        "bottom": 283.6875
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 96.59375,
+        "bottom": 96.59375
+      },
+      "headerBackground": "rgba(24, 40, 56, 0.49)",
+      "headerPosition": "absolute",
+      "subtitle": {
+        "x": 16,
+        "y": 302.078125,
+        "width": 343,
+        "height": 48.9375,
+        "bottom": 351.015625
+      },
+      "imageLoaded": true,
+      "imageSource": "http://localhost:4321/images/about/nick-roust-motorcycle-640.webp",
+      "fit": "cover",
+      "position": "58% 0%",
+      "face": {
+        "x": 175.9850159404889,
+        "y": 107.12008501594049,
+        "width": 41.65781083953242,
+        "height": 65.46227417640807
+      },
+      "heroColor": "rgb(245, 247, 249)",
+      "bodyColor": "rgb(237, 242, 244)",
+      "headerActive": "About",
+      "sections": [
+        "Architecture before implementation",
+        "From design to operation",
+        "AI as an engineering instrument",
+        "Systems and tools",
+        "Work, as it happens."
+      ],
+      "links": [
+        {
+          "text": "FakeShop",
+          "href": "/labs/fake-shop/"
+        },
+        {
+          "text": "FakeBank",
+          "href": "/labs/fake-bank/"
+        },
+        {
+          "text": "PG27",
+          "href": "/projects/pg27/"
+        },
+        {
+          "text": "BIK / ED807",
+          "href": "/labs/bik-ed807/"
+        },
+        {
+          "text": "Explore the Journal →",
+          "href": "/journal/"
+        }
+      ],
+      "provisional": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.",
+      "contactCount": 1,
+      "footerCount": 1,
+      "ids": [
+        "main",
+        "about-title",
+        "editorial-status",
+        "perspective-title",
+        "practice-title",
+        "ai-title",
+        "work-title",
+        "chronicle-title",
+        "contact",
+        "contact-title"
+      ],
+      "bodyHeight": 2725,
+      "journalHeaderStyleParity": true,
+      "sharedStyle": {
+        "header": {
+          "background": "rgba(24, 40, 56, 0.49)",
+          "position": "absolute",
+          "color": "rgb(237, 242, 244)",
+          "border": "0px",
+          "logoLight": "none",
+          "logoDark": "block",
+          "nav": "color(srgb 0.929412 0.94902 0.956863 / 0.78)"
+        },
+        "hero": {
+          "minHeight": "560px",
+          "background": "rgb(7, 19, 28)",
+          "scrim": "linear-gradient(90deg, rgba(7, 19, 28, 0.9), rgba(7, 19, 28, 0.52) 75%, rgba(7, 19, 28, 0.28)), linear-gradient(0deg, rgba(7, 19, 28, 0.4), rgba(0, 0, 0, 0) 60%)",
+          "titleFont": "58.5px",
+          "titleWeight": "570"
+        }
+      }
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "sidebar": false,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 560,
+        "bottom": 560
+      },
+      "image": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 560,
+        "bottom": 560
+      },
+      "copy": {
+        "x": 16,
+        "y": 0,
+        "width": 343,
+        "height": 560,
+        "bottom": 560
+      },
+      "heading": {
+        "x": 16,
+        "y": 226.359375,
+        "width": 343,
+        "height": 57.328125,
+        "bottom": 283.6875
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 96.59375,
+        "bottom": 96.59375
+      },
+      "headerBackground": "rgba(250, 249, 246, 0.86)",
+      "headerPosition": "absolute",
+      "subtitle": {
+        "x": 16,
+        "y": 302.078125,
+        "width": 343,
+        "height": 48.9375,
+        "bottom": 351.015625
+      },
+      "imageLoaded": true,
+      "imageSource": "http://localhost:4321/images/about/nick-roust-motorcycle-640.webp",
+      "fit": "cover",
+      "position": "58% 0%",
+      "face": {
+        "x": 175.9850159404889,
+        "y": 107.12008501594049,
+        "width": 41.65781083953242,
+        "height": 65.46227417640807
+      },
+      "heroColor": "rgb(245, 247, 249)",
+      "bodyColor": "rgb(21, 33, 43)",
+      "headerActive": "About",
+      "sections": [
+        "Architecture before implementation",
+        "From design to operation",
+        "AI as an engineering instrument",
+        "Systems and tools",
+        "Work, as it happens."
+      ],
+      "links": [
+        {
+          "text": "FakeShop",
+          "href": "/labs/fake-shop/"
+        },
+        {
+          "text": "FakeBank",
+          "href": "/labs/fake-bank/"
+        },
+        {
+          "text": "PG27",
+          "href": "/projects/pg27/"
+        },
+        {
+          "text": "BIK / ED807",
+          "href": "/labs/bik-ed807/"
+        },
+        {
+          "text": "Explore the Journal →",
+          "href": "/journal/"
+        }
+      ],
+      "provisional": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.",
+      "contactCount": 1,
+      "footerCount": 1,
+      "ids": [
+        "main",
+        "about-title",
+        "editorial-status",
+        "perspective-title",
+        "practice-title",
+        "ai-title",
+        "work-title",
+        "chronicle-title",
+        "contact",
+        "contact-title"
+      ],
+      "bodyHeight": 2725,
+      "journalHeaderStyleParity": true,
+      "sharedStyle": {
+        "header": {
+          "background": "rgba(250, 249, 246, 0.86)",
+          "position": "absolute",
+          "color": "rgb(21, 33, 43)",
+          "border": "0px",
+          "logoLight": "block",
+          "logoDark": "none",
+          "nav": "color(srgb 0.082353 0.129412 0.168627 / 0.78)"
+        },
+        "hero": {
+          "minHeight": "560px",
+          "background": "rgb(7, 19, 28)",
+          "scrim": "linear-gradient(90deg, rgba(7, 19, 28, 0.9), rgba(7, 19, 28, 0.52) 75%, rgba(7, 19, 28, 0.28)), linear-gradient(0deg, rgba(7, 19, 28, 0.4), rgba(0, 0, 0, 0) 60%)",
+          "titleFont": "58.5px",
+          "titleWeight": "570"
+        }
+      }
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "sidebar": false,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 753,
+        "height": 560,
+        "bottom": 560
+      },
+      "image": {
+        "x": 233.421875,
+        "y": 0,
+        "width": 519.578125,
+        "height": 560,
+        "bottom": 560
+      },
+      "copy": {
+        "x": 24,
+        "y": 0,
+        "width": 705,
+        "height": 560,
+        "bottom": 560
+      },
+      "heading": {
+        "x": 24,
+        "y": 161.359375,
+        "width": 384,
+        "height": 47.03125,
+        "bottom": 208.390625
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 753,
+        "height": 88,
+        "bottom": 88
+      },
+      "headerBackground": "rgba(24, 40, 56, 0.49)",
+      "headerPosition": "absolute",
+      "subtitle": {
+        "x": 24,
+        "y": 226.78125,
+        "width": 384,
+        "height": 48.9375,
+        "bottom": 275.71875
+      },
+      "imageLoaded": true,
+      "imageSource": "http://localhost:4321/images/about/nick-roust-motorcycle-640.webp",
+      "fit": "cover",
+      "position": "100% 0%",
+      "face": {
+        "x": 293.5738575982997,
+        "y": 107.12008501594049,
+        "width": 41.65781083953242,
+        "height": 65.46227417640807
+      },
+      "heroColor": "rgb(245, 247, 249)",
+      "bodyColor": "rgb(237, 242, 244)",
+      "headerActive": "About",
+      "sections": [
+        "Architecture before implementation",
+        "From design to operation",
+        "AI as an engineering instrument",
+        "Systems and tools",
+        "Work, as it happens."
+      ],
+      "links": [
+        {
+          "text": "FakeShop",
+          "href": "/labs/fake-shop/"
+        },
+        {
+          "text": "FakeBank",
+          "href": "/labs/fake-bank/"
+        },
+        {
+          "text": "PG27",
+          "href": "/projects/pg27/"
+        },
+        {
+          "text": "BIK / ED807",
+          "href": "/labs/bik-ed807/"
+        },
+        {
+          "text": "Explore the Journal →",
+          "href": "/journal/"
+        }
+      ],
+      "provisional": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.",
+      "contactCount": 1,
+      "footerCount": 1,
+      "ids": [
+        "main",
+        "about-title",
+        "editorial-status",
+        "perspective-title",
+        "practice-title",
+        "ai-title",
+        "work-title",
+        "chronicle-title",
+        "contact",
+        "contact-title"
+      ],
+      "bodyHeight": 2347,
+      "journalHeaderStyleParity": true,
+      "sharedStyle": {
+        "header": {
+          "background": "rgba(24, 40, 56, 0.49)",
+          "position": "absolute",
+          "color": "rgb(237, 242, 244)",
+          "border": "0px",
+          "logoLight": "none",
+          "logoDark": "block",
+          "nav": "color(srgb 0.929412 0.94902 0.956863 / 0.78)"
+        },
+        "hero": {
+          "minHeight": "560px",
+          "background": "rgb(7, 19, 28)",
+          "scrim": "linear-gradient(90deg, rgb(7, 19, 28) 0%, rgba(7, 19, 28, 0.8) 10%, rgba(7, 19, 28, 0.1) 55%, rgba(7, 19, 28, 0.08)), linear-gradient(0deg, rgba(7, 19, 28, 0.24), rgba(0, 0, 0, 0) 40%)",
+          "titleFont": "48px",
+          "titleWeight": "570"
+        }
+      }
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "sidebar": false,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 753,
+        "height": 560,
+        "bottom": 560
+      },
+      "image": {
+        "x": 233.421875,
+        "y": 0,
+        "width": 519.578125,
+        "height": 560,
+        "bottom": 560
+      },
+      "copy": {
+        "x": 24,
+        "y": 0,
+        "width": 705,
+        "height": 560,
+        "bottom": 560
+      },
+      "heading": {
+        "x": 24,
+        "y": 161.359375,
+        "width": 384,
+        "height": 47.03125,
+        "bottom": 208.390625
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 753,
+        "height": 88,
+        "bottom": 88
+      },
+      "headerBackground": "rgba(250, 249, 246, 0.86)",
+      "headerPosition": "absolute",
+      "subtitle": {
+        "x": 24,
+        "y": 226.78125,
+        "width": 384,
+        "height": 48.9375,
+        "bottom": 275.71875
+      },
+      "imageLoaded": true,
+      "imageSource": "http://localhost:4321/images/about/nick-roust-motorcycle-640.webp",
+      "fit": "cover",
+      "position": "100% 0%",
+      "face": {
+        "x": 293.5738575982997,
+        "y": 107.12008501594049,
+        "width": 41.65781083953242,
+        "height": 65.46227417640807
+      },
+      "heroColor": "rgb(245, 247, 249)",
+      "bodyColor": "rgb(21, 33, 43)",
+      "headerActive": "About",
+      "sections": [
+        "Architecture before implementation",
+        "From design to operation",
+        "AI as an engineering instrument",
+        "Systems and tools",
+        "Work, as it happens."
+      ],
+      "links": [
+        {
+          "text": "FakeShop",
+          "href": "/labs/fake-shop/"
+        },
+        {
+          "text": "FakeBank",
+          "href": "/labs/fake-bank/"
+        },
+        {
+          "text": "PG27",
+          "href": "/projects/pg27/"
+        },
+        {
+          "text": "BIK / ED807",
+          "href": "/labs/bik-ed807/"
+        },
+        {
+          "text": "Explore the Journal →",
+          "href": "/journal/"
+        }
+      ],
+      "provisional": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.",
+      "contactCount": 1,
+      "footerCount": 1,
+      "ids": [
+        "main",
+        "about-title",
+        "editorial-status",
+        "perspective-title",
+        "practice-title",
+        "ai-title",
+        "work-title",
+        "chronicle-title",
+        "contact",
+        "contact-title"
+      ],
+      "bodyHeight": 2347,
+      "journalHeaderStyleParity": true,
+      "sharedStyle": {
+        "header": {
+          "background": "rgba(250, 249, 246, 0.86)",
+          "position": "absolute",
+          "color": "rgb(21, 33, 43)",
+          "border": "0px",
+          "logoLight": "block",
+          "logoDark": "none",
+          "nav": "color(srgb 0.082353 0.129412 0.168627 / 0.78)"
+        },
+        "hero": {
+          "minHeight": "560px",
+          "background": "rgb(7, 19, 28)",
+          "scrim": "linear-gradient(90deg, rgb(7, 19, 28) 0%, rgba(7, 19, 28, 0.8) 10%, rgba(7, 19, 28, 0.1) 55%, rgba(7, 19, 28, 0.08)), linear-gradient(0deg, rgba(7, 19, 28, 0.24), rgba(0, 0, 0, 0) 40%)",
+          "titleFont": "48px",
+          "titleWeight": "570"
+        }
+      }
+    },
+    {
+      "width": 1024,
+      "theme": "dark",
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "sidebar": false,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1009,
+        "height": 560,
+        "bottom": 560
+      },
+      "image": {
+        "x": 312.78125,
+        "y": 0,
+        "width": 696.21875,
+        "height": 560,
+        "bottom": 560
+      },
+      "copy": {
+        "x": 24,
+        "y": 0,
+        "width": 961,
+        "height": 560,
+        "bottom": 560
+      },
+      "heading": {
+        "x": 24,
+        "y": 169.359375,
+        "width": 384,
+        "height": 50.171875,
+        "bottom": 219.53125
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1009,
+        "height": 88,
+        "bottom": 88
+      },
+      "headerBackground": "rgba(24, 40, 56, 0.49)",
+      "headerPosition": "absolute",
+      "subtitle": {
+        "x": 24,
+        "y": 237.921875,
+        "width": 384,
+        "height": 48.9375,
+        "bottom": 286.859375
+      },
+      "imageLoaded": true,
+      "imageSource": "http://localhost:4321/images/about/nick-roust-motorcycle-1024.webp",
+      "fit": "cover",
+      "position": "100% 0%",
+      "face": {
+        "x": 549.5738575982997,
+        "y": 107.12008501594049,
+        "width": 41.65781083953242,
+        "height": 65.46227417640807
+      },
+      "heroColor": "rgb(245, 247, 249)",
+      "bodyColor": "rgb(237, 242, 244)",
+      "headerActive": "About",
+      "sections": [
+        "Architecture before implementation",
+        "From design to operation",
+        "AI as an engineering instrument",
+        "Systems and tools",
+        "Work, as it happens."
+      ],
+      "links": [
+        {
+          "text": "FakeShop",
+          "href": "/labs/fake-shop/"
+        },
+        {
+          "text": "FakeBank",
+          "href": "/labs/fake-bank/"
+        },
+        {
+          "text": "PG27",
+          "href": "/projects/pg27/"
+        },
+        {
+          "text": "BIK / ED807",
+          "href": "/labs/bik-ed807/"
+        },
+        {
+          "text": "Explore the Journal →",
+          "href": "/journal/"
+        }
+      ],
+      "provisional": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.",
+      "contactCount": 1,
+      "footerCount": 1,
+      "ids": [
+        "main",
+        "about-title",
+        "editorial-status",
+        "perspective-title",
+        "practice-title",
+        "ai-title",
+        "work-title",
+        "chronicle-title",
+        "contact",
+        "contact-title"
+      ],
+      "bodyHeight": 2378,
+      "journalHeaderStyleParity": true,
+      "sharedStyle": {
+        "header": {
+          "background": "rgba(24, 40, 56, 0.49)",
+          "position": "absolute",
+          "color": "rgb(237, 242, 244)",
+          "border": "0px",
+          "logoLight": "none",
+          "logoDark": "block",
+          "nav": "color(srgb 0.929412 0.94902 0.956863 / 0.78)"
+        },
+        "hero": {
+          "minHeight": "560px",
+          "background": "rgb(7, 19, 28)",
+          "scrim": "linear-gradient(90deg, rgb(7, 19, 28) 0%, rgba(7, 19, 28, 0.8) 10%, rgba(7, 19, 28, 0.1) 55%, rgba(7, 19, 28, 0.08)), linear-gradient(0deg, rgba(7, 19, 28, 0.24), rgba(0, 0, 0, 0) 40%)",
+          "titleFont": "51.2px",
+          "titleWeight": "570"
+        }
+      }
+    },
+    {
+      "width": 1024,
+      "theme": "light",
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "sidebar": false,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1009,
+        "height": 560,
+        "bottom": 560
+      },
+      "image": {
+        "x": 312.78125,
+        "y": 0,
+        "width": 696.21875,
+        "height": 560,
+        "bottom": 560
+      },
+      "copy": {
+        "x": 24,
+        "y": 0,
+        "width": 961,
+        "height": 560,
+        "bottom": 560
+      },
+      "heading": {
+        "x": 24,
+        "y": 169.359375,
+        "width": 384,
+        "height": 50.171875,
+        "bottom": 219.53125
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1009,
+        "height": 88,
+        "bottom": 88
+      },
+      "headerBackground": "rgba(250, 249, 246, 0.86)",
+      "headerPosition": "absolute",
+      "subtitle": {
+        "x": 24,
+        "y": 237.921875,
+        "width": 384,
+        "height": 48.9375,
+        "bottom": 286.859375
+      },
+      "imageLoaded": true,
+      "imageSource": "http://localhost:4321/images/about/nick-roust-motorcycle-1024.webp",
+      "fit": "cover",
+      "position": "100% 0%",
+      "face": {
+        "x": 549.5738575982997,
+        "y": 107.12008501594049,
+        "width": 41.65781083953242,
+        "height": 65.46227417640807
+      },
+      "heroColor": "rgb(245, 247, 249)",
+      "bodyColor": "rgb(21, 33, 43)",
+      "headerActive": "About",
+      "sections": [
+        "Architecture before implementation",
+        "From design to operation",
+        "AI as an engineering instrument",
+        "Systems and tools",
+        "Work, as it happens."
+      ],
+      "links": [
+        {
+          "text": "FakeShop",
+          "href": "/labs/fake-shop/"
+        },
+        {
+          "text": "FakeBank",
+          "href": "/labs/fake-bank/"
+        },
+        {
+          "text": "PG27",
+          "href": "/projects/pg27/"
+        },
+        {
+          "text": "BIK / ED807",
+          "href": "/labs/bik-ed807/"
+        },
+        {
+          "text": "Explore the Journal →",
+          "href": "/journal/"
+        }
+      ],
+      "provisional": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.",
+      "contactCount": 1,
+      "footerCount": 1,
+      "ids": [
+        "main",
+        "about-title",
+        "editorial-status",
+        "perspective-title",
+        "practice-title",
+        "ai-title",
+        "work-title",
+        "chronicle-title",
+        "contact",
+        "contact-title"
+      ],
+      "bodyHeight": 2378,
+      "journalHeaderStyleParity": true,
+      "sharedStyle": {
+        "header": {
+          "background": "rgba(250, 249, 246, 0.86)",
+          "position": "absolute",
+          "color": "rgb(21, 33, 43)",
+          "border": "0px",
+          "logoLight": "block",
+          "logoDark": "none",
+          "nav": "color(srgb 0.082353 0.129412 0.168627 / 0.78)"
+        },
+        "hero": {
+          "minHeight": "560px",
+          "background": "rgb(7, 19, 28)",
+          "scrim": "linear-gradient(90deg, rgb(7, 19, 28) 0%, rgba(7, 19, 28, 0.8) 10%, rgba(7, 19, 28, 0.1) 55%, rgba(7, 19, 28, 0.08)), linear-gradient(0deg, rgba(7, 19, 28, 0.24), rgba(0, 0, 0, 0) 40%)",
+          "titleFont": "51.2px",
+          "titleWeight": "570"
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "sidebar": false,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 633.59375,
+        "bottom": 633.59375
+      },
+      "image": {
+        "x": 441.75,
+        "y": 0,
+        "width": 983.25,
+        "height": 633.59375,
+        "bottom": 633.59375
+      },
+      "copy": {
+        "x": 52.5,
+        "y": 0,
+        "width": 1320,
+        "height": 633.59375,
+        "bottom": 633.59375
+      },
+      "heading": {
+        "x": 52.5,
+        "y": 169.359375,
+        "width": 384,
+        "height": 70.546875,
+        "bottom": 239.90625
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 88,
+        "bottom": 88
+      },
+      "headerBackground": "rgba(24, 40, 56, 0.49)",
+      "headerPosition": "absolute",
+      "subtitle": {
+        "x": 52.5,
+        "y": 258.296875,
+        "width": 384,
+        "height": 48.9375,
+        "bottom": 307.234375
+      },
+      "imageLoaded": true,
+      "imageSource": "http://localhost:4321/images/about/nick-roust-motorcycle-1024.webp",
+      "fit": "cover",
+      "position": "100% 0%",
+      "face": {
+        "x": 905.1972635494155,
+        "y": 121.19752922422954,
+        "width": 47.132372476089266,
+        "height": 74.06515674814028
+      },
+      "heroColor": "rgb(245, 247, 249)",
+      "bodyColor": "rgb(237, 242, 244)",
+      "headerActive": "About",
+      "sections": [
+        "Architecture before implementation",
+        "From design to operation",
+        "AI as an engineering instrument",
+        "Systems and tools",
+        "Work, as it happens."
+      ],
+      "links": [
+        {
+          "text": "FakeShop",
+          "href": "/labs/fake-shop/"
+        },
+        {
+          "text": "FakeBank",
+          "href": "/labs/fake-bank/"
+        },
+        {
+          "text": "PG27",
+          "href": "/projects/pg27/"
+        },
+        {
+          "text": "BIK / ED807",
+          "href": "/labs/bik-ed807/"
+        },
+        {
+          "text": "Explore the Journal →",
+          "href": "/journal/"
+        }
+      ],
+      "provisional": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.",
+      "contactCount": 1,
+      "footerCount": 1,
+      "ids": [
+        "main",
+        "about-title",
+        "editorial-status",
+        "perspective-title",
+        "practice-title",
+        "ai-title",
+        "work-title",
+        "chronicle-title",
+        "contact",
+        "contact-title"
+      ],
+      "bodyHeight": 2472,
+      "journalHeaderStyleParity": true,
+      "sharedStyle": {
+        "header": {
+          "background": "rgba(24, 40, 56, 0.49)",
+          "position": "absolute",
+          "color": "rgb(237, 242, 244)",
+          "border": "0px",
+          "logoLight": "none",
+          "logoDark": "block",
+          "nav": "color(srgb 0.929412 0.94902 0.956863 / 0.78)"
+        },
+        "hero": {
+          "minHeight": "633.6px",
+          "background": "rgb(7, 19, 28)",
+          "scrim": "linear-gradient(90deg, rgb(7, 19, 28) 0%, rgba(7, 19, 28, 0.8) 10%, rgba(7, 19, 28, 0.1) 55%, rgba(7, 19, 28, 0.08)), linear-gradient(0deg, rgba(7, 19, 28, 0.24), rgba(0, 0, 0, 0) 40%)",
+          "titleFont": "72px",
+          "titleWeight": "570"
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "sidebar": false,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 633.59375,
+        "bottom": 633.59375
+      },
+      "image": {
+        "x": 441.75,
+        "y": 0,
+        "width": 983.25,
+        "height": 633.59375,
+        "bottom": 633.59375
+      },
+      "copy": {
+        "x": 52.5,
+        "y": 0,
+        "width": 1320,
+        "height": 633.59375,
+        "bottom": 633.59375
+      },
+      "heading": {
+        "x": 52.5,
+        "y": 169.359375,
+        "width": 384,
+        "height": 70.546875,
+        "bottom": 239.90625
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 88,
+        "bottom": 88
+      },
+      "headerBackground": "rgba(250, 249, 246, 0.86)",
+      "headerPosition": "absolute",
+      "subtitle": {
+        "x": 52.5,
+        "y": 258.296875,
+        "width": 384,
+        "height": 48.9375,
+        "bottom": 307.234375
+      },
+      "imageLoaded": true,
+      "imageSource": "http://localhost:4321/images/about/nick-roust-motorcycle-1024.webp",
+      "fit": "cover",
+      "position": "100% 0%",
+      "face": {
+        "x": 905.1972635494155,
+        "y": 121.19752922422954,
+        "width": 47.132372476089266,
+        "height": 74.06515674814028
+      },
+      "heroColor": "rgb(245, 247, 249)",
+      "bodyColor": "rgb(21, 33, 43)",
+      "headerActive": "About",
+      "sections": [
+        "Architecture before implementation",
+        "From design to operation",
+        "AI as an engineering instrument",
+        "Systems and tools",
+        "Work, as it happens."
+      ],
+      "links": [
+        {
+          "text": "FakeShop",
+          "href": "/labs/fake-shop/"
+        },
+        {
+          "text": "FakeBank",
+          "href": "/labs/fake-bank/"
+        },
+        {
+          "text": "PG27",
+          "href": "/projects/pg27/"
+        },
+        {
+          "text": "BIK / ED807",
+          "href": "/labs/bik-ed807/"
+        },
+        {
+          "text": "Explore the Journal →",
+          "href": "/journal/"
+        }
+      ],
+      "provisional": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.",
+      "contactCount": 1,
+      "footerCount": 1,
+      "ids": [
+        "main",
+        "about-title",
+        "editorial-status",
+        "perspective-title",
+        "practice-title",
+        "ai-title",
+        "work-title",
+        "chronicle-title",
+        "contact",
+        "contact-title"
+      ],
+      "bodyHeight": 2472,
+      "journalHeaderStyleParity": true,
+      "sharedStyle": {
+        "header": {
+          "background": "rgba(250, 249, 246, 0.86)",
+          "position": "absolute",
+          "color": "rgb(21, 33, 43)",
+          "border": "0px",
+          "logoLight": "block",
+          "logoDark": "none",
+          "nav": "color(srgb 0.082353 0.129412 0.168627 / 0.78)"
+        },
+        "hero": {
+          "minHeight": "633.6px",
+          "background": "rgb(7, 19, 28)",
+          "scrim": "linear-gradient(90deg, rgb(7, 19, 28) 0%, rgba(7, 19, 28, 0.8) 10%, rgba(7, 19, 28, 0.1) 55%, rgba(7, 19, 28, 0.08)), linear-gradient(0deg, rgba(7, 19, 28, 0.24), rgba(0, 0, 0, 0) 40%)",
+          "titleFont": "72px",
+          "titleWeight": "570"
+        }
+      }
+    },
+    {
+      "width": 1920,
+      "theme": "dark",
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "sidebar": false,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1905,
+        "height": 768,
+        "bottom": 768
+      },
+      "image": {
+        "x": 590.546875,
+        "y": 0,
+        "width": 1314.453125,
+        "height": 768,
+        "bottom": 768
+      },
+      "copy": {
+        "x": 292.5,
+        "y": 0,
+        "width": 1320,
+        "height": 768,
+        "bottom": 768
+      },
+      "heading": {
+        "x": 292.5,
+        "y": 169.359375,
+        "width": 384,
+        "height": 73.6875,
+        "bottom": 243.046875
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1905,
+        "height": 88,
+        "bottom": 88
+      },
+      "headerBackground": "rgba(24, 40, 56, 0.49)",
+      "headerPosition": "absolute",
+      "subtitle": {
+        "x": 292.5,
+        "y": 261.4375,
+        "width": 384,
+        "height": 48.9375,
+        "bottom": 310.375
+      },
+      "imageLoaded": true,
+      "imageSource": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+      "fit": "cover",
+      "position": "100% 0%",
+      "face": {
+        "x": 1274.9298618490968,
+        "y": 146.90754516471839,
+        "width": 57.13071200850159,
+        "height": 89.77683315621678
+      },
+      "heroColor": "rgb(245, 247, 249)",
+      "bodyColor": "rgb(237, 242, 244)",
+      "headerActive": "About",
+      "sections": [
+        "Architecture before implementation",
+        "From design to operation",
+        "AI as an engineering instrument",
+        "Systems and tools",
+        "Work, as it happens."
+      ],
+      "links": [
+        {
+          "text": "FakeShop",
+          "href": "/labs/fake-shop/"
+        },
+        {
+          "text": "FakeBank",
+          "href": "/labs/fake-bank/"
+        },
+        {
+          "text": "PG27",
+          "href": "/projects/pg27/"
+        },
+        {
+          "text": "BIK / ED807",
+          "href": "/labs/bik-ed807/"
+        },
+        {
+          "text": "Explore the Journal →",
+          "href": "/journal/"
+        }
+      ],
+      "provisional": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.",
+      "contactCount": 1,
+      "footerCount": 1,
+      "ids": [
+        "main",
+        "about-title",
+        "editorial-status",
+        "perspective-title",
+        "practice-title",
+        "ai-title",
+        "work-title",
+        "chronicle-title",
+        "contact",
+        "contact-title"
+      ],
+      "bodyHeight": 2607,
+      "journalHeaderStyleParity": true,
+      "sharedStyle": {
+        "header": {
+          "background": "rgba(24, 40, 56, 0.49)",
+          "position": "absolute",
+          "color": "rgb(237, 242, 244)",
+          "border": "0px",
+          "logoLight": "none",
+          "logoDark": "block",
+          "nav": "color(srgb 0.929412 0.94902 0.956863 / 0.78)"
+        },
+        "hero": {
+          "minHeight": "768px",
+          "background": "rgb(7, 19, 28)",
+          "scrim": "linear-gradient(90deg, rgb(7, 19, 28) 0%, rgba(7, 19, 28, 0.8) 10%, rgba(7, 19, 28, 0.1) 55%, rgba(7, 19, 28, 0.08)), linear-gradient(0deg, rgba(7, 19, 28, 0.24), rgba(0, 0, 0, 0) 40%)",
+          "titleFont": "75.2px",
+          "titleWeight": "570"
+        }
+      }
+    },
+    {
+      "width": 1920,
+      "theme": "light",
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "sidebar": false,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1905,
+        "height": 768,
+        "bottom": 768
+      },
+      "image": {
+        "x": 590.546875,
+        "y": 0,
+        "width": 1314.453125,
+        "height": 768,
+        "bottom": 768
+      },
+      "copy": {
+        "x": 292.5,
+        "y": 0,
+        "width": 1320,
+        "height": 768,
+        "bottom": 768
+      },
+      "heading": {
+        "x": 292.5,
+        "y": 169.359375,
+        "width": 384,
+        "height": 73.6875,
+        "bottom": 243.046875
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1905,
+        "height": 88,
+        "bottom": 88
+      },
+      "headerBackground": "rgba(250, 249, 246, 0.86)",
+      "headerPosition": "absolute",
+      "subtitle": {
+        "x": 292.5,
+        "y": 261.4375,
+        "width": 384,
+        "height": 48.9375,
+        "bottom": 310.375
+      },
+      "imageLoaded": true,
+      "imageSource": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+      "fit": "cover",
+      "position": "100% 0%",
+      "face": {
+        "x": 1274.9298618490968,
+        "y": 146.90754516471839,
+        "width": 57.13071200850159,
+        "height": 89.77683315621678
+      },
+      "heroColor": "rgb(245, 247, 249)",
+      "bodyColor": "rgb(21, 33, 43)",
+      "headerActive": "About",
+      "sections": [
+        "Architecture before implementation",
+        "From design to operation",
+        "AI as an engineering instrument",
+        "Systems and tools",
+        "Work, as it happens."
+      ],
+      "links": [
+        {
+          "text": "FakeShop",
+          "href": "/labs/fake-shop/"
+        },
+        {
+          "text": "FakeBank",
+          "href": "/labs/fake-bank/"
+        },
+        {
+          "text": "PG27",
+          "href": "/projects/pg27/"
+        },
+        {
+          "text": "BIK / ED807",
+          "href": "/labs/bik-ed807/"
+        },
+        {
+          "text": "Explore the Journal →",
+          "href": "/journal/"
+        }
+      ],
+      "provisional": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.",
+      "contactCount": 1,
+      "footerCount": 1,
+      "ids": [
+        "main",
+        "about-title",
+        "editorial-status",
+        "perspective-title",
+        "practice-title",
+        "ai-title",
+        "work-title",
+        "chronicle-title",
+        "contact",
+        "contact-title"
+      ],
+      "bodyHeight": 2607,
+      "journalHeaderStyleParity": true,
+      "sharedStyle": {
+        "header": {
+          "background": "rgba(250, 249, 246, 0.86)",
+          "position": "absolute",
+          "color": "rgb(21, 33, 43)",
+          "border": "0px",
+          "logoLight": "block",
+          "logoDark": "none",
+          "nav": "color(srgb 0.082353 0.129412 0.168627 / 0.78)"
+        },
+        "hero": {
+          "minHeight": "768px",
+          "background": "rgb(7, 19, 28)",
+          "scrim": "linear-gradient(90deg, rgb(7, 19, 28) 0%, rgba(7, 19, 28, 0.8) 10%, rgba(7, 19, 28, 0.1) 55%, rgba(7, 19, 28, 0.08)), linear-gradient(0deg, rgba(7, 19, 28, 0.24), rgba(0, 0, 0, 0) 40%)",
+          "titleFont": "75.2px",
+          "titleWeight": "570"
+        }
+      }
+    }
+  ],
+  "keyboard": {
+    "skipLink": {
+      "text": "Skip to content",
+      "href": "#main"
+    },
+    "focus": {
+      "visible": true,
+      "outline": "solid",
+      "width": "3px"
+    }
+  },
+  "allLinksHttp200": true
+}

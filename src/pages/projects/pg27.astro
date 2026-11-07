@@ -1,0 +1,48 @@
+---
+import ProductLayout from '../../layouts/ProductLayout.astro';
+---
+<ProductLayout title="Building PaymentGate" description="Notes on the work around PaymentGate, shared as details are verified." activeProject="pg27" canonicalPath="/projects/pg27/" sections={[{ id: 'overview', label: 'Overview' }, { id: 'status', label: 'Project details' }]}>
+  <section id="overview" class="page-hero pg27-hero" aria-labelledby="paymentgate-page-title">
+    <picture>
+      <source type="image/avif" srcset="/images/pg27/controlled-flow-dam-640.avif 640w, /images/pg27/controlled-flow-dam-1024.avif 1024w, /images/pg27/controlled-flow-dam-1983.avif 1983w" sizes="(min-width: 1368px) 1095px, (min-width: 1024px) calc(100vw - 249px), calc(100vw - 32px)" />
+      <source type="image/webp" srcset="/images/pg27/controlled-flow-dam-640.webp 640w, /images/pg27/controlled-flow-dam-1024.webp 1024w, /images/pg27/controlled-flow-dam-1983.webp 1983w" sizes="(min-width: 1368px) 1095px, (min-width: 1024px) calc(100vw - 249px), calc(100vw - 32px)" />
+      <img class="pg27-hero__image" src="/images/pg27/controlled-flow-dam-1983.webp" width="1983" height="793" alt="Illustrative monumental dam at dusk, surrounded by forested mountains and a reservoir." loading="eager" fetchpriority="high" decoding="async" />
+    </picture>
+    <div class="pg27-hero__copy">
+      <p class="eyebrow">IN DEVELOPMENT · TRANSACTION INFRASTRUCTURE</p>
+      <h1 id="paymentgate-page-title" aria-label="PG27"><img class="pg27-hero__wordmark" src="/brand/pg27.svg" width="256" height="59" alt="" aria-hidden="true" /></h1>
+      <p class="pg27-hero__description">Building transaction infrastructure.</p>
+    </div>
+  </section>
+  <section id="status" class="page-content container">
+    <div class="pending-panel">
+      <span class="pending-panel__mark" aria-hidden="true">—</span>
+      <div>
+        <h2>Project details are being prepared</h2>
+        <p>This page will distinguish verified work from plans. It does not make claims about product readiness, architecture, security, or service availability.</p>
+      </div>
+    </div>
+    <a class="page-backlink" href="/#systems">← Back to Systems / Projects</a>
+  </section>
+</ProductLayout>
+
+<style>
+  .pg27-hero { position: relative; isolation: isolate; overflow: hidden; min-height: 24.3603515625rem; padding: 0; background: #101820; color: #fff; }
+  .pg27-hero::after { content: none; }
+  .pg27-hero::before { position: absolute; z-index: -1; inset: 0; content: ''; background: linear-gradient(90deg, rgba(5,13,19,.4), rgba(5,13,19,.18) 38%, transparent 70%); }
+  .pg27-hero__image { position: absolute; z-index: -2; inset: 0; width: 100%; height: 100%; display: block; object-fit: cover; object-position: center 48%; }
+  .pg27-hero__copy { padding: var(--section-block-spacing) clamp(24px, 3vw, 48px); }
+  .pg27-hero .eyebrow { color: #80dafa; margin: 0 0 12px; font-size: .72rem; font-weight: 700; letter-spacing: .16em; line-height: 1.3; }
+  .pg27-hero h1 { display: flex; align-items: center; max-width: none; height: 1.05em; margin: 0 0 12px; font-size: clamp(2.5rem, 4.5vw, 4rem); line-height: 1.05; }
+  .pg27-hero__wordmark { display: block; width: auto; height: 1em; max-width: 100%; }
+  .pg27-hero p.pg27-hero__description { max-width: 29ch; margin: 0; font-size: clamp(1.1rem, 1.7vw, 1.5rem); line-height: 1.4; color: #fff; }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .pg27-hero__image { object-position: left 48%; }
+  }
+  @media (max-width: 767px) {
+    .pg27-hero { min-height: 20rem; }
+    .pg27-hero__copy { padding: 40px 24px; }
+    .pg27-hero::before { background: linear-gradient(90deg, rgba(5,13,19,.5), rgba(5,13,19,.28) 55%, transparent); }
+    .pg27-hero__image { object-position: 50% 48%; }
+  }
+</style>

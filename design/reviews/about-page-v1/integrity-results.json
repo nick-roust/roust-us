@@ -1,0 +1,13 @@
+{
+  "changed": [
+    "src/pages/about.astro"
+  ],
+  "added": [
+    "public/images/about/nick-roust-motorcycle-1024.webp",
+    "public/images/about/nick-roust-motorcycle-1672.webp",
+    "public/images/about/nick-roust-motorcycle-640.webp"
+  ],
+  "removed": [],
+  "sourcePhotoUnchanged": true,
+  "otherExistingWorkUnchanged": true
+}

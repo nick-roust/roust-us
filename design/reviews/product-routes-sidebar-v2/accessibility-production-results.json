@@ -1,0 +1,53 @@
+{
+  "results": [
+    {
+      "width": 390,
+      "projectSwitching": "PASS",
+      "accessibility": [
+        {
+          "expanded": "FAKE BANK Open Source Software Product navigation",
+          "ossMeanings": 2
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "projectSwitching": "PASS",
+      "accessibility": [
+        {
+          "sticky": {
+            "nav": 112,
+            "header": 89
+          }
+        }
+      ]
+    }
+  ],
+  "production": [
+    {
+      "from": "/building-paymentgate/",
+      "to": "/projects/pg27/",
+      "status": 200,
+      "mechanism": "Static HTML meta refresh; browser destination verified"
+    },
+    {
+      "from": "/bik/",
+      "to": "/labs/bik-ed807/",
+      "status": 200,
+      "mechanism": "Static HTML meta refresh; browser destination verified"
+    },
+    {
+      "from": "/projects/paymentgate/",
+      "to": "/projects/pg27/",
+      "status": 200,
+      "mechanism": "Static HTML meta refresh; browser destination verified"
+    },
+    {
+      "from": "/projects/",
+      "to": "/#systems",
+      "status": 200,
+      "mechanism": "Static HTML meta refresh; browser destination verified"
+    }
+  ],
+  "visibleKeyboardFocus": "Verified by Tab/Enter assertions on summary and project links after each navigation"
+}

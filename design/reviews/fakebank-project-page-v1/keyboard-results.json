@@ -1,0 +1,100 @@
+[
+  {
+    "width": 390,
+    "skipLink": "PASS",
+    "navigation": "PASS",
+    "focus": [
+      {
+        "tag": "A",
+        "text": "Read the architecture →",
+        "visible": true,
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "API contract →",
+        "visible": true,
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "Local setup →",
+        "visible": true,
+        "outline": "solid"
+      },
+      {
+        "tag": "PRE",
+        "text": "{\n  \"merchant_id\": \"demo-shop\",\n  \"amount\": 199.99,\n  \"curre",
+        "visible": true,
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "nick-roust/fake-bank",
+        "visible": true,
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "Emailnick@roust.us",
+        "visible": true,
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "GitHubgithub.com/nick-roust",
+        "visible": true,
+        "outline": "solid"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "skipLink": "PASS",
+    "navigation": "PASS",
+    "focus": [
+      {
+        "tag": "A",
+        "text": "Read the architecture →",
+        "visible": true,
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "API contract →",
+        "visible": true,
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "Local setup →",
+        "visible": true,
+        "outline": "solid"
+      },
+      {
+        "tag": "PRE",
+        "text": "{\n  \"merchant_id\": \"demo-shop\",\n  \"amount\": 199.99,\n  \"curre",
+        "visible": true,
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "nick-roust/fake-bank",
+        "visible": true,
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "Emailnick@roust.us",
+        "visible": true,
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "GitHubgithub.com/nick-roust",
+        "visible": true,
+        "outline": "solid"
+      }
+    ]
+  }
+]

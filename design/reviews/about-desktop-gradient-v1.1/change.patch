@@ -1,0 +1,25 @@
+--- before/src/pages/about.astro
++++ after/src/pages/about.astro
+@@ -14,7 +14,7 @@
+       <div class="journal-index-hero__image about-hero__media" aria-hidden="true">
+         <img class="about-hero__image" src="/images/about/nick-roust-motorcycle-1672.webp"
+           srcset="/images/about/nick-roust-motorcycle-640.webp 640w, /images/about/nick-roust-motorcycle-1024.webp 1024w, /images/about/nick-roust-motorcycle-1672.webp 1672w"
+-          sizes="(max-width: 680px) 100vw, 69vw" width="1672" height="941" alt="" fetchpriority="high" />
++          sizes="100vw" width="1672" height="941" alt="" fetchpriority="high" />
+       </div>
+       <div class="container journal-index-hero__inner about-hero__copy">
+         <div class="journal-index-hero__copy">
+@@ -67,6 +67,13 @@
+ <style>
+   .about-hero, .about-hero__copy { min-height: clamp(35rem, 44vw, 48rem); }
+   .about-hero__media .about-hero__image { object-position: right top; }
++  @media (min-width: 681px) {
++    .about-hero__media { inset: 0; }
++    .about-hero__media::after { background: linear-gradient(90deg, rgba(7,19,28,.36), rgba(7,19,28,.14) 22%, transparent 42%); }
++  }
++  @media (min-width: 1800px) {
++    .about-hero__media::after { background: linear-gradient(90deg, rgba(7,19,28,.5), rgba(7,19,28,.45) 36%, transparent 50%); }
++  }
+   @media (max-width: 680px) {
+     .about-hero__media .about-hero__image { object-position: 58% top; }
+     .about-hero__copy { padding-top: calc(var(--site-header-block-size) + var(--section-block-spacing) + 4rem); }
