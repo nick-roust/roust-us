@@ -1,7 +1,12 @@
 ---
-import SiteLayout from '../../layouts/SiteLayout.astro';
+import ProductLayout from '../../layouts/ProductLayout.astro';
 ---
-<SiteLayout title="Fake Shop" description="Fake Shop lab page on roust.us.">
-  <p>This page is reserved for Fake Shop. A verified lab description and links will be added when supplied.</p>
-  <p><a href="/labs">All labs</a></p>
-</SiteLayout>
+<ProductLayout title="Fake Shop" description="Fake Shop project details are pending verification." activeProject="fake-shop" canonicalPath="/labs/fake-shop/" sections={[{ id: 'overview', label: 'Overview' }]}>
+  <section id="overview" aria-labelledby="fake-shop-page-title">
+    <h1 class="page-title container" id="fake-shop-page-title">Fake Shop</h1>
+    <div class="legacy-content">
+      <p>This project page is retained, but its description and links are pending verification.</p>
+      <p><a href="/#systems">All systems and projects</a></p>
+    </div>
+  </section>
+</ProductLayout>

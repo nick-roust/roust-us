@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "changedExistingFiles": [
+    "src/pages/journal/[slug].astro"
+  ],
+  "unchangedExistingFiles": 77,
+  "visualComparisons": 40,
+  "editorialChecks": 8,
+  "visualRegressionPixels": "identical",
+  "fixtureSourceRemoved": true,
+  "schemaAndAllExistingArticleBytes": "unchanged",
+  "editorialSizes": [
+    {
+      "width": 390,
+      "theme": "light",
+      "height": 299.21875,
+      "shortTitleHeight": 202.84375
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "height": 299.21875,
+      "shortTitleHeight": 202.84375
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "height": 250,
+      "shortTitleHeight": 206.328125
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "height": 250,
+      "shortTitleHeight": 206.328125
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "height": 310.71875,
+      "shortTitleHeight": 240.6875
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "height": 310.71875,
+      "shortTitleHeight": 240.6875
+    },
+    {
+      "width": 1920,
+      "theme": "light",
+      "height": 310.71875,
+      "shortTitleHeight": 240.6875
+    },
+    {
+      "width": 1920,
+      "theme": "dark",
+      "height": 310.71875,
+      "shortTitleHeight": 240.6875
+    }
+  ]
+}

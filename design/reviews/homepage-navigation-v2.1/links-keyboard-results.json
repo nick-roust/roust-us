@@ -1,0 +1,95 @@
+{
+  "internal": [
+    {
+      "url": "http://localhost:4321/#main",
+      "status": 200,
+      "anchor": true
+    },
+    {
+      "url": "http://localhost:4321/",
+      "status": 200,
+      "anchor": true
+    },
+    {
+      "url": "http://localhost:4321/about",
+      "status": 200,
+      "anchor": true
+    },
+    {
+      "url": "http://localhost:4321/#building",
+      "status": 200,
+      "anchor": true
+    },
+    {
+      "url": "http://localhost:4321/#systems",
+      "status": 200,
+      "anchor": true
+    },
+    {
+      "url": "http://localhost:4321/journal",
+      "status": 200,
+      "anchor": true
+    },
+    {
+      "url": "http://localhost:4321/#contact",
+      "status": 200,
+      "anchor": true
+    },
+    {
+      "url": "http://localhost:4321/#currently-building",
+      "status": 200,
+      "anchor": true
+    },
+    {
+      "url": "http://localhost:4321/labs/fake-shop/",
+      "status": 200,
+      "anchor": true
+    },
+    {
+      "url": "http://localhost:4321/labs/fake-bank/",
+      "status": 200,
+      "anchor": true
+    },
+    {
+      "url": "http://localhost:4321/building-paymentgate/",
+      "status": 200,
+      "anchor": true
+    },
+    {
+      "url": "http://localhost:4321/bik/",
+      "status": 200,
+      "anchor": true
+    },
+    {
+      "url": "http://localhost:4321/journal/when-code-stopped-being-the-main-thing/",
+      "status": 200,
+      "anchor": true
+    },
+    {
+      "url": "http://localhost:4321/journal/registry-and-configuration-authority/",
+      "status": 200,
+      "anchor": true
+    },
+    {
+      "url": "http://localhost:4321/journal/we-built-all-the-pieces/",
+      "status": 200,
+      "anchor": true
+    }
+  ],
+  "keyboard": [
+    {
+      "width": 390,
+      "skipLink": true,
+      "headerFocus": true,
+      "projectFocus": true,
+      "enterNavigation": true
+    },
+    {
+      "width": 1440,
+      "skipLink": true,
+      "headerFocus": true,
+      "projectFocus": true,
+      "enterNavigation": true
+    }
+  ]
+}

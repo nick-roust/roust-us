@@ -1,0 +1,11 @@
+--- before/fake-bank.astro
++++ after/fake-bank.astro
+@@ -1,7 +1,7 @@
+ ---
+ import SiteLayout from '../../layouts/SiteLayout.astro';
+ import FakeBankMark from '../../assets/fakebank-mark-monochrome.svg';
+-import TypeScriptIcon from '../../assets/technologies/typescript.svg';
++import TypeScriptIcon from '../../assets/technologies/typescript-outline.svg';
+ import FastifyIcon from '../../assets/technologies/fastify.svg';
+ import ReactIcon from '../../assets/technologies/react.svg';
+ import PostgreSQLIcon from '../../assets/technologies/postgresql.svg';

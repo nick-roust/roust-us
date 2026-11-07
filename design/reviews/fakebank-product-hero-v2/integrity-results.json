@@ -1,0 +1,15 @@
+{
+  "changed": [
+    "src/pages/labs/fake-bank.astro",
+    "design/references/technologies/typescript.svg"
+  ],
+  "added": [
+    "src/assets/technologies/docker.svg",
+    "src/assets/technologies/fastify.svg",
+    "src/assets/technologies/postgresql.svg",
+    "src/assets/technologies/react.svg",
+    "src/assets/technologies/typescript-outline.svg",
+    "src/assets/technologies/typescript.svg"
+  ],
+  "removed": []
+}

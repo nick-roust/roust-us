@@ -1,0 +1,62 @@
+[
+  {
+    "path": "public/images/pg27/revised-world-analytics-640.webp",
+    "format": "webp",
+    "width": 640,
+    "height": 370,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 66574
+  },
+  {
+    "path": "public/images/pg27/revised-world-analytics-640.avif",
+    "format": "heif",
+    "width": 640,
+    "height": 370,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 41156
+  },
+  {
+    "path": "public/images/pg27/revised-world-analytics-1024.webp",
+    "format": "webp",
+    "width": 1024,
+    "height": 592,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 141018
+  },
+  {
+    "path": "public/images/pg27/revised-world-analytics-1024.avif",
+    "format": "heif",
+    "width": 1024,
+    "height": 592,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 85781
+  },
+  {
+    "path": "public/images/pg27/revised-world-analytics-1649.webp",
+    "format": "webp",
+    "width": 1649,
+    "height": 954,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 285630
+  },
+  {
+    "path": "public/images/pg27/revised-world-analytics-1649.avif",
+    "format": "heif",
+    "width": 1649,
+    "height": 954,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 168305
+  }
+]

@@ -1,0 +1,30 @@
+## feat/pf005-roust-us-mvp...origin/feat/pf005-roust-us-mvp
+ M src/components/BuildingSection.astro
+ M src/layouts/SiteLayout.astro
+ M src/pages/index.astro
+ M src/pages/journal.astro
+ M src/styles/global.css
+?? brand/master/pg27.svg
+?? design/references/20261028_174855.jpg
+?? design/references/Journal/
+?? "design/references/PG27_ \320\224\320\276\321\200\320\276\320\263\320\260 \320\272 \321\202\321\200\320\260\320\275\320\267\320\260\320\272\321\206\320\270\320\276\320\275\320\275\320\276\320\271 \320\270\320\275\321\204\321\200\320\260\321\201\321\202\321\200\321\203\320\272\321\202\321\203\321\200\320\265.png"
+?? design/references/localhost_4321_.png
+?? "design/references/\320\227\320\260\320\272\320\260\321\202\320\275\320\260\321\217 \320\264\320\276\321\200\320\276\320\263\320\260 \321\201\321\200\320\265\320\264\320\270 \320\263\320\276\321\200\320\275\321\213\321\205 \320\262\320\265\321\200\321\210\320\270\320\275.png"
+?? design/reviews/footer-monogram-muted/
+?? design/reviews/header-timeline-geometry-2026-11-01/
+?? design/reviews/home-mobile-light.png
+?? design/reviews/internal-hero-spacing-2026-11-01/
+?? design/reviews/journal-content-integration-20261102/
+?? design/reviews/journal-entry-desktop-dark.png
+?? design/reviews/journal-implementation-2026-11-01/
+?? design/reviews/journal-migration-v2-20261104/
+?? design/reviews/journal-visual-density-2026-11-01/
+?? design/reviews/pg27-logo-integration/
+?? design/reviews/topbar-spacing-2026-11-01/
+?? public/brand/pg27.svg
+?? public/images/journal/
+?? src/content.config.ts
+?? src/content/
+?? src/lib/
+?? src/pages/journal/
+?? tests/journal.test.mjs

@@ -1,0 +1,452 @@
+[
+  {
+    "width": 390,
+    "theme": "dark",
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 560,
+      "bottom": 560
+    },
+    "media": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 560,
+      "bottom": 560
+    },
+    "image": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 560,
+      "bottom": 560
+    },
+    "heading": {
+      "x": 16,
+      "y": 226.359375,
+      "width": 343,
+      "height": 57.328125,
+      "bottom": 283.6875
+    },
+    "subtitle": {
+      "x": 16,
+      "y": 302.078125,
+      "width": 343,
+      "height": 48.9375,
+      "bottom": 351.015625
+    },
+    "eyebrow": {
+      "x": 16,
+      "y": 193,
+      "width": 343,
+      "height": 14.96875,
+      "bottom": 207.96875
+    },
+    "copy": {
+      "x": 16,
+      "y": 0,
+      "width": 343,
+      "height": 560,
+      "bottom": 560
+    },
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 96.59375,
+      "bottom": 96.59375,
+      "background": "rgba(24, 40, 56, 0.49)"
+    },
+    "font": {
+      "size": "58.5px",
+      "weight": "570",
+      "lineHeight": "57.33px",
+      "color": "rgb(245, 247, 249)"
+    },
+    "gradient": "linear-gradient(90deg, rgba(7, 19, 28, 0.9), rgba(7, 19, 28, 0.52) 75%, rgba(7, 19, 28, 0.28)), linear-gradient(0deg, rgba(7, 19, 28, 0.4), rgba(0, 0, 0, 0) 60%)",
+    "objectPosition": "58% 0%",
+    "imageSource": "http://localhost:4321/images/about/nick-roust-motorcycle-640.webp",
+    "imageLoaded": true,
+    "overflow": false,
+    "editorial": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+    "h1Count": 1,
+    "fullHeight": 2725
+  },
+  {
+    "width": 390,
+    "theme": "light",
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 560,
+      "bottom": 560
+    },
+    "media": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 560,
+      "bottom": 560
+    },
+    "image": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 560,
+      "bottom": 560
+    },
+    "heading": {
+      "x": 16,
+      "y": 226.359375,
+      "width": 343,
+      "height": 57.328125,
+      "bottom": 283.6875
+    },
+    "subtitle": {
+      "x": 16,
+      "y": 302.078125,
+      "width": 343,
+      "height": 48.9375,
+      "bottom": 351.015625
+    },
+    "eyebrow": {
+      "x": 16,
+      "y": 193,
+      "width": 343,
+      "height": 14.96875,
+      "bottom": 207.96875
+    },
+    "copy": {
+      "x": 16,
+      "y": 0,
+      "width": 343,
+      "height": 560,
+      "bottom": 560
+    },
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 96.59375,
+      "bottom": 96.59375,
+      "background": "rgba(250, 249, 246, 0.86)"
+    },
+    "font": {
+      "size": "58.5px",
+      "weight": "570",
+      "lineHeight": "57.33px",
+      "color": "rgb(245, 247, 249)"
+    },
+    "gradient": "linear-gradient(90deg, rgba(7, 19, 28, 0.9), rgba(7, 19, 28, 0.52) 75%, rgba(7, 19, 28, 0.28)), linear-gradient(0deg, rgba(7, 19, 28, 0.4), rgba(0, 0, 0, 0) 60%)",
+    "objectPosition": "58% 0%",
+    "imageSource": "http://localhost:4321/images/about/nick-roust-motorcycle-640.webp",
+    "imageLoaded": true,
+    "overflow": false,
+    "editorial": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+    "h1Count": 1,
+    "fullHeight": 2725
+  },
+  {
+    "width": 1440,
+    "theme": "dark",
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1425,
+      "height": 633.59375,
+      "bottom": 633.59375
+    },
+    "media": {
+      "x": 0,
+      "y": 0,
+      "width": 1425,
+      "height": 633.59375,
+      "bottom": 633.59375
+    },
+    "image": {
+      "x": 0,
+      "y": 0,
+      "width": 1425,
+      "height": 633.59375,
+      "bottom": 633.59375
+    },
+    "heading": {
+      "x": 52.5,
+      "y": 169.359375,
+      "width": 384,
+      "height": 70.546875,
+      "bottom": 239.90625
+    },
+    "subtitle": {
+      "x": 52.5,
+      "y": 258.296875,
+      "width": 384,
+      "height": 48.9375,
+      "bottom": 307.234375
+    },
+    "eyebrow": {
+      "x": 52.5,
+      "y": 136,
+      "width": 384,
+      "height": 14.96875,
+      "bottom": 150.96875
+    },
+    "copy": {
+      "x": 52.5,
+      "y": 0,
+      "width": 1320,
+      "height": 633.59375,
+      "bottom": 633.59375
+    },
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1425,
+      "height": 88,
+      "bottom": 88,
+      "background": "rgba(24, 40, 56, 0.49)"
+    },
+    "font": {
+      "size": "72px",
+      "weight": "570",
+      "lineHeight": "70.56px",
+      "color": "rgb(245, 247, 249)"
+    },
+    "gradient": "linear-gradient(90deg, rgba(7, 19, 28, 0.36), rgba(7, 19, 28, 0.14) 22%, rgba(0, 0, 0, 0) 42%)",
+    "objectPosition": "100% 0%",
+    "imageSource": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+    "imageLoaded": true,
+    "overflow": false,
+    "editorial": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+    "h1Count": 1,
+    "fullHeight": 2472
+  },
+  {
+    "width": 1440,
+    "theme": "light",
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1425,
+      "height": 633.59375,
+      "bottom": 633.59375
+    },
+    "media": {
+      "x": 0,
+      "y": 0,
+      "width": 1425,
+      "height": 633.59375,
+      "bottom": 633.59375
+    },
+    "image": {
+      "x": 0,
+      "y": 0,
+      "width": 1425,
+      "height": 633.59375,
+      "bottom": 633.59375
+    },
+    "heading": {
+      "x": 52.5,
+      "y": 169.359375,
+      "width": 384,
+      "height": 70.546875,
+      "bottom": 239.90625
+    },
+    "subtitle": {
+      "x": 52.5,
+      "y": 258.296875,
+      "width": 384,
+      "height": 48.9375,
+      "bottom": 307.234375
+    },
+    "eyebrow": {
+      "x": 52.5,
+      "y": 136,
+      "width": 384,
+      "height": 14.96875,
+      "bottom": 150.96875
+    },
+    "copy": {
+      "x": 52.5,
+      "y": 0,
+      "width": 1320,
+      "height": 633.59375,
+      "bottom": 633.59375
+    },
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1425,
+      "height": 88,
+      "bottom": 88,
+      "background": "rgba(250, 249, 246, 0.86)"
+    },
+    "font": {
+      "size": "72px",
+      "weight": "570",
+      "lineHeight": "70.56px",
+      "color": "rgb(245, 247, 249)"
+    },
+    "gradient": "linear-gradient(90deg, rgba(7, 19, 28, 0.36), rgba(7, 19, 28, 0.14) 22%, rgba(0, 0, 0, 0) 42%)",
+    "objectPosition": "100% 0%",
+    "imageSource": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+    "imageLoaded": true,
+    "overflow": false,
+    "editorial": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+    "h1Count": 1,
+    "fullHeight": 2472
+  },
+  {
+    "width": 1920,
+    "theme": "dark",
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 768,
+      "bottom": 768
+    },
+    "media": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 768,
+      "bottom": 768
+    },
+    "image": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 768,
+      "bottom": 768
+    },
+    "heading": {
+      "x": 292.5,
+      "y": 169.359375,
+      "width": 384,
+      "height": 73.6875,
+      "bottom": 243.046875
+    },
+    "subtitle": {
+      "x": 292.5,
+      "y": 261.4375,
+      "width": 384,
+      "height": 48.9375,
+      "bottom": 310.375
+    },
+    "eyebrow": {
+      "x": 292.5,
+      "y": 136,
+      "width": 384,
+      "height": 14.96875,
+      "bottom": 150.96875
+    },
+    "copy": {
+      "x": 292.5,
+      "y": 0,
+      "width": 1320,
+      "height": 768,
+      "bottom": 768
+    },
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 88,
+      "bottom": 88,
+      "background": "rgba(24, 40, 56, 0.49)"
+    },
+    "font": {
+      "size": "75.2px",
+      "weight": "570",
+      "lineHeight": "73.696px",
+      "color": "rgb(245, 247, 249)"
+    },
+    "gradient": "linear-gradient(90deg, rgba(7, 19, 28, 0.5), rgba(7, 19, 28, 0.45) 36%, rgba(0, 0, 0, 0) 50%)",
+    "objectPosition": "100% 0%",
+    "imageSource": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+    "imageLoaded": true,
+    "overflow": false,
+    "editorial": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+    "h1Count": 1,
+    "fullHeight": 2607
+  },
+  {
+    "width": 1920,
+    "theme": "light",
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 768,
+      "bottom": 768
+    },
+    "media": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 768,
+      "bottom": 768
+    },
+    "image": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 768,
+      "bottom": 768
+    },
+    "heading": {
+      "x": 292.5,
+      "y": 169.359375,
+      "width": 384,
+      "height": 73.6875,
+      "bottom": 243.046875
+    },
+    "subtitle": {
+      "x": 292.5,
+      "y": 261.4375,
+      "width": 384,
+      "height": 48.9375,
+      "bottom": 310.375
+    },
+    "eyebrow": {
+      "x": 292.5,
+      "y": 136,
+      "width": 384,
+      "height": 14.96875,
+      "bottom": 150.96875
+    },
+    "copy": {
+      "x": 292.5,
+      "y": 0,
+      "width": 1320,
+      "height": 768,
+      "bottom": 768
+    },
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 88,
+      "bottom": 88,
+      "background": "rgba(250, 249, 246, 0.86)"
+    },
+    "font": {
+      "size": "75.2px",
+      "weight": "570",
+      "lineHeight": "73.696px",
+      "color": "rgb(245, 247, 249)"
+    },
+    "gradient": "linear-gradient(90deg, rgba(7, 19, 28, 0.5), rgba(7, 19, 28, 0.45) 36%, rgba(0, 0, 0, 0) 50%)",
+    "objectPosition": "100% 0%",
+    "imageSource": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+    "imageLoaded": true,
+    "overflow": false,
+    "editorial": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+    "h1Count": 1,
+    "fullHeight": 2607
+  }
+]

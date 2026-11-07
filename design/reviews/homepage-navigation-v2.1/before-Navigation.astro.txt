@@ -1,0 +1,19 @@
+---
+const links = [
+  { href: '/about', label: 'About' },
+  { href: Astro.url.pathname === '/' ? '#building' : '/#building', label: 'Building' },
+  { href: '/open-source', label: 'Open Source' },
+  { href: '/journal', label: 'Journal' },
+  { href: '#contact', label: 'Contact' },
+];
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const currentPath = path === '/projects' || path.startsWith('/projects/') || path === '/labs/fake-bank' ? '/building-paymentgate' : path;
+---
+<nav class="primary-nav" aria-label="Main navigation">
+  {links.map(({ href, label }) => {
+    const current = label === 'Building'
+      ? currentPath === '/building-paymentgate'
+      : href === '#contact' ? false : currentPath === href;
+    return <a href={href} aria-current={current ? 'page' : undefined}>{label}</a>;
+  })}
+</nav>

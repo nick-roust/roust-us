@@ -1,0 +1,2499 @@
+{
+  "results": [
+    {
+      "width": 390,
+      "theme": "light",
+      "state": {
+        "journal": {
+          "x": 0,
+          "top": 1988.5625,
+          "bottom": 3345.4375,
+          "width": 390,
+          "height": 1356.875,
+          "right": 390,
+          "paddingTop": 32,
+          "paddingBottom": 32
+        },
+        "intro": {
+          "x": 16,
+          "top": 2020.5625,
+          "bottom": 2197.0625,
+          "width": 358,
+          "height": 176.5,
+          "right": 374
+        },
+        "columns": 1,
+        "overflow": false,
+        "layoutShift": 0,
+        "stories": [
+          {
+            "width": 358,
+            "href": "/journal/when-code-stopped-being-the-main-thing/",
+            "title": "When Code Stopped Being the Main Thing",
+            "titleId": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "labelledBy": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAR — JUN 2026 · Retrospective",
+            "summary": "An AI experiment changed how I valued architecture—and what I wanted to build next.",
+            "cover": {
+              "x": 16,
+              "top": 2229.0625,
+              "bottom": 2467.71875,
+              "width": 358,
+              "height": 238.65625,
+              "right": 374
+            },
+            "content": {
+              "x": 16,
+              "top": 2358.96875,
+              "bottom": 2467.71875,
+              "width": 358,
+              "height": 108.75,
+              "right": 374
+            },
+            "titleRect": {
+              "x": 36,
+              "top": 2392.96875,
+              "bottom": 2447.71875,
+              "width": 318,
+              "height": 54.75,
+              "right": 354
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "23.2px",
+            "fontWeight": "550",
+            "lineHeight": "27.376px",
+            "titleScrollHeight": 55,
+            "titleClientHeight": 55,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/scenario-road.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 358,
+            "href": "/journal/registry-and-configuration-authority/",
+            "title": "I Didn't Want AI to Design My System for Me",
+            "titleId": "home-journal-title-registry-and-configuration-authority",
+            "labelledBy": "home-journal-title-registry-and-configuration-authority",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAY — OCT 2026 · Retrospective",
+            "summary": "I used definitions and versioned configurations to keep fast implementation aligned with the architecture.",
+            "cover": {
+              "x": 16,
+              "top": 2586.78125,
+              "bottom": 2825.4375,
+              "width": 358,
+              "height": 238.65625,
+              "right": 374
+            },
+            "content": {
+              "x": 16,
+              "top": 2716.6875,
+              "bottom": 2825.4375,
+              "width": 358,
+              "height": 108.75,
+              "right": 374
+            },
+            "titleRect": {
+              "x": 36,
+              "top": 2750.6875,
+              "bottom": 2805.4375,
+              "width": 318,
+              "height": 54.75,
+              "right": 354
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "23.2px",
+            "fontWeight": "550",
+            "lineHeight": "27.376px",
+            "titleScrollHeight": 55,
+            "titleClientHeight": 55,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/platform-node-bridge.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 358,
+            "href": "/journal/we-built-all-the-pieces/",
+            "title": "We Built All the Pieces. Then We Had to Make Them Work Together.",
+            "titleId": "home-journal-title-we-built-all-the-pieces",
+            "labelledBy": "home-journal-title-we-built-all-the-pieces",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "AUG — OCT 2026 · Retrospective",
+            "summary": "We had the components. Integration work made one complete sale through the FakeBank simulator possible.",
+            "cover": {
+              "x": 16,
+              "top": 2965.609375,
+              "bottom": 3204.265625,
+              "width": 358,
+              "height": 238.65625,
+              "right": 374
+            },
+            "content": {
+              "x": 16,
+              "top": 3068.140625,
+              "bottom": 3204.265625,
+              "width": 358,
+              "height": 136.125,
+              "right": 374
+            },
+            "titleRect": {
+              "x": 36,
+              "top": 3102.140625,
+              "bottom": 3184.265625,
+              "width": 318,
+              "height": 82.125,
+              "right": 354
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "23.2px",
+            "fontWeight": "550",
+            "lineHeight": "27.376px",
+            "titleScrollHeight": 82,
+            "titleClientHeight": 82,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/first-payment-tunnel.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          }
+        ],
+        "other": [
+          {
+            "class": "hero",
+            "x": 0,
+            "top": 0,
+            "bottom": 792,
+            "width": 390,
+            "height": 792,
+            "right": 390,
+            "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+          },
+          {
+            "class": "systems-overview section-wrap",
+            "x": 0,
+            "top": 792,
+            "bottom": 1427.515625,
+            "width": 390,
+            "height": 635.515625,
+            "right": 390,
+            "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+          },
+          {
+            "class": "featured-fakebank section-wrap",
+            "x": 0,
+            "top": 1427.515625,
+            "bottom": 1988.5625,
+            "width": 390,
+            "height": 561.046875,
+            "right": 390,
+            "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+          },
+          {
+            "class": "building-section",
+            "x": 0,
+            "top": 3345.4375,
+            "bottom": 4003.515625,
+            "width": 390,
+            "height": 658.078125,
+            "right": 390,
+            "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+          },
+          {
+            "class": "contact-section",
+            "x": 0,
+            "top": 4003.515625,
+            "bottom": 4321.078125,
+            "width": 390,
+            "height": 317.5625,
+            "right": 390,
+            "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+          },
+          {
+            "class": "site-footer",
+            "x": 0,
+            "top": 4321.078125,
+            "bottom": 4402.078125,
+            "width": 390,
+            "height": 81,
+            "right": 390,
+            "text": "© 2006-2026 ROUST.USBack to top ↑"
+          }
+        ]
+      },
+      "accessibility": "Exact title link names, decorative images, heading hierarchy and visible focus PASS"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "state": {
+        "journal": {
+          "x": 0,
+          "top": 1988.5625,
+          "bottom": 3345.4375,
+          "width": 390,
+          "height": 1356.875,
+          "right": 390,
+          "paddingTop": 32,
+          "paddingBottom": 32
+        },
+        "intro": {
+          "x": 16,
+          "top": 2020.5625,
+          "bottom": 2197.0625,
+          "width": 358,
+          "height": 176.5,
+          "right": 374
+        },
+        "columns": 1,
+        "overflow": false,
+        "layoutShift": 0,
+        "stories": [
+          {
+            "width": 358,
+            "href": "/journal/when-code-stopped-being-the-main-thing/",
+            "title": "When Code Stopped Being the Main Thing",
+            "titleId": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "labelledBy": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAR — JUN 2026 · Retrospective",
+            "summary": "An AI experiment changed how I valued architecture—and what I wanted to build next.",
+            "cover": {
+              "x": 16,
+              "top": 2229.0625,
+              "bottom": 2467.71875,
+              "width": 358,
+              "height": 238.65625,
+              "right": 374
+            },
+            "content": {
+              "x": 16,
+              "top": 2358.96875,
+              "bottom": 2467.71875,
+              "width": 358,
+              "height": 108.75,
+              "right": 374
+            },
+            "titleRect": {
+              "x": 36,
+              "top": 2392.96875,
+              "bottom": 2447.71875,
+              "width": 318,
+              "height": 54.75,
+              "right": 354
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "23.2px",
+            "fontWeight": "550",
+            "lineHeight": "27.376px",
+            "titleScrollHeight": 55,
+            "titleClientHeight": 55,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/scenario-road.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 358,
+            "href": "/journal/registry-and-configuration-authority/",
+            "title": "I Didn't Want AI to Design My System for Me",
+            "titleId": "home-journal-title-registry-and-configuration-authority",
+            "labelledBy": "home-journal-title-registry-and-configuration-authority",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAY — OCT 2026 · Retrospective",
+            "summary": "I used definitions and versioned configurations to keep fast implementation aligned with the architecture.",
+            "cover": {
+              "x": 16,
+              "top": 2586.78125,
+              "bottom": 2825.4375,
+              "width": 358,
+              "height": 238.65625,
+              "right": 374
+            },
+            "content": {
+              "x": 16,
+              "top": 2716.6875,
+              "bottom": 2825.4375,
+              "width": 358,
+              "height": 108.75,
+              "right": 374
+            },
+            "titleRect": {
+              "x": 36,
+              "top": 2750.6875,
+              "bottom": 2805.4375,
+              "width": 318,
+              "height": 54.75,
+              "right": 354
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "23.2px",
+            "fontWeight": "550",
+            "lineHeight": "27.376px",
+            "titleScrollHeight": 55,
+            "titleClientHeight": 55,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/platform-node-bridge.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 358,
+            "href": "/journal/we-built-all-the-pieces/",
+            "title": "We Built All the Pieces. Then We Had to Make Them Work Together.",
+            "titleId": "home-journal-title-we-built-all-the-pieces",
+            "labelledBy": "home-journal-title-we-built-all-the-pieces",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "AUG — OCT 2026 · Retrospective",
+            "summary": "We had the components. Integration work made one complete sale through the FakeBank simulator possible.",
+            "cover": {
+              "x": 16,
+              "top": 2965.609375,
+              "bottom": 3204.265625,
+              "width": 358,
+              "height": 238.65625,
+              "right": 374
+            },
+            "content": {
+              "x": 16,
+              "top": 3068.140625,
+              "bottom": 3204.265625,
+              "width": 358,
+              "height": 136.125,
+              "right": 374
+            },
+            "titleRect": {
+              "x": 36,
+              "top": 3102.140625,
+              "bottom": 3184.265625,
+              "width": 318,
+              "height": 82.125,
+              "right": 354
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "23.2px",
+            "fontWeight": "550",
+            "lineHeight": "27.376px",
+            "titleScrollHeight": 82,
+            "titleClientHeight": 82,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/first-payment-tunnel.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          }
+        ],
+        "other": [
+          {
+            "class": "hero",
+            "x": 0,
+            "top": 0,
+            "bottom": 792,
+            "width": 390,
+            "height": 792,
+            "right": 390,
+            "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+          },
+          {
+            "class": "systems-overview section-wrap",
+            "x": 0,
+            "top": 792,
+            "bottom": 1427.515625,
+            "width": 390,
+            "height": 635.515625,
+            "right": 390,
+            "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+          },
+          {
+            "class": "featured-fakebank section-wrap",
+            "x": 0,
+            "top": 1427.515625,
+            "bottom": 1988.5625,
+            "width": 390,
+            "height": 561.046875,
+            "right": 390,
+            "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+          },
+          {
+            "class": "building-section",
+            "x": 0,
+            "top": 3345.4375,
+            "bottom": 4003.515625,
+            "width": 390,
+            "height": 658.078125,
+            "right": 390,
+            "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+          },
+          {
+            "class": "contact-section",
+            "x": 0,
+            "top": 4003.515625,
+            "bottom": 4321.078125,
+            "width": 390,
+            "height": 317.5625,
+            "right": 390,
+            "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+          },
+          {
+            "class": "site-footer",
+            "x": 0,
+            "top": 4321.078125,
+            "bottom": 4402.078125,
+            "width": 390,
+            "height": 81,
+            "right": 390,
+            "text": "© 2006-2026 ROUST.USBack to top ↑"
+          }
+        ]
+      },
+      "accessibility": "Exact title link names, decorative images, heading hierarchy and visible focus PASS"
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "state": {
+        "journal": {
+          "x": 0,
+          "top": 1441.234375,
+          "bottom": 2068.859375,
+          "width": 753,
+          "height": 627.625,
+          "right": 753,
+          "paddingTop": 40,
+          "paddingBottom": 40
+        },
+        "intro": {
+          "x": 24,
+          "top": 1481.234375,
+          "bottom": 1657.734375,
+          "width": 560,
+          "height": 176.5,
+          "right": 584
+        },
+        "columns": 3,
+        "overflow": false,
+        "layoutShift": 0,
+        "stories": [
+          {
+            "width": 224.328125,
+            "href": "/journal/when-code-stopped-being-the-main-thing/",
+            "title": "When Code Stopped Being the Main Thing",
+            "titleId": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "labelledBy": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAR — JUN 2026 · Retrospective",
+            "summary": "An AI experiment changed how I valued architecture—and what I wanted to build next.",
+            "cover": {
+              "x": 24,
+              "top": 1689.734375,
+              "bottom": 1881.734375,
+              "width": 224.328125,
+              "height": 192,
+              "right": 248.328125
+            },
+            "content": {
+              "x": 24,
+              "top": 1784.296875,
+              "bottom": 1881.734375,
+              "width": 224.328125,
+              "height": 97.4375,
+              "right": 248.328125
+            },
+            "titleRect": {
+              "x": 44,
+              "top": 1818.296875,
+              "bottom": 1861.734375,
+              "width": 184.328125,
+              "height": 43.4375,
+              "right": 228.328125
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "18.4px",
+            "fontWeight": "550",
+            "lineHeight": "21.712px",
+            "titleScrollHeight": 43,
+            "titleClientHeight": 43,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/scenario-road.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 224.328125,
+            "href": "/journal/registry-and-configuration-authority/",
+            "title": "I Didn't Want AI to Design My System for Me",
+            "titleId": "home-journal-title-registry-and-configuration-authority",
+            "labelledBy": "home-journal-title-registry-and-configuration-authority",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAY — OCT 2026 · Retrospective",
+            "summary": "I used definitions and versioned configurations to keep fast implementation aligned with the architecture.",
+            "cover": {
+              "x": 264.328125,
+              "top": 1689.734375,
+              "bottom": 1881.734375,
+              "width": 224.328125,
+              "height": 192,
+              "right": 488.65625
+            },
+            "content": {
+              "x": 264.328125,
+              "top": 1762.578125,
+              "bottom": 1881.734375,
+              "width": 224.328125,
+              "height": 119.15625,
+              "right": 488.65625
+            },
+            "titleRect": {
+              "x": 284.328125,
+              "top": 1796.578125,
+              "bottom": 1861.734375,
+              "width": 184.328125,
+              "height": 65.15625,
+              "right": 468.65625
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "18.4px",
+            "fontWeight": "550",
+            "lineHeight": "21.712px",
+            "titleScrollHeight": 65,
+            "titleClientHeight": 65,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/platform-node-bridge.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 224.328125,
+            "href": "/journal/we-built-all-the-pieces/",
+            "title": "We Built All the Pieces. Then We Had to Make Them Work Together.",
+            "titleId": "home-journal-title-we-built-all-the-pieces",
+            "labelledBy": "home-journal-title-we-built-all-the-pieces",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "AUG — OCT 2026 · Retrospective",
+            "summary": "We had the components. Integration work made one complete sale through the FakeBank simulator possible.",
+            "cover": {
+              "x": 504.65625,
+              "top": 1689.734375,
+              "bottom": 1881.734375,
+              "width": 224.328125,
+              "height": 192,
+              "right": 728.984375
+            },
+            "content": {
+              "x": 504.65625,
+              "top": 1740.859375,
+              "bottom": 1881.734375,
+              "width": 224.328125,
+              "height": 140.875,
+              "right": 728.984375
+            },
+            "titleRect": {
+              "x": 524.65625,
+              "top": 1774.859375,
+              "bottom": 1861.734375,
+              "width": 184.328125,
+              "height": 86.875,
+              "right": 708.984375
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "18.4px",
+            "fontWeight": "550",
+            "lineHeight": "21.712px",
+            "titleScrollHeight": 87,
+            "titleClientHeight": 87,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/first-payment-tunnel.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          }
+        ],
+        "other": [
+          {
+            "class": "hero",
+            "x": 0,
+            "top": 0,
+            "bottom": 780,
+            "width": 753,
+            "height": 780,
+            "right": 753,
+            "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+          },
+          {
+            "class": "systems-overview section-wrap",
+            "x": 0,
+            "top": 780,
+            "bottom": 1151.34375,
+            "width": 753,
+            "height": 371.34375,
+            "right": 753,
+            "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+          },
+          {
+            "class": "featured-fakebank section-wrap",
+            "x": 0,
+            "top": 1151.34375,
+            "bottom": 1441.234375,
+            "width": 753,
+            "height": 289.890625,
+            "right": 753,
+            "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+          },
+          {
+            "class": "building-section",
+            "x": 0,
+            "top": 2068.859375,
+            "bottom": 2662.4375,
+            "width": 753,
+            "height": 593.578125,
+            "right": 753,
+            "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+          },
+          {
+            "class": "contact-section",
+            "x": 0,
+            "top": 2662.4375,
+            "bottom": 2924.53125,
+            "width": 753,
+            "height": 262.09375,
+            "right": 753,
+            "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+          },
+          {
+            "class": "site-footer",
+            "x": 0,
+            "top": 2924.53125,
+            "bottom": 3025.53125,
+            "width": 753,
+            "height": 101,
+            "right": 753,
+            "text": "© 2006-2026 ROUST.USBack to top ↑"
+          }
+        ]
+      },
+      "accessibility": "Exact title link names, decorative images, heading hierarchy and visible focus PASS"
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "state": {
+        "journal": {
+          "x": 0,
+          "top": 1441.234375,
+          "bottom": 2068.859375,
+          "width": 753,
+          "height": 627.625,
+          "right": 753,
+          "paddingTop": 40,
+          "paddingBottom": 40
+        },
+        "intro": {
+          "x": 24,
+          "top": 1481.234375,
+          "bottom": 1657.734375,
+          "width": 560,
+          "height": 176.5,
+          "right": 584
+        },
+        "columns": 3,
+        "overflow": false,
+        "layoutShift": 0,
+        "stories": [
+          {
+            "width": 224.328125,
+            "href": "/journal/when-code-stopped-being-the-main-thing/",
+            "title": "When Code Stopped Being the Main Thing",
+            "titleId": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "labelledBy": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAR — JUN 2026 · Retrospective",
+            "summary": "An AI experiment changed how I valued architecture—and what I wanted to build next.",
+            "cover": {
+              "x": 24,
+              "top": 1689.734375,
+              "bottom": 1881.734375,
+              "width": 224.328125,
+              "height": 192,
+              "right": 248.328125
+            },
+            "content": {
+              "x": 24,
+              "top": 1784.296875,
+              "bottom": 1881.734375,
+              "width": 224.328125,
+              "height": 97.4375,
+              "right": 248.328125
+            },
+            "titleRect": {
+              "x": 44,
+              "top": 1818.296875,
+              "bottom": 1861.734375,
+              "width": 184.328125,
+              "height": 43.4375,
+              "right": 228.328125
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "18.4px",
+            "fontWeight": "550",
+            "lineHeight": "21.712px",
+            "titleScrollHeight": 43,
+            "titleClientHeight": 43,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/scenario-road.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 224.328125,
+            "href": "/journal/registry-and-configuration-authority/",
+            "title": "I Didn't Want AI to Design My System for Me",
+            "titleId": "home-journal-title-registry-and-configuration-authority",
+            "labelledBy": "home-journal-title-registry-and-configuration-authority",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAY — OCT 2026 · Retrospective",
+            "summary": "I used definitions and versioned configurations to keep fast implementation aligned with the architecture.",
+            "cover": {
+              "x": 264.328125,
+              "top": 1689.734375,
+              "bottom": 1881.734375,
+              "width": 224.328125,
+              "height": 192,
+              "right": 488.65625
+            },
+            "content": {
+              "x": 264.328125,
+              "top": 1762.578125,
+              "bottom": 1881.734375,
+              "width": 224.328125,
+              "height": 119.15625,
+              "right": 488.65625
+            },
+            "titleRect": {
+              "x": 284.328125,
+              "top": 1796.578125,
+              "bottom": 1861.734375,
+              "width": 184.328125,
+              "height": 65.15625,
+              "right": 468.65625
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "18.4px",
+            "fontWeight": "550",
+            "lineHeight": "21.712px",
+            "titleScrollHeight": 65,
+            "titleClientHeight": 65,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/platform-node-bridge.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 224.328125,
+            "href": "/journal/we-built-all-the-pieces/",
+            "title": "We Built All the Pieces. Then We Had to Make Them Work Together.",
+            "titleId": "home-journal-title-we-built-all-the-pieces",
+            "labelledBy": "home-journal-title-we-built-all-the-pieces",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "AUG — OCT 2026 · Retrospective",
+            "summary": "We had the components. Integration work made one complete sale through the FakeBank simulator possible.",
+            "cover": {
+              "x": 504.65625,
+              "top": 1689.734375,
+              "bottom": 1881.734375,
+              "width": 224.328125,
+              "height": 192,
+              "right": 728.984375
+            },
+            "content": {
+              "x": 504.65625,
+              "top": 1740.859375,
+              "bottom": 1881.734375,
+              "width": 224.328125,
+              "height": 140.875,
+              "right": 728.984375
+            },
+            "titleRect": {
+              "x": 524.65625,
+              "top": 1774.859375,
+              "bottom": 1861.734375,
+              "width": 184.328125,
+              "height": 86.875,
+              "right": 708.984375
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "18.4px",
+            "fontWeight": "550",
+            "lineHeight": "21.712px",
+            "titleScrollHeight": 87,
+            "titleClientHeight": 87,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/first-payment-tunnel.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          }
+        ],
+        "other": [
+          {
+            "class": "hero",
+            "x": 0,
+            "top": 0,
+            "bottom": 780,
+            "width": 753,
+            "height": 780,
+            "right": 753,
+            "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+          },
+          {
+            "class": "systems-overview section-wrap",
+            "x": 0,
+            "top": 780,
+            "bottom": 1151.34375,
+            "width": 753,
+            "height": 371.34375,
+            "right": 753,
+            "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+          },
+          {
+            "class": "featured-fakebank section-wrap",
+            "x": 0,
+            "top": 1151.34375,
+            "bottom": 1441.234375,
+            "width": 753,
+            "height": 289.890625,
+            "right": 753,
+            "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+          },
+          {
+            "class": "building-section",
+            "x": 0,
+            "top": 2068.859375,
+            "bottom": 2662.4375,
+            "width": 753,
+            "height": 593.578125,
+            "right": 753,
+            "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+          },
+          {
+            "class": "contact-section",
+            "x": 0,
+            "top": 2662.4375,
+            "bottom": 2924.53125,
+            "width": 753,
+            "height": 262.09375,
+            "right": 753,
+            "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+          },
+          {
+            "class": "site-footer",
+            "x": 0,
+            "top": 2924.53125,
+            "bottom": 3025.53125,
+            "width": 753,
+            "height": 101,
+            "right": 753,
+            "text": "© 2006-2026 ROUST.USBack to top ↑"
+          }
+        ]
+      },
+      "accessibility": "Exact title link names, decorative images, heading hierarchy and visible focus PASS"
+    },
+    {
+      "width": 1024,
+      "theme": "light",
+      "state": {
+        "journal": {
+          "x": 0,
+          "top": 1295.015625,
+          "bottom": 1802.140625,
+          "width": 1009,
+          "height": 507.125,
+          "right": 1009,
+          "paddingTop": 76,
+          "paddingBottom": 84
+        },
+        "intro": {
+          "x": 24,
+          "top": 1371.015625,
+          "bottom": 1639.28125,
+          "width": 233.078125,
+          "height": 268.265625,
+          "right": 257.078125
+        },
+        "columns": 3,
+        "overflow": false,
+        "layoutShift": 0,
+        "stories": [
+          {
+            "width": 218.3125,
+            "href": "/journal/when-code-stopped-being-the-main-thing/",
+            "title": "When Code Stopped Being the Main Thing",
+            "titleId": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "labelledBy": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAR — JUN 2026 · Retrospective",
+            "summary": "An AI experiment changed how I valued architecture—and what I wanted to build next.",
+            "cover": {
+              "x": 298.03125,
+              "top": 1371.015625,
+              "bottom": 1563.015625,
+              "width": 218.3125,
+              "height": 192,
+              "right": 516.34375
+            },
+            "content": {
+              "x": 298.03125,
+              "top": 1465.578125,
+              "bottom": 1563.015625,
+              "width": 218.3125,
+              "height": 97.4375,
+              "right": 516.34375
+            },
+            "titleRect": {
+              "x": 318.03125,
+              "top": 1499.578125,
+              "bottom": 1543.015625,
+              "width": 178.3125,
+              "height": 43.4375,
+              "right": 496.34375
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "18.4px",
+            "fontWeight": "550",
+            "lineHeight": "21.712px",
+            "titleScrollHeight": 43,
+            "titleClientHeight": 43,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/scenario-road.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 218.328125,
+            "href": "/journal/registry-and-configuration-authority/",
+            "title": "I Didn't Want AI to Design My System for Me",
+            "titleId": "home-journal-title-registry-and-configuration-authority",
+            "labelledBy": "home-journal-title-registry-and-configuration-authority",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAY — OCT 2026 · Retrospective",
+            "summary": "I used definitions and versioned configurations to keep fast implementation aligned with the architecture.",
+            "cover": {
+              "x": 532.34375,
+              "top": 1371.015625,
+              "bottom": 1563.015625,
+              "width": 218.328125,
+              "height": 192,
+              "right": 750.671875
+            },
+            "content": {
+              "x": 532.34375,
+              "top": 1443.859375,
+              "bottom": 1563.015625,
+              "width": 218.328125,
+              "height": 119.15625,
+              "right": 750.671875
+            },
+            "titleRect": {
+              "x": 552.34375,
+              "top": 1477.859375,
+              "bottom": 1543.015625,
+              "width": 178.328125,
+              "height": 65.15625,
+              "right": 730.671875
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "18.4px",
+            "fontWeight": "550",
+            "lineHeight": "21.712px",
+            "titleScrollHeight": 65,
+            "titleClientHeight": 65,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/platform-node-bridge.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 218.328125,
+            "href": "/journal/we-built-all-the-pieces/",
+            "title": "We Built All the Pieces. Then We Had to Make Them Work Together.",
+            "titleId": "home-journal-title-we-built-all-the-pieces",
+            "labelledBy": "home-journal-title-we-built-all-the-pieces",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "AUG — OCT 2026 · Retrospective",
+            "summary": "We had the components. Integration work made one complete sale through the FakeBank simulator possible.",
+            "cover": {
+              "x": 766.671875,
+              "top": 1371.015625,
+              "bottom": 1563.015625,
+              "width": 218.328125,
+              "height": 192,
+              "right": 985
+            },
+            "content": {
+              "x": 766.671875,
+              "top": 1422.140625,
+              "bottom": 1563.015625,
+              "width": 218.328125,
+              "height": 140.875,
+              "right": 985
+            },
+            "titleRect": {
+              "x": 786.671875,
+              "top": 1456.140625,
+              "bottom": 1543.015625,
+              "width": 178.328125,
+              "height": 86.875,
+              "right": 965
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "18.4px",
+            "fontWeight": "550",
+            "lineHeight": "21.712px",
+            "titleScrollHeight": 87,
+            "titleClientHeight": 87,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/first-payment-tunnel.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          }
+        ],
+        "other": [
+          {
+            "class": "hero",
+            "x": 0,
+            "top": 0,
+            "bottom": 780,
+            "width": 1009,
+            "height": 780,
+            "right": 1009,
+            "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+          },
+          {
+            "class": "systems-overview section-wrap",
+            "x": 0,
+            "top": 780,
+            "bottom": 1028.5625,
+            "width": 1009,
+            "height": 248.5625,
+            "right": 1009,
+            "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+          },
+          {
+            "class": "featured-fakebank section-wrap",
+            "x": 0,
+            "top": 1028.5625,
+            "bottom": 1295.015625,
+            "width": 1009,
+            "height": 266.453125,
+            "right": 1009,
+            "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+          },
+          {
+            "class": "building-section",
+            "x": 0,
+            "top": 1802.140625,
+            "bottom": 2391.015625,
+            "width": 1009,
+            "height": 588.875,
+            "right": 1009,
+            "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+          },
+          {
+            "class": "contact-section",
+            "x": 0,
+            "top": 2391.015625,
+            "bottom": 2589.75,
+            "width": 1009,
+            "height": 198.734375,
+            "right": 1009,
+            "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+          },
+          {
+            "class": "site-footer",
+            "x": 0,
+            "top": 2589.75,
+            "bottom": 2690.75,
+            "width": 1009,
+            "height": 101,
+            "right": 1009,
+            "text": "© 2006-2026 ROUST.USBack to top ↑"
+          }
+        ]
+      },
+      "accessibility": "Exact title link names, decorative images, heading hierarchy and visible focus PASS"
+    },
+    {
+      "width": 1024,
+      "theme": "dark",
+      "state": {
+        "journal": {
+          "x": 0,
+          "top": 1295.015625,
+          "bottom": 1802.140625,
+          "width": 1009,
+          "height": 507.125,
+          "right": 1009,
+          "paddingTop": 76,
+          "paddingBottom": 84
+        },
+        "intro": {
+          "x": 24,
+          "top": 1371.015625,
+          "bottom": 1639.28125,
+          "width": 233.078125,
+          "height": 268.265625,
+          "right": 257.078125
+        },
+        "columns": 3,
+        "overflow": false,
+        "layoutShift": 0,
+        "stories": [
+          {
+            "width": 218.3125,
+            "href": "/journal/when-code-stopped-being-the-main-thing/",
+            "title": "When Code Stopped Being the Main Thing",
+            "titleId": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "labelledBy": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAR — JUN 2026 · Retrospective",
+            "summary": "An AI experiment changed how I valued architecture—and what I wanted to build next.",
+            "cover": {
+              "x": 298.03125,
+              "top": 1371.015625,
+              "bottom": 1563.015625,
+              "width": 218.3125,
+              "height": 192,
+              "right": 516.34375
+            },
+            "content": {
+              "x": 298.03125,
+              "top": 1465.578125,
+              "bottom": 1563.015625,
+              "width": 218.3125,
+              "height": 97.4375,
+              "right": 516.34375
+            },
+            "titleRect": {
+              "x": 318.03125,
+              "top": 1499.578125,
+              "bottom": 1543.015625,
+              "width": 178.3125,
+              "height": 43.4375,
+              "right": 496.34375
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "18.4px",
+            "fontWeight": "550",
+            "lineHeight": "21.712px",
+            "titleScrollHeight": 43,
+            "titleClientHeight": 43,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/scenario-road.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 218.328125,
+            "href": "/journal/registry-and-configuration-authority/",
+            "title": "I Didn't Want AI to Design My System for Me",
+            "titleId": "home-journal-title-registry-and-configuration-authority",
+            "labelledBy": "home-journal-title-registry-and-configuration-authority",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAY — OCT 2026 · Retrospective",
+            "summary": "I used definitions and versioned configurations to keep fast implementation aligned with the architecture.",
+            "cover": {
+              "x": 532.34375,
+              "top": 1371.015625,
+              "bottom": 1563.015625,
+              "width": 218.328125,
+              "height": 192,
+              "right": 750.671875
+            },
+            "content": {
+              "x": 532.34375,
+              "top": 1443.859375,
+              "bottom": 1563.015625,
+              "width": 218.328125,
+              "height": 119.15625,
+              "right": 750.671875
+            },
+            "titleRect": {
+              "x": 552.34375,
+              "top": 1477.859375,
+              "bottom": 1543.015625,
+              "width": 178.328125,
+              "height": 65.15625,
+              "right": 730.671875
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "18.4px",
+            "fontWeight": "550",
+            "lineHeight": "21.712px",
+            "titleScrollHeight": 65,
+            "titleClientHeight": 65,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/platform-node-bridge.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 218.328125,
+            "href": "/journal/we-built-all-the-pieces/",
+            "title": "We Built All the Pieces. Then We Had to Make Them Work Together.",
+            "titleId": "home-journal-title-we-built-all-the-pieces",
+            "labelledBy": "home-journal-title-we-built-all-the-pieces",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "AUG — OCT 2026 · Retrospective",
+            "summary": "We had the components. Integration work made one complete sale through the FakeBank simulator possible.",
+            "cover": {
+              "x": 766.671875,
+              "top": 1371.015625,
+              "bottom": 1563.015625,
+              "width": 218.328125,
+              "height": 192,
+              "right": 985
+            },
+            "content": {
+              "x": 766.671875,
+              "top": 1422.140625,
+              "bottom": 1563.015625,
+              "width": 218.328125,
+              "height": 140.875,
+              "right": 985
+            },
+            "titleRect": {
+              "x": 786.671875,
+              "top": 1456.140625,
+              "bottom": 1543.015625,
+              "width": 178.328125,
+              "height": 86.875,
+              "right": 965
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "18.4px",
+            "fontWeight": "550",
+            "lineHeight": "21.712px",
+            "titleScrollHeight": 87,
+            "titleClientHeight": 87,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/first-payment-tunnel.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          }
+        ],
+        "other": [
+          {
+            "class": "hero",
+            "x": 0,
+            "top": 0,
+            "bottom": 780,
+            "width": 1009,
+            "height": 780,
+            "right": 1009,
+            "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+          },
+          {
+            "class": "systems-overview section-wrap",
+            "x": 0,
+            "top": 780,
+            "bottom": 1028.5625,
+            "width": 1009,
+            "height": 248.5625,
+            "right": 1009,
+            "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+          },
+          {
+            "class": "featured-fakebank section-wrap",
+            "x": 0,
+            "top": 1028.5625,
+            "bottom": 1295.015625,
+            "width": 1009,
+            "height": 266.453125,
+            "right": 1009,
+            "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+          },
+          {
+            "class": "building-section",
+            "x": 0,
+            "top": 1802.140625,
+            "bottom": 2391.015625,
+            "width": 1009,
+            "height": 588.875,
+            "right": 1009,
+            "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+          },
+          {
+            "class": "contact-section",
+            "x": 0,
+            "top": 2391.015625,
+            "bottom": 2589.75,
+            "width": 1009,
+            "height": 198.734375,
+            "right": 1009,
+            "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+          },
+          {
+            "class": "site-footer",
+            "x": 0,
+            "top": 2589.75,
+            "bottom": 2690.75,
+            "width": 1009,
+            "height": 101,
+            "right": 1009,
+            "text": "© 2006-2026 ROUST.USBack to top ↑"
+          }
+        ]
+      },
+      "accessibility": "Exact title link names, decorative images, heading hierarchy and visible focus PASS"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "state": {
+        "journal": {
+          "x": 0,
+          "top": 1375.359375,
+          "bottom": 1892.375,
+          "width": 1425,
+          "height": 517.015625,
+          "right": 1425,
+          "paddingTop": 76,
+          "paddingBottom": 84
+        },
+        "intro": {
+          "x": 52.5,
+          "top": 1451.359375,
+          "bottom": 1724.28125,
+          "width": 319.796875,
+          "height": 272.921875,
+          "right": 372.296875
+        },
+        "columns": 3,
+        "overflow": false,
+        "layoutShift": 0,
+        "stories": [
+          {
+            "width": 299.796875,
+            "href": "/journal/when-code-stopped-being-the-main-thing/",
+            "title": "When Code Stopped Being the Main Thing",
+            "titleId": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "labelledBy": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAR — JUN 2026 · Retrospective",
+            "summary": "An AI experiment changed how I valued architecture—and what I wanted to build next.",
+            "cover": {
+              "x": 429.890625,
+              "top": 1451.359375,
+              "bottom": 1691.1875,
+              "width": 299.796875,
+              "height": 239.828125,
+              "right": 729.6875
+            },
+            "content": {
+              "x": 429.890625,
+              "top": 1584.53125,
+              "bottom": 1691.1875,
+              "width": 299.796875,
+              "height": 106.65625,
+              "right": 729.6875
+            },
+            "titleRect": {
+              "x": 449.890625,
+              "top": 1618.53125,
+              "bottom": 1671.1875,
+              "width": 259.796875,
+              "height": 52.65625,
+              "right": 709.6875
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "22.32px",
+            "fontWeight": "550",
+            "lineHeight": "26.3376px",
+            "titleScrollHeight": 53,
+            "titleClientHeight": 53,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/scenario-road.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 299.8125,
+            "href": "/journal/registry-and-configuration-authority/",
+            "title": "I Didn't Want AI to Design My System for Me",
+            "titleId": "home-journal-title-registry-and-configuration-authority",
+            "labelledBy": "home-journal-title-registry-and-configuration-authority",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAY — OCT 2026 · Retrospective",
+            "summary": "I used definitions and versioned configurations to keep fast implementation aligned with the architecture.",
+            "cover": {
+              "x": 751.28125,
+              "top": 1451.359375,
+              "bottom": 1691.203125,
+              "width": 299.8125,
+              "height": 239.84375,
+              "right": 1051.09375
+            },
+            "content": {
+              "x": 751.28125,
+              "top": 1584.546875,
+              "bottom": 1691.203125,
+              "width": 299.8125,
+              "height": 106.65625,
+              "right": 1051.09375
+            },
+            "titleRect": {
+              "x": 771.28125,
+              "top": 1618.546875,
+              "bottom": 1671.203125,
+              "width": 259.8125,
+              "height": 52.65625,
+              "right": 1031.09375
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "22.32px",
+            "fontWeight": "550",
+            "lineHeight": "26.3376px",
+            "titleScrollHeight": 53,
+            "titleClientHeight": 53,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/platform-node-bridge.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 299.796875,
+            "href": "/journal/we-built-all-the-pieces/",
+            "title": "We Built All the Pieces. Then We Had to Make Them Work Together.",
+            "titleId": "home-journal-title-we-built-all-the-pieces",
+            "labelledBy": "home-journal-title-we-built-all-the-pieces",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "AUG — OCT 2026 · Retrospective",
+            "summary": "We had the components. Integration work made one complete sale through the FakeBank simulator possible.",
+            "cover": {
+              "x": 1072.6875,
+              "top": 1451.359375,
+              "bottom": 1691.1875,
+              "width": 299.796875,
+              "height": 239.828125,
+              "right": 1372.484375
+            },
+            "content": {
+              "x": 1072.6875,
+              "top": 1558.203125,
+              "bottom": 1691.1875,
+              "width": 299.796875,
+              "height": 132.984375,
+              "right": 1372.484375
+            },
+            "titleRect": {
+              "x": 1092.6875,
+              "top": 1592.203125,
+              "bottom": 1671.1875,
+              "width": 259.796875,
+              "height": 78.984375,
+              "right": 1352.484375
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "22.32px",
+            "fontWeight": "550",
+            "lineHeight": "26.3376px",
+            "titleScrollHeight": 79,
+            "titleClientHeight": 79,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/first-payment-tunnel.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          }
+        ],
+        "other": [
+          {
+            "class": "hero",
+            "x": 0,
+            "top": 0,
+            "bottom": 780,
+            "width": 1425,
+            "height": 780,
+            "right": 1425,
+            "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+          },
+          {
+            "class": "systems-overview section-wrap",
+            "x": 0,
+            "top": 780,
+            "bottom": 1008.171875,
+            "width": 1425,
+            "height": 228.171875,
+            "right": 1425,
+            "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+          },
+          {
+            "class": "featured-fakebank section-wrap",
+            "x": 0,
+            "top": 1008.171875,
+            "bottom": 1375.359375,
+            "width": 1425,
+            "height": 367.1875,
+            "right": 1425,
+            "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+          },
+          {
+            "class": "building-section",
+            "x": 0,
+            "top": 1892.375,
+            "bottom": 2362.515625,
+            "width": 1425,
+            "height": 470.140625,
+            "right": 1425,
+            "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+          },
+          {
+            "class": "contact-section",
+            "x": 0,
+            "top": 2362.515625,
+            "bottom": 2575.21875,
+            "width": 1425,
+            "height": 212.703125,
+            "right": 1425,
+            "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+          },
+          {
+            "class": "site-footer",
+            "x": 0,
+            "top": 2575.21875,
+            "bottom": 2676.21875,
+            "width": 1425,
+            "height": 101,
+            "right": 1425,
+            "text": "© 2006-2026 ROUST.USBack to top ↑"
+          }
+        ]
+      },
+      "accessibility": "Exact title link names, decorative images, heading hierarchy and visible focus PASS"
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "state": {
+        "journal": {
+          "x": 0,
+          "top": 1375.359375,
+          "bottom": 1892.375,
+          "width": 1425,
+          "height": 517.015625,
+          "right": 1425,
+          "paddingTop": 76,
+          "paddingBottom": 84
+        },
+        "intro": {
+          "x": 52.5,
+          "top": 1451.359375,
+          "bottom": 1724.28125,
+          "width": 319.796875,
+          "height": 272.921875,
+          "right": 372.296875
+        },
+        "columns": 3,
+        "overflow": false,
+        "layoutShift": 0,
+        "stories": [
+          {
+            "width": 299.796875,
+            "href": "/journal/when-code-stopped-being-the-main-thing/",
+            "title": "When Code Stopped Being the Main Thing",
+            "titleId": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "labelledBy": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAR — JUN 2026 · Retrospective",
+            "summary": "An AI experiment changed how I valued architecture—and what I wanted to build next.",
+            "cover": {
+              "x": 429.890625,
+              "top": 1451.359375,
+              "bottom": 1691.1875,
+              "width": 299.796875,
+              "height": 239.828125,
+              "right": 729.6875
+            },
+            "content": {
+              "x": 429.890625,
+              "top": 1584.53125,
+              "bottom": 1691.1875,
+              "width": 299.796875,
+              "height": 106.65625,
+              "right": 729.6875
+            },
+            "titleRect": {
+              "x": 449.890625,
+              "top": 1618.53125,
+              "bottom": 1671.1875,
+              "width": 259.796875,
+              "height": 52.65625,
+              "right": 709.6875
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "22.32px",
+            "fontWeight": "550",
+            "lineHeight": "26.3376px",
+            "titleScrollHeight": 53,
+            "titleClientHeight": 53,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/scenario-road.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 299.8125,
+            "href": "/journal/registry-and-configuration-authority/",
+            "title": "I Didn't Want AI to Design My System for Me",
+            "titleId": "home-journal-title-registry-and-configuration-authority",
+            "labelledBy": "home-journal-title-registry-and-configuration-authority",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAY — OCT 2026 · Retrospective",
+            "summary": "I used definitions and versioned configurations to keep fast implementation aligned with the architecture.",
+            "cover": {
+              "x": 751.28125,
+              "top": 1451.359375,
+              "bottom": 1691.203125,
+              "width": 299.8125,
+              "height": 239.84375,
+              "right": 1051.09375
+            },
+            "content": {
+              "x": 751.28125,
+              "top": 1584.546875,
+              "bottom": 1691.203125,
+              "width": 299.8125,
+              "height": 106.65625,
+              "right": 1051.09375
+            },
+            "titleRect": {
+              "x": 771.28125,
+              "top": 1618.546875,
+              "bottom": 1671.203125,
+              "width": 259.8125,
+              "height": 52.65625,
+              "right": 1031.09375
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "22.32px",
+            "fontWeight": "550",
+            "lineHeight": "26.3376px",
+            "titleScrollHeight": 53,
+            "titleClientHeight": 53,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/platform-node-bridge.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 299.796875,
+            "href": "/journal/we-built-all-the-pieces/",
+            "title": "We Built All the Pieces. Then We Had to Make Them Work Together.",
+            "titleId": "home-journal-title-we-built-all-the-pieces",
+            "labelledBy": "home-journal-title-we-built-all-the-pieces",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "AUG — OCT 2026 · Retrospective",
+            "summary": "We had the components. Integration work made one complete sale through the FakeBank simulator possible.",
+            "cover": {
+              "x": 1072.6875,
+              "top": 1451.359375,
+              "bottom": 1691.1875,
+              "width": 299.796875,
+              "height": 239.828125,
+              "right": 1372.484375
+            },
+            "content": {
+              "x": 1072.6875,
+              "top": 1558.203125,
+              "bottom": 1691.1875,
+              "width": 299.796875,
+              "height": 132.984375,
+              "right": 1372.484375
+            },
+            "titleRect": {
+              "x": 1092.6875,
+              "top": 1592.203125,
+              "bottom": 1671.1875,
+              "width": 259.796875,
+              "height": 78.984375,
+              "right": 1352.484375
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "22.32px",
+            "fontWeight": "550",
+            "lineHeight": "26.3376px",
+            "titleScrollHeight": 79,
+            "titleClientHeight": 79,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/first-payment-tunnel.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          }
+        ],
+        "other": [
+          {
+            "class": "hero",
+            "x": 0,
+            "top": 0,
+            "bottom": 780,
+            "width": 1425,
+            "height": 780,
+            "right": 1425,
+            "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+          },
+          {
+            "class": "systems-overview section-wrap",
+            "x": 0,
+            "top": 780,
+            "bottom": 1008.171875,
+            "width": 1425,
+            "height": 228.171875,
+            "right": 1425,
+            "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+          },
+          {
+            "class": "featured-fakebank section-wrap",
+            "x": 0,
+            "top": 1008.171875,
+            "bottom": 1375.359375,
+            "width": 1425,
+            "height": 367.1875,
+            "right": 1425,
+            "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+          },
+          {
+            "class": "building-section",
+            "x": 0,
+            "top": 1892.375,
+            "bottom": 2362.515625,
+            "width": 1425,
+            "height": 470.140625,
+            "right": 1425,
+            "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+          },
+          {
+            "class": "contact-section",
+            "x": 0,
+            "top": 2362.515625,
+            "bottom": 2575.21875,
+            "width": 1425,
+            "height": 212.703125,
+            "right": 1425,
+            "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+          },
+          {
+            "class": "site-footer",
+            "x": 0,
+            "top": 2575.21875,
+            "bottom": 2676.21875,
+            "width": 1425,
+            "height": 101,
+            "right": 1425,
+            "text": "© 2006-2026 ROUST.USBack to top ↑"
+          }
+        ]
+      },
+      "accessibility": "Exact title link names, decorative images, heading hierarchy and visible focus PASS"
+    },
+    {
+      "width": 1920,
+      "theme": "light",
+      "state": {
+        "journal": {
+          "x": 0,
+          "top": 1376.171875,
+          "bottom": 1891.484375,
+          "width": 1905,
+          "height": 515.3125,
+          "right": 1905,
+          "paddingTop": 76,
+          "paddingBottom": 84
+        },
+        "intro": {
+          "x": 292.5,
+          "top": 1452.171875,
+          "bottom": 1725.09375,
+          "width": 318.171875,
+          "height": 272.921875,
+          "right": 610.671875
+        },
+        "columns": 3,
+        "overflow": false,
+        "layoutShift": 0,
+        "stories": [
+          {
+            "width": 297.671875,
+            "href": "/journal/when-code-stopped-being-the-main-thing/",
+            "title": "When Code Stopped Being the Main Thing",
+            "titleId": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "labelledBy": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAR — JUN 2026 · Retrospective",
+            "summary": "An AI experiment changed how I valued architecture—and what I wanted to build next.",
+            "cover": {
+              "x": 674.671875,
+              "top": 1452.171875,
+              "bottom": 1690.296875,
+              "width": 297.671875,
+              "height": 238.125,
+              "right": 972.34375
+            },
+            "content": {
+              "x": 674.671875,
+              "top": 1583.421875,
+              "bottom": 1690.296875,
+              "width": 297.671875,
+              "height": 106.875,
+              "right": 972.34375
+            },
+            "titleRect": {
+              "x": 694.671875,
+              "top": 1617.421875,
+              "bottom": 1670.296875,
+              "width": 257.671875,
+              "height": 52.875,
+              "right": 952.34375
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "22.4px",
+            "fontWeight": "550",
+            "lineHeight": "26.432px",
+            "titleScrollHeight": 53,
+            "titleClientHeight": 53,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/scenario-road.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 297.671875,
+            "href": "/journal/registry-and-configuration-authority/",
+            "title": "I Didn't Want AI to Design My System for Me",
+            "titleId": "home-journal-title-registry-and-configuration-authority",
+            "labelledBy": "home-journal-title-registry-and-configuration-authority",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAY — OCT 2026 · Retrospective",
+            "summary": "I used definitions and versioned configurations to keep fast implementation aligned with the architecture.",
+            "cover": {
+              "x": 994.734375,
+              "top": 1452.171875,
+              "bottom": 1690.296875,
+              "width": 297.671875,
+              "height": 238.125,
+              "right": 1292.40625
+            },
+            "content": {
+              "x": 994.734375,
+              "top": 1583.421875,
+              "bottom": 1690.296875,
+              "width": 297.671875,
+              "height": 106.875,
+              "right": 1292.40625
+            },
+            "titleRect": {
+              "x": 1014.734375,
+              "top": 1617.421875,
+              "bottom": 1670.296875,
+              "width": 257.671875,
+              "height": 52.875,
+              "right": 1272.40625
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "22.4px",
+            "fontWeight": "550",
+            "lineHeight": "26.432px",
+            "titleScrollHeight": 53,
+            "titleClientHeight": 53,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/platform-node-bridge.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 297.6875,
+            "href": "/journal/we-built-all-the-pieces/",
+            "title": "We Built All the Pieces. Then We Had to Make Them Work Together.",
+            "titleId": "home-journal-title-we-built-all-the-pieces",
+            "labelledBy": "home-journal-title-we-built-all-the-pieces",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "AUG — OCT 2026 · Retrospective",
+            "summary": "We had the components. Integration work made one complete sale through the FakeBank simulator possible.",
+            "cover": {
+              "x": 1314.796875,
+              "top": 1452.171875,
+              "bottom": 1690.3125,
+              "width": 297.6875,
+              "height": 238.140625,
+              "right": 1612.484375
+            },
+            "content": {
+              "x": 1314.796875,
+              "top": 1557,
+              "bottom": 1690.3125,
+              "width": 297.6875,
+              "height": 133.3125,
+              "right": 1612.484375
+            },
+            "titleRect": {
+              "x": 1334.796875,
+              "top": 1591,
+              "bottom": 1670.3125,
+              "width": 257.6875,
+              "height": 79.3125,
+              "right": 1592.484375
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "22.4px",
+            "fontWeight": "550",
+            "lineHeight": "26.432px",
+            "titleScrollHeight": 79,
+            "titleClientHeight": 79,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/first-payment-tunnel.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          }
+        ],
+        "other": [
+          {
+            "class": "hero",
+            "x": 0,
+            "top": 0,
+            "bottom": 780,
+            "width": 1905,
+            "height": 780,
+            "right": 1905,
+            "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+          },
+          {
+            "class": "systems-overview section-wrap",
+            "x": 0,
+            "top": 780,
+            "bottom": 1008.171875,
+            "width": 1905,
+            "height": 228.171875,
+            "right": 1905,
+            "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+          },
+          {
+            "class": "featured-fakebank section-wrap",
+            "x": 0,
+            "top": 1008.171875,
+            "bottom": 1376.171875,
+            "width": 1905,
+            "height": 368,
+            "right": 1905,
+            "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+          },
+          {
+            "class": "building-section",
+            "x": 0,
+            "top": 1891.484375,
+            "bottom": 2376.671875,
+            "width": 1905,
+            "height": 485.1875,
+            "right": 1905,
+            "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+          },
+          {
+            "class": "contact-section",
+            "x": 0,
+            "top": 2376.671875,
+            "bottom": 2589.375,
+            "width": 1905,
+            "height": 212.703125,
+            "right": 1905,
+            "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+          },
+          {
+            "class": "site-footer",
+            "x": 0,
+            "top": 2589.375,
+            "bottom": 2690.375,
+            "width": 1905,
+            "height": 101,
+            "right": 1905,
+            "text": "© 2006-2026 ROUST.USBack to top ↑"
+          }
+        ]
+      },
+      "accessibility": "Exact title link names, decorative images, heading hierarchy and visible focus PASS"
+    },
+    {
+      "width": 1920,
+      "theme": "dark",
+      "state": {
+        "journal": {
+          "x": 0,
+          "top": 1376.171875,
+          "bottom": 1891.484375,
+          "width": 1905,
+          "height": 515.3125,
+          "right": 1905,
+          "paddingTop": 76,
+          "paddingBottom": 84
+        },
+        "intro": {
+          "x": 292.5,
+          "top": 1452.171875,
+          "bottom": 1725.09375,
+          "width": 318.171875,
+          "height": 272.921875,
+          "right": 610.671875
+        },
+        "columns": 3,
+        "overflow": false,
+        "layoutShift": 0,
+        "stories": [
+          {
+            "width": 297.671875,
+            "href": "/journal/when-code-stopped-being-the-main-thing/",
+            "title": "When Code Stopped Being the Main Thing",
+            "titleId": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "labelledBy": "home-journal-title-when-code-stopped-being-the-main-thing",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAR — JUN 2026 · Retrospective",
+            "summary": "An AI experiment changed how I valued architecture—and what I wanted to build next.",
+            "cover": {
+              "x": 674.671875,
+              "top": 1452.171875,
+              "bottom": 1690.296875,
+              "width": 297.671875,
+              "height": 238.125,
+              "right": 972.34375
+            },
+            "content": {
+              "x": 674.671875,
+              "top": 1583.421875,
+              "bottom": 1690.296875,
+              "width": 297.671875,
+              "height": 106.875,
+              "right": 972.34375
+            },
+            "titleRect": {
+              "x": 694.671875,
+              "top": 1617.421875,
+              "bottom": 1670.296875,
+              "width": 257.671875,
+              "height": 52.875,
+              "right": 952.34375
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "22.4px",
+            "fontWeight": "550",
+            "lineHeight": "26.432px",
+            "titleScrollHeight": 53,
+            "titleClientHeight": 53,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/scenario-road.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 297.671875,
+            "href": "/journal/registry-and-configuration-authority/",
+            "title": "I Didn't Want AI to Design My System for Me",
+            "titleId": "home-journal-title-registry-and-configuration-authority",
+            "labelledBy": "home-journal-title-registry-and-configuration-authority",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "MAY — OCT 2026 · Retrospective",
+            "summary": "I used definitions and versioned configurations to keep fast implementation aligned with the architecture.",
+            "cover": {
+              "x": 994.734375,
+              "top": 1452.171875,
+              "bottom": 1690.296875,
+              "width": 297.671875,
+              "height": 238.125,
+              "right": 1292.40625
+            },
+            "content": {
+              "x": 994.734375,
+              "top": 1583.421875,
+              "bottom": 1690.296875,
+              "width": 297.671875,
+              "height": 106.875,
+              "right": 1292.40625
+            },
+            "titleRect": {
+              "x": 1014.734375,
+              "top": 1617.421875,
+              "bottom": 1670.296875,
+              "width": 257.671875,
+              "height": 52.875,
+              "right": 1272.40625
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "22.4px",
+            "fontWeight": "550",
+            "lineHeight": "26.432px",
+            "titleScrollHeight": 53,
+            "titleClientHeight": 53,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/platform-node-bridge.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          },
+          {
+            "width": 297.6875,
+            "href": "/journal/we-built-all-the-pieces/",
+            "title": "We Built All the Pieces. Then We Had to Make Them Work Together.",
+            "titleId": "home-journal-title-we-built-all-the-pieces",
+            "labelledBy": "home-journal-title-we-built-all-the-pieces",
+            "headingCount": 1,
+            "nestedLinks": 0,
+            "meta": "AUG — OCT 2026 · Retrospective",
+            "summary": "We had the components. Integration work made one complete sale through the FakeBank simulator possible.",
+            "cover": {
+              "x": 1314.796875,
+              "top": 1452.171875,
+              "bottom": 1690.3125,
+              "width": 297.6875,
+              "height": 238.140625,
+              "right": 1612.484375
+            },
+            "content": {
+              "x": 1314.796875,
+              "top": 1557,
+              "bottom": 1690.3125,
+              "width": 297.6875,
+              "height": 133.3125,
+              "right": 1612.484375
+            },
+            "titleRect": {
+              "x": 1334.796875,
+              "top": 1591,
+              "bottom": 1670.3125,
+              "width": 257.6875,
+              "height": 79.3125,
+              "right": 1592.484375
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "22.4px",
+            "fontWeight": "550",
+            "lineHeight": "26.432px",
+            "titleScrollHeight": 79,
+            "titleClientHeight": 79,
+            "gradient": "linear-gradient(rgba(0, 0, 0, 0), rgba(4, 11, 17, 0.82) 24px, rgba(4, 11, 17, 0.98))",
+            "overall": "rgba(4, 11, 17, 0.14)",
+            "ruleColor": "rgb(128, 218, 250)",
+            "image": {
+              "src": "/images/journal/first-payment-tunnel.webp",
+              "alt": "",
+              "hidden": "true",
+              "loaded": true,
+              "fit": "cover"
+            },
+            "marginToMeta": 20
+          }
+        ],
+        "other": [
+          {
+            "class": "hero",
+            "x": 0,
+            "top": 0,
+            "bottom": 780,
+            "width": 1905,
+            "height": 780,
+            "right": 1905,
+            "text": "I build systems.Nick Roustaka NikolaichFintech · Software Architecture · AI-Assisted EngineeringI design, build and operate systemsthat work in the real world.↓Explore"
+          },
+          {
+            "class": "systems-overview section-wrap",
+            "x": 0,
+            "top": 780,
+            "bottom": 1008.171875,
+            "width": 1905,
+            "height": 228.171875,
+            "right": 1905,
+            "text": "ProjectsFAKE SHOPE-commerce simulator for realistic buyer scenarios.OPEN SOURCE→FAKE BANKIndependent payment provider simulator.OPEN SOURCE→PG27Transaction infrastructure with independent execution nodes.IN DEVELOPMENT→BIK / ED807Russian banking directory converter.Pending verification→"
+          },
+          {
+            "class": "featured-fakebank section-wrap",
+            "x": 0,
+            "top": 1008.171875,
+            "bottom": 1376.171875,
+            "width": 1905,
+            "height": 368,
+            "right": 1905,
+            "text": "FEATURED SYSTEMFAKE BANKAn independent open-source payment provider simulator.TypeScriptFastifyReactPostgreSQLDockerView project →Real-worldscenarios.Controlledenvironment."
+          },
+          {
+            "class": "building-section",
+            "x": 0,
+            "top": 1891.484375,
+            "bottom": 2376.671875,
+            "width": 1905,
+            "height": 485.1875,
+            "right": 1905,
+            "text": "CURRENTLY BUILDINGBuilding transaction infrastructure.An API/AI-first system designed to coordinate sales processing, payment orchestration, document workflows and fiscalization through a registry-driven platform and independently deployed execution nodes.190days·2,470hrsEstimated engineering hours since May 1, 2026.<p class=\"building-counter__explanation building-counter__explanation--fallback\" data-astro-source-file=\"/home/nickk/roust-us/src/components/BuildingSection.astro\" data-astro-source-loc=\"37:100\">Estimated engineering hours since May 1, 2026.</p>As of 06 Nov 2026Follow the progress →FocusDocument workflowsStageAdvanced developmentGoalEnd-to-end transaction lifecycle"
+          },
+          {
+            "class": "contact-section",
+            "x": 0,
+            "top": 2376.671875,
+            "bottom": 2589.375,
+            "width": 1905,
+            "height": 212.703125,
+            "right": 1905,
+            "text": "ContactLet's build something.Open for collaboration, consulting and new projects.Emailnick@roust.usGitHubgithub.com/nick-roustLinkedInlinkedin.com/in/nick-roust"
+          },
+          {
+            "class": "site-footer",
+            "x": 0,
+            "top": 2589.375,
+            "bottom": 2690.375,
+            "width": 1905,
+            "height": 101,
+            "right": 1905,
+            "text": "© 2006-2026 ROUST.USBack to top ↑"
+          }
+        ]
+      },
+      "accessibility": "Exact title link names, decorative images, heading hierarchy and visible focus PASS"
+    }
+  ],
+  "routes": [
+    {
+      "slug": "when-code-stopped-being-the-main-thing",
+      "status": 200
+    },
+    {
+      "slug": "registry-and-configuration-authority",
+      "status": 200
+    },
+    {
+      "slug": "we-built-all-the-pieces",
+      "status": 200
+    }
+  ],
+  "keyboardEnter": "PASS"
+}

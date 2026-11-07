@@ -1,0 +1,18 @@
+[
+  {
+    "theme": "light",
+    "hover": true,
+    "color": "rgb(255, 255, 255)",
+    "decoration": "underline",
+    "shadow": "none",
+    "transform": "none"
+  },
+  {
+    "theme": "dark",
+    "hover": true,
+    "color": "rgb(255, 255, 255)",
+    "decoration": "underline",
+    "shadow": "none",
+    "transform": "none"
+  }
+]

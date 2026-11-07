@@ -1,0 +1,59 @@
+---
+import { getCollection } from 'astro:content';
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { getJournalDate, getVisibleJournalEntries, groupJournalEntriesByYear, sortJournalEntries } from '../lib/journal';
+
+const collection = await getCollection('journal');
+const entries = sortJournalEntries(getVisibleJournalEntries(collection, import.meta.env.DEV));
+const yearGroups = groupJournalEntriesByYear(entries);
+---
+<SiteLayout title="Journal" description="Engineering Chronicle: a record of engineering decisions, milestones, experiments and results." showPageTitle={false}>
+  <section class="journal-index-hero" aria-labelledby="journal-page-title">
+    <div class="journal-index-hero__image" aria-hidden="true">
+      <img src="/images/journal/workspace-founder-matte.webp" width="2048" height="947" alt="" fetchpriority="high" />
+    </div>
+    <div class="container journal-index-hero__inner">
+      <div class="journal-index-hero__copy">
+        <p class="eyebrow">Engineering Chronicle</p>
+        <h1 id="journal-page-title">Work, as<br />it happens.</h1>
+        <p>A record of engineering decisions, milestones, experiments and results.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="journal-timeline container" aria-label="Engineering Chronicle entries">
+    {yearGroups.length > 0 ? yearGroups.map(({ year, entries: yearEntries }) => (
+      <section class="journal-year" aria-labelledby={`journal-year-${year}`}>
+        <h2 id={`journal-year-${year}`} class="journal-year__title">{year}</h2>
+        <ol class="journal-timeline__list">
+          {yearEntries.map((entry) => {
+            const date = getJournalDate(entry.data);
+            return (
+              <li class="journal-timeline__item">
+                <div class="journal-timeline__date">
+                  {entry.data.occurredAt
+                    ? <time datetime={entry.data.occurredAt}>{date}</time>
+                    : <span aria-label={`Historical period ${date}`}>{date}</span>}
+                </div>
+                <div class="journal-timeline__content">
+                  <p class="journal-timeline__type">{entry.data.type}</p>
+                  <h3><a href={`/journal/${entry.data.slug}/`}>{entry.data.title}</a></h3>
+                  <p class="journal-timeline__summary">{entry.data.summary}</p>
+                </div>
+                <span class="journal-timeline__project">{entry.data.project}</span>
+                <a class="journal-timeline__arrow" href={`/journal/${entry.data.slug}/`} aria-label={`Read ${entry.data.title}`}>
+                  <span aria-hidden="true">→</span>
+                </a>
+              </li>
+            );
+          })}
+        </ol>
+      </section>
+    )) : (
+      <div class="journal-empty" role="status">
+        <h2>The Chronicle is being prepared.</h2>
+        <p>Entries will appear here after editorial review.</p>
+      </div>
+    )}
+  </section>
+</SiteLayout>

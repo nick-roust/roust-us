@@ -1,0 +1,10 @@
+{
+  "changed": [
+    "src/components/BuildingSection.astro",
+    "src/pages/index.astro"
+  ],
+  "added": [
+    "src/assets/fakebank-mark-monochrome.svg"
+  ],
+  "removed": []
+}

@@ -1,0 +1,1733 @@
+{
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/156.0.8078.79",
+    "revision": "@a21ce95c24ce3964416f09ae1862f53f319eb4d0",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "jsVersion": "15.6.75.27"
+  },
+  "results": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1905,
+        "height": 1080,
+        "right": 1905,
+        "bottom": 1080
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1905,
+        "height": 88,
+        "right": 1905,
+        "bottom": 88
+      },
+      "headerPosition": "absolute",
+      "copy": {
+        "x": 76.203125,
+        "y": 194.390625,
+        "width": 688,
+        "height": 598.65625,
+        "right": 764.203125,
+        "bottom": 793.046875
+      },
+      "heading": {
+        "x": 76.203125,
+        "y": 235.015625,
+        "width": 688,
+        "height": 107.515625,
+        "right": 764.203125,
+        "bottom": 342.53125
+      },
+      "headingGlyphs": {
+        "x": 76.203125,
+        "y": 223.015625,
+        "width": 493.265625,
+        "height": 130,
+        "right": 569.46875,
+        "bottom": 353.015625
+      },
+      "introduction": {
+        "x": 76.203125,
+        "y": 366.53125,
+        "width": 688,
+        "height": 144,
+        "right": 764.203125,
+        "bottom": 510.53125,
+        "text": "I design and build software systems, mostly in fintech. For more than three decades I've worked across business, engineering and operations — from the first idea to systems running in production.",
+        "font": "24px"
+      },
+      "principle": {
+        "x": 76.203125,
+        "y": 550.53125,
+        "width": 688,
+        "height": 101.34375,
+        "right": 764.203125,
+        "bottom": 651.875,
+        "text": "I enjoy complexity when I can understand and control it.",
+        "italic": "italic",
+        "border": "rgb(19, 209, 253)",
+        "borderWidth": "4px"
+      },
+      "experience": [
+        {
+          "x": 76.203125,
+          "y": 699.875,
+          "width": 298.0625,
+          "height": 93.171875,
+          "right": 374.265625,
+          "bottom": 793.046875,
+          "value": "30+ years",
+          "description": "In business & engineering",
+          "valueSize": "51.84px"
+        },
+        {
+          "x": 422.265625,
+          "y": 699.875,
+          "width": 341.9375,
+          "height": 93.171875,
+          "right": 764.203125,
+          "bottom": 793.046875,
+          "value": "5+ systems",
+          "description": "Built and operated",
+          "valueSize": "51.84px"
+        }
+      ],
+      "arrow": {
+        "x": 930.5,
+        "y": 1016,
+        "width": 44,
+        "height": 44,
+        "right": 974.5,
+        "bottom": 1060,
+        "name": "Explore About",
+        "href": "#about-perspective"
+      },
+      "face": {
+        "x": 1017.816153028693,
+        "y": 206.58873538788524,
+        "width": 80.34006376195536,
+        "height": 126.24867162592986,
+        "right": 1098.1562167906484,
+        "bottom": 332.8374070138151
+      },
+      "image": {
+        "loaded": true,
+        "source": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+        "position": "100% 0%"
+      },
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "eyebrow": "ABOUT",
+      "bodyHeight": 2919,
+      "editorialText": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+      "keyboardArrow": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1905,
+        "height": 1080,
+        "right": 1905,
+        "bottom": 1080
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1905,
+        "height": 88,
+        "right": 1905,
+        "bottom": 88
+      },
+      "headerPosition": "absolute",
+      "copy": {
+        "x": 76.203125,
+        "y": 194.390625,
+        "width": 688,
+        "height": 598.65625,
+        "right": 764.203125,
+        "bottom": 793.046875
+      },
+      "heading": {
+        "x": 76.203125,
+        "y": 235.015625,
+        "width": 688,
+        "height": 107.515625,
+        "right": 764.203125,
+        "bottom": 342.53125
+      },
+      "headingGlyphs": {
+        "x": 76.203125,
+        "y": 223.015625,
+        "width": 493.265625,
+        "height": 130,
+        "right": 569.46875,
+        "bottom": 353.015625
+      },
+      "introduction": {
+        "x": 76.203125,
+        "y": 366.53125,
+        "width": 688,
+        "height": 144,
+        "right": 764.203125,
+        "bottom": 510.53125,
+        "text": "I design and build software systems, mostly in fintech. For more than three decades I've worked across business, engineering and operations — from the first idea to systems running in production.",
+        "font": "24px"
+      },
+      "principle": {
+        "x": 76.203125,
+        "y": 550.53125,
+        "width": 688,
+        "height": 101.34375,
+        "right": 764.203125,
+        "bottom": 651.875,
+        "text": "I enjoy complexity when I can understand and control it.",
+        "italic": "italic",
+        "border": "rgb(19, 209, 253)",
+        "borderWidth": "4px"
+      },
+      "experience": [
+        {
+          "x": 76.203125,
+          "y": 699.875,
+          "width": 298.0625,
+          "height": 93.171875,
+          "right": 374.265625,
+          "bottom": 793.046875,
+          "value": "30+ years",
+          "description": "In business & engineering",
+          "valueSize": "51.84px"
+        },
+        {
+          "x": 422.265625,
+          "y": 699.875,
+          "width": 341.9375,
+          "height": 93.171875,
+          "right": 764.203125,
+          "bottom": 793.046875,
+          "value": "5+ systems",
+          "description": "Built and operated",
+          "valueSize": "51.84px"
+        }
+      ],
+      "arrow": {
+        "x": 930.5,
+        "y": 1016,
+        "width": 44,
+        "height": 44,
+        "right": 974.5,
+        "bottom": 1060,
+        "name": "Explore About",
+        "href": "#about-perspective"
+      },
+      "face": {
+        "x": 1017.816153028693,
+        "y": 206.58873538788524,
+        "width": 80.34006376195536,
+        "height": 126.24867162592986,
+        "right": 1098.1562167906484,
+        "bottom": 332.8374070138151
+      },
+      "image": {
+        "loaded": true,
+        "source": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+        "position": "100% 0%"
+      },
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "eyebrow": "ABOUT",
+      "bodyHeight": 2919,
+      "editorialText": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+      "keyboardArrow": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 900,
+        "right": 1425,
+        "bottom": 900
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 88,
+        "right": 1425,
+        "bottom": 88
+      },
+      "headerPosition": "absolute",
+      "copy": {
+        "x": 57,
+        "y": 162,
+        "width": 589.9375,
+        "height": 463.03125,
+        "right": 646.9375,
+        "bottom": 625.03125
+      },
+      "heading": {
+        "x": 57,
+        "y": 202.625,
+        "width": 589.9375,
+        "height": 80.640625,
+        "right": 646.9375,
+        "bottom": 283.265625
+      },
+      "headingGlyphs": {
+        "x": 57,
+        "y": 193.625,
+        "width": 369.890625,
+        "height": 97,
+        "right": 426.890625,
+        "bottom": 290.625
+      },
+      "introduction": {
+        "x": 57,
+        "y": 307.265625,
+        "width": 589.9375,
+        "height": 81,
+        "right": 646.9375,
+        "bottom": 388.265625,
+        "text": "I design and build software systems, mostly in fintech. For more than three decades I've worked across business, engineering and operations — from the first idea to systems running in production.",
+        "font": "18px"
+      },
+      "principle": {
+        "x": 57,
+        "y": 428.265625,
+        "width": 589.9375,
+        "height": 76.03125,
+        "right": 646.9375,
+        "bottom": 504.296875,
+        "text": "I enjoy complexity when I can understand and control it.",
+        "italic": "italic",
+        "border": "rgb(19, 209, 253)",
+        "borderWidth": "4px"
+      },
+      "experience": [
+        {
+          "x": 57,
+          "y": 552.296875,
+          "width": 260.53125,
+          "height": 72.734375,
+          "right": 317.53125,
+          "bottom": 625.03125,
+          "value": "30+ years",
+          "description": "In business & engineering",
+          "valueSize": "38.88px"
+        },
+        {
+          "x": 360.71875,
+          "y": 552.296875,
+          "width": 286.21875,
+          "height": 72.734375,
+          "right": 646.9375,
+          "bottom": 625.03125,
+          "value": "5+ systems",
+          "description": "Built and operated",
+          "valueSize": "38.88px"
+        }
+      ],
+      "arrow": {
+        "x": 690.5,
+        "y": 836,
+        "width": 44,
+        "height": 44,
+        "right": 734.5,
+        "bottom": 880,
+        "name": "Explore About",
+        "href": "#about-perspective"
+      },
+      "face": {
+        "x": 685.6801275239108,
+        "y": 172.15727948990437,
+        "width": 66.9500531349628,
+        "height": 105.20722635494155,
+        "right": 752.6301806588735,
+        "bottom": 277.3645058448459
+      },
+      "image": {
+        "loaded": true,
+        "source": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+        "position": "100% 0%"
+      },
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "eyebrow": "ABOUT",
+      "bodyHeight": 2739,
+      "editorialText": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+      "keyboardArrow": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 900,
+        "right": 1425,
+        "bottom": 900
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 88,
+        "right": 1425,
+        "bottom": 88
+      },
+      "headerPosition": "absolute",
+      "copy": {
+        "x": 57,
+        "y": 162,
+        "width": 589.9375,
+        "height": 463.03125,
+        "right": 646.9375,
+        "bottom": 625.03125
+      },
+      "heading": {
+        "x": 57,
+        "y": 202.625,
+        "width": 589.9375,
+        "height": 80.640625,
+        "right": 646.9375,
+        "bottom": 283.265625
+      },
+      "headingGlyphs": {
+        "x": 57,
+        "y": 193.625,
+        "width": 369.890625,
+        "height": 97,
+        "right": 426.890625,
+        "bottom": 290.625
+      },
+      "introduction": {
+        "x": 57,
+        "y": 307.265625,
+        "width": 589.9375,
+        "height": 81,
+        "right": 646.9375,
+        "bottom": 388.265625,
+        "text": "I design and build software systems, mostly in fintech. For more than three decades I've worked across business, engineering and operations — from the first idea to systems running in production.",
+        "font": "18px"
+      },
+      "principle": {
+        "x": 57,
+        "y": 428.265625,
+        "width": 589.9375,
+        "height": 76.03125,
+        "right": 646.9375,
+        "bottom": 504.296875,
+        "text": "I enjoy complexity when I can understand and control it.",
+        "italic": "italic",
+        "border": "rgb(19, 209, 253)",
+        "borderWidth": "4px"
+      },
+      "experience": [
+        {
+          "x": 57,
+          "y": 552.296875,
+          "width": 260.53125,
+          "height": 72.734375,
+          "right": 317.53125,
+          "bottom": 625.03125,
+          "value": "30+ years",
+          "description": "In business & engineering",
+          "valueSize": "38.88px"
+        },
+        {
+          "x": 360.71875,
+          "y": 552.296875,
+          "width": 286.21875,
+          "height": 72.734375,
+          "right": 646.9375,
+          "bottom": 625.03125,
+          "value": "5+ systems",
+          "description": "Built and operated",
+          "valueSize": "38.88px"
+        }
+      ],
+      "arrow": {
+        "x": 690.5,
+        "y": 836,
+        "width": 44,
+        "height": 44,
+        "right": 734.5,
+        "bottom": 880,
+        "name": "Explore About",
+        "href": "#about-perspective"
+      },
+      "face": {
+        "x": 685.6801275239108,
+        "y": 172.15727948990437,
+        "width": 66.9500531349628,
+        "height": 105.20722635494155,
+        "right": 752.6301806588735,
+        "bottom": 277.3645058448459
+      },
+      "image": {
+        "loaded": true,
+        "source": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+        "position": "100% 0%"
+      },
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "eyebrow": "ABOUT",
+      "bodyHeight": 2739,
+      "editorialText": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+      "keyboardArrow": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "theme": "dark",
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1351,
+        "height": 768,
+        "right": 1351,
+        "bottom": 768
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1351,
+        "height": 88,
+        "right": 1351,
+        "bottom": 88
+      },
+      "headerPosition": "absolute",
+      "copy": {
+        "x": 54.046875,
+        "y": 138.234375,
+        "width": 559.296875,
+        "height": 447.109375,
+        "right": 613.34375,
+        "bottom": 585.34375
+      },
+      "heading": {
+        "x": 54.046875,
+        "y": 178.859375,
+        "width": 559.296875,
+        "height": 76.5,
+        "right": 613.34375,
+        "bottom": 255.359375
+      },
+      "headingGlyphs": {
+        "x": 54.046875,
+        "y": 170.859375,
+        "width": 350.890625,
+        "height": 92,
+        "right": 404.9375,
+        "bottom": 262.859375
+      },
+      "introduction": {
+        "x": 54.046875,
+        "y": 279.359375,
+        "width": 559.296875,
+        "height": 76.828125,
+        "right": 613.34375,
+        "bottom": 356.1875,
+        "text": "I design and build software systems, mostly in fintech. For more than three decades I've worked across business, engineering and operations — from the first idea to systems running in production.",
+        "font": "17.075px"
+      },
+      "principle": {
+        "x": 54.046875,
+        "y": 396.1875,
+        "width": 559.296875,
+        "height": 72.09375,
+        "right": 613.34375,
+        "bottom": 468.28125,
+        "text": "I enjoy complexity when I can understand and control it.",
+        "italic": "italic",
+        "border": "rgb(19, 209, 253)",
+        "borderWidth": "4px"
+      },
+      "experience": [
+        {
+          "x": 54.046875,
+          "y": 516.078125,
+          "width": 246.890625,
+          "height": 69.265625,
+          "right": 300.9375,
+          "bottom": 585.34375,
+          "value": "30+ years",
+          "description": "In business & engineering",
+          "valueSize": "36.882px"
+        },
+        {
+          "x": 341.90625,
+          "y": 516.078125,
+          "width": 271.4375,
+          "height": 69.265625,
+          "right": 613.34375,
+          "bottom": 585.34375,
+          "value": "5+ systems",
+          "description": "Built and operated",
+          "valueSize": "36.882px"
+        }
+      ],
+      "arrow": {
+        "x": 653.5,
+        "y": 704,
+        "width": 44,
+        "height": 44,
+        "right": 697.5,
+        "bottom": 748,
+        "name": "Explore About",
+        "href": "#about-perspective"
+      },
+      "face": {
+        "x": 720.1137088204039,
+        "y": 146.90754516471839,
+        "width": 57.13071200850159,
+        "height": 89.77683315621678,
+        "right": 777.2444208289055,
+        "bottom": 236.68437832093517
+      },
+      "image": {
+        "loaded": true,
+        "source": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+        "position": "100% 0%"
+      },
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "eyebrow": "ABOUT",
+      "bodyHeight": 2606,
+      "editorialText": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+      "keyboardArrow": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1351,
+        "height": 768,
+        "right": 1351,
+        "bottom": 768
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1351,
+        "height": 88,
+        "right": 1351,
+        "bottom": 88
+      },
+      "headerPosition": "absolute",
+      "copy": {
+        "x": 54.046875,
+        "y": 138.234375,
+        "width": 559.296875,
+        "height": 447.109375,
+        "right": 613.34375,
+        "bottom": 585.34375
+      },
+      "heading": {
+        "x": 54.046875,
+        "y": 178.859375,
+        "width": 559.296875,
+        "height": 76.5,
+        "right": 613.34375,
+        "bottom": 255.359375
+      },
+      "headingGlyphs": {
+        "x": 54.046875,
+        "y": 170.859375,
+        "width": 350.890625,
+        "height": 92,
+        "right": 404.9375,
+        "bottom": 262.859375
+      },
+      "introduction": {
+        "x": 54.046875,
+        "y": 279.359375,
+        "width": 559.296875,
+        "height": 76.828125,
+        "right": 613.34375,
+        "bottom": 356.1875,
+        "text": "I design and build software systems, mostly in fintech. For more than three decades I've worked across business, engineering and operations — from the first idea to systems running in production.",
+        "font": "17.075px"
+      },
+      "principle": {
+        "x": 54.046875,
+        "y": 396.1875,
+        "width": 559.296875,
+        "height": 72.09375,
+        "right": 613.34375,
+        "bottom": 468.28125,
+        "text": "I enjoy complexity when I can understand and control it.",
+        "italic": "italic",
+        "border": "rgb(19, 209, 253)",
+        "borderWidth": "4px"
+      },
+      "experience": [
+        {
+          "x": 54.046875,
+          "y": 516.078125,
+          "width": 246.890625,
+          "height": 69.265625,
+          "right": 300.9375,
+          "bottom": 585.34375,
+          "value": "30+ years",
+          "description": "In business & engineering",
+          "valueSize": "36.882px"
+        },
+        {
+          "x": 341.90625,
+          "y": 516.078125,
+          "width": 271.4375,
+          "height": 69.265625,
+          "right": 613.34375,
+          "bottom": 585.34375,
+          "value": "5+ systems",
+          "description": "Built and operated",
+          "valueSize": "36.882px"
+        }
+      ],
+      "arrow": {
+        "x": 653.5,
+        "y": 704,
+        "width": 44,
+        "height": 44,
+        "right": 697.5,
+        "bottom": 748,
+        "name": "Explore About",
+        "href": "#about-perspective"
+      },
+      "face": {
+        "x": 720.1137088204039,
+        "y": 146.90754516471839,
+        "width": 57.13071200850159,
+        "height": 89.77683315621678,
+        "right": 777.2444208289055,
+        "bottom": 236.68437832093517
+      },
+      "image": {
+        "loaded": true,
+        "source": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+        "position": "100% 0%"
+      },
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "eyebrow": "ABOUT",
+      "bodyHeight": 2606,
+      "editorialText": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+      "keyboardArrow": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "theme": "dark",
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1009,
+        "height": 768,
+        "right": 1009,
+        "bottom": 768
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1009,
+        "height": 88,
+        "right": 1009,
+        "bottom": 88
+      },
+      "headerPosition": "absolute",
+      "copy": {
+        "x": 24,
+        "y": 138.234375,
+        "width": 432.4375,
+        "height": 399.375,
+        "right": 456.4375,
+        "bottom": 537.609375
+      },
+      "heading": {
+        "x": 24,
+        "y": 178.859375,
+        "width": 432.4375,
+        "height": 57.34375,
+        "right": 456.4375,
+        "bottom": 236.203125
+      },
+      "headingGlyphs": {
+        "x": 24,
+        "y": 171.859375,
+        "width": 263.015625,
+        "height": 70,
+        "right": 287.015625,
+        "bottom": 241.859375
+      },
+      "introduction": {
+        "x": 24,
+        "y": 260.203125,
+        "width": 432.4375,
+        "height": 96,
+        "right": 456.4375,
+        "bottom": 356.203125,
+        "text": "I design and build software systems, mostly in fintech. For more than three decades I've worked across business, engineering and operations — from the first idea to systems running in production.",
+        "font": "16px"
+      },
+      "principle": {
+        "x": 24,
+        "y": 386.921875,
+        "width": 432.4375,
+        "height": 57.59375,
+        "right": 456.4375,
+        "bottom": 444.515625,
+        "text": "I enjoy complexity when I can understand and control it.",
+        "italic": "italic",
+        "border": "rgb(19, 209, 253)",
+        "borderWidth": "4px"
+      },
+      "experience": [
+        {
+          "x": 24,
+          "y": 480.34375,
+          "width": 204.046875,
+          "height": 57.265625,
+          "right": 228.046875,
+          "bottom": 537.609375,
+          "value": "30+ years",
+          "description": "In business & engineering",
+          "valueSize": "30.4px"
+        },
+        {
+          "x": 244.046875,
+          "y": 480.34375,
+          "width": 212.390625,
+          "height": 57.265625,
+          "right": 456.4375,
+          "bottom": 537.609375,
+          "value": "5+ systems",
+          "description": "Built and operated",
+          "valueSize": "30.4px"
+        }
+      ],
+      "arrow": {
+        "x": 482.5,
+        "y": 704,
+        "width": 44,
+        "height": 44,
+        "right": 526.5,
+        "bottom": 748,
+        "name": "Explore About",
+        "href": "#about-perspective"
+      },
+      "face": {
+        "x": 531.0250903294368,
+        "y": 146.90754516471839,
+        "width": 57.13071200850159,
+        "height": 89.77683315621678,
+        "right": 588.1558023379384,
+        "bottom": 236.68437832093517
+      },
+      "image": {
+        "loaded": true,
+        "source": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+        "position": "57% 0%"
+      },
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "eyebrow": "ABOUT",
+      "bodyHeight": 2586,
+      "editorialText": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+      "keyboardArrow": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "theme": "light",
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1009,
+        "height": 768,
+        "right": 1009,
+        "bottom": 768
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1009,
+        "height": 88,
+        "right": 1009,
+        "bottom": 88
+      },
+      "headerPosition": "absolute",
+      "copy": {
+        "x": 24,
+        "y": 138.234375,
+        "width": 432.4375,
+        "height": 399.375,
+        "right": 456.4375,
+        "bottom": 537.609375
+      },
+      "heading": {
+        "x": 24,
+        "y": 178.859375,
+        "width": 432.4375,
+        "height": 57.34375,
+        "right": 456.4375,
+        "bottom": 236.203125
+      },
+      "headingGlyphs": {
+        "x": 24,
+        "y": 171.859375,
+        "width": 263.015625,
+        "height": 70,
+        "right": 287.015625,
+        "bottom": 241.859375
+      },
+      "introduction": {
+        "x": 24,
+        "y": 260.203125,
+        "width": 432.4375,
+        "height": 96,
+        "right": 456.4375,
+        "bottom": 356.203125,
+        "text": "I design and build software systems, mostly in fintech. For more than three decades I've worked across business, engineering and operations — from the first idea to systems running in production.",
+        "font": "16px"
+      },
+      "principle": {
+        "x": 24,
+        "y": 386.921875,
+        "width": 432.4375,
+        "height": 57.59375,
+        "right": 456.4375,
+        "bottom": 444.515625,
+        "text": "I enjoy complexity when I can understand and control it.",
+        "italic": "italic",
+        "border": "rgb(19, 209, 253)",
+        "borderWidth": "4px"
+      },
+      "experience": [
+        {
+          "x": 24,
+          "y": 480.34375,
+          "width": 204.046875,
+          "height": 57.265625,
+          "right": 228.046875,
+          "bottom": 537.609375,
+          "value": "30+ years",
+          "description": "In business & engineering",
+          "valueSize": "30.4px"
+        },
+        {
+          "x": 244.046875,
+          "y": 480.34375,
+          "width": 212.390625,
+          "height": 57.265625,
+          "right": 456.4375,
+          "bottom": 537.609375,
+          "value": "5+ systems",
+          "description": "Built and operated",
+          "valueSize": "30.4px"
+        }
+      ],
+      "arrow": {
+        "x": 482.5,
+        "y": 704,
+        "width": 44,
+        "height": 44,
+        "right": 526.5,
+        "bottom": 748,
+        "name": "Explore About",
+        "href": "#about-perspective"
+      },
+      "face": {
+        "x": 531.0250903294368,
+        "y": 146.90754516471839,
+        "width": 57.13071200850159,
+        "height": 89.77683315621678,
+        "right": 588.1558023379384,
+        "bottom": 236.68437832093517
+      },
+      "image": {
+        "loaded": true,
+        "source": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+        "position": "57% 0%"
+      },
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "eyebrow": "ABOUT",
+      "bodyHeight": 2586,
+      "editorialText": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+      "keyboardArrow": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "theme": "dark",
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 753,
+        "height": 1024,
+        "right": 753,
+        "bottom": 1024
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 753,
+        "height": 88,
+        "right": 753,
+        "bottom": 88
+      },
+      "headerPosition": "absolute",
+      "copy": {
+        "x": 24,
+        "y": 184.3125,
+        "width": 317.25,
+        "height": 479.3125,
+        "right": 341.25,
+        "bottom": 663.625
+      },
+      "heading": {
+        "x": 24,
+        "y": 224.9375,
+        "width": 317.25,
+        "height": 56,
+        "right": 341.25,
+        "bottom": 280.9375
+      },
+      "headingGlyphs": {
+        "x": 24,
+        "y": 218.9375,
+        "width": 256.921875,
+        "height": 68,
+        "right": 280.921875,
+        "bottom": 286.9375
+      },
+      "introduction": {
+        "x": 24,
+        "y": 304.9375,
+        "width": 317.25,
+        "height": 144,
+        "right": 341.25,
+        "bottom": 448.9375,
+        "text": "I design and build software systems, mostly in fintech. For more than three decades I've worked across business, engineering and operations — from the first idea to systems running in production.",
+        "font": "16px"
+      },
+      "principle": {
+        "x": 24,
+        "y": 472.9375,
+        "width": 317.25,
+        "height": 86.390625,
+        "right": 341.25,
+        "bottom": 559.328125,
+        "text": "I enjoy complexity when I can understand and control it.",
+        "italic": "italic",
+        "border": "rgb(19, 209, 253)",
+        "borderWidth": "4px"
+      },
+      "experience": [
+        {
+          "x": 24,
+          "y": 587.328125,
+          "width": 136.984375,
+          "height": 76.296875,
+          "right": 160.984375,
+          "bottom": 663.625,
+          "value": "30+ years",
+          "description": "In business & engineering",
+          "valueSize": "30.4px"
+        },
+        {
+          "x": 176.984375,
+          "y": 587.328125,
+          "width": 173.765625,
+          "height": 76.296875,
+          "right": 350.75,
+          "bottom": 663.625,
+          "value": "5+ systems",
+          "description": "Built and operated",
+          "valueSize": "30.4px"
+        }
+      ],
+      "arrow": {
+        "x": 354.5,
+        "y": 960,
+        "width": 44,
+        "height": 44,
+        "right": 398.5,
+        "bottom": 1004,
+        "name": "Explore About",
+        "href": "#about-perspective"
+      },
+      "face": {
+        "x": 370.40345377258245,
+        "y": 195.87672688629118,
+        "width": 76.17428267800211,
+        "height": 119.70244420828905,
+        "right": 446.57773645058455,
+        "bottom": 315.57917109458026
+      },
+      "image": {
+        "loaded": true,
+        "source": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+        "position": "57% 0%"
+      },
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "eyebrow": "ABOUT",
+      "bodyHeight": 2811,
+      "editorialText": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+      "keyboardArrow": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "theme": "light",
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 753,
+        "height": 1024,
+        "right": 753,
+        "bottom": 1024
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 753,
+        "height": 88,
+        "right": 753,
+        "bottom": 88
+      },
+      "headerPosition": "absolute",
+      "copy": {
+        "x": 24,
+        "y": 184.3125,
+        "width": 317.25,
+        "height": 479.3125,
+        "right": 341.25,
+        "bottom": 663.625
+      },
+      "heading": {
+        "x": 24,
+        "y": 224.9375,
+        "width": 317.25,
+        "height": 56,
+        "right": 341.25,
+        "bottom": 280.9375
+      },
+      "headingGlyphs": {
+        "x": 24,
+        "y": 218.9375,
+        "width": 256.921875,
+        "height": 68,
+        "right": 280.921875,
+        "bottom": 286.9375
+      },
+      "introduction": {
+        "x": 24,
+        "y": 304.9375,
+        "width": 317.25,
+        "height": 144,
+        "right": 341.25,
+        "bottom": 448.9375,
+        "text": "I design and build software systems, mostly in fintech. For more than three decades I've worked across business, engineering and operations — from the first idea to systems running in production.",
+        "font": "16px"
+      },
+      "principle": {
+        "x": 24,
+        "y": 472.9375,
+        "width": 317.25,
+        "height": 86.390625,
+        "right": 341.25,
+        "bottom": 559.328125,
+        "text": "I enjoy complexity when I can understand and control it.",
+        "italic": "italic",
+        "border": "rgb(19, 209, 253)",
+        "borderWidth": "4px"
+      },
+      "experience": [
+        {
+          "x": 24,
+          "y": 587.328125,
+          "width": 136.984375,
+          "height": 76.296875,
+          "right": 160.984375,
+          "bottom": 663.625,
+          "value": "30+ years",
+          "description": "In business & engineering",
+          "valueSize": "30.4px"
+        },
+        {
+          "x": 176.984375,
+          "y": 587.328125,
+          "width": 173.765625,
+          "height": 76.296875,
+          "right": 350.75,
+          "bottom": 663.625,
+          "value": "5+ systems",
+          "description": "Built and operated",
+          "valueSize": "30.4px"
+        }
+      ],
+      "arrow": {
+        "x": 354.5,
+        "y": 960,
+        "width": 44,
+        "height": 44,
+        "right": 398.5,
+        "bottom": 1004,
+        "name": "Explore About",
+        "href": "#about-perspective"
+      },
+      "face": {
+        "x": 370.40345377258245,
+        "y": 195.87672688629118,
+        "width": 76.17428267800211,
+        "height": 119.70244420828905,
+        "right": 446.57773645058455,
+        "bottom": 315.57917109458026
+      },
+      "image": {
+        "loaded": true,
+        "source": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+        "position": "57% 0%"
+      },
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "eyebrow": "ABOUT",
+      "bodyHeight": 2811,
+      "editorialText": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+      "keyboardArrow": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 858.671875,
+        "right": 375,
+        "bottom": 858.671875
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 96.59375,
+        "right": 375,
+        "bottom": 96.59375
+      },
+      "headerPosition": "absolute",
+      "copy": {
+        "x": 16,
+        "y": 312,
+        "width": 343,
+        "height": 450.671875,
+        "right": 359,
+        "bottom": 762.671875
+      },
+      "heading": {
+        "x": 16,
+        "y": 344.625,
+        "width": 343,
+        "height": 50.703125,
+        "right": 359,
+        "bottom": 395.328125
+      },
+      "headingGlyphs": {
+        "x": 16,
+        "y": 338.625,
+        "width": 232.546875,
+        "height": 61,
+        "right": 248.546875,
+        "bottom": 399.625
+      },
+      "introduction": {
+        "x": 16,
+        "y": 415.328125,
+        "width": 343,
+        "height": 123.984375,
+        "right": 359,
+        "bottom": 539.3125,
+        "text": "I design and build software systems, mostly in fintech. For more than three decades I've worked across business, engineering and operations — from the first idea to systems running in production.",
+        "font": "16px"
+      },
+      "principle": {
+        "x": 16,
+        "y": 563.3125,
+        "width": 343,
+        "height": 95.0625,
+        "right": 359,
+        "bottom": 658.375,
+        "text": "I enjoy complexity when I can understand and control it.",
+        "italic": "italic",
+        "border": "rgb(19, 209, 253)",
+        "borderWidth": "4px"
+      },
+      "experience": [
+        {
+          "x": 16,
+          "y": 686.375,
+          "width": 153.234375,
+          "height": 76.296875,
+          "right": 169.234375,
+          "bottom": 762.671875,
+          "value": "30+ years",
+          "description": "In business & engineering",
+          "valueSize": "30.4px"
+        },
+        {
+          "x": 185.234375,
+          "y": 686.375,
+          "width": 173.765625,
+          "height": 76.296875,
+          "right": 359,
+          "bottom": 762.671875,
+          "value": "5+ systems",
+          "description": "Built and operated",
+          "valueSize": "30.4px"
+        }
+      ],
+      "arrow": {
+        "x": 165.5,
+        "y": 794.671875,
+        "width": 44,
+        "height": 44,
+        "right": 209.5,
+        "bottom": 838.671875,
+        "name": "Explore About",
+        "href": "#about-perspective"
+      },
+      "face": {
+        "x": 175.94512818809767,
+        "y": 164.2517933049947,
+        "width": 63.87569739638682,
+        "height": 100.37609590860785,
+        "right": 239.82082558448448,
+        "bottom": 264.62788921360254
+      },
+      "image": {
+        "loaded": true,
+        "source": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+        "position": "56% 0%"
+      },
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "eyebrow": "ABOUT",
+      "bodyHeight": 3024,
+      "editorialText": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+      "keyboardArrow": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 858.671875,
+        "right": 375,
+        "bottom": 858.671875
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 96.59375,
+        "right": 375,
+        "bottom": 96.59375
+      },
+      "headerPosition": "absolute",
+      "copy": {
+        "x": 16,
+        "y": 312,
+        "width": 343,
+        "height": 450.671875,
+        "right": 359,
+        "bottom": 762.671875
+      },
+      "heading": {
+        "x": 16,
+        "y": 344.625,
+        "width": 343,
+        "height": 50.703125,
+        "right": 359,
+        "bottom": 395.328125
+      },
+      "headingGlyphs": {
+        "x": 16,
+        "y": 338.625,
+        "width": 232.546875,
+        "height": 61,
+        "right": 248.546875,
+        "bottom": 399.625
+      },
+      "introduction": {
+        "x": 16,
+        "y": 415.328125,
+        "width": 343,
+        "height": 123.984375,
+        "right": 359,
+        "bottom": 539.3125,
+        "text": "I design and build software systems, mostly in fintech. For more than three decades I've worked across business, engineering and operations — from the first idea to systems running in production.",
+        "font": "16px"
+      },
+      "principle": {
+        "x": 16,
+        "y": 563.3125,
+        "width": 343,
+        "height": 95.0625,
+        "right": 359,
+        "bottom": 658.375,
+        "text": "I enjoy complexity when I can understand and control it.",
+        "italic": "italic",
+        "border": "rgb(19, 209, 253)",
+        "borderWidth": "4px"
+      },
+      "experience": [
+        {
+          "x": 16,
+          "y": 686.375,
+          "width": 153.234375,
+          "height": 76.296875,
+          "right": 169.234375,
+          "bottom": 762.671875,
+          "value": "30+ years",
+          "description": "In business & engineering",
+          "valueSize": "30.4px"
+        },
+        {
+          "x": 185.234375,
+          "y": 686.375,
+          "width": 173.765625,
+          "height": 76.296875,
+          "right": 359,
+          "bottom": 762.671875,
+          "value": "5+ systems",
+          "description": "Built and operated",
+          "valueSize": "30.4px"
+        }
+      ],
+      "arrow": {
+        "x": 165.5,
+        "y": 794.671875,
+        "width": 44,
+        "height": 44,
+        "right": 209.5,
+        "bottom": 838.671875,
+        "name": "Explore About",
+        "href": "#about-perspective"
+      },
+      "face": {
+        "x": 175.94512818809767,
+        "y": 164.2517933049947,
+        "width": 63.87569739638682,
+        "height": 100.37609590860785,
+        "right": 239.82082558448448,
+        "bottom": 264.62788921360254
+      },
+      "image": {
+        "loaded": true,
+        "source": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+        "position": "56% 0%"
+      },
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "eyebrow": "ABOUT",
+      "bodyHeight": 3024,
+      "editorialText": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+      "keyboardArrow": true
+    },
+    {
+      "width": 390,
+      "height": 667,
+      "theme": "dark",
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 858.671875,
+        "right": 375,
+        "bottom": 858.671875
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 96.59375,
+        "right": 375,
+        "bottom": 96.59375
+      },
+      "headerPosition": "absolute",
+      "copy": {
+        "x": 16,
+        "y": 312,
+        "width": 343,
+        "height": 450.671875,
+        "right": 359,
+        "bottom": 762.671875
+      },
+      "heading": {
+        "x": 16,
+        "y": 344.625,
+        "width": 343,
+        "height": 50.703125,
+        "right": 359,
+        "bottom": 395.328125
+      },
+      "headingGlyphs": {
+        "x": 16,
+        "y": 338.625,
+        "width": 232.546875,
+        "height": 61,
+        "right": 248.546875,
+        "bottom": 399.625
+      },
+      "introduction": {
+        "x": 16,
+        "y": 415.328125,
+        "width": 343,
+        "height": 123.984375,
+        "right": 359,
+        "bottom": 539.3125,
+        "text": "I design and build software systems, mostly in fintech. For more than three decades I've worked across business, engineering and operations — from the first idea to systems running in production.",
+        "font": "16px"
+      },
+      "principle": {
+        "x": 16,
+        "y": 563.3125,
+        "width": 343,
+        "height": 95.0625,
+        "right": 359,
+        "bottom": 658.375,
+        "text": "I enjoy complexity when I can understand and control it.",
+        "italic": "italic",
+        "border": "rgb(19, 209, 253)",
+        "borderWidth": "4px"
+      },
+      "experience": [
+        {
+          "x": 16,
+          "y": 686.375,
+          "width": 153.234375,
+          "height": 76.296875,
+          "right": 169.234375,
+          "bottom": 762.671875,
+          "value": "30+ years",
+          "description": "In business & engineering",
+          "valueSize": "30.4px"
+        },
+        {
+          "x": 185.234375,
+          "y": 686.375,
+          "width": 173.765625,
+          "height": 76.296875,
+          "right": 359,
+          "bottom": 762.671875,
+          "value": "5+ systems",
+          "description": "Built and operated",
+          "valueSize": "30.4px"
+        }
+      ],
+      "arrow": {
+        "x": 165.5,
+        "y": 794.671875,
+        "width": 44,
+        "height": 44,
+        "right": 209.5,
+        "bottom": 838.671875,
+        "name": "Explore About",
+        "href": "#about-perspective"
+      },
+      "face": {
+        "x": 175.94512818809767,
+        "y": 164.2517933049947,
+        "width": 63.87569739638682,
+        "height": 100.37609590860785,
+        "right": 239.82082558448448,
+        "bottom": 264.62788921360254
+      },
+      "image": {
+        "loaded": true,
+        "source": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+        "position": "56% 0%"
+      },
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "eyebrow": "ABOUT",
+      "bodyHeight": 3024,
+      "editorialText": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+      "keyboardArrow": true
+    },
+    {
+      "width": 390,
+      "height": 667,
+      "theme": "light",
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 858.671875,
+        "right": 375,
+        "bottom": 858.671875
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 96.59375,
+        "right": 375,
+        "bottom": 96.59375
+      },
+      "headerPosition": "absolute",
+      "copy": {
+        "x": 16,
+        "y": 312,
+        "width": 343,
+        "height": 450.671875,
+        "right": 359,
+        "bottom": 762.671875
+      },
+      "heading": {
+        "x": 16,
+        "y": 344.625,
+        "width": 343,
+        "height": 50.703125,
+        "right": 359,
+        "bottom": 395.328125
+      },
+      "headingGlyphs": {
+        "x": 16,
+        "y": 338.625,
+        "width": 232.546875,
+        "height": 61,
+        "right": 248.546875,
+        "bottom": 399.625
+      },
+      "introduction": {
+        "x": 16,
+        "y": 415.328125,
+        "width": 343,
+        "height": 123.984375,
+        "right": 359,
+        "bottom": 539.3125,
+        "text": "I design and build software systems, mostly in fintech. For more than three decades I've worked across business, engineering and operations — from the first idea to systems running in production.",
+        "font": "16px"
+      },
+      "principle": {
+        "x": 16,
+        "y": 563.3125,
+        "width": 343,
+        "height": 95.0625,
+        "right": 359,
+        "bottom": 658.375,
+        "text": "I enjoy complexity when I can understand and control it.",
+        "italic": "italic",
+        "border": "rgb(19, 209, 253)",
+        "borderWidth": "4px"
+      },
+      "experience": [
+        {
+          "x": 16,
+          "y": 686.375,
+          "width": 153.234375,
+          "height": 76.296875,
+          "right": 169.234375,
+          "bottom": 762.671875,
+          "value": "30+ years",
+          "description": "In business & engineering",
+          "valueSize": "30.4px"
+        },
+        {
+          "x": 185.234375,
+          "y": 686.375,
+          "width": 173.765625,
+          "height": 76.296875,
+          "right": 359,
+          "bottom": 762.671875,
+          "value": "5+ systems",
+          "description": "Built and operated",
+          "valueSize": "30.4px"
+        }
+      ],
+      "arrow": {
+        "x": 165.5,
+        "y": 794.671875,
+        "width": 44,
+        "height": 44,
+        "right": 209.5,
+        "bottom": 838.671875,
+        "name": "Explore About",
+        "href": "#about-perspective"
+      },
+      "face": {
+        "x": 175.94512818809767,
+        "y": 164.2517933049947,
+        "width": 63.87569739638682,
+        "height": 100.37609590860785,
+        "right": 239.82082558448448,
+        "bottom": 264.62788921360254
+      },
+      "image": {
+        "loaded": true,
+        "source": "http://localhost:4321/images/about/nick-roust-motorcycle-1672.webp",
+        "position": "56% 0%"
+      },
+      "overflow": false,
+      "h1": [
+        "Nick Roust"
+      ],
+      "eyebrow": "ABOUT",
+      "bodyHeight": 3024,
+      "editorialText": "Provisional editorial copy — awaiting Founder review. This profile is not an approved biography.PerspectiveArchitecture before implementationI approach software development through architecture, responsibility and long-term system behavior.Before implementation, I want to understand the problem, the boundaries of the system and the decisions that will shape its evolution.Engineering PracticeFrom design to operationMy work spans system design, implementation, integration and operation.I am interested in the full lifecycle of software: how systems are structured, how they interact, how they are verified and how they evolve after the first working version.AI-Assisted EngineeringAI as an engineering instrumentI use AI-assisted tools as part of my engineering workflow.They help explore approaches, accelerate implementation and support verification. Architectural direction, engineering decisions and responsibility for the resulting system remain with me.Selected WorkSystems and toolsFakeShopE-commerce simulator for realistic buyer scenarios.FakeBankIndependent payment provider simulator.PG27Transaction infrastructure with independent execution nodes.BIK / ED807Russian banking directory converter.Engineering ChronicleWork, as it happens.Engineering Chronicle records the development of systems, architectural decisions, experiments and results.Explore the Journal →",
+      "keyboardArrow": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "deploymentPlatform": "Not configured",
+  "applied": false,
+  "rules": [
+    {
+      "from": "/building-paymentgate/",
+      "to": "/projects/pg27/",
+      "status": 301
+    },
+    {
+      "from": "/bik/",
+      "to": "/labs/bik-ed807/",
+      "status": 301
+    },
+    {
+      "from": "/projects/paymentgate/",
+      "to": "/projects/pg27/",
+      "status": 301
+    },
+    {
+      "from": "/projects/",
+      "to": "/#systems",
+      "status": 301
+    }
+  ]
+}

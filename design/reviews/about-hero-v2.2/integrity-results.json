@@ -1,0 +1,19 @@
+{
+  "changed": [
+    "src/pages/about.astro"
+  ],
+  "added": [],
+  "removed": [],
+  "allMarkupAndCopyUnchanged": true,
+  "mobileAndEditorialStylesUnchanged": true,
+  "sourcePhotoAndWebAssetsUnchanged": true,
+  "otherPagesAndSharedComponentsUnchanged": true,
+  "mobilePngsByteIdentical": {
+    "390x844-dark": "52bec8960a80bc23b032985b8de5b9ad6f71176c189857838ef9f101b4613289",
+    "390x844-light": "a595a42f52920173b1af1f0d20359f1eff9b5b3d57eb2a015cc877bb910047b3",
+    "390x667-dark": "97cba54fa03f5fd340bea755afb3e774cb97dfad2f39e26bed916a9653afd4cc",
+    "390x667-light": "0f685149ac12c6ba2512eb4982ceed54654e09612a5840edf8a65c835508e672",
+    "680x900-dark": "976ed5c5adc6864ff03df8bcf10e158f317120dc83195458558ce2af81ed4d30",
+    "680x900-light": "994c3b5fcaf32490cc4a4607a9bca0b25d01e9a2cc26e80dcfeba87de2689154"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "src/content/journal/platform-node-integration.md": {
+    "metadata": {
+      "title": "We Built the Protocol. Then We Had to Learn How to Build the System Together",
+      "slug": "platform-node-integration",
+      "type": "Retrospective",
+      "periodStart": "2026-06-26",
+      "periodEnd": "2026-08-31",
+      "displayDate": "JUN — AUG 2026",
+      "project": "PG27",
+      "hero": {
+        "src": "/images/journal/platform-node-bridge.webp",
+        "alt": "Illustrative bridge across a mountain reservoir at dusk"
+      },
+      "summary": "A working June protocol led to a rebuilt Node, clearer responsibilities and an AI engineering team, culminating in a bounded configuration operation on August 31.",
+      "homeSummary": "Rebuilding the Node also meant learning how to organize the team building it.",
+      "status": "draft",
+      "draft": true
+    },
+    "bodySHA256": "ebe273bc2404c284b5c1a41a7175da1968a2dac1d724c43e9a3969925df3eda6"
+  },
+  "src/content/journal/we-built-all-the-pieces.md": {
+    "metadata": {
+      "title": "We Built All the Pieces. Then We Had to Make Them Work Together.",
+      "slug": "we-built-all-the-pieces",
+      "type": "Retrospective",
+      "periodStart": "2026-08-31",
+      "periodEnd": "2026-10-27",
+      "displayDate": "AUG — OCT 2026",
+      "project": "PG27",
+      "hero": {
+        "src": "/images/journal/first-payment-tunnel.webp",
+        "alt": "Illustrative road passing through a mountain tunnel toward sunrise"
+      },
+      "summary": "September integration exposed configuration and synchronization gaps before a browser-based Sale Route completed with the FakeBank simulator on October 2.",
+      "homeSummary": "We had the components. Integration work made one complete sale through the FakeBank simulator possible.",
+      "status": "draft",
+      "draft": true,
+      "homepagePosition": 3
+    },
+    "bodySHA256": "13ddad2b325395bea5ca1786ca6381c45625a8efa9e299e07478cde4ef53ee8b"
+  },
+  "src/content/journal/when-code-stopped-being-the-main-thing.md": {
+    "metadata": {
+      "title": "When Code Stopped Being the Main Thing",
+      "slug": "when-code-stopped-being-the-main-thing",
+      "type": "Retrospective",
+      "periodStart": "2026-03",
+      "periodEnd": "2026-06",
+      "displayDate": "MAR — JUN 2026",
+      "project": "PG27",
+      "hero": {
+        "src": "/images/journal/scenario-road.webp",
+        "alt": "Illustrative mountain road interchange at dusk"
+      },
+      "summary": "A March experiment with AI led from a familiar payment architecture to PG27—and changed the question from how quickly to build to what was worth building.",
+      "homeSummary": "An AI experiment changed how I valued architecture—and what I wanted to build next.",
+      "status": "draft",
+      "draft": true,
+      "homepagePosition": 1
+    },
+    "bodySHA256": "693264fd8d77f41239ba171c531bfba2e87a344003c107c15c3bc5218e565571"
+  },
+  "src/content/journal/from-scenarios-to-a-system.md": {
+    "metadata": {
+      "title": "From scenarios to a system",
+      "slug": "from-scenarios-to-a-system",
+      "type": "Retrospective",
+      "periodStart": "2026-04-09",
+      "periodEnd": "2026-07-03",
+      "displayDate": "APR — JUL 2026",
+      "project": "PG27",
+      "hero": {
+        "src": "/images/journal/scenario-road.webp",
+        "alt": "Illustrative mountain road interchange at dusk"
+      },
+      "summary": "A scenario that could wait and resume became a thin SALE implementation in May, followed by staged runtime development through July. The broader architecture and its acceptance remained works in progress.",
+      "homeSummary": "I shaped a sale as a scenario that waits for an event and resumes, then developed that principle through a first SALE implementation and staged runtime work.",
+      "status": "draft",
+      "homepagePosition": 1
+    },
+    "bodySHA256": "e550d9099016652ba2ef025495ec3e37bd9e9e57924df0b79cb1f2c6d808dd7d"
+  },
+  "src/content/journal/the-first-completed-payment.md": {
+    "metadata": {
+      "title": "The first completed payment",
+      "slug": "the-first-completed-payment",
+      "type": "Milestone",
+      "occurredAt": "2026-10-02",
+      "displayDate": "OCT 02, 2026",
+      "project": "PG27",
+      "hero": {
+        "src": "/images/journal/first-payment-tunnel.webp",
+        "alt": "Illustrative road passing through a mountain tunnel toward sunrise"
+      },
+      "summary": "On October 2, a DEV payment path using the FakeBank simulator reached terminal Sale through Platform and SALE-NODE. Separate acceptance on October 6 covered limited continuation and cancellation scenarios.",
+      "homeSummary": "One bounded DEV scenario using FakeBank, a payment simulator, reached terminal Sale; a separate acceptance later covered a limited set of continuation and cancellation cases.",
+      "status": "draft",
+      "homepagePosition": 3
+    },
+    "bodySHA256": "5d8dc788eba52beebddb55e87ec286831d6109c318de0b49bf6337b39c08a79c"
+  },
+  "src/content/journal/building-the-platform-node-boundary.md": {
+    "metadata": {
+      "title": "Building the Platform–Node boundary",
+      "slug": "building-the-platform-node-boundary",
+      "type": "Retrospective",
+      "periodStart": "2026-06-24",
+      "periodEnd": "2026-09-30",
+      "displayDate": "JUN — SEP 2026",
+      "project": "PG27",
+      "hero": {
+        "src": "/images/journal/platform-node-bridge.webp",
+        "alt": "Illustrative bridge across a mountain reservoir at dusk"
+      },
+      "summary": "Platform retained canonical business state and decisions while Node developed its own execution environment, local state and bounded responsibilities. Contracts and integration traces made that separation concrete, while exposing work still needed at the handoffs.",
+      "homeSummary": "I separated Platform’s canonical business decisions from Node execution, then refined the contract as independent Node work and integration traces exposed practical boundaries.",
+      "status": "draft",
+      "homepagePosition": 2
+    },
+    "bodySHA256": "8de9d09cc431553549c2b6e89758138f8247d1ef5b6e8a240627912b16458530"
+  },
+  "src/content/journal/307-hours-for-one-invoice.md": {
+    "metadata": {
+      "title": "307 Hours for One Invoice",
+      "slug": "307-hours-for-one-invoice",
+      "type": "Retrospective",
+      "periodStart": "2026-10",
+      "periodEnd": "2026-10",
+      "displayDate": "OCT 2026",
+      "project": "PG27",
+      "summary": "A simple invoice exposed gaps in sales context, document processing and authority boundaries, leading to three implementation attempts and a broader document architecture.",
+      "homeSummary": "One invoice took three attempts and an estimated 307 hours—and changed the document architecture.",
+      "status": "draft",
+      "draft": true
+    },
+    "bodySHA256": "8028a1f5fa0a72fa8f6e660a45e0f26b1c536f5aeb2aea34af325da494fc999d"
+  },
+  "src/content/journal/registry-and-configuration-authority.md": {
+    "metadata": {
+      "title": "I Didn't Want AI to Design My System for Me",
+      "slug": "registry-and-configuration-authority",
+      "type": "Retrospective",
+      "periodStart": "2026-05",
+      "periodEnd": "2026-10",
+      "displayDate": "MAY — OCT 2026",
+      "project": "PG27",
+      "hero": {
+        "src": "/images/journal/platform-node-bridge.webp",
+        "alt": "Illustrative bridge across a mountain reservoir at dusk"
+      },
+      "summary": "Excel-authored definitions, the Registry and versioned configurations helped preserve architectural authority as PG27 and its AI-assisted implementation grew.",
+      "homeSummary": "I used definitions and versioned configurations to keep fast implementation aligned with the architecture.",
+      "status": "draft",
+      "draft": true,
+      "homepagePosition": 2
+    },
+    "bodySHA256": "a36ffb05eaeb042071904803f4ffdeded4b35e6aa6bb7e1495f970174c200608"
+  }
+}

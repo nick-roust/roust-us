@@ -1,0 +1,5 @@
+import sharp from '../../../node_modules/.pnpm/sharp@0.35.5/node_modules/sharp/dist/index.mjs';
+const reference=await sharp('design/references/about_page_hero/maket-v21.png').resize({width:960,height:540,fit:'contain',background:'#07131c'}).png().toBuffer();
+const implementation=await sharp('design/reviews/about-hero-v2.1/desktop-1920-dark.png').resize({width:960,height:540,fit:'contain',background:'#07131c'}).png().toBuffer();
+const labels=Buffer.from('<svg width="1920" height="40" xmlns="http://www.w3.org/2000/svg"><rect width="1920" height="40" fill="#07131c"/><g fill="#f5f7f9" font-size="20" font-family="sans-serif"><text x="16" y="28">Approved reference (scaled)</text><text x="976" y="28">Implementation: 1920 × 1080 (scaled)</text></g></svg>');
+await sharp({create:{width:1920,height:580,channels:3,background:'#07131c'}}).composite([{input:labels,top:0,left:0},{input:reference,top:40,left:0},{input:implementation,top:40,left:960}]).png().toFile('design/reviews/about-hero-v2.1/reference-comparison.png');

@@ -1,0 +1,20 @@
+[
+  {
+    "path": "design/references/Грандиозный машинный зал гидроэлектростанции.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "09fc1528cc93c8dc25b501a730efa572059fe1f30cd9b1393e01790329be3279",
+    "bytes": 2634848
+  },
+  {
+    "path": "design/references/Строительство моста на закате.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "d93929b3f31bf906d0e4733a53171f47a06f0b9ac378d1db8898032aa7d68b0c",
+    "bytes": 2710871
+  }
+]

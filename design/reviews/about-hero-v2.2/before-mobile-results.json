@@ -1,0 +1,44 @@
+[
+  {
+    "width": 390,
+    "height": 844,
+    "theme": "dark",
+    "heroHeight": 858.671875,
+    "unchanged": false
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "heroHeight": 858.671875,
+    "unchanged": false
+  },
+  {
+    "width": 390,
+    "height": 667,
+    "theme": "dark",
+    "heroHeight": 858.671875,
+    "unchanged": false
+  },
+  {
+    "width": 390,
+    "height": 667,
+    "theme": "light",
+    "heroHeight": 858.671875,
+    "unchanged": false
+  },
+  {
+    "width": 680,
+    "height": 900,
+    "theme": "dark",
+    "heroHeight": 1049.25,
+    "unchanged": false
+  },
+  {
+    "width": 680,
+    "height": 900,
+    "theme": "light",
+    "heroHeight": 1049.25,
+    "unchanged": false
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "development": [
+    {
+      "path": "/building-paymentgate/",
+      "status": 301,
+      "location": "/projects/pg27/"
+    },
+    {
+      "path": "/building-paymentgate",
+      "status": 301,
+      "location": "/projects/pg27/"
+    },
+    {
+      "path": "/bik/",
+      "status": 301,
+      "location": "/labs/bik-ed807/"
+    },
+    {
+      "path": "/bik",
+      "status": 301,
+      "location": "/labs/bik-ed807/"
+    },
+    {
+      "path": "/projects/paymentgate/",
+      "status": 301,
+      "location": "/projects/pg27/"
+    },
+    {
+      "path": "/projects/paymentgate",
+      "status": 301,
+      "location": "/projects/pg27/"
+    },
+    {
+      "path": "/projects/",
+      "status": 301,
+      "location": "/#systems"
+    },
+    {
+      "path": "/projects",
+      "status": 301,
+      "location": "/#systems"
+    }
+  ],
+  "staticProductionPreview": [
+    {
+      "from": "/building-paymentgate/",
+      "to": "/projects/pg27/",
+      "status": 200,
+      "mechanism": "Static HTML meta refresh; browser destination verified"
+    },
+    {
+      "from": "/bik/",
+      "to": "/labs/bik-ed807/",
+      "status": 200,
+      "mechanism": "Static HTML meta refresh; browser destination verified"
+    },
+    {
+      "from": "/projects/paymentgate/",
+      "to": "/projects/pg27/",
+      "status": 200,
+      "mechanism": "Static HTML meta refresh; browser destination verified"
+    },
+    {
+      "from": "/projects/",
+      "to": "/#systems",
+      "status": 200,
+      "mechanism": "Static HTML meta refresh; browser destination verified"
+    }
+  ],
+  "liveHostingVerified": false
+}

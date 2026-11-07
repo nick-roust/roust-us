@@ -1,0 +1,19 @@
+{
+  "homepage": {
+    "projects": [
+      "/labs/fake-shop/",
+      "/labs/fake-bank/",
+      "/projects/pg27/",
+      "/labs/bik-ed807/"
+    ],
+    "building": "/journal",
+    "active": 0,
+    "journal": "Journal"
+  },
+  "labsPortal": [
+    "/labs/fake-bank/",
+    "/labs/fake-shop/"
+  ],
+  "toolsBik": "/labs/bik-ed807/",
+  "outgoingRetiredProductUrls": []
+}

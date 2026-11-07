@@ -1,0 +1,33 @@
+---
+import SiteLayout from './SiteLayout.astro';
+import ProductSidebar from '../components/ProductSidebar.astro';
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath: string;
+  activeProject: 'fake-shop' | 'pg27' | 'bik-ed807';
+  sections: { id: string; label: string }[];
+}
+const { title, description, canonicalPath, activeProject, sections } = Astro.props;
+---
+<SiteLayout title={title} description={description} canonicalPath={canonicalPath} showPageTitle={false}>
+  <div class="product-page container">
+    <ProductSidebar activeProject={activeProject} sections={sections} />
+    <div class="product-page__content"><slot /></div>
+  </div>
+</SiteLayout>
+<style>
+  :global(html:has(.product-page)) { scroll-padding-top: var(--site-header-block-size); }
+  :global(body:has(.product-page) header.site-header) { position: sticky; top: 0; background: var(--surface); }
+  .product-page { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 24px; }
+  .product-page__content { min-width: 0; border-inline-start: 1px solid var(--line); }
+  .product-page__content :global(section[id]) { scroll-margin-top: 24px; }
+  @media (min-width: 1024px) and (max-width: 1199px) {
+    .product-page { grid-template-columns: 176px minmax(0, 1fr); }
+  }
+  @media (max-width: 1023px) {
+    .product-page { display: block; }
+    .product-page__content { border-inline-start: 0; }
+    .product-page__content :global(section[id]) { scroll-margin-top: 70px; }
+  }
+</style>

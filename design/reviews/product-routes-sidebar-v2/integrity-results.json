@@ -1,0 +1,21 @@
+{
+  "changed": [
+    "src/components/Navigation.astro",
+    "src/layouts/SiteLayout.astro",
+    "src/pages/bik.astro",
+    "src/pages/building-paymentgate.astro",
+    "src/pages/index.astro",
+    "src/pages/labs/fake-bank.astro",
+    "src/pages/labs/fake-shop.astro",
+    "src/pages/labs/index.astro",
+    "src/pages/projects/paymentgate.astro",
+    "src/pages/tools.astro"
+  ],
+  "added": [
+    "src/components/ProductSidebar.astro",
+    "src/layouts/ProductLayout.astro",
+    "src/pages/labs/bik-ed807.astro",
+    "src/pages/projects/pg27.astro"
+  ],
+  "removed": []
+}

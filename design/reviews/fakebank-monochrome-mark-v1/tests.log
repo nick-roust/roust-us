@@ -1,0 +1,10 @@
+✔ tests/journal.test.mjs (67.722935ms)
+✔ tests/pg27-counter.test.mjs (49.733863ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 72.24786

@@ -1,0 +1,21 @@
+[
+  {
+    "variant": "a",
+    "path": "design/references/Футуристический центр глобальных операций-2.png",
+    "sha256": "be2677153434ce02ea71b9d359467bfca4ffa1d9774280448e6ccc11bf7f3189",
+    "width": 1655,
+    "height": 950
+  },
+  {
+    "variant": "b",
+    "path": "design/references/Футуристический центр глобального мониторинга-1.png",
+    "sha256": "5f1ea3a5fb7e699892419ec34e9347b77d27cd9dd2238db42f2df0be04f51f31",
+    "width": 1649,
+    "height": 954
+  },
+  {
+    "role": "PG27 wordmark",
+    "path": "brand/master/pg27.svg",
+    "sha256": "75f065cd26131883ad58014421d3fa71c9d9e3032650cb8a371976538db5783f"
+  }
+]

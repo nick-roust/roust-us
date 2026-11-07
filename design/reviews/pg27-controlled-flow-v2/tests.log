@@ -1,0 +1,19 @@
+✔ calendar validation preserves month precision and rejects invalid days (0.879958ms)
+✔ mixed precision sorting uses end bounds then start bounds without changing source dates (5.45111ms)
+✔ historical intervals are grouped only in their end year (0.197075ms)
+✔ DEV previews drafts while production requires published status without a draft flag (0.174723ms)
+✔ preserved J01–J03 cannot become duplicate entries or homepage cards in either environment (0.235776ms)
+✔ duplicate routes and homepage positions fail explicitly (0.251205ms)
+✔ uses the documented fixed project timezone (0.985222ms)
+✔ returns the approved inclusive baseline on 2026-10-30 (0.177027ms)
+✔ increments by one day and approximately ten hours after the Moscow date boundary (0.127636ms)
+✔ uses the project calendar even before the corresponding UTC date changes (0.105435ms)
+✔ schedules the next update at the Europe/Moscow midnight boundary (0.639062ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 74.63398

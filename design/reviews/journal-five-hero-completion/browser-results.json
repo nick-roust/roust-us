@@ -1,0 +1,511 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "slug": "when-code-stopped-being-the-main-thing",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "image": {
+        "src": "/images/journal/scenario-road.webp",
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "complete": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 53%",
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 544,
+        "bottom": 544
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 544,
+        "bottom": 544
+      },
+      "title": {
+        "text": "When Code Stopped Being the Main Thing",
+        "color": "rgb(245, 247, 249)",
+        "x": 52.5,
+        "y": 251.015625,
+        "width": 852.28125,
+        "height": 140.0625,
+        "bottom": 391.078125
+      },
+      "date": "MAR — JUN 2026",
+      "body": {
+        "x": 200.5,
+        "y": 544,
+        "width": 1024,
+        "height": 5548.140625,
+        "bottom": 6092.140625
+      },
+      "h1Count": 1,
+      "overflow": false,
+      "layoutShift": 0
+    },
+    {
+      "slug": "registry-and-configuration-authority",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "image": {
+        "src": "/images/journal/platform-node-bridge.webp",
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "complete": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 53%",
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 544,
+        "bottom": 544
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 544,
+        "bottom": 544
+      },
+      "title": {
+        "text": "I Didn't Want AI to Design My System for Me",
+        "color": "rgb(245, 247, 249)",
+        "x": 52.5,
+        "y": 251.015625,
+        "width": 852.28125,
+        "height": 140.0625,
+        "bottom": 391.078125
+      },
+      "date": "MAY — OCT 2026",
+      "body": {
+        "x": 200.5,
+        "y": 544,
+        "width": 1024,
+        "height": 5473.640625,
+        "bottom": 6017.640625
+      },
+      "h1Count": 1,
+      "overflow": false,
+      "layoutShift": 0
+    },
+    {
+      "slug": "platform-node-integration",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "image": {
+        "src": "/images/journal/platform-node-bridge-construction.webp",
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "complete": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 53%",
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 571.140625,
+        "bottom": 571.140625
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 571.140625,
+        "bottom": 571.140625
+      },
+      "title": {
+        "text": "We Built the Protocol. Then We Had to Learn How to Build the System Together",
+        "color": "rgb(245, 247, 249)",
+        "x": 52.5,
+        "y": 251.015625,
+        "width": 852.28125,
+        "height": 210.09375,
+        "bottom": 461.109375
+      },
+      "date": "JUN — AUG 2026",
+      "body": {
+        "x": 200.5,
+        "y": 571.140625,
+        "width": 1024,
+        "height": 5835.28125,
+        "bottom": 6406.421875
+      },
+      "h1Count": 1,
+      "overflow": false,
+      "layoutShift": 0
+    },
+    {
+      "slug": "we-built-all-the-pieces",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "image": {
+        "src": "/images/journal/first-payment-tunnel.webp",
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "complete": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 53%",
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 571.140625,
+        "bottom": 571.140625
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 571.140625,
+        "bottom": 571.140625
+      },
+      "title": {
+        "text": "We Built All the Pieces. Then We Had to Make Them Work Together.",
+        "color": "rgb(245, 247, 249)",
+        "x": 52.5,
+        "y": 251.015625,
+        "width": 852.28125,
+        "height": 210.09375,
+        "bottom": 461.109375
+      },
+      "date": "AUG — OCT 2026",
+      "body": {
+        "x": 200.5,
+        "y": 571.140625,
+        "width": 1024,
+        "height": 5155.796875,
+        "bottom": 5726.9375
+      },
+      "h1Count": 1,
+      "overflow": false,
+      "layoutShift": 0
+    },
+    {
+      "slug": "307-hours-for-one-invoice",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "image": {
+        "src": "/images/journal/invoice-hidden-foundation-hydroelectric-hall.webp",
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "complete": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 53%",
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 544,
+        "bottom": 544
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 544,
+        "bottom": 544
+      },
+      "title": {
+        "text": "307 Hours for One Invoice",
+        "color": "rgb(245, 247, 249)",
+        "x": 52.5,
+        "y": 251.015625,
+        "width": 852.28125,
+        "height": 70.03125,
+        "bottom": 321.046875
+      },
+      "date": "OCT 2026",
+      "body": {
+        "x": 200.5,
+        "y": 544,
+        "width": 1024,
+        "height": 7779.203125,
+        "bottom": 8323.203125
+      },
+      "h1Count": 1,
+      "overflow": false,
+      "layoutShift": 0
+    },
+    {
+      "slug": "platform-node-integration",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "image": {
+        "src": "/images/journal/platform-node-bridge-construction.webp",
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "complete": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 53%",
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 571.140625,
+        "bottom": 571.140625
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 571.140625,
+        "bottom": 571.140625
+      },
+      "title": {
+        "text": "We Built the Protocol. Then We Had to Learn How to Build the System Together",
+        "color": "rgb(245, 247, 249)",
+        "x": 52.5,
+        "y": 251.015625,
+        "width": 852.28125,
+        "height": 210.09375,
+        "bottom": 461.109375
+      },
+      "date": "JUN — AUG 2026",
+      "body": {
+        "x": 200.5,
+        "y": 571.140625,
+        "width": 1024,
+        "height": 5835.28125,
+        "bottom": 6406.421875
+      },
+      "h1Count": 1,
+      "overflow": false,
+      "layoutShift": 0
+    },
+    {
+      "slug": "307-hours-for-one-invoice",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "image": {
+        "src": "/images/journal/invoice-hidden-foundation-hydroelectric-hall.webp",
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "complete": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 53%",
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 544,
+        "bottom": 544
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 544,
+        "bottom": 544
+      },
+      "title": {
+        "text": "307 Hours for One Invoice",
+        "color": "rgb(245, 247, 249)",
+        "x": 52.5,
+        "y": 251.015625,
+        "width": 852.28125,
+        "height": 70.03125,
+        "bottom": 321.046875
+      },
+      "date": "OCT 2026",
+      "body": {
+        "x": 200.5,
+        "y": 544,
+        "width": 1024,
+        "height": 7779.203125,
+        "bottom": 8323.203125
+      },
+      "h1Count": 1,
+      "overflow": false,
+      "layoutShift": 0
+    },
+    {
+      "slug": "platform-node-integration",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "image": {
+        "src": "/images/journal/platform-node-bridge-construction.webp",
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "complete": true,
+        "objectFit": "cover",
+        "objectPosition": "58% 50%",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 540.59375,
+        "bottom": 540.59375
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 540.59375,
+        "bottom": 540.59375
+      },
+      "title": {
+        "text": "We Built the Protocol. Then We Had to Learn How to Build the System Together",
+        "color": "rgb(245, 247, 249)",
+        "x": 16,
+        "y": 221.625,
+        "width": 358,
+        "height": 240.9375,
+        "bottom": 462.5625
+      },
+      "date": "JUN — AUG 2026",
+      "body": {
+        "x": 16,
+        "y": 540.59375,
+        "width": 358,
+        "height": 8800.359375,
+        "bottom": 9340.953125
+      },
+      "h1Count": 1,
+      "overflow": false,
+      "layoutShift": 0
+    },
+    {
+      "slug": "307-hours-for-one-invoice",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "image": {
+        "src": "/images/journal/invoice-hidden-foundation-hydroelectric-hall.webp",
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "complete": true,
+        "objectFit": "cover",
+        "objectPosition": "58% 50%",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 512,
+        "bottom": 512
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 512,
+        "bottom": 512
+      },
+      "title": {
+        "text": "307 Hours for One Invoice",
+        "color": "rgb(245, 247, 249)",
+        "x": 16,
+        "y": 221.625,
+        "width": 358,
+        "height": 96.375,
+        "bottom": 318
+      },
+      "date": "OCT 2026",
+      "body": {
+        "x": 16,
+        "y": 512,
+        "width": 358,
+        "height": 11079.8125,
+        "bottom": 11591.8125
+      },
+      "h1Count": 1,
+      "overflow": false,
+      "layoutShift": 0
+    },
+    {
+      "slug": "platform-node-integration",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "image": {
+        "src": "/images/journal/platform-node-bridge-construction.webp",
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "complete": true,
+        "objectFit": "cover",
+        "objectPosition": "58% 50%",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 540.59375,
+        "bottom": 540.59375
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 540.59375,
+        "bottom": 540.59375
+      },
+      "title": {
+        "text": "We Built the Protocol. Then We Had to Learn How to Build the System Together",
+        "color": "rgb(245, 247, 249)",
+        "x": 16,
+        "y": 221.625,
+        "width": 358,
+        "height": 240.9375,
+        "bottom": 462.5625
+      },
+      "date": "JUN — AUG 2026",
+      "body": {
+        "x": 16,
+        "y": 540.59375,
+        "width": 358,
+        "height": 8800.359375,
+        "bottom": 9340.953125
+      },
+      "h1Count": 1,
+      "overflow": false,
+      "layoutShift": 0
+    },
+    {
+      "slug": "307-hours-for-one-invoice",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "image": {
+        "src": "/images/journal/invoice-hidden-foundation-hydroelectric-hall.webp",
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "complete": true,
+        "objectFit": "cover",
+        "objectPosition": "58% 50%",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 512,
+        "bottom": 512
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 512,
+        "bottom": 512
+      },
+      "title": {
+        "text": "307 Hours for One Invoice",
+        "color": "rgb(245, 247, 249)",
+        "x": 16,
+        "y": 221.625,
+        "width": 358,
+        "height": 96.375,
+        "bottom": 318
+      },
+      "date": "OCT 2026",
+      "body": {
+        "x": 16,
+        "y": 512,
+        "width": 358,
+        "height": 11079.8125,
+        "bottom": 11591.8125
+      },
+      "h1Count": 1,
+      "overflow": false,
+      "layoutShift": 0
+    }
+  ]
+}

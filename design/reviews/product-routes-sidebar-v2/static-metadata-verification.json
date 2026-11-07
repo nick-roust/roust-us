@@ -1,0 +1,22 @@
+[
+  {
+    "route": "/labs/fake-shop/",
+    "canonical": "https://roust.us/labs/fake-shop/",
+    "indexableCanonical": true
+  },
+  {
+    "route": "/labs/fake-bank/",
+    "canonical": "https://roust.us/labs/fake-bank/",
+    "indexableCanonical": true
+  },
+  {
+    "route": "/projects/pg27/",
+    "canonical": "https://roust.us/projects/pg27/",
+    "indexableCanonical": true
+  },
+  {
+    "route": "/labs/bik-ed807/",
+    "canonical": "https://roust.us/labs/bik-ed807/",
+    "indexableCanonical": true
+  }
+]

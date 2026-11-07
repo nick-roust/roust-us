@@ -1,0 +1,20 @@
+[
+  {
+    "source": "before-src-pages-building-paymentgate.astro.txt",
+    "target": "src/pages/projects/pg27.astro",
+    "paragraphs": "Identical",
+    "titleAndDescription": "Identical"
+  },
+  {
+    "source": "before-src-pages-bik.astro.txt",
+    "target": "src/pages/labs/bik-ed807.astro",
+    "paragraphs": "Identical",
+    "titleAndDescription": "Identical"
+  },
+  {
+    "source": "before-src-pages-labs-fake-shop.astro.txt",
+    "target": "src/pages/labs/fake-shop.astro",
+    "paragraphs": "Identical",
+    "titleAndDescription": "Identical"
+  }
+]

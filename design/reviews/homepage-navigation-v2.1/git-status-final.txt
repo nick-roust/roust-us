@@ -1,0 +1,240 @@
+ M src/components/BuildingSection.astro
+ M src/components/Navigation.astro
+ M src/components/SiteFooter.astro
+ M src/layouts/SiteLayout.astro
+ M src/pages/building-paymentgate.astro
+ M src/pages/index.astro
+ M src/pages/journal.astro
+ M src/pages/labs/fake-bank.astro
+ M src/pages/labs/fake-shop.astro
+ M src/pages/labs/index.astro
+ M src/pages/projects/index.astro
+ M src/styles/global.css
+?? brand/master/pg27.svg
+?? design/references/20261028_174855.jpg
+?? "design/references/Journal/design/\320\230\320\267\320\276\320\261\321\200\320\260\320\266\320\265\320\275\320\270\320\265 ChatGPT 1 \320\275\320\276\321\217\320\261. 2026 \320\263., 10_42_33.png"
+?? "design/references/Journal/design/\320\230\320\275\320\266\320\265\320\275\320\265\321\200\320\275\320\260\321\217 \321\205\321\200\320\276\320\275\320\270\320\272\320\260_ \320\263\321\200\320\260\320\275\320\270\321\206\320\260 \320\277\320\273\320\260\321\202\321\204\320\276\321\200\320\274\321\213 \320\270 \321\203\320\267\320\273\320\260.png"
+?? "design/references/Journal/design/\320\242\321\221\320\274\320\275\321\213\320\271 \320\266\321\203\321\200\320\275\320\260\320\273 \320\270\320\275\320\266\320\265\320\275\320\265\321\200\320\260 ROUST.US.png"
+?? design/references/Journal/journal-workspace-hero.jpg
+?? design/references/Journal/journal-workspace-hero.webp
+?? "design/references/Journal/\320\234\320\276\321\201\321\202 \320\275\320\260\320\264 \320\263\320\276\321\200\320\275\321\213\320\274 \320\262\320\276\320\264\320\276\321\205\321\200\320\260\320\275\320\270\320\273\320\270\321\211\320\265\320\274 at sunset.png"
+?? "design/references/Journal/\320\241\321\203\320\274\320\265\321\200\320\265\321\207\320\275\320\260\321\217 \321\200\320\260\320\267\320\262\321\217\320\267\320\272\320\260 \321\201\321\200\320\265\320\264\320\270 \320\263\320\276\321\200 \320\270 \321\204\321\214\320\276\321\200\320\264\320\276\320\262.png"
+?? "design/references/Journal/\320\242\320\276\320\275\320\275\320\265\320\273\321\214 \320\272 \321\200\320\260\321\201\321\201\320\262\320\265\321\202\320\275\321\213\320\274 \320\263\320\276\321\200\320\260\320\274.png"
+?? "design/references/Journal/\320\243\321\216\321\202\320\275\320\276\320\265 \321\200\320\260\320\261\320\276\321\207\320\265\320\265 \320\274\320\265\321\201\321\202\320\276 \320\277\321\200\320\276\320\263\321\200\320\260\320\274\320\274\320\270\321\201\321\202\320\260 \321\201 \320\264\320\262\321\203\320\274\321\217 \320\274\320\276\320\275\320\270\321\202\320\276\321\200\320\260\320\274\320\270.png"
+?? "design/references/Journal/\320\243\321\216\321\202\320\275\320\276\320\265 \321\200\320\260\320\261\320\276\321\207\320\265\320\265 \320\274\320\265\321\201\321\202\320\276 \321\200\320\260\320\267\321\200\320\260\320\261\320\276\321\202\321\207\320\270\320\272\320\260.png"
+?? "design/references/PG27_ \320\224\320\276\321\200\320\276\320\263\320\260 \320\272 \321\202\321\200\320\260\320\275\320\267\320\260\320\272\321\206\320\270\320\276\320\275\320\275\320\276\320\271 \320\270\320\275\321\204\321\200\320\260\321\201\321\202\321\200\321\203\320\272\321\202\321\203\321\200\320\265.png"
+?? design/references/homepage-dark-v2.png
+?? design/references/localhost_4321_.png
+?? "design/references/\320\223\321\200\320\260\320\275\320\264\320\270\320\276\320\267\320\275\321\213\320\271 \320\274\320\260\321\210\320\270\320\275\320\275\321\213\320\271 \320\267\320\260\320\273 \320\263\320\270\320\264\321\200\320\276\321\215\320\273\320\265\320\272\321\202\321\200\320\276\321\201\321\202\320\260\320\275\321\206\320\270\320\270.png"
+?? "design/references/\320\227\320\260\320\272\320\260\321\202\320\275\320\260\321\217 \320\264\320\276\321\200\320\276\320\263\320\260 \321\201\321\200\320\265\320\264\320\270 \320\263\320\276\321\200\320\275\321\213\321\205 \320\262\320\265\321\200\321\210\320\270\320\275.png"
+?? "design/references/\320\241\321\202\320\265\320\272\320\273\321\217\320\275\320\275\321\213\320\271 \321\204\320\260\321\201\320\260\320\264 \320\275\320\260\320\264 \320\263\320\276\321\200\320\260\320\274\320\270 \320\275\320\260 \320\267\320\260\320\272\320\260\321\202\320\265.png"
+?? "design/references/\320\241\321\202\321\200\320\276\320\270\321\202\320\265\320\273\321\214\321\201\321\202\320\262\320\276 \320\274\320\276\321\201\321\202\320\260 \320\275\320\260 \320\267\320\260\320\272\320\260\321\202\320\265.png"
+?? design/reviews/fakebank-project-page-v1/REPORT.md
+?? design/reviews/fakebank-project-page-v1/browser-results.json
+?? design/reviews/fakebank-project-page-v1/desktop-dark-full.png
+?? design/reviews/fakebank-project-page-v1/desktop-dark-hero-sidebar.png
+?? design/reviews/fakebank-project-page-v1/desktop-light-full.png
+?? design/reviews/fakebank-project-page-v1/desktop-light-hero-sidebar.png
+?? design/reviews/fakebank-project-page-v1/final-state.json
+?? design/reviews/fakebank-project-page-v1/initial-state.json
+?? design/reviews/fakebank-project-page-v1/integrity-results.json
+?? design/reviews/fakebank-project-page-v1/keyboard-results.json
+?? design/reviews/fakebank-project-page-v1/mobile-dark-full.png
+?? design/reviews/fakebank-project-page-v1/mobile-light-full.png
+?? design/reviews/fakebank-project-page-v1/reused-assets.json
+?? design/reviews/fakebank-project-page-v1/tablet-dark-full.png
+?? design/reviews/fakebank-project-page-v1/tablet-light-full.png
+?? design/reviews/fakebank-project-page-v1/verify-keyboard.mjs
+?? design/reviews/fakebank-project-page-v1/verify-page.mjs
+?? design/reviews/fakebank-project-page-v1/wide-desktop-dark-full.png
+?? design/reviews/fakebank-visual-integration/REVIEW.md
+?? design/reviews/fakebank-visual-integration/generated-assets.json
+?? design/reviews/fakebank-visual-integration/git-status-after.txt
+?? design/reviews/fakebank-visual-integration/git-status-before.txt
+?? design/reviews/fakebank-visual-integration/integrity-before.json
+?? design/reviews/fakebank-visual-integration/source-image.json
+?? design/reviews/footer-monogram-muted/REVIEW.md
+?? design/reviews/footer-monogram-muted/after.json
+?? design/reviews/footer-monogram-muted/before.json
+?? design/reviews/footer-monogram-muted/footer-1440-dark.png
+?? design/reviews/footer-monogram-muted/footer-1440-light.png
+?? design/reviews/footer-monogram-muted/footer-390-dark.png
+?? design/reviews/footer-monogram-muted/footer-390-light.png
+?? design/reviews/footer-monogram-muted/git-status-after.txt
+?? design/reviews/footer-monogram-muted/git-status-before.txt
+?? design/reviews/footer-monogram-muted/integrity-before.json
+?? design/reviews/footer-monogram-muted/verify-footer.mjs
+?? design/reviews/header-timeline-geometry-2026-11-01/homepage-2560-dark.png
+?? design/reviews/header-timeline-geometry-2026-11-01/journal-1440-dark.png
+?? design/reviews/header-timeline-geometry-2026-11-01/journal-390-dark.png
+?? design/reviews/header-timeline-geometry-2026-11-01/journal-768-dark.png
+?? design/reviews/header-timeline-geometry-2026-11-01/journal-entry-1920-dark.png
+?? design/reviews/home-mobile-light.png
+?? design/reviews/homepage-navigation-v2.1/REPORT.md
+?? design/reviews/homepage-navigation-v2.1/before-Navigation.astro.txt
+?? design/reviews/homepage-navigation-v2.1/before-index.astro.txt
+?? design/reviews/homepage-navigation-v2.1/browser-progress.json
+?? design/reviews/homepage-navigation-v2.1/browser-results.json
+?? design/reviews/homepage-navigation-v2.1/capture-baseline.mjs
+?? design/reviews/homepage-navigation-v2.1/capture-featured.mjs
+?? design/reviews/homepage-navigation-v2.1/fakebank-header-active.png
+?? design/reviews/homepage-navigation-v2.1/featured-1024-dark.png
+?? design/reviews/homepage-navigation-v2.1/featured-1440-dark.png
+?? design/reviews/homepage-navigation-v2.1/featured-geometry.json
+?? design/reviews/homepage-navigation-v2.1/final-state.json
+?? design/reviews/homepage-navigation-v2.1/git-status-final.txt
+?? design/reviews/homepage-navigation-v2.1/homepage-baseline.json
+?? design/reviews/homepage-navigation-v2.1/homepage-desktop-dark.png
+?? design/reviews/homepage-navigation-v2.1/homepage-desktop-light.png
+?? design/reviews/homepage-navigation-v2.1/homepage-mobile-dark.png
+?? design/reviews/homepage-navigation-v2.1/homepage-mobile-light.png
+?? design/reviews/homepage-navigation-v2.1/homepage-tablet-dark.png
+?? design/reviews/homepage-navigation-v2.1/homepage-tablet-light.png
+?? design/reviews/homepage-navigation-v2.1/homepage-wide-dark.jpg
+?? design/reviews/homepage-navigation-v2.1/initial-state.json
+?? design/reviews/homepage-navigation-v2.1/integrity-results.json
+?? design/reviews/homepage-navigation-v2.1/journal-header-active.png
+?? design/reviews/homepage-navigation-v2.1/links-keyboard-results.json
+?? design/reviews/homepage-navigation-v2.1/screenshots.json
+?? design/reviews/homepage-navigation-v2.1/verify-homepage.mjs
+?? design/reviews/homepage-navigation-v2.1/verify-links-keyboard.mjs
+?? design/reviews/internal-hero-spacing-2026-11-01/entry-light-1920.png
+?? design/reviews/internal-hero-spacing-2026-11-01/fake-bank-dark-390.png
+?? design/reviews/internal-hero-spacing-2026-11-01/journal-dark-1440.png
+?? design/reviews/internal-hero-spacing-2026-11-01/projects-light-768.png
+?? design/reviews/journal-content-integration-20261102/home-mobile-light.png
+?? design/reviews/journal-content-integration-20261102/journal-desktop-dark.png
+?? design/reviews/journal-content-integration-20261102/journal-entry-desktop-dark.png
+?? design/reviews/journal-content-integration-20261102/journal-mobile-light.png
+?? design/reviews/journal-entry-desktop-dark.png
+?? design/reviews/journal-five-hero-completion/REVIEW.md
+?? design/reviews/journal-five-hero-completion/article-baseline.json
+?? design/reviews/journal-five-hero-completion/browser-results.json
+?? design/reviews/journal-five-hero-completion/contact-307-hours-for-one-invoice.png
+?? design/reviews/journal-five-hero-completion/contact-platform-node-integration.png
+?? design/reviews/journal-five-hero-completion/contact-registry-and-configuration-authority.png
+?? design/reviews/journal-five-hero-completion/contact-we-built-all-the-pieces.png
+?? design/reviews/journal-five-hero-completion/contact-when-code-stopped-being-the-main-thing.png
+?? design/reviews/journal-five-hero-completion/five-heroes-contact-sheet.png
+?? design/reviews/journal-five-hero-completion/git-status-after.txt
+?? design/reviews/journal-five-hero-completion/git-status-before.txt
+?? design/reviews/journal-five-hero-completion/integrity-before.json
+?? design/reviews/journal-five-hero-completion/invoice-desktop.png
+?? design/reviews/journal-five-hero-completion/invoice-mobile.png
+?? design/reviews/journal-five-hero-completion/protocol-desktop.png
+?? design/reviews/journal-five-hero-completion/protocol-mobile.png
+?? design/reviews/journal-five-hero-completion/source-images.json
+?? design/reviews/journal-five-hero-completion/verification-results.json
+?? design/reviews/journal-five-hero-completion/verify-heroes.mjs
+?? design/reviews/journal-implementation-2026-11-01/building-the-platform-node-boundary-desktop-dark.png
+?? design/reviews/journal-implementation-2026-11-01/from-scenarios-to-a-system-desktop-dark.png
+?? design/reviews/journal-implementation-2026-11-01/homepage-desktop-dark.png
+?? design/reviews/journal-implementation-2026-11-01/journal-index-desktop-dark.png
+?? design/reviews/journal-implementation-2026-11-01/the-first-completed-payment-desktop-dark.png
+?? design/reviews/journal-migration-v2-20261104/307-hours-for-one-invoice-1440-dark.png
+?? design/reviews/journal-migration-v2-20261104/307-hours-for-one-invoice-1440-light.png
+?? design/reviews/journal-migration-v2-20261104/307-hours-for-one-invoice-390-dark.png
+?? design/reviews/journal-migration-v2-20261104/307-hours-for-one-invoice-390-light.png
+?? design/reviews/journal-migration-v2-20261104/307-hours-for-one-invoice-full.png
+?? design/reviews/journal-migration-v2-20261104/browser-results.json
+?? design/reviews/journal-migration-v2-20261104/home-1440-dark.png
+?? design/reviews/journal-migration-v2-20261104/home-1440-light.png
+?? design/reviews/journal-migration-v2-20261104/home-390-dark.png
+?? design/reviews/journal-migration-v2-20261104/home-390-light.png
+?? design/reviews/journal-migration-v2-20261104/index-1440-dark.png
+?? design/reviews/journal-migration-v2-20261104/index-1440-light.png
+?? design/reviews/journal-migration-v2-20261104/index-390-dark.png
+?? design/reviews/journal-migration-v2-20261104/index-390-light.png
+?? design/reviews/journal-migration-v2-20261104/index-full.png
+?? design/reviews/journal-migration-v2-20261104/platform-node-integration-1440-dark.png
+?? design/reviews/journal-migration-v2-20261104/platform-node-integration-1440-light.png
+?? design/reviews/journal-migration-v2-20261104/platform-node-integration-390-dark.png
+?? design/reviews/journal-migration-v2-20261104/platform-node-integration-390-light.png
+?? design/reviews/journal-migration-v2-20261104/platform-node-integration-full.png
+?? design/reviews/journal-migration-v2-20261104/registry-and-configuration-authority-1440-dark.png
+?? design/reviews/journal-migration-v2-20261104/registry-and-configuration-authority-1440-light.png
+?? design/reviews/journal-migration-v2-20261104/registry-and-configuration-authority-390-dark.png
+?? design/reviews/journal-migration-v2-20261104/registry-and-configuration-authority-390-light.png
+?? design/reviews/journal-migration-v2-20261104/registry-and-configuration-authority-full.png
+?? design/reviews/journal-migration-v2-20261104/verify-browser.mjs
+?? design/reviews/journal-migration-v2-20261104/we-built-all-the-pieces-1440-dark.png
+?? design/reviews/journal-migration-v2-20261104/we-built-all-the-pieces-1440-light.png
+?? design/reviews/journal-migration-v2-20261104/we-built-all-the-pieces-390-dark.png
+?? design/reviews/journal-migration-v2-20261104/we-built-all-the-pieces-390-light.png
+?? design/reviews/journal-migration-v2-20261104/we-built-all-the-pieces-full.png
+?? design/reviews/journal-migration-v2-20261104/when-code-stopped-being-the-main-thing-1440-dark.png
+?? design/reviews/journal-migration-v2-20261104/when-code-stopped-being-the-main-thing-1440-light.png
+?? design/reviews/journal-migration-v2-20261104/when-code-stopped-being-the-main-thing-390-dark.png
+?? design/reviews/journal-migration-v2-20261104/when-code-stopped-being-the-main-thing-390-light.png
+?? design/reviews/journal-migration-v2-20261104/when-code-stopped-being-the-main-thing-full.png
+?? design/reviews/journal-universal-hero-v2/REVIEW.md
+?? design/reviews/journal-universal-hero-v2/browser-results.json
+?? design/reviews/journal-universal-hero-v2/editorial-desktop-dark.png
+?? design/reviews/journal-universal-hero-v2/editorial-desktop-light.png
+?? design/reviews/journal-universal-hero-v2/editorial-mobile-dark.png
+?? design/reviews/journal-universal-hero-v2/editorial-mobile-light.png
+?? design/reviews/journal-universal-hero-v2/fixture-build-results.json
+?? design/reviews/journal-universal-hero-v2/fixture-removal-results.json
+?? design/reviews/journal-universal-hero-v2/git-status-after.txt
+?? design/reviews/journal-universal-hero-v2/git-status-before.txt
+?? design/reviews/journal-universal-hero-v2/integrity-before.json
+?? design/reviews/journal-universal-hero-v2/keyboard-results.json
+?? design/reviews/journal-universal-hero-v2/verification-results.json
+?? design/reviews/journal-universal-hero-v2/verify-universal.mjs
+?? design/reviews/journal-universal-hero-v2/visual-after.png
+?? design/reviews/journal-universal-hero-v2/visual-before.json
+?? design/reviews/journal-universal-hero-v2/visual-before.png
+?? design/reviews/journal-universal-hero-v2/visual-slugs.json
+?? design/reviews/journal-visual-density-2026-11-01/entry-boundary-dark-1440.png
+?? design/reviews/journal-visual-density-2026-11-01/entry-payment-light-390.png
+?? design/reviews/journal-visual-density-2026-11-01/entry-scenarios-dark-390.png
+?? design/reviews/journal-visual-density-2026-11-01/entry-scenarios-light-1440.png
+?? design/reviews/journal-visual-density-2026-11-01/home-dark-1024.png
+?? design/reviews/journal-visual-density-2026-11-01/home-dark-390.png
+?? design/reviews/journal-visual-density-2026-11-01/home-light-1440.png
+?? design/reviews/journal-visual-density-2026-11-01/home-light-390.png
+?? design/reviews/journal-visual-density-2026-11-01/index-dark-1440.png
+?? design/reviews/journal-visual-density-2026-11-01/index-dark-390.png
+?? design/reviews/journal-visual-density-2026-11-01/index-light-768.png
+?? design/reviews/pg27-logo-integration/REVIEW.md
+?? design/reviews/pg27-logo-integration/after.json
+?? design/reviews/pg27-logo-integration/before.json
+?? design/reviews/pg27-logo-integration/desktop-1440-light.png
+?? design/reviews/pg27-logo-integration/git-status-after.txt
+?? design/reviews/pg27-logo-integration/git-status-before.txt
+?? design/reviews/pg27-logo-integration/integrity-before.json
+?? design/reviews/pg27-logo-integration/mobile-390-dark.png
+?? design/reviews/pg27-logo-integration/verification-results.json
+?? design/reviews/pg27-logo-integration/verify-logo.mjs
+?? design/reviews/topbar-spacing-2026-11-01/entry-light-1920.png
+?? design/reviews/topbar-spacing-2026-11-01/home-light-1440.png
+?? design/reviews/topbar-spacing-2026-11-01/journal-dark-1440.png
+?? design/reviews/topbar-spacing-2026-11-01/journal-dark-390.png
+?? public/brand/pg27.svg
+?? public/brand/roust-monogram-muted.svg
+?? public/images/fakebank-reflective-facade-1199.avif
+?? public/images/fakebank-reflective-facade-1199.webp
+?? public/images/fakebank-reflective-facade-512.avif
+?? public/images/fakebank-reflective-facade-512.webp
+?? public/images/fakebank-reflective-facade-768.avif
+?? public/images/fakebank-reflective-facade-768.webp
+?? public/images/journal/first-payment-tunnel.webp
+?? public/images/journal/invoice-hidden-foundation-hydroelectric-hall.webp
+?? public/images/journal/platform-node-bridge-construction.webp
+?? public/images/journal/platform-node-bridge.webp
+?? public/images/journal/scenario-road.webp
+?? public/images/journal/workspace-founder-edit.webp
+?? public/images/journal/workspace-founder-matte.webp
+?? public/images/journal/workspace.webp
+?? src/content.config.ts
+?? src/content/journal/307-hours-for-one-invoice.md
+?? src/content/journal/building-the-platform-node-boundary.md
+?? src/content/journal/from-scenarios-to-a-system.md
+?? src/content/journal/platform-node-integration.md
+?? src/content/journal/registry-and-configuration-authority.md
+?? src/content/journal/the-first-completed-payment.md
+?? src/content/journal/we-built-all-the-pieces.md
+?? src/content/journal/when-code-stopped-being-the-main-thing.md
+?? src/lib/journal.ts
+?? src/pages/journal/[slug].astro
+?? tests/journal.test.mjs

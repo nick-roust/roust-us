@@ -1,0 +1,38 @@
+--- before/src/pages/about.astro
++++ after/src/pages/about.astro
+@@ -91,14 +91,29 @@
+   .about-hero__explore { display: flex; flex: 0 0 44px; align-items: center; justify-content: center; width: 44px; min-height: 44px; margin: 0 auto 1.25rem; color: #13d1fd; }
+   #about-perspective { scroll-margin-top: calc(var(--site-header-block-size) + 1.5rem); }
+   #about-perspective:focus-visible { outline: 3px solid var(--accent); outline-offset: 8px; }
+-  @media (min-width: 1200px) {
+-    .about-hero__copy { width: 92%; }
+-  }
+-  @media (min-width: 681px) and (max-width: 1199px) {
+-    .about-hero__media .about-hero__image { object-position: 57% top; }
+-    .about-hero__text { width: 45%; }
++  @media (min-width: 681px) {
++    .about-hero__media .about-hero__image { object-position: center top; }
++    .about-hero__text { width: 520px; max-width: 100%; }
++    .about-hero h1 { font-size: clamp(3.5rem, 5.6vw, 5.5rem); }
++    .about-hero__introduction { font-size: clamp(1rem, 1.25vw, 1.125rem); }
++    .about-hero__principle { font-size: clamp(1.5rem, 2.2vw, 2rem); }
+     .about-hero__experience { gap: 1rem; }
+     .about-hero__experience > div + div { padding-left: 1rem; }
++    .about-hero__experience dt { font-size: clamp(1.9rem, 2.7vw, 2.5rem); }
++    .about-hero__experience dd { font-size: clamp(.85rem, 1.25vw, 1rem); }
++  }
++  @media (min-width: 1101px) and (max-width: 1439px) {
++    .about-hero__text { width: min(480px, calc(50vw - 100px)); }
++  }
++  @media (min-width: 1101px) and (max-width: 1199px) {
++    .about-hero__copy { padding-top: clamp(calc(var(--site-header-block-size) + var(--section-block-spacing)), calc(440px + (1100px - 100vw) * 4), 440px); }
++  }
++  @media (min-width: 681px) and (max-width: 1100px), (min-width: 681px) and (max-aspect-ratio: 6/5) {
++    .about-hero__media { inset: 0 0 auto; height: clamp(32rem, 58vw, 42rem); }
++    .about-hero__media .about-hero__image { object-position: 56% top; }
++    .about-hero__media::after { background: linear-gradient(0deg, #07131c, rgba(7,19,28,.9) 10%, rgba(7,19,28,.2) 45%, transparent 70%); }
++    .about-hero__copy { padding-top: clamp(21rem, 40vw, 28rem); }
++    .about-hero__text { width: min(100%, 520px); }
+   }
+   @media (max-width: 680px) {
+     .about-hero__media .about-hero__image { object-position: 56% top; }

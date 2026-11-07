@@ -1,0 +1,18 @@
+--- before/src/pages/about.astro
++++ after/src/pages/about.astro
+@@ -102,13 +102,13 @@
+     .about-hero__text { width: min(480px, calc(50vw - 100px)); }
+   }
+   @media (min-width: 1101px) and (max-width: 1199px) {
+-    .about-hero__copy { padding-top: clamp(calc(var(--site-header-block-size) + var(--section-block-spacing)), calc(440px + (1100px - 100vw) * 4), 440px); }
++    .about-hero__copy { padding-top: min(clamp(calc(var(--site-header-block-size) + var(--section-block-spacing)), calc(440px + (1100px - 100vw) * 4), 440px), max(20rem, calc(100dvh - 27rem))); }
+   }
+   @media (min-width: 681px) and (max-width: 1100px), (min-width: 681px) and (max-aspect-ratio: 6/5) {
+     .about-hero__media { inset: 0 0 auto; height: clamp(32rem, 58vw, 42rem); }
+     .about-hero__media .about-hero__image { object-position: 56% top; }
+     .about-hero__media::after { background: linear-gradient(0deg, #07131c, rgba(7,19,28,.9) 10%, rgba(7,19,28,.2) 45%, transparent 70%); }
+-    .about-hero__copy { padding-top: clamp(21rem, 40vw, 28rem); }
++    .about-hero__copy { padding-top: clamp(20rem, calc(100dvh - 27rem), clamp(21rem, 40vw, 28rem)); }
+     .about-hero__text { width: min(100%, 520px); }
+   }
+   @media (max-width: 680px) {

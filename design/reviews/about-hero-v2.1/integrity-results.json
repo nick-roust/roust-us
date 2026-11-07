@@ -1,0 +1,12 @@
+{
+  "changed": [
+    "src/pages/about.astro"
+  ],
+  "added": [],
+  "removed": [],
+  "editorialContentUnchangedExceptFirstSectionAnchor": true,
+  "sourcePhotoAndMockupUnchanged": true,
+  "existingWebDerivativesUnchanged": true,
+  "globalHeaderUnchanged": true,
+  "allOtherExistingSourceAssetsUnchanged": true
+}

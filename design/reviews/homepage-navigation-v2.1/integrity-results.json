@@ -1,0 +1,12 @@
+{
+  "changed": [
+    "src/components/Navigation.astro",
+    "src/pages/building-paymentgate.astro",
+    "src/pages/index.astro",
+    "src/pages/labs/fake-shop.astro",
+    "src/pages/labs/index.astro",
+    "src/pages/projects/index.astro"
+  ],
+  "added": [],
+  "removed": []
+}
